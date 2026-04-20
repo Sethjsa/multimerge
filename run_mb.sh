@@ -10,7 +10,17 @@
 
 source activate gvllm
 
-/home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/get_multiblimp_scores.py
+if [ "$1" == "--local" ]; then
+    echo "Running multiblimp locally"
+    /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --local
+else
+    echo "Running multiblimp on cluster"
+    /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py
+fi
+
+# /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --local
+# /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py
+
 
 
 # python multiblimp/scripts/lm_eval/eval_model.py \
