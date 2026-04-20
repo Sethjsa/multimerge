@@ -1,0 +1,253 @@
+|       Tasks        |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|--------------------|------:|------|-----:|--------|---|-----:|---|-----:|
+|belebele            |    0.1|none  |      |acc     |↑  |0.2397|±  |0.0013|
+|                    |       |none  |      |acc_norm|↑  |0.2397|±  |0.0013|
+| - belebele_acm_Arab|    0.0|none  |     0|acc     |↑  |0.2189|±  |0.0138|
+|                    |       |none  |     0|acc_norm|↑  |0.2189|±  |0.0138|
+| - belebele_afr_Latn|    0.0|none  |     0|acc     |↑  |0.2544|±  |0.0145|
+|                    |       |none  |     0|acc_norm|↑  |0.2544|±  |0.0145|
+| - belebele_als_Latn|    0.0|none  |     0|acc     |↑  |0.2400|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2400|±  |0.0142|
+| - belebele_amh_Ethi|    0.0|none  |     0|acc     |↑  |0.2556|±  |0.0145|
+|                    |       |none  |     0|acc_norm|↑  |0.2556|±  |0.0145|
+| - belebele_apc_Arab|    0.0|none  |     0|acc     |↑  |0.2211|±  |0.0138|
+|                    |       |none  |     0|acc_norm|↑  |0.2211|±  |0.0138|
+| - belebele_arb_Arab|    0.0|none  |     0|acc     |↑  |0.2178|±  |0.0138|
+|                    |       |none  |     0|acc_norm|↑  |0.2178|±  |0.0138|
+| - belebele_arb_Latn|    0.0|none  |     0|acc     |↑  |0.2467|±  |0.0144|
+|                    |       |none  |     0|acc_norm|↑  |0.2467|±  |0.0144|
+| - belebele_ars_Arab|    0.0|none  |     0|acc     |↑  |0.2200|±  |0.0138|
+|                    |       |none  |     0|acc_norm|↑  |0.2200|±  |0.0138|
+| - belebele_ary_Arab|    0.0|none  |     0|acc     |↑  |0.2189|±  |0.0138|
+|                    |       |none  |     0|acc_norm|↑  |0.2189|±  |0.0138|
+| - belebele_arz_Arab|    0.0|none  |     0|acc     |↑  |0.2256|±  |0.0139|
+|                    |       |none  |     0|acc_norm|↑  |0.2256|±  |0.0139|
+| - belebele_asm_Beng|    0.0|none  |     0|acc     |↑  |0.2311|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2311|±  |0.0141|
+| - belebele_azj_Latn|    0.0|none  |     0|acc     |↑  |0.2756|±  |0.0149|
+|                    |       |none  |     0|acc_norm|↑  |0.2756|±  |0.0149|
+| - belebele_bam_Latn|    0.0|none  |     0|acc     |↑  |0.2367|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2367|±  |0.0142|
+| - belebele_ben_Beng|    0.0|none  |     0|acc     |↑  |0.2511|±  |0.0145|
+|                    |       |none  |     0|acc_norm|↑  |0.2511|±  |0.0145|
+| - belebele_ben_Latn|    0.0|none  |     0|acc     |↑  |0.2600|±  |0.0146|
+|                    |       |none  |     0|acc_norm|↑  |0.2600|±  |0.0146|
+| - belebele_bod_Tibt|    0.0|none  |     0|acc     |↑  |0.2033|±  |0.0134|
+|                    |       |none  |     0|acc_norm|↑  |0.2033|±  |0.0134|
+| - belebele_bul_Cyrl|    0.0|none  |     0|acc     |↑  |0.2600|±  |0.0146|
+|                    |       |none  |     0|acc_norm|↑  |0.2600|±  |0.0146|
+| - belebele_cat_Latn|    0.0|none  |     0|acc     |↑  |0.2244|±  |0.0139|
+|                    |       |none  |     0|acc_norm|↑  |0.2244|±  |0.0139|
+| - belebele_ceb_Latn|    0.0|none  |     0|acc     |↑  |0.2189|±  |0.0138|
+|                    |       |none  |     0|acc_norm|↑  |0.2189|±  |0.0138|
+| - belebele_ces_Latn|    0.0|none  |     0|acc     |↑  |0.2322|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2322|±  |0.0141|
+| - belebele_ckb_Arab|    0.0|none  |     0|acc     |↑  |0.2256|±  |0.0139|
+|                    |       |none  |     0|acc_norm|↑  |0.2256|±  |0.0139|
+| - belebele_dan_Latn|    0.0|none  |     0|acc     |↑  |0.2633|±  |0.0147|
+|                    |       |none  |     0|acc_norm|↑  |0.2633|±  |0.0147|
+| - belebele_deu_Latn|    0.0|none  |     0|acc     |↑  |0.2333|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2333|±  |0.0141|
+| - belebele_ell_Grek|    0.0|none  |     0|acc     |↑  |0.2289|±  |0.0140|
+|                    |       |none  |     0|acc_norm|↑  |0.2289|±  |0.0140|
+| - belebele_eng_Latn|    0.0|none  |     0|acc     |↑  |0.2600|±  |0.0146|
+|                    |       |none  |     0|acc_norm|↑  |0.2600|±  |0.0146|
+| - belebele_est_Latn|    0.0|none  |     0|acc     |↑  |0.2433|±  |0.0143|
+|                    |       |none  |     0|acc_norm|↑  |0.2433|±  |0.0143|
+| - belebele_eus_Latn|    0.0|none  |     0|acc     |↑  |0.2389|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2389|±  |0.0142|
+| - belebele_fin_Latn|    0.0|none  |     0|acc     |↑  |0.2456|±  |0.0144|
+|                    |       |none  |     0|acc_norm|↑  |0.2456|±  |0.0144|
+| - belebele_fra_Latn|    0.0|none  |     0|acc     |↑  |0.2389|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2389|±  |0.0142|
+| - belebele_fuv_Latn|    0.0|none  |     0|acc     |↑  |0.2467|±  |0.0144|
+|                    |       |none  |     0|acc_norm|↑  |0.2467|±  |0.0144|
+| - belebele_gaz_Latn|    0.0|none  |     0|acc     |↑  |0.2300|±  |0.0140|
+|                    |       |none  |     0|acc_norm|↑  |0.2300|±  |0.0140|
+| - belebele_grn_Latn|    0.0|none  |     0|acc     |↑  |0.2378|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2378|±  |0.0142|
+| - belebele_guj_Gujr|    0.0|none  |     0|acc     |↑  |0.2122|±  |0.0136|
+|                    |       |none  |     0|acc_norm|↑  |0.2122|±  |0.0136|
+| - belebele_hat_Latn|    0.0|none  |     0|acc     |↑  |0.2233|±  |0.0139|
+|                    |       |none  |     0|acc_norm|↑  |0.2233|±  |0.0139|
+| - belebele_hau_Latn|    0.0|none  |     0|acc     |↑  |0.2344|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2344|±  |0.0141|
+| - belebele_heb_Hebr|    0.0|none  |     0|acc     |↑  |0.2356|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2356|±  |0.0142|
+| - belebele_hin_Deva|    0.0|none  |     0|acc     |↑  |0.2400|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2400|±  |0.0142|
+| - belebele_hin_Latn|    0.0|none  |     0|acc     |↑  |0.2489|±  |0.0144|
+|                    |       |none  |     0|acc_norm|↑  |0.2489|±  |0.0144|
+| - belebele_hrv_Latn|    0.0|none  |     0|acc     |↑  |0.2489|±  |0.0144|
+|                    |       |none  |     0|acc_norm|↑  |0.2489|±  |0.0144|
+| - belebele_hun_Latn|    0.0|none  |     0|acc     |↑  |0.2378|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2378|±  |0.0142|
+| - belebele_hye_Armn|    0.0|none  |     0|acc     |↑  |0.2367|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2367|±  |0.0142|
+| - belebele_ibo_Latn|    0.0|none  |     0|acc     |↑  |0.2378|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2378|±  |0.0142|
+| - belebele_ilo_Latn|    0.0|none  |     0|acc     |↑  |0.2411|±  |0.0143|
+|                    |       |none  |     0|acc_norm|↑  |0.2411|±  |0.0143|
+| - belebele_ind_Latn|    0.0|none  |     0|acc     |↑  |0.2500|±  |0.0144|
+|                    |       |none  |     0|acc_norm|↑  |0.2500|±  |0.0144|
+| - belebele_isl_Latn|    0.0|none  |     0|acc     |↑  |0.2556|±  |0.0145|
+|                    |       |none  |     0|acc_norm|↑  |0.2556|±  |0.0145|
+| - belebele_ita_Latn|    0.0|none  |     0|acc     |↑  |0.2522|±  |0.0145|
+|                    |       |none  |     0|acc_norm|↑  |0.2522|±  |0.0145|
+| - belebele_jav_Latn|    0.0|none  |     0|acc     |↑  |0.2389|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2389|±  |0.0142|
+| - belebele_jpn_Jpan|    0.0|none  |     0|acc     |↑  |0.2522|±  |0.0145|
+|                    |       |none  |     0|acc_norm|↑  |0.2522|±  |0.0145|
+| - belebele_kac_Latn|    0.0|none  |     0|acc     |↑  |0.2222|±  |0.0139|
+|                    |       |none  |     0|acc_norm|↑  |0.2222|±  |0.0139|
+| - belebele_kan_Knda|    0.0|none  |     0|acc     |↑  |0.2344|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2344|±  |0.0141|
+| - belebele_kat_Geor|    0.0|none  |     0|acc     |↑  |0.2267|±  |0.0140|
+|                    |       |none  |     0|acc_norm|↑  |0.2267|±  |0.0140|
+| - belebele_kaz_Cyrl|    0.0|none  |     0|acc     |↑  |0.2322|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2322|±  |0.0141|
+| - belebele_kea_Latn|    0.0|none  |     0|acc     |↑  |0.2300|±  |0.0140|
+|                    |       |none  |     0|acc_norm|↑  |0.2300|±  |0.0140|
+| - belebele_khk_Cyrl|    0.0|none  |     0|acc     |↑  |0.2233|±  |0.0139|
+|                    |       |none  |     0|acc_norm|↑  |0.2233|±  |0.0139|
+| - belebele_khm_Khmr|    0.0|none  |     0|acc     |↑  |0.2533|±  |0.0145|
+|                    |       |none  |     0|acc_norm|↑  |0.2533|±  |0.0145|
+| - belebele_kin_Latn|    0.0|none  |     0|acc     |↑  |0.2656|±  |0.0147|
+|                    |       |none  |     0|acc_norm|↑  |0.2656|±  |0.0147|
+| - belebele_kir_Cyrl|    0.0|none  |     0|acc     |↑  |0.2389|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2389|±  |0.0142|
+| - belebele_kor_Hang|    0.0|none  |     0|acc     |↑  |0.2244|±  |0.0139|
+|                    |       |none  |     0|acc_norm|↑  |0.2244|±  |0.0139|
+| - belebele_lao_Laoo|    0.0|none  |     0|acc     |↑  |0.2444|±  |0.0143|
+|                    |       |none  |     0|acc_norm|↑  |0.2444|±  |0.0143|
+| - belebele_lin_Latn|    0.0|none  |     0|acc     |↑  |0.2556|±  |0.0145|
+|                    |       |none  |     0|acc_norm|↑  |0.2556|±  |0.0145|
+| - belebele_lit_Latn|    0.0|none  |     0|acc     |↑  |0.2267|±  |0.0140|
+|                    |       |none  |     0|acc_norm|↑  |0.2267|±  |0.0140|
+| - belebele_lug_Latn|    0.0|none  |     0|acc     |↑  |0.2500|±  |0.0144|
+|                    |       |none  |     0|acc_norm|↑  |0.2500|±  |0.0144|
+| - belebele_luo_Latn|    0.0|none  |     0|acc     |↑  |0.2400|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2400|±  |0.0142|
+| - belebele_lvs_Latn|    0.0|none  |     0|acc     |↑  |0.2478|±  |0.0144|
+|                    |       |none  |     0|acc_norm|↑  |0.2478|±  |0.0144|
+| - belebele_mal_Mlym|    0.0|none  |     0|acc     |↑  |0.2333|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2333|±  |0.0141|
+| - belebele_mar_Deva|    0.0|none  |     0|acc     |↑  |0.2367|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2367|±  |0.0142|
+| - belebele_mkd_Cyrl|    0.0|none  |     0|acc     |↑  |0.2411|±  |0.0143|
+|                    |       |none  |     0|acc_norm|↑  |0.2411|±  |0.0143|
+| - belebele_mlt_Latn|    0.0|none  |     0|acc     |↑  |0.2500|±  |0.0144|
+|                    |       |none  |     0|acc_norm|↑  |0.2500|±  |0.0144|
+| - belebele_mri_Latn|    0.0|none  |     0|acc     |↑  |0.2400|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2400|±  |0.0142|
+| - belebele_mya_Mymr|    0.0|none  |     0|acc     |↑  |0.2289|±  |0.0140|
+|                    |       |none  |     0|acc_norm|↑  |0.2289|±  |0.0140|
+| - belebele_nld_Latn|    0.0|none  |     0|acc     |↑  |0.2333|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2333|±  |0.0141|
+| - belebele_nob_Latn|    0.0|none  |     0|acc     |↑  |0.2711|±  |0.0148|
+|                    |       |none  |     0|acc_norm|↑  |0.2711|±  |0.0148|
+| - belebele_npi_Deva|    0.0|none  |     0|acc     |↑  |0.2278|±  |0.0140|
+|                    |       |none  |     0|acc_norm|↑  |0.2278|±  |0.0140|
+| - belebele_npi_Latn|    0.0|none  |     0|acc     |↑  |0.2456|±  |0.0144|
+|                    |       |none  |     0|acc_norm|↑  |0.2456|±  |0.0144|
+| - belebele_nso_Latn|    0.0|none  |     0|acc     |↑  |0.2367|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2367|±  |0.0142|
+| - belebele_nya_Latn|    0.0|none  |     0|acc     |↑  |0.2344|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2344|±  |0.0141|
+| - belebele_ory_Orya|    0.0|none  |     0|acc     |↑  |0.2767|±  |0.0149|
+|                    |       |none  |     0|acc_norm|↑  |0.2767|±  |0.0149|
+| - belebele_pan_Guru|    0.0|none  |     0|acc     |↑  |0.2378|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2378|±  |0.0142|
+| - belebele_pbt_Arab|    0.0|none  |     0|acc     |↑  |0.2122|±  |0.0136|
+|                    |       |none  |     0|acc_norm|↑  |0.2122|±  |0.0136|
+| - belebele_pes_Arab|    0.0|none  |     0|acc     |↑  |0.2144|±  |0.0137|
+|                    |       |none  |     0|acc_norm|↑  |0.2144|±  |0.0137|
+| - belebele_plt_Latn|    0.0|none  |     0|acc     |↑  |0.2344|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2344|±  |0.0141|
+| - belebele_pol_Latn|    0.0|none  |     0|acc     |↑  |0.2389|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2389|±  |0.0142|
+| - belebele_por_Latn|    0.0|none  |     0|acc     |↑  |0.2344|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2344|±  |0.0141|
+| - belebele_ron_Latn|    0.0|none  |     0|acc     |↑  |0.2411|±  |0.0143|
+|                    |       |none  |     0|acc_norm|↑  |0.2411|±  |0.0143|
+| - belebele_rus_Cyrl|    0.0|none  |     0|acc     |↑  |0.2744|±  |0.0149|
+|                    |       |none  |     0|acc_norm|↑  |0.2744|±  |0.0149|
+| - belebele_shn_Mymr|    0.0|none  |     0|acc     |↑  |0.2322|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2322|±  |0.0141|
+| - belebele_sin_Latn|    0.0|none  |     0|acc     |↑  |0.2344|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2344|±  |0.0141|
+| - belebele_sin_Sinh|    0.0|none  |     0|acc     |↑  |0.2400|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2400|±  |0.0142|
+| - belebele_slk_Latn|    0.0|none  |     0|acc     |↑  |0.2211|±  |0.0138|
+|                    |       |none  |     0|acc_norm|↑  |0.2211|±  |0.0138|
+| - belebele_slv_Latn|    0.0|none  |     0|acc     |↑  |0.2578|±  |0.0146|
+|                    |       |none  |     0|acc_norm|↑  |0.2578|±  |0.0146|
+| - belebele_sna_Latn|    0.0|none  |     0|acc     |↑  |0.2411|±  |0.0143|
+|                    |       |none  |     0|acc_norm|↑  |0.2411|±  |0.0143|
+| - belebele_snd_Arab|    0.0|none  |     0|acc     |↑  |0.2178|±  |0.0138|
+|                    |       |none  |     0|acc_norm|↑  |0.2178|±  |0.0138|
+| - belebele_som_Latn|    0.0|none  |     0|acc     |↑  |0.2333|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2333|±  |0.0141|
+| - belebele_sot_Latn|    0.0|none  |     0|acc     |↑  |0.2344|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2344|±  |0.0141|
+| - belebele_spa_Latn|    0.0|none  |     0|acc     |↑  |0.2233|±  |0.0139|
+|                    |       |none  |     0|acc_norm|↑  |0.2233|±  |0.0139|
+| - belebele_srp_Cyrl|    0.0|none  |     0|acc     |↑  |0.2556|±  |0.0145|
+|                    |       |none  |     0|acc_norm|↑  |0.2556|±  |0.0145|
+| - belebele_ssw_Latn|    0.0|none  |     0|acc     |↑  |0.2489|±  |0.0144|
+|                    |       |none  |     0|acc_norm|↑  |0.2489|±  |0.0144|
+| - belebele_sun_Latn|    0.0|none  |     0|acc     |↑  |0.2378|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2378|±  |0.0142|
+| - belebele_swe_Latn|    0.0|none  |     0|acc     |↑  |0.2500|±  |0.0144|
+|                    |       |none  |     0|acc_norm|↑  |0.2500|±  |0.0144|
+| - belebele_swh_Latn|    0.0|none  |     0|acc     |↑  |0.2822|±  |0.0150|
+|                    |       |none  |     0|acc_norm|↑  |0.2822|±  |0.0150|
+| - belebele_tam_Taml|    0.0|none  |     0|acc     |↑  |0.2700|±  |0.0148|
+|                    |       |none  |     0|acc_norm|↑  |0.2700|±  |0.0148|
+| - belebele_tel_Telu|    0.0|none  |     0|acc     |↑  |0.2456|±  |0.0144|
+|                    |       |none  |     0|acc_norm|↑  |0.2456|±  |0.0144|
+| - belebele_tgk_Cyrl|    0.0|none  |     0|acc     |↑  |0.2333|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2333|±  |0.0141|
+| - belebele_tgl_Latn|    0.0|none  |     0|acc     |↑  |0.2356|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2356|±  |0.0142|
+| - belebele_tha_Thai|    0.0|none  |     0|acc     |↑  |0.2344|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2344|±  |0.0141|
+| - belebele_tir_Ethi|    0.0|none  |     0|acc     |↑  |0.2356|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2356|±  |0.0142|
+| - belebele_tsn_Latn|    0.0|none  |     0|acc     |↑  |0.2367|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2367|±  |0.0142|
+| - belebele_tso_Latn|    0.0|none  |     0|acc     |↑  |0.2356|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2356|±  |0.0142|
+| - belebele_tur_Latn|    0.0|none  |     0|acc     |↑  |0.2456|±  |0.0144|
+|                    |       |none  |     0|acc_norm|↑  |0.2456|±  |0.0144|
+| - belebele_ukr_Cyrl|    0.0|none  |     0|acc     |↑  |0.2489|±  |0.0144|
+|                    |       |none  |     0|acc_norm|↑  |0.2489|±  |0.0144|
+| - belebele_urd_Arab|    0.0|none  |     0|acc     |↑  |0.2211|±  |0.0138|
+|                    |       |none  |     0|acc_norm|↑  |0.2211|±  |0.0138|
+| - belebele_urd_Latn|    0.0|none  |     0|acc     |↑  |0.2389|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2389|±  |0.0142|
+| - belebele_uzn_Latn|    0.0|none  |     0|acc     |↑  |0.2444|±  |0.0143|
+|                    |       |none  |     0|acc_norm|↑  |0.2444|±  |0.0143|
+| - belebele_vie_Latn|    0.0|none  |     0|acc     |↑  |0.2767|±  |0.0149|
+|                    |       |none  |     0|acc_norm|↑  |0.2767|±  |0.0149|
+| - belebele_war_Latn|    0.0|none  |     0|acc     |↑  |0.2333|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2333|±  |0.0141|
+| - belebele_wol_Latn|    0.0|none  |     0|acc     |↑  |0.2344|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2344|±  |0.0141|
+| - belebele_xho_Latn|    0.0|none  |     0|acc     |↑  |0.2411|±  |0.0143|
+|                    |       |none  |     0|acc_norm|↑  |0.2411|±  |0.0143|
+| - belebele_yor_Latn|    0.0|none  |     0|acc     |↑  |0.2311|±  |0.0141|
+|                    |       |none  |     0|acc_norm|↑  |0.2311|±  |0.0141|
+| - belebele_zho_Hans|    0.0|none  |     0|acc     |↑  |0.2556|±  |0.0145|
+|                    |       |none  |     0|acc_norm|↑  |0.2556|±  |0.0145|
+| - belebele_zho_Hant|    0.0|none  |     0|acc     |↑  |0.2411|±  |0.0143|
+|                    |       |none  |     0|acc_norm|↑  |0.2411|±  |0.0143|
+| - belebele_zsm_Latn|    0.0|none  |     0|acc     |↑  |0.2533|±  |0.0145|
+|                    |       |none  |     0|acc_norm|↑  |0.2533|±  |0.0145|
+| - belebele_zul_Latn|    0.0|none  |     0|acc     |↑  |0.2356|±  |0.0142|
+|                    |       |none  |     0|acc_norm|↑  |0.2356|±  |0.0142|
+
+| Groups |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|--------|------:|------|------|--------|---|-----:|---|-----:|
+|belebele|    0.1|none  |      |acc     |↑  |0.2397|±  |0.0013|
+|        |       |none  |      |acc_norm|↑  |0.2397|±  |0.0013|

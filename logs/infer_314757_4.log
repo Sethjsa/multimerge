@@ -1,0 +1,5 @@
+Array task 4 / Model: hf:Qwen/Qwen3.5-2B-Base|main|checkpoint_1000000
+Task: all | Lang: all
+INFO 04-20 14:42:54 [__init__.py:235] Automatically detected platform cuda.
+Using GPUs: 1
+Output directory: ./results/Qwen3.5-2B-Base|main|checkpoint_1000000

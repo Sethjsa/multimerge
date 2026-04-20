@@ -1,0 +1,5 @@
+Array task 6 / Model: hf:CohereLabs/tiny-aya-base|main|checkpoint_1000000
+Task: all | Lang: all
+INFO 04-20 14:42:54 [__init__.py:235] Automatically detected platform cuda.
+Using GPUs: 1
+Output directory: ./results/tiny-aya-base|main|checkpoint_1000000

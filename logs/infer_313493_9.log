@@ -1,0 +1,1196 @@
+Array task 9 / Model: /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0009000
+Task: all | Lang: all
+INFO 04-17 00:19:47 [__init__.py:235] Automatically detected platform cuda.
+1
+lighteval|belebele_arb_Arab_cf
+lighteval|belebele_deu_Latn_cf
+lighteval|belebele_eng_Latn_cf
+lighteval|belebele_fra_Latn_cf
+lighteval|belebele_hin_Deva_cf
+lighteval|belebele_ita_Latn_cf
+lighteval|belebele_nld_Latn_cf
+lighteval|belebele_por_Latn_cf
+lighteval|belebele_rus_Cyrl_cf
+lighteval|belebele_spa_Latn_cf
+lighteval|belebele_swe_Latn_cf
+lighteval|belebele_tur_Latn_cf
+lighteval|belebele_zho_Hans_cf
+lighteval|xcsqa_ara_cf
+lighteval|xcsqa_deu_cf
+lighteval|xcsqa_eng_cf
+lighteval|xcsqa_fra_cf
+lighteval|xcsqa_hin_cf
+lighteval|xcsqa_ita_cf
+lighteval|xcsqa_nld_cf
+lighteval|xcsqa_por_cf
+lighteval|xcsqa_rus_cf
+lighteval|xcsqa_spa_cf
+None
+None
+lighteval|xcsqa_zho_cf
+lighteval|mlmm_hellaswag_ara_cf
+lighteval|mlmm_hellaswag_deu_cf
+leaderboard|hellaswag
+lighteval|mlmm_hellaswag_fra_cf
+lighteval|mlmm_hellaswag_hin_cf
+lighteval|mlmm_hellaswag_ita_cf
+lighteval|mlmm_hellaswag_nld_cf
+lighteval|mlmm_hellaswag_por_cf
+lighteval|mlmm_hellaswag_rus_cf
+lighteval|mlmm_hellaswag_spa_cf
+lighteval|mlmm_hellaswag_swe_cf
+lighteval|community_hellaswag_tur_cf
+lighteval|mlmm_hellaswag_zho_cf
+lighteval|flores200:eng_Latn-arb_Arab
+lighteval|flores200:eng_Latn-deu_Latn
+lighteval|flores200:fra_Latn-eng_Latn
+lighteval|flores200:eng_Latn-fra_Latn
+lighteval|flores200:eng_Latn-hin_Deva
+lighteval|flores200:eng_Latn-ita_Latn
+lighteval|flores200:eng_Latn-nld_Latn
+lighteval|flores200:eng_Latn-por_Latn
+lighteval|flores200:eng_Latn-rus_Cyrl
+lighteval|flores200:eng_Latn-spa_Latn
+lighteval|flores200:eng_Latn-swe_Latn
+lighteval|flores200:eng_Latn-tur_Latn
+lighteval|flores200:eng_Latn-zho_Hans
+lighteval|global_mmlu_ca_ara_cf
+lighteval|global_mmlu_ca_deu_cf
+lighteval|global_mmlu_ca_eng_cf
+lighteval|global_mmlu_ca_fra_cf
+lighteval|global_mmlu_ca_hin_cf
+lighteval|global_mmlu_ca_ita_cf
+lighteval|global_mmlu_ca_nld_cf
+lighteval|global_mmlu_ca_por_cf
+lighteval|global_mmlu_ca_rus_cf
+lighteval|global_mmlu_ca_spa_cf
+lighteval|global_mmlu_ca_swe_cf
+lighteval|global_mmlu_ca_tur_cf
+lighteval|global_mmlu_ca_zho_cf
+|                                Task                                 |Version|    Metric    | Value |   |Stderr|
+|---------------------------------------------------------------------|------:|--------------|------:|---|-----:|
+|all                                                                  |       |acc           | 0.3090|±  |0.0146|
+|                                                                     |       |acc_norm      | 0.2668|±  |0.0793|
+|                                                                     |       |acc_norm_token| 0.2513|±  |0.0743|
+|                                                                     |       |acc_norm_pmi  | 0.2589|±  |0.0802|
+|                                                                     |       |chrf++        |19.4035|±  |0.1554|
+|                                                                     |       |bleu          | 8.3435|±  |0.1415|
+|                                                                     |       |bleu_1        | 0.1144|±  |0.0021|
+|                                                                     |       |bleu_4        | 0.0026|±  |0.0003|
+|leaderboard:hellaswag:5                                              |      0|acc           | 0.3090|±  |0.0146|
+|                                                                     |       |acc_norm      | 0.3350|±  |0.0149|
+|lighteval:belebele_arb_Arab_cf:5                                     |      0|acc_norm_token| 0.3022|±  |0.0153|
+|                                                                     |       |acc_norm      | 0.3244|±  |0.0156|
+|lighteval:belebele_deu_Latn_cf:5                                     |      0|acc_norm_token| 0.3078|±  |0.0154|
+|                                                                     |       |acc_norm      | 0.3211|±  |0.0156|
+|lighteval:belebele_eng_Latn_cf:5                                     |      0|acc_norm_token| 0.3167|±  |0.0155|
+|                                                                     |       |acc_norm      | 0.3033|±  |0.0153|
+|lighteval:belebele_fra_Latn_cf:5                                     |      0|acc_norm_token| 0.3244|±  |0.0156|
+|                                                                     |       |acc_norm      | 0.3100|±  |0.0154|
+|lighteval:belebele_hin_Deva_cf:5                                     |      0|acc_norm_token| 0.2667|±  |0.0147|
+|                                                                     |       |acc_norm      | 0.2467|±  |0.0144|
+|lighteval:belebele_ita_Latn_cf:5                                     |      0|acc_norm_token| 0.2889|±  |0.0151|
+|                                                                     |       |acc_norm      | 0.3067|±  |0.0154|
+|lighteval:belebele_nld_Latn_cf:5                                     |      0|acc_norm_token| 0.3156|±  |0.0155|
+|                                                                     |       |acc_norm      | 0.3189|±  |0.0155|
+|lighteval:belebele_por_Latn_cf:5                                     |      0|acc_norm_token| 0.2956|±  |0.0152|
+|                                                                     |       |acc_norm      | 0.3011|±  |0.0153|
+|lighteval:belebele_rus_Cyrl_cf:5                                     |      0|acc_norm_token| 0.3156|±  |0.0155|
+|                                                                     |       |acc_norm      | 0.3133|±  |0.0155|
+|lighteval:belebele_spa_Latn_cf:5                                     |      0|acc_norm_token| 0.3267|±  |0.0156|
+|                                                                     |       |acc_norm      | 0.3300|±  |0.0157|
+|lighteval:belebele_swe_Latn_cf:5                                     |      0|acc_norm_token| 0.2822|±  |0.0150|
+|                                                                     |       |acc_norm      | 0.2922|±  |0.0152|
+|lighteval:belebele_tur_Latn_cf:5                                     |      0|acc_norm_token| 0.2911|±  |0.0152|
+|                                                                     |       |acc_norm      | 0.3011|±  |0.0153|
+|lighteval:belebele_zho_Hans_cf:5                                     |      0|acc_norm_token| 0.2600|±  |0.0146|
+|                                                                     |       |acc_norm      | 0.2500|±  |0.0144|
+|lighteval:community_hellaswag_tur_cf:5                               |      0|acc_norm_token| 0.3270|±  |0.0148|
+|                                                                     |       |acc_norm      | 0.3090|±  |0.0146|
+|lighteval:flores200:_average:5                                       |       |chrf++        |19.4035|±  |0.1554|
+|                                                                     |       |bleu          | 8.3435|±  |0.1415|
+|                                                                     |       |bleu_1        | 0.1144|±  |0.0021|
+|                                                                     |       |bleu_4        | 0.0026|±  |0.0003|
+|lighteval:flores200:eng_Latn-arb_Arab:5                              |      0|chrf++        | 5.4813|±  |0.2123|
+|                                                                     |       |bleu          | 3.0098|±  |0.1330|
+|                                                                     |       |bleu_1        | 0.0483|±  |0.0011|
+|                                                                     |       |bleu_4        | 0.0000|±  |0.0000|
+|lighteval:flores200:eng_Latn-deu_Latn:5                              |      0|chrf++        |21.0903|±  |0.1547|
+|                                                                     |       |bleu          |20.3334|±  |0.1486|
+|                                                                     |       |bleu_1        | 0.1525|±  |0.0028|
+|                                                                     |       |bleu_4        | 0.0014|±  |0.0003|
+|lighteval:flores200:eng_Latn-fra_Latn:5                              |      0|chrf++        |29.4963|±  |0.2012|
+|                                                                     |       |bleu          |18.8187|±  |0.2050|
+|                                                                     |       |bleu_1        | 0.2076|±  |0.0034|
+|                                                                     |       |bleu_4        | 0.0064|±  |0.0009|
+|lighteval:flores200:eng_Latn-hin_Deva:5                              |      0|chrf++        | 5.6433|±  |0.0814|
+|                                                                     |       |bleu          | 6.2504|±  |0.1331|
+|                                                                     |       |bleu_1        | 0.0324|±  |0.0010|
+|                                                                     |       |bleu_4        | 0.0000|±  |0.0000|
+|lighteval:flores200:eng_Latn-ita_Latn:5                              |      0|chrf++        |27.2332|±  |0.2031|
+|                                                                     |       |bleu          | 8.0553|±  |0.1908|
+|                                                                     |       |bleu_1        | 0.2002|±  |0.0033|
+|                                                                     |       |bleu_4        | 0.0050|±  |0.0007|
+|lighteval:flores200:eng_Latn-nld_Latn:5                              |      0|chrf++        |26.4694|±  |0.1602|
+|                                                                     |       |bleu          |12.3007|±  |0.1286|
+|                                                                     |       |bleu_1        | 0.0980|±  |0.0023|
+|                                                                     |       |bleu_4        | 0.0009|±  |0.0002|
+|lighteval:flores200:eng_Latn-por_Latn:5                              |      0|chrf++        |17.4729|±  |0.0921|
+|                                                                     |       |bleu          | 1.4467|±  |0.0728|
+|                                                                     |       |bleu_1        | 0.0690|±  |0.0016|
+|                                                                     |       |bleu_4        | 0.0003|±  |0.0001|
+|lighteval:flores200:eng_Latn-rus_Cyrl:5                              |      0|chrf++        |26.1302|±  |0.1897|
+|                                                                     |       |bleu          |16.6703|±  |0.1481|
+|                                                                     |       |bleu_1        | 0.0911|±  |0.0019|
+|                                                                     |       |bleu_4        | 0.0003|±  |0.0002|
+|lighteval:flores200:eng_Latn-spa_Latn:5                              |      0|chrf++        |27.6474|±  |0.1757|
+|                                                                     |       |bleu          | 7.4437|±  |0.1842|
+|                                                                     |       |bleu_1        | 0.2057|±  |0.0030|
+|                                                                     |       |bleu_4        | 0.0024|±  |0.0004|
+|lighteval:flores200:eng_Latn-swe_Latn:5                              |      0|chrf++        |17.8775|±  |0.0871|
+|                                                                     |       |bleu          | 1.8778|±  |0.0652|
+|                                                                     |       |bleu_1        | 0.0489|±  |0.0012|
+|                                                                     |       |bleu_4        | 0.0001|±  |0.0001|
+|lighteval:flores200:eng_Latn-tur_Latn:5                              |      0|chrf++        |14.5947|±  |0.1063|
+|                                                                     |       |bleu          | 3.3613|±  |0.0646|
+|                                                                     |       |bleu_1        | 0.0621|±  |0.0012|
+|                                                                     |       |bleu_4        | 0.0001|±  |0.0001|
+|lighteval:flores200:eng_Latn-zho_Hans:5                              |      0|chrf++        | 1.7411|±  |0.0653|
+|                                                                     |       |bleu          | 0.0000|±  |0.1064|
+|                                                                     |       |bleu_1        | 0.0015|±  |0.0003|
+|                                                                     |       |bleu_4        | 0.0000|±  |0.0000|
+|lighteval:flores200:fra_Latn-eng_Latn:5                              |      0|chrf++        |31.3677|±  |0.2915|
+|                                                                     |       |bleu          | 8.8970|±  |0.2593|
+|                                                                     |       |bleu_1        | 0.2697|±  |0.0048|
+|                                                                     |       |bleu_4        | 0.0166|±  |0.0015|
+|lighteval:global_mmlu_ca_ara_cf:_average:5                           |       |acc_norm_token| 0.2556|±  |0.0952|
+|                                                                     |       |acc_norm      | 0.2420|±  |0.0943|
+|                                                                     |       |acc_norm_pmi  | 0.2512|±  |0.0869|
+|lighteval:global_mmlu_ca_ara_cf:college_biology:5                    |      0|acc_norm_token| 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm      | 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_ara_cf:college_chemistry:5                  |      0|acc_norm_token| 0.1667|±  |0.0544|
+|                                                                     |       |acc_norm      | 0.2292|±  |0.0613|
+|                                                                     |       |acc_norm_pmi  | 0.2292|±  |0.0613|
+|lighteval:global_mmlu_ca_ara_cf:college_computer_science:5           |      0|acc_norm_token| 0.2400|±  |0.0610|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.0571|
+|                                                                     |       |acc_norm_pmi  | 0.1000|±  |0.0429|
+|lighteval:global_mmlu_ca_ara_cf:college_mathematics:5                |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.1429|±  |0.0505|
+|                                                                     |       |acc_norm_pmi  | 0.1429|±  |0.0505|
+|lighteval:global_mmlu_ca_ara_cf:college_medicine:5                   |      0|acc_norm_token| 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm      | 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm_pmi  | 0.2653|±  |0.0637|
+|lighteval:global_mmlu_ca_ara_cf:college_physics:5                    |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm_pmi  | 0.1429|±  |0.0505|
+|lighteval:global_mmlu_ca_ara_cf:high_school_biology:5                |      0|acc_norm_token| 0.1800|±  |0.0549|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.0571|
+|                                                                     |       |acc_norm_pmi  | 0.3600|±  |0.0686|
+|lighteval:global_mmlu_ca_ara_cf:high_school_chemistry:5              |      0|acc_norm_token| 0.1042|±  |0.0446|
+|                                                                     |       |acc_norm      | 0.1875|±  |0.0569|
+|                                                                     |       |acc_norm_pmi  | 0.2917|±  |0.0663|
+|lighteval:global_mmlu_ca_ara_cf:high_school_computer_science:5       |      0|acc_norm_token| 0.1224|±  |0.0473|
+|                                                                     |       |acc_norm      | 0.1633|±  |0.0533|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_ara_cf:high_school_european_history:5       |      0|acc_norm_token| 0.2857|±  |0.1253|
+|                                                                     |       |acc_norm      | 0.2857|±  |0.1253|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.1253|
+|lighteval:global_mmlu_ca_ara_cf:high_school_geography:5              |      0|acc_norm_token| 0.4231|±  |0.0988|
+|                                                                     |       |acc_norm      | 0.2308|±  |0.0843|
+|                                                                     |       |acc_norm_pmi  | 0.4615|±  |0.0997|
+|lighteval:global_mmlu_ca_ara_cf:high_school_government_and_politics:5|      0|acc_norm_token| 0.5000|±  |0.5000|
+|                                                                     |       |acc_norm      | 0.5000|±  |0.5000|
+|                                                                     |       |acc_norm_pmi  | 0.5000|±  |0.5000|
+|lighteval:global_mmlu_ca_ara_cf:high_school_macroeconomics:5         |      0|acc_norm_token| 0.2000|±  |0.0641|
+|                                                                     |       |acc_norm      | 0.1750|±  |0.0608|
+|                                                                     |       |acc_norm_pmi  | 0.2750|±  |0.0715|
+|lighteval:global_mmlu_ca_ara_cf:high_school_mathematics:5            |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.1429|±  |0.0505|
+|                                                                     |       |acc_norm_pmi  | 0.1633|±  |0.0533|
+|lighteval:global_mmlu_ca_ara_cf:high_school_microeconomics:5         |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm_pmi  | 0.2653|±  |0.0637|
+|lighteval:global_mmlu_ca_ara_cf:high_school_physics:5                |      0|acc_norm_token| 0.4884|±  |0.0771|
+|                                                                     |       |acc_norm      | 0.4186|±  |0.0761|
+|                                                                     |       |acc_norm_pmi  | 0.3023|±  |0.0709|
+|lighteval:global_mmlu_ca_ara_cf:high_school_psychology:5             |      0|acc_norm_token| 0.2500|±  |0.0732|
+|                                                                     |       |acc_norm      | 0.0556|±  |0.0387|
+|                                                                     |       |acc_norm_pmi  | 0.1389|±  |0.0585|
+|lighteval:global_mmlu_ca_ara_cf:high_school_statistics:5             |      0|acc_norm_token| 0.2826|±  |0.0671|
+|                                                                     |       |acc_norm      | 0.3261|±  |0.0699|
+|                                                                     |       |acc_norm_pmi  | 0.3913|±  |0.0728|
+|lighteval:global_mmlu_ca_ara_cf:high_school_us_history:5             |      0|acc_norm_token| 0.2000|±  |0.2000|
+|                                                                     |       |acc_norm      | 0.4000|±  |0.2449|
+|                                                                     |       |acc_norm_pmi  | 0.0000|±  |0.0000|
+|lighteval:global_mmlu_ca_ara_cf:high_school_world_history:5          |      0|acc_norm_token| 0.3333|±  |0.1260|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.1069|
+|                                                                     |       |acc_norm_pmi  | 0.4000|±  |0.1309|
+|lighteval:global_mmlu_ca_ara_cf:professional_accounting:5            |      0|acc_norm_token| 0.1667|±  |0.0630|
+|                                                                     |       |acc_norm      | 0.1667|±  |0.0630|
+|                                                                     |       |acc_norm_pmi  | 0.2500|±  |0.0732|
+|lighteval:global_mmlu_ca_ara_cf:professional_law:5                   |      0|acc_norm_token| 0.3077|±  |0.1332|
+|                                                                     |       |acc_norm      | 0.2308|±  |0.1216|
+|                                                                     |       |acc_norm_pmi  | 0.2308|±  |0.1216|
+|lighteval:global_mmlu_ca_ara_cf:professional_medicine:5              |      0|acc_norm_token| 0.3469|±  |0.0687|
+|                                                                     |       |acc_norm      | 0.3061|±  |0.0665|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.0652|
+|lighteval:global_mmlu_ca_ara_cf:professional_psychology:5            |      0|acc_norm_token| 0.2500|±  |0.0732|
+|                                                                     |       |acc_norm      | 0.3889|±  |0.0824|
+|                                                                     |       |acc_norm_pmi  | 0.1389|±  |0.0585|
+|lighteval:global_mmlu_ca_deu_cf:_average:5                           |       |acc_norm_token| 0.2604|±  |0.0960|
+|                                                                     |       |acc_norm      | 0.2883|±  |0.0756|
+|                                                                     |       |acc_norm_pmi  | 0.2996|±  |0.0992|
+|lighteval:global_mmlu_ca_deu_cf:college_biology:5                    |      0|acc_norm_token| 0.3265|±  |0.0677|
+|                                                                     |       |acc_norm      | 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm_pmi  | 0.2653|±  |0.0637|
+|lighteval:global_mmlu_ca_deu_cf:college_chemistry:5                  |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm_pmi  | 0.3061|±  |0.0665|
+|lighteval:global_mmlu_ca_deu_cf:college_computer_science:5           |      0|acc_norm_token| 0.1400|±  |0.0496|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.0571|
+|                                                                     |       |acc_norm_pmi  | 0.3000|±  |0.0655|
+|lighteval:global_mmlu_ca_deu_cf:college_mathematics:5                |      0|acc_norm_token| 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm      | 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.0652|
+|lighteval:global_mmlu_ca_deu_cf:college_medicine:5                   |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm_pmi  | 0.3061|±  |0.0665|
+|lighteval:global_mmlu_ca_deu_cf:college_physics:5                    |      0|acc_norm_token| 0.1800|±  |0.0549|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.0571|
+|                                                                     |       |acc_norm_pmi  | 0.3000|±  |0.0655|
+|lighteval:global_mmlu_ca_deu_cf:high_school_biology:5                |      0|acc_norm_token| 0.2600|±  |0.0627|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.0571|
+|                                                                     |       |acc_norm_pmi  | 0.3000|±  |0.0655|
+|lighteval:global_mmlu_ca_deu_cf:high_school_chemistry:5              |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm_pmi  | 0.3061|±  |0.0665|
+|lighteval:global_mmlu_ca_deu_cf:high_school_computer_science:5       |      0|acc_norm_token| 0.0816|±  |0.0395|
+|                                                                     |       |acc_norm      | 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm_pmi  | 0.3265|±  |0.0677|
+|lighteval:global_mmlu_ca_deu_cf:high_school_european_history:5       |      0|acc_norm_token| 0.2857|±  |0.1253|
+|                                                                     |       |acc_norm      | 0.3571|±  |0.1329|
+|                                                                     |       |acc_norm_pmi  | 0.2143|±  |0.1138|
+|lighteval:global_mmlu_ca_deu_cf:high_school_geography:5              |      0|acc_norm_token| 0.3846|±  |0.0973|
+|                                                                     |       |acc_norm      | 0.1154|±  |0.0639|
+|                                                                     |       |acc_norm_pmi  | 0.4615|±  |0.0997|
+|lighteval:global_mmlu_ca_deu_cf:high_school_government_and_politics:5|      0|acc_norm_token| 0.5000|±  |0.5000|
+|                                                                     |       |acc_norm      | 1.0000|±  |0.0000|
+|                                                                     |       |acc_norm_pmi  | 0.5000|±  |0.5000|
+|lighteval:global_mmlu_ca_deu_cf:high_school_macroeconomics:5         |      0|acc_norm_token| 0.2000|±  |0.0641|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.0641|
+|                                                                     |       |acc_norm_pmi  | 0.3250|±  |0.0750|
+|lighteval:global_mmlu_ca_deu_cf:high_school_mathematics:5            |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm_pmi  | 0.1429|±  |0.0505|
+|lighteval:global_mmlu_ca_deu_cf:high_school_microeconomics:5         |      0|acc_norm_token| 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm      | 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm_pmi  | 0.2653|±  |0.0637|
+|lighteval:global_mmlu_ca_deu_cf:high_school_physics:5                |      0|acc_norm_token| 0.3864|±  |0.0743|
+|                                                                     |       |acc_norm      | 0.3409|±  |0.0723|
+|                                                                     |       |acc_norm_pmi  | 0.4091|±  |0.0750|
+|lighteval:global_mmlu_ca_deu_cf:high_school_psychology:5             |      0|acc_norm_token| 0.1944|±  |0.0669|
+|                                                                     |       |acc_norm      | 0.2222|±  |0.0703|
+|                                                                     |       |acc_norm_pmi  | 0.3333|±  |0.0797|
+|lighteval:global_mmlu_ca_deu_cf:high_school_statistics:5             |      0|acc_norm_token| 0.3261|±  |0.0699|
+|                                                                     |       |acc_norm      | 0.3261|±  |0.0699|
+|                                                                     |       |acc_norm_pmi  | 0.2174|±  |0.0615|
+|lighteval:global_mmlu_ca_deu_cf:high_school_us_history:5             |      0|acc_norm_token| 0.2000|±  |0.2000|
+|                                                                     |       |acc_norm      | 0.6000|±  |0.2449|
+|                                                                     |       |acc_norm_pmi  | 0.2000|±  |0.2000|
+|lighteval:global_mmlu_ca_deu_cf:high_school_world_history:5          |      0|acc_norm_token| 0.3333|±  |0.1260|
+|                                                                     |       |acc_norm      | 0.1333|±  |0.0909|
+|                                                                     |       |acc_norm_pmi  | 0.4000|±  |0.1309|
+|lighteval:global_mmlu_ca_deu_cf:professional_accounting:5            |      0|acc_norm_token| 0.3333|±  |0.0797|
+|                                                                     |       |acc_norm      | 0.3889|±  |0.0824|
+|                                                                     |       |acc_norm_pmi  | 0.1944|±  |0.0669|
+|lighteval:global_mmlu_ca_deu_cf:professional_law:5                   |      0|acc_norm_token| 0.3846|±  |0.1404|
+|                                                                     |       |acc_norm      | 0.3846|±  |0.1404|
+|                                                                     |       |acc_norm_pmi  | 0.3077|±  |0.1332|
+|lighteval:global_mmlu_ca_deu_cf:professional_medicine:5              |      0|acc_norm_token| 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm      | 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm_pmi  | 0.2449|±  |0.0621|
+|lighteval:global_mmlu_ca_deu_cf:professional_psychology:5            |      0|acc_norm_token| 0.2222|±  |0.0703|
+|                                                                     |       |acc_norm      | 0.2500|±  |0.0732|
+|                                                                     |       |acc_norm_pmi  | 0.2778|±  |0.0757|
+|lighteval:global_mmlu_ca_eng_cf:_average:5                           |       |acc_norm_token| 0.2407|±  |0.0761|
+|                                                                     |       |acc_norm      | 0.2844|±  |0.0970|
+|                                                                     |       |acc_norm_pmi  | 0.3062|±  |0.1001|
+|lighteval:global_mmlu_ca_eng_cf:college_biology:5                    |      0|acc_norm_token| 0.2857|±  |0.0652|
+|                                                                     |       |acc_norm      | 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm_pmi  | 0.2245|±  |0.0602|
+|lighteval:global_mmlu_ca_eng_cf:college_chemistry:5                  |      0|acc_norm_token| 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm      | 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_eng_cf:college_computer_science:5           |      0|acc_norm_token| 0.2000|±  |0.0571|
+|                                                                     |       |acc_norm      | 0.1800|±  |0.0549|
+|                                                                     |       |acc_norm_pmi  | 0.2600|±  |0.0627|
+|lighteval:global_mmlu_ca_eng_cf:college_mathematics:5                |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm_pmi  | 0.3061|±  |0.0665|
+|lighteval:global_mmlu_ca_eng_cf:college_medicine:5                   |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.3061|±  |0.0665|
+|                                                                     |       |acc_norm_pmi  | 0.3878|±  |0.0703|
+|lighteval:global_mmlu_ca_eng_cf:college_physics:5                    |      0|acc_norm_token| 0.2000|±  |0.0571|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.0571|
+|                                                                     |       |acc_norm_pmi  | 0.2200|±  |0.0592|
+|lighteval:global_mmlu_ca_eng_cf:high_school_biology:5                |      0|acc_norm_token| 0.2000|±  |0.0571|
+|                                                                     |       |acc_norm      | 0.3000|±  |0.0655|
+|                                                                     |       |acc_norm_pmi  | 0.2800|±  |0.0641|
+|lighteval:global_mmlu_ca_eng_cf:high_school_chemistry:5              |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm_pmi  | 0.2449|±  |0.0621|
+|lighteval:global_mmlu_ca_eng_cf:high_school_computer_science:5       |      0|acc_norm_token| 0.1020|±  |0.0437|
+|                                                                     |       |acc_norm      | 0.1429|±  |0.0505|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.0652|
+|lighteval:global_mmlu_ca_eng_cf:high_school_european_history:5       |      0|acc_norm_token| 0.2143|±  |0.1138|
+|                                                                     |       |acc_norm      | 0.2143|±  |0.1138|
+|                                                                     |       |acc_norm_pmi  | 0.2143|±  |0.1138|
+|lighteval:global_mmlu_ca_eng_cf:high_school_geography:5              |      0|acc_norm_token| 0.1923|±  |0.0788|
+|                                                                     |       |acc_norm      | 0.2692|±  |0.0887|
+|                                                                     |       |acc_norm_pmi  | 0.3846|±  |0.0973|
+|lighteval:global_mmlu_ca_eng_cf:high_school_government_and_politics:5|      0|acc_norm_token| 0.0000|±  |0.0000|
+|                                                                     |       |acc_norm      | 0.5000|±  |0.5000|
+|                                                                     |       |acc_norm_pmi  | 0.5000|±  |0.5000|
+|lighteval:global_mmlu_ca_eng_cf:high_school_macroeconomics:5         |      0|acc_norm_token| 0.2250|±  |0.0669|
+|                                                                     |       |acc_norm      | 0.3500|±  |0.0764|
+|                                                                     |       |acc_norm_pmi  | 0.2750|±  |0.0715|
+|lighteval:global_mmlu_ca_eng_cf:high_school_mathematics:5            |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.1633|±  |0.0533|
+|                                                                     |       |acc_norm_pmi  | 0.1837|±  |0.0559|
+|lighteval:global_mmlu_ca_eng_cf:high_school_microeconomics:5         |      0|acc_norm_token| 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm      | 0.3878|±  |0.0703|
+|                                                                     |       |acc_norm_pmi  | 0.3469|±  |0.0687|
+|lighteval:global_mmlu_ca_eng_cf:high_school_physics:5                |      0|acc_norm_token| 0.3864|±  |0.0743|
+|                                                                     |       |acc_norm      | 0.3864|±  |0.0743|
+|                                                                     |       |acc_norm_pmi  | 0.3636|±  |0.0734|
+|lighteval:global_mmlu_ca_eng_cf:high_school_psychology:5             |      0|acc_norm_token| 0.3056|±  |0.0779|
+|                                                                     |       |acc_norm      | 0.2778|±  |0.0757|
+|                                                                     |       |acc_norm_pmi  | 0.2222|±  |0.0703|
+|lighteval:global_mmlu_ca_eng_cf:high_school_statistics:5             |      0|acc_norm_token| 0.3043|±  |0.0686|
+|                                                                     |       |acc_norm      | 0.4130|±  |0.0734|
+|                                                                     |       |acc_norm_pmi  | 0.4348|±  |0.0739|
+|lighteval:global_mmlu_ca_eng_cf:high_school_us_history:5             |      0|acc_norm_token| 0.4000|±  |0.2449|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.2000|
+|                                                                     |       |acc_norm_pmi  | 0.6000|±  |0.2449|
+|lighteval:global_mmlu_ca_eng_cf:high_school_world_history:5          |      0|acc_norm_token| 0.2667|±  |0.1182|
+|                                                                     |       |acc_norm      | 0.4000|±  |0.1309|
+|                                                                     |       |acc_norm_pmi  | 0.4000|±  |0.1309|
+|lighteval:global_mmlu_ca_eng_cf:professional_accounting:5            |      0|acc_norm_token| 0.3611|±  |0.0812|
+|                                                                     |       |acc_norm      | 0.4167|±  |0.0833|
+|                                                                     |       |acc_norm_pmi  | 0.2500|±  |0.0732|
+|lighteval:global_mmlu_ca_eng_cf:professional_law:5                   |      0|acc_norm_token| 0.2308|±  |0.1216|
+|                                                                     |       |acc_norm      | 0.1538|±  |0.1042|
+|                                                                     |       |acc_norm_pmi  | 0.2308|±  |0.1216|
+|lighteval:global_mmlu_ca_eng_cf:professional_medicine:5              |      0|acc_norm_token| 0.2857|±  |0.0652|
+|                                                                     |       |acc_norm      | 0.3061|±  |0.0665|
+|                                                                     |       |acc_norm_pmi  | 0.2245|±  |0.0602|
+|lighteval:global_mmlu_ca_eng_cf:professional_psychology:5            |      0|acc_norm_token| 0.2500|±  |0.0732|
+|                                                                     |       |acc_norm      | 0.3611|±  |0.0812|
+|                                                                     |       |acc_norm_pmi  | 0.3056|±  |0.0779|
+|lighteval:global_mmlu_ca_fra_cf:_average:5                           |       |acc_norm_token| 0.2632|±  |0.0976|
+|                                                                     |       |acc_norm      | 0.2461|±  |0.0940|
+|                                                                     |       |acc_norm_pmi  | 0.2418|±  |0.0749|
+|lighteval:global_mmlu_ca_fra_cf:college_biology:5                    |      0|acc_norm_token| 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm      | 0.2857|±  |0.0652|
+|                                                                     |       |acc_norm_pmi  | 0.2449|±  |0.0621|
+|lighteval:global_mmlu_ca_fra_cf:college_chemistry:5                  |      0|acc_norm_token| 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm      | 0.1429|±  |0.0505|
+|                                                                     |       |acc_norm_pmi  | 0.1633|±  |0.0533|
+|lighteval:global_mmlu_ca_fra_cf:college_computer_science:5           |      0|acc_norm_token| 0.2200|±  |0.0592|
+|                                                                     |       |acc_norm      | 0.2200|±  |0.0592|
+|                                                                     |       |acc_norm_pmi  | 0.2000|±  |0.0571|
+|lighteval:global_mmlu_ca_fra_cf:college_mathematics:5                |      0|acc_norm_token| 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm      | 0.1633|±  |0.0533|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.0652|
+|lighteval:global_mmlu_ca_fra_cf:college_medicine:5                   |      0|acc_norm_token| 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm      | 0.3265|±  |0.0677|
+|                                                                     |       |acc_norm_pmi  | 0.2653|±  |0.0637|
+|lighteval:global_mmlu_ca_fra_cf:college_physics:5                    |      0|acc_norm_token| 0.2200|±  |0.0592|
+|                                                                     |       |acc_norm      | 0.1600|±  |0.0524|
+|                                                                     |       |acc_norm_pmi  | 0.2200|±  |0.0592|
+|lighteval:global_mmlu_ca_fra_cf:high_school_biology:5                |      0|acc_norm_token| 0.2800|±  |0.0641|
+|                                                                     |       |acc_norm      | 0.1600|±  |0.0524|
+|                                                                     |       |acc_norm_pmi  | 0.3600|±  |0.0686|
+|lighteval:global_mmlu_ca_fra_cf:high_school_chemistry:5              |      0|acc_norm_token| 0.1020|±  |0.0437|
+|                                                                     |       |acc_norm      | 0.1633|±  |0.0533|
+|                                                                     |       |acc_norm_pmi  | 0.2245|±  |0.0602|
+|lighteval:global_mmlu_ca_fra_cf:high_school_computer_science:5       |      0|acc_norm_token| 0.1633|±  |0.0533|
+|                                                                     |       |acc_norm      | 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm_pmi  | 0.2449|±  |0.0621|
+|lighteval:global_mmlu_ca_fra_cf:high_school_european_history:5       |      0|acc_norm_token| 0.3571|±  |0.1329|
+|                                                                     |       |acc_norm      | 0.2857|±  |0.1253|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.1253|
+|lighteval:global_mmlu_ca_fra_cf:high_school_geography:5              |      0|acc_norm_token| 0.3846|±  |0.0973|
+|                                                                     |       |acc_norm      | 0.0769|±  |0.0533|
+|                                                                     |       |acc_norm_pmi  | 0.3077|±  |0.0923|
+|lighteval:global_mmlu_ca_fra_cf:high_school_government_and_politics:5|      0|acc_norm_token| 0.5000|±  |0.5000|
+|                                                                     |       |acc_norm      | 0.5000|±  |0.5000|
+|                                                                     |       |acc_norm_pmi  | 0.0000|±  |0.0000|
+|lighteval:global_mmlu_ca_fra_cf:high_school_macroeconomics:5         |      0|acc_norm_token| 0.3500|±  |0.0764|
+|                                                                     |       |acc_norm      | 0.3000|±  |0.0734|
+|                                                                     |       |acc_norm_pmi  | 0.2500|±  |0.0693|
+|lighteval:global_mmlu_ca_fra_cf:high_school_mathematics:5            |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.1429|±  |0.0505|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_fra_cf:high_school_microeconomics:5         |      0|acc_norm_token| 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm      | 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm_pmi  | 0.1633|±  |0.0533|
+|lighteval:global_mmlu_ca_fra_cf:high_school_physics:5                |      0|acc_norm_token| 0.2273|±  |0.0639|
+|                                                                     |       |acc_norm      | 0.2273|±  |0.0639|
+|                                                                     |       |acc_norm_pmi  | 0.2273|±  |0.0639|
+|lighteval:global_mmlu_ca_fra_cf:high_school_psychology:5             |      0|acc_norm_token| 0.2222|±  |0.0703|
+|                                                                     |       |acc_norm      | 0.3333|±  |0.0797|
+|                                                                     |       |acc_norm_pmi  | 0.2778|±  |0.0757|
+|lighteval:global_mmlu_ca_fra_cf:high_school_statistics:5             |      0|acc_norm_token| 0.2391|±  |0.0636|
+|                                                                     |       |acc_norm      | 0.2609|±  |0.0655|
+|                                                                     |       |acc_norm_pmi  | 0.2609|±  |0.0655|
+|lighteval:global_mmlu_ca_fra_cf:high_school_us_history:5             |      0|acc_norm_token| 0.4000|±  |0.2449|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.2000|
+|                                                                     |       |acc_norm_pmi  | 0.2000|±  |0.2000|
+|lighteval:global_mmlu_ca_fra_cf:high_school_world_history:5          |      0|acc_norm_token| 0.2667|±  |0.1182|
+|                                                                     |       |acc_norm      | 0.3333|±  |0.1260|
+|                                                                     |       |acc_norm_pmi  | 0.5333|±  |0.1333|
+|lighteval:global_mmlu_ca_fra_cf:professional_accounting:5            |      0|acc_norm_token| 0.2778|±  |0.0757|
+|                                                                     |       |acc_norm      | 0.3889|±  |0.0824|
+|                                                                     |       |acc_norm_pmi  | 0.1667|±  |0.0630|
+|lighteval:global_mmlu_ca_fra_cf:professional_law:5                   |      0|acc_norm_token| 0.2308|±  |0.1216|
+|                                                                     |       |acc_norm      | 0.2308|±  |0.1216|
+|                                                                     |       |acc_norm_pmi  | 0.1538|±  |0.1042|
+|lighteval:global_mmlu_ca_fra_cf:professional_medicine:5              |      0|acc_norm_token| 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm      | 0.3061|±  |0.0665|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.0652|
+|lighteval:global_mmlu_ca_fra_cf:professional_psychology:5            |      0|acc_norm_token| 0.3056|±  |0.0779|
+|                                                                     |       |acc_norm      | 0.2500|±  |0.0732|
+|                                                                     |       |acc_norm_pmi  | 0.2778|±  |0.0757|
+|lighteval:global_mmlu_ca_hin_cf:_average:5                           |       |acc_norm_token| 0.2225|±  |0.0722|
+|                                                                     |       |acc_norm      | 0.2702|±  |0.0979|
+|                                                                     |       |acc_norm_pmi  | 0.2336|±  |0.0747|
+|lighteval:global_mmlu_ca_hin_cf:college_biology:5                    |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm_pmi  | 0.3061|±  |0.0665|
+|lighteval:global_mmlu_ca_hin_cf:college_chemistry:5                  |      0|acc_norm_token| 0.3404|±  |0.0699|
+|                                                                     |       |acc_norm      | 0.2979|±  |0.0674|
+|                                                                     |       |acc_norm_pmi  | 0.3191|±  |0.0687|
+|lighteval:global_mmlu_ca_hin_cf:college_computer_science:5           |      0|acc_norm_token| 0.3000|±  |0.0655|
+|                                                                     |       |acc_norm      | 0.1800|±  |0.0549|
+|                                                                     |       |acc_norm_pmi  | 0.2200|±  |0.0592|
+|lighteval:global_mmlu_ca_hin_cf:college_mathematics:5                |      0|acc_norm_token| 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm      | 0.1224|±  |0.0473|
+|                                                                     |       |acc_norm_pmi  | 0.2449|±  |0.0621|
+|lighteval:global_mmlu_ca_hin_cf:college_medicine:5                   |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm_pmi  | 0.1633|±  |0.0533|
+|lighteval:global_mmlu_ca_hin_cf:college_physics:5                    |      0|acc_norm_token| 0.1250|±  |0.0482|
+|                                                                     |       |acc_norm      | 0.2083|±  |0.0592|
+|                                                                     |       |acc_norm_pmi  | 0.2708|±  |0.0648|
+|lighteval:global_mmlu_ca_hin_cf:high_school_biology:5                |      0|acc_norm_token| 0.2400|±  |0.0610|
+|                                                                     |       |acc_norm      | 0.2200|±  |0.0592|
+|                                                                     |       |acc_norm_pmi  | 0.1600|±  |0.0524|
+|lighteval:global_mmlu_ca_hin_cf:high_school_chemistry:5              |      0|acc_norm_token| 0.2292|±  |0.0613|
+|                                                                     |       |acc_norm      | 0.2917|±  |0.0663|
+|                                                                     |       |acc_norm_pmi  | 0.2292|±  |0.0613|
+|lighteval:global_mmlu_ca_hin_cf:high_school_computer_science:5       |      0|acc_norm_token| 0.1429|±  |0.0505|
+|                                                                     |       |acc_norm      | 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_hin_cf:high_school_european_history:5       |      0|acc_norm_token| 0.2857|±  |0.1253|
+|                                                                     |       |acc_norm      | 0.4286|±  |0.1373|
+|                                                                     |       |acc_norm_pmi  | 0.1429|±  |0.0971|
+|lighteval:global_mmlu_ca_hin_cf:high_school_geography:5              |      0|acc_norm_token| 0.1923|±  |0.0788|
+|                                                                     |       |acc_norm      | 0.1923|±  |0.0788|
+|                                                                     |       |acc_norm_pmi  | 0.2692|±  |0.0887|
+|lighteval:global_mmlu_ca_hin_cf:high_school_government_and_politics:5|      0|acc_norm_token| 0.0000|±  |0.0000|
+|                                                                     |       |acc_norm      | 0.5000|±  |0.5000|
+|                                                                     |       |acc_norm_pmi  | 0.0000|±  |0.0000|
+|lighteval:global_mmlu_ca_hin_cf:high_school_macroeconomics:5         |      0|acc_norm_token| 0.2250|±  |0.0669|
+|                                                                     |       |acc_norm      | 0.2750|±  |0.0715|
+|                                                                     |       |acc_norm_pmi  | 0.2500|±  |0.0693|
+|lighteval:global_mmlu_ca_hin_cf:high_school_mathematics:5            |      0|acc_norm_token| 0.1020|±  |0.0437|
+|                                                                     |       |acc_norm      | 0.0816|±  |0.0395|
+|                                                                     |       |acc_norm_pmi  | 0.1633|±  |0.0533|
+|lighteval:global_mmlu_ca_hin_cf:high_school_microeconomics:5         |      0|acc_norm_token| 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm      | 0.2857|±  |0.0652|
+|                                                                     |       |acc_norm_pmi  | 0.2245|±  |0.0602|
+|lighteval:global_mmlu_ca_hin_cf:high_school_physics:5                |      0|acc_norm_token| 0.4419|±  |0.0766|
+|                                                                     |       |acc_norm      | 0.2558|±  |0.0673|
+|                                                                     |       |acc_norm_pmi  | 0.2791|±  |0.0692|
+|lighteval:global_mmlu_ca_hin_cf:high_school_psychology:5             |      0|acc_norm_token| 0.1667|±  |0.0630|
+|                                                                     |       |acc_norm      | 0.3056|±  |0.0779|
+|                                                                     |       |acc_norm_pmi  | 0.2778|±  |0.0757|
+|lighteval:global_mmlu_ca_hin_cf:high_school_statistics:5             |      0|acc_norm_token| 0.3696|±  |0.0720|
+|                                                                     |       |acc_norm      | 0.3261|±  |0.0699|
+|                                                                     |       |acc_norm_pmi  | 0.2826|±  |0.0671|
+|lighteval:global_mmlu_ca_hin_cf:high_school_us_history:5             |      0|acc_norm_token| 0.4000|±  |0.2449|
+|                                                                     |       |acc_norm      | 0.4000|±  |0.2449|
+|                                                                     |       |acc_norm_pmi  | 0.2000|±  |0.2000|
+|lighteval:global_mmlu_ca_hin_cf:high_school_world_history:5          |      0|acc_norm_token| 0.0667|±  |0.0667|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.1069|
+|                                                                     |       |acc_norm_pmi  | 0.4000|±  |0.1309|
+|lighteval:global_mmlu_ca_hin_cf:professional_accounting:5            |      0|acc_norm_token| 0.1389|±  |0.0585|
+|                                                                     |       |acc_norm      | 0.2500|±  |0.0732|
+|                                                                     |       |acc_norm_pmi  | 0.2500|±  |0.0732|
+|lighteval:global_mmlu_ca_hin_cf:professional_law:5                   |      0|acc_norm_token| 0.1538|±  |0.1042|
+|                                                                     |       |acc_norm      | 0.3846|±  |0.1404|
+|                                                                     |       |acc_norm_pmi  | 0.3077|±  |0.1332|
+|lighteval:global_mmlu_ca_hin_cf:professional_medicine:5              |      0|acc_norm_token| 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm      | 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm_pmi  | 0.1633|±  |0.0533|
+|lighteval:global_mmlu_ca_hin_cf:professional_psychology:5            |      0|acc_norm_token| 0.1944|±  |0.0669|
+|                                                                     |       |acc_norm      | 0.3611|±  |0.0812|
+|                                                                     |       |acc_norm_pmi  | 0.2778|±  |0.0757|
+|lighteval:global_mmlu_ca_ita_cf:_average:5                           |       |acc_norm_token| 0.2647|±  |0.0660|
+|                                                                     |       |acc_norm      | 0.2717|±  |0.0664|
+|                                                                     |       |acc_norm_pmi  | 0.2705|±  |0.0790|
+|lighteval:global_mmlu_ca_ita_cf:college_biology:5                    |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm_pmi  | 0.2245|±  |0.0602|
+|lighteval:global_mmlu_ca_ita_cf:college_chemistry:5                  |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.1633|±  |0.0533|
+|                                                                     |       |acc_norm_pmi  | 0.1837|±  |0.0559|
+|lighteval:global_mmlu_ca_ita_cf:college_computer_science:5           |      0|acc_norm_token| 0.2800|±  |0.0641|
+|                                                                     |       |acc_norm      | 0.2800|±  |0.0641|
+|                                                                     |       |acc_norm_pmi  | 0.2200|±  |0.0592|
+|lighteval:global_mmlu_ca_ita_cf:college_mathematics:5                |      0|acc_norm_token| 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm      | 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm_pmi  | 0.3061|±  |0.0665|
+|lighteval:global_mmlu_ca_ita_cf:college_medicine:5                   |      0|acc_norm_token| 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm      | 0.3061|±  |0.0665|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.0652|
+|lighteval:global_mmlu_ca_ita_cf:college_physics:5                    |      0|acc_norm_token| 0.1600|±  |0.0524|
+|                                                                     |       |acc_norm      | 0.1200|±  |0.0464|
+|                                                                     |       |acc_norm_pmi  | 0.2800|±  |0.0641|
+|lighteval:global_mmlu_ca_ita_cf:high_school_biology:5                |      0|acc_norm_token| 0.2400|±  |0.0610|
+|                                                                     |       |acc_norm      | 0.2200|±  |0.0592|
+|                                                                     |       |acc_norm_pmi  | 0.2800|±  |0.0641|
+|lighteval:global_mmlu_ca_ita_cf:high_school_chemistry:5              |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm_pmi  | 0.1837|±  |0.0559|
+|lighteval:global_mmlu_ca_ita_cf:high_school_computer_science:5       |      0|acc_norm_token| 0.1224|±  |0.0473|
+|                                                                     |       |acc_norm      | 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm_pmi  | 0.2449|±  |0.0621|
+|lighteval:global_mmlu_ca_ita_cf:high_school_european_history:5       |      0|acc_norm_token| 0.2143|±  |0.1138|
+|                                                                     |       |acc_norm      | 0.2857|±  |0.1253|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.1253|
+|lighteval:global_mmlu_ca_ita_cf:high_school_geography:5              |      0|acc_norm_token| 0.3077|±  |0.0923|
+|                                                                     |       |acc_norm      | 0.2692|±  |0.0887|
+|                                                                     |       |acc_norm_pmi  | 0.2692|±  |0.0887|
+|lighteval:global_mmlu_ca_ita_cf:high_school_government_and_politics:5|      0|acc_norm_token| 1.0000|±  |0.0000|
+|                                                                     |       |acc_norm      | 1.0000|±  |0.0000|
+|                                                                     |       |acc_norm_pmi  | 0.0000|±  |0.0000|
+|lighteval:global_mmlu_ca_ita_cf:high_school_macroeconomics:5         |      0|acc_norm_token| 0.2500|±  |0.0693|
+|                                                                     |       |acc_norm      | 0.3250|±  |0.0750|
+|                                                                     |       |acc_norm_pmi  | 0.3750|±  |0.0775|
+|lighteval:global_mmlu_ca_ita_cf:high_school_mathematics:5            |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm_pmi  | 0.1837|±  |0.0559|
+|lighteval:global_mmlu_ca_ita_cf:high_school_microeconomics:5         |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.2857|±  |0.0652|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.0652|
+|lighteval:global_mmlu_ca_ita_cf:high_school_physics:5                |      0|acc_norm_token| 0.3636|±  |0.0734|
+|                                                                     |       |acc_norm      | 0.3636|±  |0.0734|
+|                                                                     |       |acc_norm_pmi  | 0.3182|±  |0.0710|
+|lighteval:global_mmlu_ca_ita_cf:high_school_psychology:5             |      0|acc_norm_token| 0.1111|±  |0.0531|
+|                                                                     |       |acc_norm      | 0.1389|±  |0.0585|
+|                                                                     |       |acc_norm_pmi  | 0.2500|±  |0.0732|
+|lighteval:global_mmlu_ca_ita_cf:high_school_statistics:5             |      0|acc_norm_token| 0.3043|±  |0.0686|
+|                                                                     |       |acc_norm      | 0.3696|±  |0.0720|
+|                                                                     |       |acc_norm_pmi  | 0.3913|±  |0.0728|
+|lighteval:global_mmlu_ca_ita_cf:high_school_us_history:5             |      0|acc_norm_token| 0.0000|±  |0.0000|
+|                                                                     |       |acc_norm      | 0.0000|±  |0.0000|
+|                                                                     |       |acc_norm_pmi  | 0.4000|±  |0.2449|
+|lighteval:global_mmlu_ca_ita_cf:high_school_world_history:5          |      0|acc_norm_token| 0.3333|±  |0.1260|
+|                                                                     |       |acc_norm      | 0.2667|±  |0.1182|
+|                                                                     |       |acc_norm_pmi  | 0.4667|±  |0.1333|
+|lighteval:global_mmlu_ca_ita_cf:professional_accounting:5            |      0|acc_norm_token| 0.2500|±  |0.0732|
+|                                                                     |       |acc_norm      | 0.2500|±  |0.0732|
+|                                                                     |       |acc_norm_pmi  | 0.2222|±  |0.0703|
+|lighteval:global_mmlu_ca_ita_cf:professional_law:5                   |      0|acc_norm_token| 0.3077|±  |0.1332|
+|                                                                     |       |acc_norm      | 0.2308|±  |0.1216|
+|                                                                     |       |acc_norm_pmi  | 0.2308|±  |0.1216|
+|lighteval:global_mmlu_ca_ita_cf:professional_medicine:5              |      0|acc_norm_token| 0.3469|±  |0.0687|
+|                                                                     |       |acc_norm      | 0.3878|±  |0.0703|
+|                                                                     |       |acc_norm_pmi  | 0.3265|±  |0.0677|
+|lighteval:global_mmlu_ca_ita_cf:professional_psychology:5            |      0|acc_norm_token| 0.2500|±  |0.0732|
+|                                                                     |       |acc_norm      | 0.2778|±  |0.0757|
+|                                                                     |       |acc_norm_pmi  | 0.2778|±  |0.0757|
+|lighteval:global_mmlu_ca_nld_cf:_average:5                           |       |acc_norm_token| 0.2284|±  |0.0666|
+|                                                                     |       |acc_norm      | 0.2636|±  |0.0882|
+|                                                                     |       |acc_norm_pmi  | 0.2371|±  |0.0677|
+|lighteval:global_mmlu_ca_nld_cf:college_biology:5                    |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.3469|±  |0.0687|
+|                                                                     |       |acc_norm_pmi  | 0.2449|±  |0.0621|
+|lighteval:global_mmlu_ca_nld_cf:college_chemistry:5                  |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm_pmi  | 0.3061|±  |0.0665|
+|lighteval:global_mmlu_ca_nld_cf:college_computer_science:5           |      0|acc_norm_token| 0.1800|±  |0.0549|
+|                                                                     |       |acc_norm      | 0.1800|±  |0.0549|
+|                                                                     |       |acc_norm_pmi  | 0.1400|±  |0.0496|
+|lighteval:global_mmlu_ca_nld_cf:college_mathematics:5                |      0|acc_norm_token| 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm      | 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm_pmi  | 0.2245|±  |0.0602|
+|lighteval:global_mmlu_ca_nld_cf:college_medicine:5                   |      0|acc_norm_token| 0.3061|±  |0.0665|
+|                                                                     |       |acc_norm      | 0.3469|±  |0.0687|
+|                                                                     |       |acc_norm_pmi  | 0.2245|±  |0.0602|
+|lighteval:global_mmlu_ca_nld_cf:college_physics:5                    |      0|acc_norm_token| 0.2000|±  |0.0571|
+|                                                                     |       |acc_norm      | 0.2200|±  |0.0592|
+|                                                                     |       |acc_norm_pmi  | 0.2400|±  |0.0610|
+|lighteval:global_mmlu_ca_nld_cf:high_school_biology:5                |      0|acc_norm_token| 0.1400|±  |0.0496|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.0571|
+|                                                                     |       |acc_norm_pmi  | 0.3000|±  |0.0655|
+|lighteval:global_mmlu_ca_nld_cf:high_school_chemistry:5              |      0|acc_norm_token| 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm      | 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm_pmi  | 0.1633|±  |0.0533|
+|lighteval:global_mmlu_ca_nld_cf:high_school_computer_science:5       |      0|acc_norm_token| 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm      | 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm_pmi  | 0.2449|±  |0.0621|
+|lighteval:global_mmlu_ca_nld_cf:high_school_european_history:5       |      0|acc_norm_token| 0.2857|±  |0.1253|
+|                                                                     |       |acc_norm      | 0.2857|±  |0.1253|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.1253|
+|lighteval:global_mmlu_ca_nld_cf:high_school_geography:5              |      0|acc_norm_token| 0.1538|±  |0.0722|
+|                                                                     |       |acc_norm      | 0.1923|±  |0.0788|
+|                                                                     |       |acc_norm_pmi  | 0.3077|±  |0.0923|
+|lighteval:global_mmlu_ca_nld_cf:high_school_government_and_politics:5|      0|acc_norm_token| 0.0000|±  |0.0000|
+|                                                                     |       |acc_norm      | 0.5000|±  |0.5000|
+|                                                                     |       |acc_norm_pmi  | 0.0000|±  |0.0000|
+|lighteval:global_mmlu_ca_nld_cf:high_school_macroeconomics:5         |      0|acc_norm_token| 0.3250|±  |0.0750|
+|                                                                     |       |acc_norm      | 0.3500|±  |0.0764|
+|                                                                     |       |acc_norm_pmi  | 0.3750|±  |0.0775|
+|lighteval:global_mmlu_ca_nld_cf:high_school_mathematics:5            |      0|acc_norm_token| 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm      | 0.1633|±  |0.0533|
+|                                                                     |       |acc_norm_pmi  | 0.1837|±  |0.0559|
+|lighteval:global_mmlu_ca_nld_cf:high_school_microeconomics:5         |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm_pmi  | 0.2449|±  |0.0621|
+|lighteval:global_mmlu_ca_nld_cf:high_school_physics:5                |      0|acc_norm_token| 0.3182|±  |0.0710|
+|                                                                     |       |acc_norm      | 0.2727|±  |0.0679|
+|                                                                     |       |acc_norm_pmi  | 0.2500|±  |0.0660|
+|lighteval:global_mmlu_ca_nld_cf:high_school_psychology:5             |      0|acc_norm_token| 0.1944|±  |0.0669|
+|                                                                     |       |acc_norm      | 0.2778|±  |0.0757|
+|                                                                     |       |acc_norm_pmi  | 0.3056|±  |0.0779|
+|lighteval:global_mmlu_ca_nld_cf:high_school_statistics:5             |      0|acc_norm_token| 0.2826|±  |0.0671|
+|                                                                     |       |acc_norm      | 0.3478|±  |0.0710|
+|                                                                     |       |acc_norm_pmi  | 0.2609|±  |0.0655|
+|lighteval:global_mmlu_ca_nld_cf:high_school_us_history:5             |      0|acc_norm_token| 0.0000|±  |0.0000|
+|                                                                     |       |acc_norm      | 0.0000|±  |0.0000|
+|                                                                     |       |acc_norm_pmi  | 0.0000|±  |0.0000|
+|lighteval:global_mmlu_ca_nld_cf:high_school_world_history:5          |      0|acc_norm_token| 0.3333|±  |0.1260|
+|                                                                     |       |acc_norm      | 0.2667|±  |0.1182|
+|                                                                     |       |acc_norm_pmi  | 0.4000|±  |0.1309|
+|lighteval:global_mmlu_ca_nld_cf:professional_accounting:5            |      0|acc_norm_token| 0.3333|±  |0.0797|
+|                                                                     |       |acc_norm      | 0.3056|±  |0.0779|
+|                                                                     |       |acc_norm_pmi  | 0.1389|±  |0.0585|
+|lighteval:global_mmlu_ca_nld_cf:professional_law:5                   |      0|acc_norm_token| 0.2308|±  |0.1216|
+|                                                                     |       |acc_norm      | 0.1538|±  |0.1042|
+|                                                                     |       |acc_norm_pmi  | 0.3077|±  |0.1332|
+|lighteval:global_mmlu_ca_nld_cf:professional_medicine:5              |      0|acc_norm_token| 0.2857|±  |0.0652|
+|                                                                     |       |acc_norm      | 0.3878|±  |0.0703|
+|                                                                     |       |acc_norm_pmi  | 0.2653|±  |0.0637|
+|lighteval:global_mmlu_ca_nld_cf:professional_psychology:5            |      0|acc_norm_token| 0.3611|±  |0.0812|
+|                                                                     |       |acc_norm      | 0.3056|±  |0.0779|
+|                                                                     |       |acc_norm_pmi  | 0.2778|±  |0.0757|
+|lighteval:global_mmlu_ca_por_cf:_average:5                           |       |acc_norm_token| 0.2445|±  |0.0742|
+|                                                                     |       |acc_norm      | 0.2217|±  |0.0720|
+|                                                                     |       |acc_norm_pmi  | 0.2520|±  |0.0933|
+|lighteval:global_mmlu_ca_por_cf:college_biology:5                    |      0|acc_norm_token| 0.1633|±  |0.0533|
+|                                                                     |       |acc_norm      | 0.1020|±  |0.0437|
+|                                                                     |       |acc_norm_pmi  | 0.2653|±  |0.0637|
+|lighteval:global_mmlu_ca_por_cf:college_chemistry:5                  |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm_pmi  | 0.2449|±  |0.0621|
+|lighteval:global_mmlu_ca_por_cf:college_computer_science:5           |      0|acc_norm_token| 0.2800|±  |0.0641|
+|                                                                     |       |acc_norm      | 0.2800|±  |0.0641|
+|                                                                     |       |acc_norm_pmi  | 0.2200|±  |0.0592|
+|lighteval:global_mmlu_ca_por_cf:college_mathematics:5                |      0|acc_norm_token| 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm      | 0.1224|±  |0.0473|
+|                                                                     |       |acc_norm_pmi  | 0.3061|±  |0.0665|
+|lighteval:global_mmlu_ca_por_cf:college_medicine:5                   |      0|acc_norm_token| 0.3673|±  |0.0696|
+|                                                                     |       |acc_norm      | 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm_pmi  | 0.3265|±  |0.0677|
+|lighteval:global_mmlu_ca_por_cf:college_physics:5                    |      0|acc_norm_token| 0.3200|±  |0.0666|
+|                                                                     |       |acc_norm      | 0.2200|±  |0.0592|
+|                                                                     |       |acc_norm_pmi  | 0.2200|±  |0.0592|
+|lighteval:global_mmlu_ca_por_cf:high_school_biology:5                |      0|acc_norm_token| 0.2600|±  |0.0627|
+|                                                                     |       |acc_norm      | 0.3200|±  |0.0666|
+|                                                                     |       |acc_norm_pmi  | 0.2600|±  |0.0627|
+|lighteval:global_mmlu_ca_por_cf:high_school_chemistry:5              |      0|acc_norm_token| 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm      | 0.2857|±  |0.0652|
+|                                                                     |       |acc_norm_pmi  | 0.1633|±  |0.0533|
+|lighteval:global_mmlu_ca_por_cf:high_school_computer_science:5       |      0|acc_norm_token| 0.1224|±  |0.0473|
+|                                                                     |       |acc_norm      | 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_por_cf:high_school_european_history:5       |      0|acc_norm_token| 0.2143|±  |0.1138|
+|                                                                     |       |acc_norm      | 0.1429|±  |0.0971|
+|                                                                     |       |acc_norm_pmi  | 0.5000|±  |0.1387|
+|lighteval:global_mmlu_ca_por_cf:high_school_geography:5              |      0|acc_norm_token| 0.1538|±  |0.0722|
+|                                                                     |       |acc_norm      | 0.1923|±  |0.0788|
+|                                                                     |       |acc_norm_pmi  | 0.1154|±  |0.0639|
+|lighteval:global_mmlu_ca_por_cf:high_school_government_and_politics:5|      0|acc_norm_token| 0.0000|±  |0.0000|
+|                                                                     |       |acc_norm      | 0.0000|±  |0.0000|
+|                                                                     |       |acc_norm_pmi  | 0.5000|±  |0.5000|
+|lighteval:global_mmlu_ca_por_cf:high_school_macroeconomics:5         |      0|acc_norm_token| 0.2750|±  |0.0715|
+|                                                                     |       |acc_norm      | 0.3250|±  |0.0750|
+|                                                                     |       |acc_norm_pmi  | 0.2750|±  |0.0715|
+|lighteval:global_mmlu_ca_por_cf:high_school_mathematics:5            |      0|acc_norm_token| 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm      | 0.1429|±  |0.0505|
+|                                                                     |       |acc_norm_pmi  | 0.2245|±  |0.0602|
+|lighteval:global_mmlu_ca_por_cf:high_school_microeconomics:5         |      0|acc_norm_token| 0.3061|±  |0.0665|
+|                                                                     |       |acc_norm      | 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm_pmi  | 0.3469|±  |0.0687|
+|lighteval:global_mmlu_ca_por_cf:high_school_physics:5                |      0|acc_norm_token| 0.3636|±  |0.0734|
+|                                                                     |       |acc_norm      | 0.2500|±  |0.0660|
+|                                                                     |       |acc_norm_pmi  | 0.2045|±  |0.0615|
+|lighteval:global_mmlu_ca_por_cf:high_school_psychology:5             |      0|acc_norm_token| 0.2500|±  |0.0732|
+|                                                                     |       |acc_norm      | 0.2500|±  |0.0732|
+|                                                                     |       |acc_norm_pmi  | 0.1944|±  |0.0669|
+|lighteval:global_mmlu_ca_por_cf:high_school_statistics:5             |      0|acc_norm_token| 0.3478|±  |0.0710|
+|                                                                     |       |acc_norm      | 0.3261|±  |0.0699|
+|                                                                     |       |acc_norm_pmi  | 0.3261|±  |0.0699|
+|lighteval:global_mmlu_ca_por_cf:high_school_us_history:5             |      0|acc_norm_token| 0.2000|±  |0.2000|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.2000|
+|                                                                     |       |acc_norm_pmi  | 0.2000|±  |0.2000|
+|lighteval:global_mmlu_ca_por_cf:high_school_world_history:5          |      0|acc_norm_token| 0.2000|±  |0.1069|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.1069|
+|                                                                     |       |acc_norm_pmi  | 0.2667|±  |0.1182|
+|lighteval:global_mmlu_ca_por_cf:professional_accounting:5            |      0|acc_norm_token| 0.3611|±  |0.0812|
+|                                                                     |       |acc_norm      | 0.3333|±  |0.0797|
+|                                                                     |       |acc_norm_pmi  | 0.1389|±  |0.0585|
+|lighteval:global_mmlu_ca_por_cf:professional_law:5                   |      0|acc_norm_token| 0.1538|±  |0.1042|
+|                                                                     |       |acc_norm      | 0.1538|±  |0.1042|
+|                                                                     |       |acc_norm_pmi  | 0.0769|±  |0.0769|
+|lighteval:global_mmlu_ca_por_cf:professional_medicine:5              |      0|acc_norm_token| 0.3673|±  |0.0696|
+|                                                                     |       |acc_norm      | 0.3265|±  |0.0677|
+|                                                                     |       |acc_norm_pmi  | 0.1633|±  |0.0533|
+|lighteval:global_mmlu_ca_por_cf:professional_psychology:5            |      0|acc_norm_token| 0.3056|±  |0.0779|
+|                                                                     |       |acc_norm      | 0.2500|±  |0.0732|
+|                                                                     |       |acc_norm_pmi  | 0.3056|±  |0.0779|
+|lighteval:global_mmlu_ca_rus_cf:_average:5                           |       |acc_norm_token| 0.2614|±  |0.0923|
+|                                                                     |       |acc_norm      | 0.2602|±  |0.0965|
+|                                                                     |       |acc_norm_pmi  | 0.2540|±  |0.0735|
+|lighteval:global_mmlu_ca_rus_cf:college_biology:5                    |      0|acc_norm_token| 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm      | 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm_pmi  | 0.3265|±  |0.0677|
+|lighteval:global_mmlu_ca_rus_cf:college_chemistry:5                  |      0|acc_norm_token| 0.2917|±  |0.0663|
+|                                                                     |       |acc_norm      | 0.2500|±  |0.0632|
+|                                                                     |       |acc_norm_pmi  | 0.2292|±  |0.0613|
+|lighteval:global_mmlu_ca_rus_cf:college_computer_science:5           |      0|acc_norm_token| 0.2400|±  |0.0610|
+|                                                                     |       |acc_norm      | 0.2400|±  |0.0610|
+|                                                                     |       |acc_norm_pmi  | 0.1600|±  |0.0524|
+|lighteval:global_mmlu_ca_rus_cf:college_mathematics:5                |      0|acc_norm_token| 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm      | 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_rus_cf:college_medicine:5                   |      0|acc_norm_token| 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm      | 0.2857|±  |0.0652|
+|                                                                     |       |acc_norm_pmi  | 0.2653|±  |0.0637|
+|lighteval:global_mmlu_ca_rus_cf:college_physics:5                    |      0|acc_norm_token| 0.2200|±  |0.0592|
+|                                                                     |       |acc_norm      | 0.1800|±  |0.0549|
+|                                                                     |       |acc_norm_pmi  | 0.1800|±  |0.0549|
+|lighteval:global_mmlu_ca_rus_cf:high_school_biology:5                |      0|acc_norm_token| 0.2600|±  |0.0627|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.0571|
+|                                                                     |       |acc_norm_pmi  | 0.3200|±  |0.0666|
+|lighteval:global_mmlu_ca_rus_cf:high_school_chemistry:5              |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_rus_cf:high_school_computer_science:5       |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm_pmi  | 0.2245|±  |0.0602|
+|lighteval:global_mmlu_ca_rus_cf:high_school_european_history:5       |      0|acc_norm_token| 0.3571|±  |0.1329|
+|                                                                     |       |acc_norm      | 0.1429|±  |0.0971|
+|                                                                     |       |acc_norm_pmi  | 0.1429|±  |0.0971|
+|lighteval:global_mmlu_ca_rus_cf:high_school_geography:5              |      0|acc_norm_token| 0.3846|±  |0.0973|
+|                                                                     |       |acc_norm      | 0.2308|±  |0.0843|
+|                                                                     |       |acc_norm_pmi  | 0.2692|±  |0.0887|
+|lighteval:global_mmlu_ca_rus_cf:high_school_government_and_politics:5|      0|acc_norm_token| 0.5000|±  |0.5000|
+|                                                                     |       |acc_norm      | 0.5000|±  |0.5000|
+|                                                                     |       |acc_norm_pmi  | 0.0000|±  |0.0000|
+|lighteval:global_mmlu_ca_rus_cf:high_school_macroeconomics:5         |      0|acc_norm_token| 0.2500|±  |0.0693|
+|                                                                     |       |acc_norm      | 0.2500|±  |0.0693|
+|                                                                     |       |acc_norm_pmi  | 0.2500|±  |0.0693|
+|lighteval:global_mmlu_ca_rus_cf:high_school_mathematics:5            |      0|acc_norm_token| 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm      | 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm_pmi  | 0.1837|±  |0.0559|
+|lighteval:global_mmlu_ca_rus_cf:high_school_microeconomics:5         |      0|acc_norm_token| 0.1429|±  |0.0505|
+|                                                                     |       |acc_norm      | 0.3265|±  |0.0677|
+|                                                                     |       |acc_norm_pmi  | 0.1633|±  |0.0533|
+|lighteval:global_mmlu_ca_rus_cf:high_school_physics:5                |      0|acc_norm_token| 0.3636|±  |0.0734|
+|                                                                     |       |acc_norm      | 0.2955|±  |0.0696|
+|                                                                     |       |acc_norm_pmi  | 0.2955|±  |0.0696|
+|lighteval:global_mmlu_ca_rus_cf:high_school_psychology:5             |      0|acc_norm_token| 0.1111|±  |0.0531|
+|                                                                     |       |acc_norm      | 0.1389|±  |0.0585|
+|                                                                     |       |acc_norm_pmi  | 0.2500|±  |0.0732|
+|lighteval:global_mmlu_ca_rus_cf:high_school_statistics:5             |      0|acc_norm_token| 0.2609|±  |0.0655|
+|                                                                     |       |acc_norm      | 0.3043|±  |0.0686|
+|                                                                     |       |acc_norm_pmi  | 0.2609|±  |0.0655|
+|lighteval:global_mmlu_ca_rus_cf:high_school_us_history:5             |      0|acc_norm_token| 0.2000|±  |0.2000|
+|                                                                     |       |acc_norm      | 0.4000|±  |0.2449|
+|                                                                     |       |acc_norm_pmi  | 0.8000|±  |0.2000|
+|lighteval:global_mmlu_ca_rus_cf:high_school_world_history:5          |      0|acc_norm_token| 0.0000|±  |0.0000|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.1069|
+|                                                                     |       |acc_norm_pmi  | 0.4000|±  |0.1309|
+|lighteval:global_mmlu_ca_rus_cf:professional_accounting:5            |      0|acc_norm_token| 0.3056|±  |0.0779|
+|                                                                     |       |acc_norm      | 0.3611|±  |0.0812|
+|                                                                     |       |acc_norm_pmi  | 0.2778|±  |0.0757|
+|lighteval:global_mmlu_ca_rus_cf:professional_law:5                   |      0|acc_norm_token| 0.4615|±  |0.1439|
+|                                                                     |       |acc_norm      | 0.3846|±  |0.1404|
+|                                                                     |       |acc_norm_pmi  | 0.1538|±  |0.1042|
+|lighteval:global_mmlu_ca_rus_cf:professional_medicine:5              |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.2857|±  |0.0652|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.0652|
+|lighteval:global_mmlu_ca_rus_cf:professional_psychology:5            |      0|acc_norm_token| 0.3333|±  |0.0797|
+|                                                                     |       |acc_norm      | 0.1667|±  |0.0630|
+|                                                                     |       |acc_norm_pmi  | 0.2500|±  |0.0732|
+|lighteval:global_mmlu_ca_spa_cf:_average:5                           |       |acc_norm_token| 0.2468|±  |0.0933|
+|                                                                     |       |acc_norm      | 0.2901|±  |0.0764|
+|                                                                     |       |acc_norm_pmi  | 0.2696|±  |0.0783|
+|lighteval:global_mmlu_ca_spa_cf:college_biology:5                    |      0|acc_norm_token| 0.3673|±  |0.0696|
+|                                                                     |       |acc_norm      | 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm_pmi  | 0.3469|±  |0.0687|
+|lighteval:global_mmlu_ca_spa_cf:college_chemistry:5                  |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.1633|±  |0.0533|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.0652|
+|lighteval:global_mmlu_ca_spa_cf:college_computer_science:5           |      0|acc_norm_token| 0.2600|±  |0.0627|
+|                                                                     |       |acc_norm      | 0.2400|±  |0.0610|
+|                                                                     |       |acc_norm_pmi  | 0.2600|±  |0.0627|
+|lighteval:global_mmlu_ca_spa_cf:college_mathematics:5                |      0|acc_norm_token| 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm      | 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm_pmi  | 0.3469|±  |0.0687|
+|lighteval:global_mmlu_ca_spa_cf:college_medicine:5                   |      0|acc_norm_token| 0.3061|±  |0.0665|
+|                                                                     |       |acc_norm      | 0.3673|±  |0.0696|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_spa_cf:college_physics:5                    |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.0652|
+|lighteval:global_mmlu_ca_spa_cf:high_school_biology:5                |      0|acc_norm_token| 0.2600|±  |0.0627|
+|                                                                     |       |acc_norm      | 0.2400|±  |0.0610|
+|                                                                     |       |acc_norm_pmi  | 0.3000|±  |0.0655|
+|lighteval:global_mmlu_ca_spa_cf:high_school_chemistry:5              |      0|acc_norm_token| 0.1020|±  |0.0437|
+|                                                                     |       |acc_norm      | 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm_pmi  | 0.1837|±  |0.0559|
+|lighteval:global_mmlu_ca_spa_cf:high_school_computer_science:5       |      0|acc_norm_token| 0.1224|±  |0.0473|
+|                                                                     |       |acc_norm      | 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm_pmi  | 0.2449|±  |0.0621|
+|lighteval:global_mmlu_ca_spa_cf:high_school_european_history:5       |      0|acc_norm_token| 0.2857|±  |0.1253|
+|                                                                     |       |acc_norm      | 0.4286|±  |0.1373|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.1253|
+|lighteval:global_mmlu_ca_spa_cf:high_school_geography:5              |      0|acc_norm_token| 0.2692|±  |0.0887|
+|                                                                     |       |acc_norm      | 0.1154|±  |0.0639|
+|                                                                     |       |acc_norm_pmi  | 0.3846|±  |0.0973|
+|lighteval:global_mmlu_ca_spa_cf:high_school_government_and_politics:5|      0|acc_norm_token| 0.5000|±  |0.5000|
+|                                                                     |       |acc_norm      | 1.0000|±  |0.0000|
+|                                                                     |       |acc_norm_pmi  | 0.0000|±  |0.0000|
+|lighteval:global_mmlu_ca_spa_cf:high_school_macroeconomics:5         |      0|acc_norm_token| 0.2500|±  |0.0693|
+|                                                                     |       |acc_norm      | 0.3500|±  |0.0764|
+|                                                                     |       |acc_norm_pmi  | 0.5500|±  |0.0797|
+|lighteval:global_mmlu_ca_spa_cf:high_school_mathematics:5            |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.1633|±  |0.0533|
+|                                                                     |       |acc_norm_pmi  | 0.1837|±  |0.0559|
+|lighteval:global_mmlu_ca_spa_cf:high_school_microeconomics:5         |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_spa_cf:high_school_physics:5                |      0|acc_norm_token| 0.2955|±  |0.0696|
+|                                                                     |       |acc_norm      | 0.2273|±  |0.0639|
+|                                                                     |       |acc_norm_pmi  | 0.2273|±  |0.0639|
+|lighteval:global_mmlu_ca_spa_cf:high_school_psychology:5             |      0|acc_norm_token| 0.1389|±  |0.0585|
+|                                                                     |       |acc_norm      | 0.2222|±  |0.0703|
+|                                                                     |       |acc_norm_pmi  | 0.1111|±  |0.0531|
+|lighteval:global_mmlu_ca_spa_cf:high_school_statistics:5             |      0|acc_norm_token| 0.3913|±  |0.0728|
+|                                                                     |       |acc_norm      | 0.4348|±  |0.0739|
+|                                                                     |       |acc_norm_pmi  | 0.3478|±  |0.0710|
+|lighteval:global_mmlu_ca_spa_cf:high_school_us_history:5             |      0|acc_norm_token| 0.2000|±  |0.2000|
+|                                                                     |       |acc_norm      | 0.4000|±  |0.2449|
+|                                                                     |       |acc_norm_pmi  | 0.4000|±  |0.2449|
+|lighteval:global_mmlu_ca_spa_cf:high_school_world_history:5          |      0|acc_norm_token| 0.1333|±  |0.0909|
+|                                                                     |       |acc_norm      | 0.2667|±  |0.1182|
+|                                                                     |       |acc_norm_pmi  | 0.2667|±  |0.1182|
+|lighteval:global_mmlu_ca_spa_cf:professional_accounting:5            |      0|acc_norm_token| 0.2500|±  |0.0732|
+|                                                                     |       |acc_norm      | 0.3056|±  |0.0779|
+|                                                                     |       |acc_norm_pmi  | 0.3056|±  |0.0779|
+|lighteval:global_mmlu_ca_spa_cf:professional_law:5                   |      0|acc_norm_token| 0.1538|±  |0.1042|
+|                                                                     |       |acc_norm      | 0.2308|±  |0.1216|
+|                                                                     |       |acc_norm_pmi  | 0.3077|±  |0.1332|
+|lighteval:global_mmlu_ca_spa_cf:professional_medicine:5              |      0|acc_norm_token| 0.3265|±  |0.0677|
+|                                                                     |       |acc_norm      | 0.3469|±  |0.0687|
+|                                                                     |       |acc_norm_pmi  | 0.2449|±  |0.0621|
+|lighteval:global_mmlu_ca_spa_cf:professional_psychology:5            |      0|acc_norm_token| 0.2500|±  |0.0732|
+|                                                                     |       |acc_norm      | 0.1944|±  |0.0669|
+|                                                                     |       |acc_norm_pmi  | 0.1944|±  |0.0669|
+|lighteval:global_mmlu_ca_swe_cf:_average:5                           |       |acc_norm_token| 0.2410|±  |0.0758|
+|                                                                     |       |acc_norm      | 0.2831|±  |0.0971|
+|                                                                     |       |acc_norm_pmi  | 0.2270|±  |0.0738|
+|lighteval:global_mmlu_ca_swe_cf:college_biology:5                    |      0|acc_norm_token| 0.4082|±  |0.0709|
+|                                                                     |       |acc_norm      | 0.4082|±  |0.0709|
+|                                                                     |       |acc_norm_pmi  | 0.1837|±  |0.0559|
+|lighteval:global_mmlu_ca_swe_cf:college_chemistry:5                  |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_swe_cf:college_computer_science:5           |      0|acc_norm_token| 0.2400|±  |0.0610|
+|                                                                     |       |acc_norm      | 0.2400|±  |0.0610|
+|                                                                     |       |acc_norm_pmi  | 0.1600|±  |0.0524|
+|lighteval:global_mmlu_ca_swe_cf:college_mathematics:5                |      0|acc_norm_token| 0.2857|±  |0.0652|
+|                                                                     |       |acc_norm      | 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm_pmi  | 0.3061|±  |0.0665|
+|lighteval:global_mmlu_ca_swe_cf:college_medicine:5                   |      0|acc_norm_token| 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm      | 0.3061|±  |0.0665|
+|                                                                     |       |acc_norm_pmi  | 0.2245|±  |0.0602|
+|lighteval:global_mmlu_ca_swe_cf:college_physics:5                    |      0|acc_norm_token| 0.1800|±  |0.0549|
+|                                                                     |       |acc_norm      | 0.1600|±  |0.0524|
+|                                                                     |       |acc_norm_pmi  | 0.1800|±  |0.0549|
+|lighteval:global_mmlu_ca_swe_cf:high_school_biology:5                |      0|acc_norm_token| 0.3000|±  |0.0655|
+|                                                                     |       |acc_norm      | 0.2800|±  |0.0641|
+|                                                                     |       |acc_norm_pmi  | 0.2600|±  |0.0627|
+|lighteval:global_mmlu_ca_swe_cf:high_school_chemistry:5              |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.2857|±  |0.0652|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.0652|
+|lighteval:global_mmlu_ca_swe_cf:high_school_computer_science:5       |      0|acc_norm_token| 0.0816|±  |0.0395|
+|                                                                     |       |acc_norm      | 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm_pmi  | 0.1837|±  |0.0559|
+|lighteval:global_mmlu_ca_swe_cf:high_school_european_history:5       |      0|acc_norm_token| 0.3571|±  |0.1329|
+|                                                                     |       |acc_norm      | 0.1429|±  |0.0971|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.1253|
+|lighteval:global_mmlu_ca_swe_cf:high_school_geography:5              |      0|acc_norm_token| 0.1154|±  |0.0639|
+|                                                                     |       |acc_norm      | 0.1154|±  |0.0639|
+|                                                                     |       |acc_norm_pmi  | 0.3077|±  |0.0923|
+|lighteval:global_mmlu_ca_swe_cf:high_school_government_and_politics:5|      0|acc_norm_token| 0.0000|±  |0.0000|
+|                                                                     |       |acc_norm      | 0.5000|±  |0.5000|
+|                                                                     |       |acc_norm_pmi  | 0.0000|±  |0.0000|
+|lighteval:global_mmlu_ca_swe_cf:high_school_macroeconomics:5         |      0|acc_norm_token| 0.2750|±  |0.0715|
+|                                                                     |       |acc_norm      | 0.3250|±  |0.0750|
+|                                                                     |       |acc_norm_pmi  | 0.3250|±  |0.0750|
+|lighteval:global_mmlu_ca_swe_cf:high_school_mathematics:5            |      0|acc_norm_token| 0.1429|±  |0.0505|
+|                                                                     |       |acc_norm      | 0.1429|±  |0.0505|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_swe_cf:high_school_microeconomics:5         |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.3469|±  |0.0687|
+|                                                                     |       |acc_norm_pmi  | 0.1429|±  |0.0505|
+|lighteval:global_mmlu_ca_swe_cf:high_school_physics:5                |      0|acc_norm_token| 0.3182|±  |0.0710|
+|                                                                     |       |acc_norm      | 0.2955|±  |0.0696|
+|                                                                     |       |acc_norm_pmi  | 0.2955|±  |0.0696|
+|lighteval:global_mmlu_ca_swe_cf:high_school_psychology:5             |      0|acc_norm_token| 0.1944|±  |0.0669|
+|                                                                     |       |acc_norm      | 0.2500|±  |0.0732|
+|                                                                     |       |acc_norm_pmi  | 0.2222|±  |0.0703|
+|lighteval:global_mmlu_ca_swe_cf:high_school_statistics:5             |      0|acc_norm_token| 0.3478|±  |0.0710|
+|                                                                     |       |acc_norm      | 0.3261|±  |0.0699|
+|                                                                     |       |acc_norm_pmi  | 0.2609|±  |0.0655|
+|lighteval:global_mmlu_ca_swe_cf:high_school_us_history:5             |      0|acc_norm_token| 0.4000|±  |0.2449|
+|                                                                     |       |acc_norm      | 0.6000|±  |0.2449|
+|                                                                     |       |acc_norm_pmi  | 0.2000|±  |0.2000|
+|lighteval:global_mmlu_ca_swe_cf:high_school_world_history:5          |      0|acc_norm_token| 0.3333|±  |0.1260|
+|                                                                     |       |acc_norm      | 0.2000|±  |0.1069|
+|                                                                     |       |acc_norm_pmi  | 0.2667|±  |0.1182|
+|lighteval:global_mmlu_ca_swe_cf:professional_accounting:5            |      0|acc_norm_token| 0.2778|±  |0.0757|
+|                                                                     |       |acc_norm      | 0.2778|±  |0.0757|
+|                                                                     |       |acc_norm_pmi  | 0.3056|±  |0.0779|
+|lighteval:global_mmlu_ca_swe_cf:professional_law:5                   |      0|acc_norm_token| 0.2308|±  |0.1216|
+|                                                                     |       |acc_norm      | 0.3846|±  |0.1404|
+|                                                                     |       |acc_norm_pmi  | 0.1538|±  |0.1042|
+|lighteval:global_mmlu_ca_swe_cf:professional_medicine:5              |      0|acc_norm_token| 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm      | 0.3469|±  |0.0687|
+|                                                                     |       |acc_norm_pmi  | 0.1837|±  |0.0559|
+|lighteval:global_mmlu_ca_swe_cf:professional_psychology:5            |      0|acc_norm_token| 0.1944|±  |0.0669|
+|                                                                     |       |acc_norm      | 0.1667|±  |0.0630|
+|                                                                     |       |acc_norm_pmi  | 0.3056|±  |0.0779|
+|lighteval:global_mmlu_ca_tur_cf:_average:5                           |       |acc_norm_token| 0.2515|±  |0.0773|
+|                                                                     |       |acc_norm      | 0.2494|±  |0.0773|
+|                                                                     |       |acc_norm_pmi  | 0.2617|±  |0.0781|
+|lighteval:global_mmlu_ca_tur_cf:college_biology:5                    |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.1633|±  |0.0533|
+|                                                                     |       |acc_norm_pmi  | 0.2245|±  |0.0602|
+|lighteval:global_mmlu_ca_tur_cf:college_chemistry:5                  |      0|acc_norm_token| 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm      | 0.1633|±  |0.0533|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_tur_cf:college_computer_science:5           |      0|acc_norm_token| 0.2000|±  |0.0571|
+|                                                                     |       |acc_norm      | 0.2200|±  |0.0592|
+|                                                                     |       |acc_norm_pmi  | 0.2000|±  |0.0571|
+|lighteval:global_mmlu_ca_tur_cf:college_mathematics:5                |      0|acc_norm_token| 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm      | 0.1633|±  |0.0533|
+|                                                                     |       |acc_norm_pmi  | 0.2449|±  |0.0621|
+|lighteval:global_mmlu_ca_tur_cf:college_medicine:5                   |      0|acc_norm_token| 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm      | 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_tur_cf:college_physics:5                    |      0|acc_norm_token| 0.3400|±  |0.0677|
+|                                                                     |       |acc_norm      | 0.3200|±  |0.0666|
+|                                                                     |       |acc_norm_pmi  | 0.2800|±  |0.0641|
+|lighteval:global_mmlu_ca_tur_cf:high_school_biology:5                |      0|acc_norm_token| 0.2800|±  |0.0641|
+|                                                                     |       |acc_norm      | 0.2200|±  |0.0592|
+|                                                                     |       |acc_norm_pmi  | 0.3600|±  |0.0686|
+|lighteval:global_mmlu_ca_tur_cf:high_school_chemistry:5              |      0|acc_norm_token| 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm      | 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm_pmi  | 0.2449|±  |0.0621|
+|lighteval:global_mmlu_ca_tur_cf:high_school_computer_science:5       |      0|acc_norm_token| 0.1633|±  |0.0533|
+|                                                                     |       |acc_norm      | 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_tur_cf:high_school_european_history:5       |      0|acc_norm_token| 0.2143|±  |0.1138|
+|                                                                     |       |acc_norm      | 0.2857|±  |0.1253|
+|                                                                     |       |acc_norm_pmi  | 0.3571|±  |0.1329|
+|lighteval:global_mmlu_ca_tur_cf:high_school_geography:5              |      0|acc_norm_token| 0.3462|±  |0.0951|
+|                                                                     |       |acc_norm      | 0.3077|±  |0.0923|
+|                                                                     |       |acc_norm_pmi  | 0.2308|±  |0.0843|
+|lighteval:global_mmlu_ca_tur_cf:high_school_government_and_politics:5|      0|acc_norm_token| 0.0000|±  |0.0000|
+|                                                                     |       |acc_norm      | 0.0000|±  |0.0000|
+|                                                                     |       |acc_norm_pmi  | 0.0000|±  |0.0000|
+|lighteval:global_mmlu_ca_tur_cf:high_school_macroeconomics:5         |      0|acc_norm_token| 0.2750|±  |0.0715|
+|                                                                     |       |acc_norm      | 0.3250|±  |0.0750|
+|                                                                     |       |acc_norm_pmi  | 0.2500|±  |0.0693|
+|lighteval:global_mmlu_ca_tur_cf:high_school_mathematics:5            |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.1429|±  |0.0505|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_tur_cf:high_school_microeconomics:5         |      0|acc_norm_token| 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm      | 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm_pmi  | 0.2245|±  |0.0602|
+|lighteval:global_mmlu_ca_tur_cf:high_school_physics:5                |      0|acc_norm_token| 0.3409|±  |0.0723|
+|                                                                     |       |acc_norm      | 0.4318|±  |0.0755|
+|                                                                     |       |acc_norm_pmi  | 0.2727|±  |0.0679|
+|lighteval:global_mmlu_ca_tur_cf:high_school_psychology:5             |      0|acc_norm_token| 0.1389|±  |0.0585|
+|                                                                     |       |acc_norm      | 0.1667|±  |0.0630|
+|                                                                     |       |acc_norm_pmi  | 0.1667|±  |0.0630|
+|lighteval:global_mmlu_ca_tur_cf:high_school_statistics:5             |      0|acc_norm_token| 0.2174|±  |0.0615|
+|                                                                     |       |acc_norm      | 0.2609|±  |0.0655|
+|                                                                     |       |acc_norm_pmi  | 0.2391|±  |0.0636|
+|lighteval:global_mmlu_ca_tur_cf:high_school_us_history:5             |      0|acc_norm_token| 0.4000|±  |0.2449|
+|                                                                     |       |acc_norm      | 0.4000|±  |0.2449|
+|                                                                     |       |acc_norm_pmi  | 0.6000|±  |0.2449|
+|lighteval:global_mmlu_ca_tur_cf:high_school_world_history:5          |      0|acc_norm_token| 0.2667|±  |0.1182|
+|                                                                     |       |acc_norm      | 0.3333|±  |0.1260|
+|                                                                     |       |acc_norm_pmi  | 0.4000|±  |0.1309|
+|lighteval:global_mmlu_ca_tur_cf:professional_accounting:5            |      0|acc_norm_token| 0.3056|±  |0.0779|
+|                                                                     |       |acc_norm      | 0.3333|±  |0.0797|
+|                                                                     |       |acc_norm_pmi  | 0.1944|±  |0.0669|
+|lighteval:global_mmlu_ca_tur_cf:professional_law:5                   |      0|acc_norm_token| 0.3846|±  |0.1404|
+|                                                                     |       |acc_norm      | 0.3077|±  |0.1332|
+|                                                                     |       |acc_norm_pmi  | 0.3846|±  |0.1404|
+|lighteval:global_mmlu_ca_tur_cf:professional_medicine:5              |      0|acc_norm_token| 0.2857|±  |0.0652|
+|                                                                     |       |acc_norm      | 0.3265|±  |0.0677|
+|                                                                     |       |acc_norm_pmi  | 0.2857|±  |0.0652|
+|lighteval:global_mmlu_ca_tur_cf:professional_psychology:5            |      0|acc_norm_token| 0.3889|±  |0.0824|
+|                                                                     |       |acc_norm      | 0.2778|±  |0.0757|
+|                                                                     |       |acc_norm_pmi  | 0.3056|±  |0.0779|
+|lighteval:global_mmlu_ca_zho_cf:_average:5                           |       |acc_norm_token| 0.2334|±  |0.0729|
+|                                                                     |       |acc_norm      | 0.2603|±  |0.0975|
+|                                                                     |       |acc_norm_pmi  | 0.2468|±  |0.0936|
+|lighteval:global_mmlu_ca_zho_cf:college_biology:5                    |      0|acc_norm_token| 0.3469|±  |0.0687|
+|                                                                     |       |acc_norm      | 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_zho_cf:college_chemistry:5                  |      0|acc_norm_token| 0.2041|±  |0.0582|
+|                                                                     |       |acc_norm      | 0.1633|±  |0.0533|
+|                                                                     |       |acc_norm_pmi  | 0.1837|±  |0.0559|
+|lighteval:global_mmlu_ca_zho_cf:college_computer_science:5           |      0|acc_norm_token| 0.2600|±  |0.0627|
+|                                                                     |       |acc_norm      | 0.2400|±  |0.0610|
+|                                                                     |       |acc_norm_pmi  | 0.1800|±  |0.0549|
+|lighteval:global_mmlu_ca_zho_cf:college_mathematics:5                |      0|acc_norm_token| 0.3673|±  |0.0696|
+|                                                                     |       |acc_norm      | 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_zho_cf:college_medicine:5                   |      0|acc_norm_token| 0.2449|±  |0.0621|
+|                                                                     |       |acc_norm      | 0.2857|±  |0.0652|
+|                                                                     |       |acc_norm_pmi  | 0.3673|±  |0.0696|
+|lighteval:global_mmlu_ca_zho_cf:college_physics:5                    |      0|acc_norm_token| 0.2400|±  |0.0610|
+|                                                                     |       |acc_norm      | 0.1600|±  |0.0524|
+|                                                                     |       |acc_norm_pmi  | 0.1800|±  |0.0549|
+|lighteval:global_mmlu_ca_zho_cf:high_school_biology:5                |      0|acc_norm_token| 0.3200|±  |0.0666|
+|                                                                     |       |acc_norm      | 0.3200|±  |0.0666|
+|                                                                     |       |acc_norm_pmi  | 0.3200|±  |0.0666|
+|lighteval:global_mmlu_ca_zho_cf:high_school_chemistry:5              |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm_pmi  | 0.1837|±  |0.0559|
+|lighteval:global_mmlu_ca_zho_cf:high_school_computer_science:5       |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm_pmi  | 0.2245|±  |0.0602|
+|lighteval:global_mmlu_ca_zho_cf:high_school_european_history:5       |      0|acc_norm_token| 0.2143|±  |0.1138|
+|                                                                     |       |acc_norm      | 0.2857|±  |0.1253|
+|                                                                     |       |acc_norm_pmi  | 0.0714|±  |0.0714|
+|lighteval:global_mmlu_ca_zho_cf:high_school_geography:5              |      0|acc_norm_token| 0.3462|±  |0.0951|
+|                                                                     |       |acc_norm      | 0.2692|±  |0.0887|
+|                                                                     |       |acc_norm_pmi  | 0.2692|±  |0.0887|
+|lighteval:global_mmlu_ca_zho_cf:high_school_government_and_politics:5|      0|acc_norm_token| 0.0000|±  |0.0000|
+|                                                                     |       |acc_norm      | 0.5000|±  |0.5000|
+|                                                                     |       |acc_norm_pmi  | 0.5000|±  |0.5000|
+|lighteval:global_mmlu_ca_zho_cf:high_school_macroeconomics:5         |      0|acc_norm_token| 0.1250|±  |0.0530|
+|                                                                     |       |acc_norm      | 0.1750|±  |0.0608|
+|                                                                     |       |acc_norm_pmi  | 0.2500|±  |0.0693|
+|lighteval:global_mmlu_ca_zho_cf:high_school_mathematics:5            |      0|acc_norm_token| 0.1837|±  |0.0559|
+|                                                                     |       |acc_norm      | 0.1633|±  |0.0533|
+|                                                                     |       |acc_norm_pmi  | 0.1837|±  |0.0559|
+|lighteval:global_mmlu_ca_zho_cf:high_school_microeconomics:5         |      0|acc_norm_token| 0.2245|±  |0.0602|
+|                                                                     |       |acc_norm      | 0.3061|±  |0.0665|
+|                                                                     |       |acc_norm_pmi  | 0.2041|±  |0.0582|
+|lighteval:global_mmlu_ca_zho_cf:high_school_physics:5                |      0|acc_norm_token| 0.2500|±  |0.0660|
+|                                                                     |       |acc_norm      | 0.2500|±  |0.0660|
+|                                                                     |       |acc_norm_pmi  | 0.3409|±  |0.0723|
+|lighteval:global_mmlu_ca_zho_cf:high_school_psychology:5             |      0|acc_norm_token| 0.1389|±  |0.0585|
+|                                                                     |       |acc_norm      | 0.1667|±  |0.0630|
+|                                                                     |       |acc_norm_pmi  | 0.2222|±  |0.0703|
+|lighteval:global_mmlu_ca_zho_cf:high_school_statistics:5             |      0|acc_norm_token| 0.3043|±  |0.0686|
+|                                                                     |       |acc_norm      | 0.1957|±  |0.0591|
+|                                                                     |       |acc_norm_pmi  | 0.2826|±  |0.0671|
+|lighteval:global_mmlu_ca_zho_cf:high_school_us_history:5             |      0|acc_norm_token| 0.2000|±  |0.2000|
+|                                                                     |       |acc_norm      | 0.4000|±  |0.2449|
+|                                                                     |       |acc_norm_pmi  | 0.4000|±  |0.2449|
+|lighteval:global_mmlu_ca_zho_cf:high_school_world_history:5          |      0|acc_norm_token| 0.0667|±  |0.0667|
+|                                                                     |       |acc_norm      | 0.3333|±  |0.1260|
+|                                                                     |       |acc_norm_pmi  | 0.1333|±  |0.0909|
+|lighteval:global_mmlu_ca_zho_cf:professional_accounting:5            |      0|acc_norm_token| 0.3889|±  |0.0824|
+|                                                                     |       |acc_norm      | 0.2778|±  |0.0757|
+|                                                                     |       |acc_norm_pmi  | 0.3056|±  |0.0779|
+|lighteval:global_mmlu_ca_zho_cf:professional_law:5                   |      0|acc_norm_token| 0.3077|±  |0.1332|
+|                                                                     |       |acc_norm      | 0.3077|±  |0.1332|
+|                                                                     |       |acc_norm_pmi  | 0.1538|±  |0.1042|
+|lighteval:global_mmlu_ca_zho_cf:professional_medicine:5              |      0|acc_norm_token| 0.2653|±  |0.0637|
+|                                                                     |       |acc_norm      | 0.3061|±  |0.0665|
+|                                                                     |       |acc_norm_pmi  | 0.2245|±  |0.0602|
+|lighteval:global_mmlu_ca_zho_cf:professional_psychology:5            |      0|acc_norm_token| 0.1944|±  |0.0669|
+|                                                                     |       |acc_norm      | 0.3056|±  |0.0779|
+|                                                                     |       |acc_norm_pmi  | 0.3333|±  |0.0797|
+|lighteval:mlmm_hellaswag_ara_cf:5                                    |      0|acc_norm_token| 0.2940|±  |0.0144|
+|                                                                     |       |acc_norm      | 0.2910|±  |0.0144|
+|lighteval:mlmm_hellaswag_deu_cf:5                                    |      0|acc_norm_token| 0.3070|±  |0.0146|
+|                                                                     |       |acc_norm      | 0.3220|±  |0.0148|
+|lighteval:mlmm_hellaswag_fra_cf:5                                    |      0|acc_norm_token| 0.3250|±  |0.0148|
+|                                                                     |       |acc_norm      | 0.3270|±  |0.0148|
+|lighteval:mlmm_hellaswag_hin_cf:5                                    |      0|acc_norm_token| 0.2540|±  |0.0138|
+|                                                                     |       |acc_norm      | 0.2390|±  |0.0135|
+|lighteval:mlmm_hellaswag_ita_cf:5                                    |      0|acc_norm_token| 0.3200|±  |0.0148|
+|                                                                     |       |acc_norm      | 0.3050|±  |0.0146|
+|lighteval:mlmm_hellaswag_nld_cf:5                                    |      0|acc_norm_token| 0.3190|±  |0.0147|
+|                                                                     |       |acc_norm      | 0.3070|±  |0.0146|
+|lighteval:mlmm_hellaswag_por_cf:5                                    |      0|acc_norm_token| 0.2690|±  |0.0140|
+|                                                                     |       |acc_norm      | 0.3010|±  |0.0145|
+|lighteval:mlmm_hellaswag_rus_cf:5                                    |      0|acc_norm_token| 0.3110|±  |0.0146|
+|                                                                     |       |acc_norm      | 0.3020|±  |0.0145|
+|lighteval:mlmm_hellaswag_spa_cf:5                                    |      0|acc_norm_token| 0.3210|±  |0.0148|
+|                                                                     |       |acc_norm      | 0.3310|±  |0.0149|
+|lighteval:mlmm_hellaswag_swe_cf:5                                    |      0|acc_norm_token| 0.2610|±  |0.0139|
+|                                                                     |       |acc_norm      | 0.2580|±  |0.0138|
+|lighteval:mlmm_hellaswag_zho_cf:5                                    |      0|acc_norm_token| 0.2660|±  |0.0140|
+|                                                                     |       |acc_norm      | 0.2680|±  |0.0140|
+|lighteval:xcsqa_ara_cf:5                                             |      0|acc_norm_token| 0.2700|±  |0.0140|
+|                                                                     |       |acc_norm      | 0.2550|±  |0.0138|
+|                                                                     |       |acc_norm_pmi  | 0.2830|±  |0.0143|
+|lighteval:xcsqa_deu_cf:5                                             |      0|acc_norm_token| 0.2535|±  |0.0138|
+|                                                                     |       |acc_norm      | 0.2897|±  |0.0144|
+|                                                                     |       |acc_norm_pmi  | 0.3290|±  |0.0149|
+|lighteval:xcsqa_eng_cf:5                                             |      0|acc_norm_token| 0.3120|±  |0.0147|
+|                                                                     |       |acc_norm      | 0.3410|±  |0.0150|
+|                                                                     |       |acc_norm_pmi  | 0.3790|±  |0.0153|
+|lighteval:xcsqa_fra_cf:5                                             |      0|acc_norm_token| 0.2840|±  |0.0143|
+|                                                                     |       |acc_norm      | 0.2860|±  |0.0143|
+|                                                                     |       |acc_norm_pmi  | 0.3270|±  |0.0148|
+|lighteval:xcsqa_hin_cf:5                                             |      0|acc_norm_token| 0.2010|±  |0.0127|
+|                                                                     |       |acc_norm      | 0.1830|±  |0.0122|
+|                                                                     |       |acc_norm_pmi  | 0.2150|±  |0.0130|
+|lighteval:xcsqa_ita_cf:5                                             |      0|acc_norm_token| 0.2673|±  |0.0140|
+|                                                                     |       |acc_norm      | 0.2995|±  |0.0145|
+|                                                                     |       |acc_norm_pmi  | 0.2985|±  |0.0145|
+|lighteval:xcsqa_nld_cf:5                                             |      0|acc_norm_token| 0.2830|±  |0.0143|
+|                                                                     |       |acc_norm      | 0.2990|±  |0.0145|
+|                                                                     |       |acc_norm_pmi  | 0.2950|±  |0.0144|
+|lighteval:xcsqa_por_cf:5                                             |      0|acc_norm_token| 0.2380|±  |0.0135|
+|                                                                     |       |acc_norm      | 0.2300|±  |0.0133|
+|                                                                     |       |acc_norm_pmi  | 0.2120|±  |0.0129|
+|lighteval:xcsqa_rus_cf:5                                             |      0|acc_norm_token| 0.2657|±  |0.0141|
+|                                                                     |       |acc_norm      | 0.2606|±  |0.0140|
+|                                                                     |       |acc_norm_pmi  | 0.3043|±  |0.0147|
+|lighteval:xcsqa_spa_cf:5                                             |      0|acc_norm_token| 0.2580|±  |0.0138|
+|                                                                     |       |acc_norm      | 0.2900|±  |0.0144|
+|                                                                     |       |acc_norm_pmi  | 0.3320|±  |0.0149|
+|lighteval:xcsqa_zho_cf:5                                             |      0|acc_norm_token| 0.2160|±  |0.0130|
+|                                                                     |       |acc_norm      | 0.2050|±  |0.0128|
+|                                                                     |       |acc_norm_pmi  | 0.2190|±  |0.0131|
+

@@ -1,0 +1,4 @@
+Array task 21 / Entry: hf:HPLT/hplt2c_ara_checkpoints|checkpoint_0021000|checkpoint_0021000
+Task: all | Lang: all
+HF model: HPLT/hplt2c_ara_checkpoints  revision: checkpoint_0021000  save_name: checkpoint_0021000
+INFO 04-17 15:54:25 [__init__.py:235] Automatically detected platform cuda.

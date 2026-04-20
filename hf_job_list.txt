@@ -1,0 +1,11 @@
+hf:HPLT/hplt2c_ara_checkpoints|main|checkpoint_0047684
+hf:HPLT/hplt2c_deu_checkpoints|main|checkpoint_0047684
+hf:HPLT/hplt2c_eng_checkpoints|main|checkpoint_0047684
+hf:HPLT/hplt2c_fra_checkpoints|main|checkpoint_0047684
+hf:HPLT/hplt2c_ita_checkpoints|main|checkpoint_0047684
+hf:HPLT/hplt2c_nld_checkpoints|main|checkpoint_0047684
+hf:HPLT/hplt2c_rus_checkpoints|main|checkpoint_0047684
+hf:HPLT/hplt2c_por_checkpoints|main|checkpoint_0047684
+hf:HPLT/hplt2c_spa_checkpoints|main|checkpoint_0047684
+hf:HPLT/hplt2c_tur_checkpoints|main|checkpoint_0047684
+hf:HPLT/hplt2c_zhos_checkpoints|main|checkpoint_0047684

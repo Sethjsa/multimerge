@@ -1,0 +1,140 @@
+{
+  "config_general": {
+    "lighteval_sha": "?",
+    "num_fewshot_seeds": 1,
+    "max_samples": 1000,
+    "job_id": 0,
+    "start_time": 9588555.678681308,
+    "end_time": 9588700.578959338,
+    "total_evaluation_time_secondes": "144.90027802996337",
+    "model_name": "HPLT/hplt2c_eng_checkpoints",
+    "model_sha": "",
+    "model_dtype": null,
+    "model_size": null,
+    "generation_parameters": {
+      "early_stopping": null,
+      "repetition_penalty": 1.0,
+      "frequency_penalty": 0.0,
+      "length_penalty": null,
+      "presence_penalty": 0.0,
+      "max_new_tokens": 1024,
+      "min_new_tokens": 0,
+      "seed": 42,
+      "stop_tokens": null,
+      "temperature": 1.0,
+      "top_k": 50,
+      "min_p": 0.0,
+      "top_p": 1.0,
+      "truncate_prompt": null,
+      "response_format": null
+    }
+  },
+  "results": {
+    "lighteval|xnli_eng_cf|5": {
+      "acc": 0.699,
+      "acc_stderr": 0.014512395033543155,
+      "acc_norm_token": 0.699,
+      "acc_norm_token_stderr": 0.014512395033543155,
+      "acc_norm": 0.696,
+      "acc_norm_stderr": 0.014553205687950438
+    },
+    "all": {
+      "acc": 0.699,
+      "acc_stderr": 0.014512395033543155,
+      "acc_norm_token": 0.699,
+      "acc_norm_token_stderr": 0.014512395033543155,
+      "acc_norm": 0.696,
+      "acc_norm_stderr": 0.014553205687950438
+    }
+  },
+  "versions": {
+    "lighteval|xnli_eng_cf|5": 0
+  },
+  "config_tasks": {
+    "lighteval|xnli_eng_cf": {
+      "name": "xnli_eng_cf",
+      "prompt_function": "nli_natural_prompt",
+      "hf_repo": "facebook/xnli",
+      "hf_subset": "en",
+      "metric": [
+        {
+          "metric_name": "acc",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "train",
+        "validation",
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": "train",
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1660,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    }
+  },
+  "summary_tasks": {
+    "lighteval|xnli_eng_cf|5": {
+      "hashes": {
+        "hash_examples": "9065d10a55dbb7f7",
+        "hash_full_prompts": "0d3e43a38c7ba2be",
+        "hash_input_tokens": "20e717e0d299ef7f",
+        "hash_cont_tokens": "ef993e6eac126d2f"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 2000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    }
+  },
+  "summary_general": {
+    "hashes": {
+      "hash_examples": "fc112cec7f317ea9",
+      "hash_full_prompts": "bab7360662452087",
+      "hash_input_tokens": "c9d1aa3ef97f5295",
+      "hash_cont_tokens": "a5f1383a8e50dab7"
+    },
+    "truncated": 0,
+    "non_truncated": 1000,
+    "padded": 0,
+    "non_padded": 2000,
+    "num_truncated_few_shots": 0
+  }
+}

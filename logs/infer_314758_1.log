@@ -1,0 +1,5 @@
+Array task 1 / Model: /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-6-checkpoints/checkpoint_0047684
+Task: all | Lang: all
+INFO 04-20 14:43:23 [__init__.py:235] Automatically detected platform cuda.
+Using GPUs: 1
+Output directory: ./results/merged-6-checkpoints/checkpoint_0047684

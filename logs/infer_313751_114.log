@@ -1,0 +1,4 @@
+Array task 114 / Entry: hf:HPLT/hplt2c_fra_checkpoints|checkpoint_0018000|checkpoint_0018000
+Task: all | Lang: all
+HF model: HPLT/hplt2c_fra_checkpoints  revision: checkpoint_0018000  save_name: checkpoint_0018000
+INFO 04-17 16:37:54 [__init__.py:235] Automatically detected platform cuda.

@@ -1,0 +1,491 @@
+{
+  "config_general": {
+    "lighteval_sha": "?",
+    "num_fewshot_seeds": 1,
+    "max_samples": 1000,
+    "job_id": 0,
+    "start_time": 9591732.674719252,
+    "end_time": 9591787.740377456,
+    "total_evaluation_time_secondes": "55.06565820425749",
+    "model_name": "HPLT/hplt2c_eng_checkpoints",
+    "model_sha": "",
+    "model_dtype": null,
+    "model_size": null,
+    "generation_parameters": {
+      "early_stopping": null,
+      "repetition_penalty": 1.0,
+      "frequency_penalty": 0.0,
+      "length_penalty": null,
+      "presence_penalty": 0.0,
+      "max_new_tokens": 1024,
+      "min_new_tokens": 0,
+      "seed": 42,
+      "stop_tokens": null,
+      "temperature": 1.0,
+      "top_k": 50,
+      "min_p": 0.0,
+      "top_p": 1.0,
+      "truncate_prompt": null,
+      "response_format": null
+    }
+  },
+  "results": {
+    "lighteval|mkqa_eng:binary|5": {
+      "exact_match_eng_full": 0.4492753623188406,
+      "exact_match_eng_full_stderr": 0.04249748907414036
+    },
+    "lighteval|mkqa_eng:date|5": {
+      "exact_match_eng_full": 0.06039076376554174,
+      "exact_match_eng_full_stderr": 0.010048257175892479
+    },
+    "lighteval|mkqa_eng:entity|5": {
+      "exact_match_eng_prefix": 0.038,
+      "exact_match_eng_prefix_stderr": 0.006049181150584937,
+      "f1_eng": 0.07957895029053072,
+      "f1_eng_stderr": 0.007087528107380991,
+      "exact_match_eng_full": 0.0,
+      "exact_match_eng_full_stderr": 0.0
+    },
+    "lighteval|mkqa_eng:number|5": {
+      "exact_match_eng_full": 0.04329896907216495,
+      "exact_match_eng_full_stderr": 0.009251330968512151
+    },
+    "lighteval|mkqa_eng:number_with_unit|5": {
+      "exact_match_eng_full": 0.04314720812182741,
+      "exact_match_eng_full_stderr": 0.010249499032394796
+    },
+    "lighteval|mkqa_eng:short_phrase|5": {
+      "exact_match_eng_prefix": 0.014450867052023121,
+      "exact_match_eng_prefix_stderr": 0.0064250504973976585,
+      "f1_eng": 0.05410900235891407,
+      "f1_eng_stderr": 0.008542284936311114,
+      "exact_match_eng_full": 0.0,
+      "exact_match_eng_full_stderr": 0.0
+    },
+    "lighteval|mkqa_eng:_average|5": {
+      "exact_match_eng_full": 0.09935205054639577,
+      "exact_match_eng_full_stderr": 0.012007762708489965
+    },
+    "all": {
+      "exact_match_eng_full": 0.14902807581959365,
+      "exact_match_eng_full_stderr": 0.018011644062734946,
+      "exact_match_eng_prefix": 0.02622543352601156,
+      "exact_match_eng_prefix_stderr": 0.006237115823991298,
+      "f1_eng": 0.06684397632472239,
+      "f1_eng_stderr": 0.007814906521846052
+    }
+  },
+  "versions": {
+    "lighteval|mkqa_eng:binary|5": 0,
+    "lighteval|mkqa_eng:date|5": 0,
+    "lighteval|mkqa_eng:entity|5": 0,
+    "lighteval|mkqa_eng:number|5": 0,
+    "lighteval|mkqa_eng:number_with_unit|5": 0,
+    "lighteval|mkqa_eng:short_phrase|5": 0
+  },
+  "config_tasks": {
+    "lighteval|mkqa_eng:binary": {
+      "name": "mkqa_eng:binary",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "apple/mkqa",
+      "hf_subset": "mkqa",
+      "metric": [
+        {
+          "metric_name": "exact_match_eng_full",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "325131889721ae0ed885b76ecb8011369d75abad",
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "train"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "train"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 138,
+      "effective_num_docs": 138,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mkqa_eng:date": {
+      "name": "mkqa_eng:date",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "apple/mkqa",
+      "hf_subset": "mkqa",
+      "metric": [
+        {
+          "metric_name": "exact_match_eng_full",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "325131889721ae0ed885b76ecb8011369d75abad",
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "train"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "train"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 563,
+      "effective_num_docs": 563,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mkqa_eng:entity": {
+      "name": "mkqa_eng:entity",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "apple/mkqa",
+      "hf_subset": "mkqa",
+      "metric": [
+        {
+          "metric_name": "exact_match_eng_prefix",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "f1_eng",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "325131889721ae0ed885b76ecb8011369d75abad",
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "train"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "train"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 3563,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mkqa_eng:long_answer": {
+      "name": "mkqa_eng:long_answer",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "apple/mkqa",
+      "hf_subset": "mkqa",
+      "metric": [
+        {
+          "metric_name": "exact_match_eng_prefix",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "f1_eng",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "325131889721ae0ed885b76ecb8011369d75abad",
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "train"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "train"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": -1,
+      "effective_num_docs": -1,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mkqa_eng:number": {
+      "name": "mkqa_eng:number",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "apple/mkqa",
+      "hf_subset": "mkqa",
+      "metric": [
+        {
+          "metric_name": "exact_match_eng_full",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "325131889721ae0ed885b76ecb8011369d75abad",
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "train"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "train"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 485,
+      "effective_num_docs": 485,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mkqa_eng:number_with_unit": {
+      "name": "mkqa_eng:number_with_unit",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "apple/mkqa",
+      "hf_subset": "mkqa",
+      "metric": [
+        {
+          "metric_name": "exact_match_eng_full",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "325131889721ae0ed885b76ecb8011369d75abad",
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "train"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "train"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 394,
+      "effective_num_docs": 394,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mkqa_eng:short_phrase": {
+      "name": "mkqa_eng:short_phrase",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "apple/mkqa",
+      "hf_subset": "mkqa",
+      "metric": [
+        {
+          "metric_name": "exact_match_eng_prefix",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "f1_eng",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "325131889721ae0ed885b76ecb8011369d75abad",
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "train"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "train"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 346,
+      "effective_num_docs": 346,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    }
+  },
+  "summary_tasks": {
+    "lighteval|mkqa_eng:binary|5": {
+      "hashes": {
+        "hash_examples": "3637120803053e25",
+        "hash_full_prompts": "2b0841067bf9a90d",
+        "hash_input_tokens": "1b35ef576b280477",
+        "hash_cont_tokens": "78ea0591bf57be78"
+      },
+      "truncated": 0,
+      "non_truncated": 138,
+      "padded": 0,
+      "non_padded": 138,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|mkqa_eng:date|5": {
+      "hashes": {
+        "hash_examples": "1ad278095a1657c1",
+        "hash_full_prompts": "98945e8bf7c8b731",
+        "hash_input_tokens": "a326d409bfd8ed94",
+        "hash_cont_tokens": "039ada8844b38e76"
+      },
+      "truncated": 0,
+      "non_truncated": 563,
+      "padded": 0,
+      "non_padded": 563,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|mkqa_eng:entity|5": {
+      "hashes": {
+        "hash_examples": "dd386c5deda48c65",
+        "hash_full_prompts": "f9d15f99b3c9ae15",
+        "hash_input_tokens": "6eccbe3ad45c1a17",
+        "hash_cont_tokens": "ac8623177cff5ed1"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 1000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|mkqa_eng:number|5": {
+      "hashes": {
+        "hash_examples": "dbfa1ba9f1c96880",
+        "hash_full_prompts": "e82fafd643f07e2d",
+        "hash_input_tokens": "f2a28d0debfd9dde",
+        "hash_cont_tokens": "2268f17616e0630c"
+      },
+      "truncated": 0,
+      "non_truncated": 485,
+      "padded": 0,
+      "non_padded": 485,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|mkqa_eng:number_with_unit|5": {
+      "hashes": {
+        "hash_examples": "feccdc1d9b51c839",
+        "hash_full_prompts": "207d653b2878b542",
+        "hash_input_tokens": "10134721afd79baf",
+        "hash_cont_tokens": "bf051f1630aaff32"
+      },
+      "truncated": 0,
+      "non_truncated": 394,
+      "padded": 0,
+      "non_padded": 394,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|mkqa_eng:short_phrase|5": {
+      "hashes": {
+        "hash_examples": "ac888bc04eabd08a",
+        "hash_full_prompts": "4f17d315364a2e29",
+        "hash_input_tokens": "dc59d0c55f346aaf",
+        "hash_cont_tokens": "3e139381c5b6cbc5"
+      },
+      "truncated": 0,
+      "non_truncated": 346,
+      "padded": 0,
+      "non_padded": 346,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    }
+  },
+  "summary_general": {
+    "hashes": {
+      "hash_examples": "34ed8957612ae629",
+      "hash_full_prompts": "b8050276c0264bd9",
+      "hash_input_tokens": "62bc0d08dfe0917d",
+      "hash_cont_tokens": "b42de82af8032cb9"
+    },
+    "truncated": 0,
+    "non_truncated": 2926,
+    "padded": 0,
+    "non_padded": 2926,
+    "num_truncated_few_shots": 0
+  }
+}

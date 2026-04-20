@@ -1,0 +1,33 @@
+models:
+  - model: HPLT/hplt2c_ara_checkpoints
+    parameters:
+      weight: 0.1
+  - model: HPLT/hplt2c_deu_checkpoints
+    parameters:
+      weight: 0.1
+  - model: HPLT/hplt2c_eng_checkpoints
+    parameters:
+      weight: 0.1
+  - model: HPLT/hplt2c_fra_checkpoints
+    parameters:
+      weight: 0.1
+  - model: HPLT/hplt2c_ita_checkpoints
+    parameters:
+      weight: 0.1
+  - model: HPLT/hplt2c_nld_checkpoints
+    parameters:
+      weight: 0.1
+  - model: HPLT/hplt2c_rus_checkpoints
+    parameters:
+      weight: 0.1
+  - model: HPLT/hplt2c_spa_checkpoints
+    parameters:
+      weight: 0.1
+  - model: HPLT/hplt2c_tur_checkpoints
+    parameters:
+      weight: 0.1
+  - model: HPLT/hplt2c_zhos_checkpoints
+    parameters:
+      weight: 0.1
+merge_method: linear
+dtype: float16

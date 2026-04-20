@@ -1,0 +1,38 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/mergekit/scripts/run_yaml.py", line 8, in <module>
+    from mergekit.config import MergeConfiguration
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/mergekit/config.py", line 10, in <module>
+    from mergekit.common import ModelReference
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/mergekit/common.py", line 24, in <module>
+    import peft
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/peft/__init__.py", line 17, in <module>
+    from .auto import (
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/peft/auto.py", line 21, in <module>
+    from transformers import (
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/transformers/__init__.py", line 27, in <module>
+    from . import dependency_versions_check
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/transformers/dependency_versions_check.py", line 16, in <module>
+    from .utils.versions import require_version, require_version_core
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/transformers/utils/__init__.py", line 24, in <module>
+    from .auto_docstring import (
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/transformers/utils/auto_docstring.py", line 30, in <module>
+    from .generic import ModelOutput
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/transformers/utils/generic.py", line 53, in <module>
+    import torch  # noqa: F401
+    ^^^^^^^^^^^^
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/torch/__init__.py", line 2209, in <module>
+    import torch.nn.qat
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/torch/nn/qat/__init__.py", line 7, in <module>
+    from torch.nn.qat import dynamic, modules  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/torch/nn/qat/dynamic/__init__.py", line 7, in <module>
+    from torch.nn.qat.dynamic.modules import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+object address  : 0x7ff553257340
+object refcount : 3
+object type     : 0x1605bd8
+object type name: KeyboardInterrupt
+object repr     : KeyboardInterrupt()
+lost sys.stderr

@@ -1,0 +1,1353 @@
+{
+  "model1": "hplt2c_eng_checkpoints",
+  "model2": "hplt2c_fra_checkpoints",
+  "mean_abs_diff_L2_Frobenius_norm": 2.2511367797851562,
+  "mean_abs_diff_rank": 0.0,
+  "num_compared_layers": 168,
+  "per_layer_diffs": {
+    "layers.0.mlp.down_proj.weight": {
+      "model1": 162.20462036132812,
+      "model2": 166.0994415283203,
+      "abs_diff": 3.8948211669921875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.0.mlp.gate_proj.weight": {
+      "model1": 169.39515686035156,
+      "model2": 170.98036193847656,
+      "abs_diff": 1.585205078125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.0.mlp.up_proj.weight": {
+      "model1": 169.3830108642578,
+      "model2": 170.9030303955078,
+      "abs_diff": 1.52001953125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.0.self_attn.k_proj.weight": {
+      "model1": 118.80577087402344,
+      "model2": 109.79832458496094,
+      "abs_diff": 9.0074462890625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.0.self_attn.o_proj.weight": {
+      "model1": 30.175371170043945,
+      "model2": 28.238370895385742,
+      "abs_diff": 1.9370002746582031,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.0.self_attn.q_proj.weight": {
+      "model1": 112.97084045410156,
+      "model2": 98.03399658203125,
+      "abs_diff": 14.936843872070312,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.0.self_attn.v_proj.weight": {
+      "model1": 43.89323806762695,
+      "model2": 42.87570571899414,
+      "abs_diff": 1.0175323486328125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.1.mlp.down_proj.weight": {
+      "model1": 164.68702697753906,
+      "model2": 168.8936767578125,
+      "abs_diff": 4.2066497802734375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.1.mlp.gate_proj.weight": {
+      "model1": 171.99917602539062,
+      "model2": 175.2870330810547,
+      "abs_diff": 3.2878570556640625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.1.mlp.up_proj.weight": {
+      "model1": 166.81509399414062,
+      "model2": 170.43345642089844,
+      "abs_diff": 3.6183624267578125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.1.self_attn.k_proj.weight": {
+      "model1": 95.54618072509766,
+      "model2": 102.46903228759766,
+      "abs_diff": 6.9228515625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.1.self_attn.o_proj.weight": {
+      "model1": 57.5176887512207,
+      "model2": 63.537567138671875,
+      "abs_diff": 6.019878387451172,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.1.self_attn.q_proj.weight": {
+      "model1": 96.31718444824219,
+      "model2": 104.06460571289062,
+      "abs_diff": 7.7474212646484375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.1.self_attn.v_proj.weight": {
+      "model1": 59.031944274902344,
+      "model2": 63.92875289916992,
+      "abs_diff": 4.896808624267578,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.10.mlp.down_proj.weight": {
+      "model1": 166.82701110839844,
+      "model2": 167.3263702392578,
+      "abs_diff": 0.499359130859375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.10.mlp.gate_proj.weight": {
+      "model1": 169.28733825683594,
+      "model2": 172.82972717285156,
+      "abs_diff": 3.542388916015625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.10.mlp.up_proj.weight": {
+      "model1": 175.84580993652344,
+      "model2": 174.8651885986328,
+      "abs_diff": 0.980621337890625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.10.self_attn.k_proj.weight": {
+      "model1": 81.42989349365234,
+      "model2": 86.4889907836914,
+      "abs_diff": 5.0590972900390625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.10.self_attn.o_proj.weight": {
+      "model1": 78.21827697753906,
+      "model2": 77.29771423339844,
+      "abs_diff": 0.920562744140625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.10.self_attn.q_proj.weight": {
+      "model1": 84.28093719482422,
+      "model2": 87.41910552978516,
+      "abs_diff": 3.1381683349609375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.10.self_attn.v_proj.weight": {
+      "model1": 83.418212890625,
+      "model2": 81.75118255615234,
+      "abs_diff": 1.6670303344726562,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.11.mlp.down_proj.weight": {
+      "model1": 167.63185119628906,
+      "model2": 169.44676208496094,
+      "abs_diff": 1.814910888671875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.11.mlp.gate_proj.weight": {
+      "model1": 169.2581329345703,
+      "model2": 172.99122619628906,
+      "abs_diff": 3.73309326171875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.11.mlp.up_proj.weight": {
+      "model1": 174.93435668945312,
+      "model2": 175.7864227294922,
+      "abs_diff": 0.8520660400390625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.11.self_attn.k_proj.weight": {
+      "model1": 76.79014587402344,
+      "model2": 79.582763671875,
+      "abs_diff": 2.7926177978515625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.11.self_attn.o_proj.weight": {
+      "model1": 81.10365295410156,
+      "model2": 78.34959411621094,
+      "abs_diff": 2.754058837890625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.11.self_attn.q_proj.weight": {
+      "model1": 78.70435333251953,
+      "model2": 80.97831726074219,
+      "abs_diff": 2.2739639282226562,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.11.self_attn.v_proj.weight": {
+      "model1": 87.3701171875,
+      "model2": 84.159423828125,
+      "abs_diff": 3.210693359375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.12.mlp.down_proj.weight": {
+      "model1": 168.51336669921875,
+      "model2": 169.35482788085938,
+      "abs_diff": 0.841461181640625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.12.mlp.gate_proj.weight": {
+      "model1": 169.70223999023438,
+      "model2": 172.09877014160156,
+      "abs_diff": 2.3965301513671875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.12.mlp.up_proj.weight": {
+      "model1": 176.2014617919922,
+      "model2": 175.87550354003906,
+      "abs_diff": 0.325958251953125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.12.self_attn.k_proj.weight": {
+      "model1": 78.46453857421875,
+      "model2": 79.68102264404297,
+      "abs_diff": 1.2164840698242188,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.12.self_attn.o_proj.weight": {
+      "model1": 85.32474517822266,
+      "model2": 83.27982330322266,
+      "abs_diff": 2.044921875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.12.self_attn.q_proj.weight": {
+      "model1": 81.28016662597656,
+      "model2": 81.86837768554688,
+      "abs_diff": 0.5882110595703125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.12.self_attn.v_proj.weight": {
+      "model1": 89.9076919555664,
+      "model2": 88.95536041259766,
+      "abs_diff": 0.95233154296875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.13.mlp.down_proj.weight": {
+      "model1": 169.36981201171875,
+      "model2": 170.2546844482422,
+      "abs_diff": 0.8848724365234375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.13.mlp.gate_proj.weight": {
+      "model1": 169.5853729248047,
+      "model2": 171.60711669921875,
+      "abs_diff": 2.0217437744140625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.13.mlp.up_proj.weight": {
+      "model1": 176.55648803710938,
+      "model2": 176.43795776367188,
+      "abs_diff": 0.1185302734375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.13.self_attn.k_proj.weight": {
+      "model1": 78.71509552001953,
+      "model2": 80.309326171875,
+      "abs_diff": 1.5942306518554688,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.13.self_attn.o_proj.weight": {
+      "model1": 87.0588607788086,
+      "model2": 84.44392395019531,
+      "abs_diff": 2.6149368286132812,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.13.self_attn.q_proj.weight": {
+      "model1": 80.20780181884766,
+      "model2": 81.81366729736328,
+      "abs_diff": 1.605865478515625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.13.self_attn.v_proj.weight": {
+      "model1": 93.14977264404297,
+      "model2": 87.24365234375,
+      "abs_diff": 5.906120300292969,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.14.mlp.down_proj.weight": {
+      "model1": 171.10166931152344,
+      "model2": 171.82171630859375,
+      "abs_diff": 0.7200469970703125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.14.mlp.gate_proj.weight": {
+      "model1": 169.74586486816406,
+      "model2": 171.6322479248047,
+      "abs_diff": 1.886383056640625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.14.mlp.up_proj.weight": {
+      "model1": 177.68112182617188,
+      "model2": 177.6900177001953,
+      "abs_diff": 0.0088958740234375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.14.self_attn.k_proj.weight": {
+      "model1": 74.46021270751953,
+      "model2": 74.87993621826172,
+      "abs_diff": 0.4197235107421875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.14.self_attn.o_proj.weight": {
+      "model1": 87.14057159423828,
+      "model2": 89.37150573730469,
+      "abs_diff": 2.2309341430664062,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.14.self_attn.q_proj.weight": {
+      "model1": 77.07926940917969,
+      "model2": 77.34236145019531,
+      "abs_diff": 0.263092041015625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.14.self_attn.v_proj.weight": {
+      "model1": 90.14045715332031,
+      "model2": 93.91061401367188,
+      "abs_diff": 3.7701568603515625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.15.mlp.down_proj.weight": {
+      "model1": 172.81024169921875,
+      "model2": 173.13766479492188,
+      "abs_diff": 0.327423095703125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.15.mlp.gate_proj.weight": {
+      "model1": 170.16851806640625,
+      "model2": 171.93446350097656,
+      "abs_diff": 1.7659454345703125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.15.mlp.up_proj.weight": {
+      "model1": 179.69711303710938,
+      "model2": 179.02757263183594,
+      "abs_diff": 0.6695404052734375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.15.self_attn.k_proj.weight": {
+      "model1": 73.25897216796875,
+      "model2": 75.3376693725586,
+      "abs_diff": 2.0786972045898438,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.15.self_attn.o_proj.weight": {
+      "model1": 92.63113403320312,
+      "model2": 91.77241516113281,
+      "abs_diff": 0.8587188720703125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.15.self_attn.q_proj.weight": {
+      "model1": 75.55992889404297,
+      "model2": 77.59217834472656,
+      "abs_diff": 2.0322494506835938,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.15.self_attn.v_proj.weight": {
+      "model1": 97.54146575927734,
+      "model2": 94.89353942871094,
+      "abs_diff": 2.6479263305664062,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.16.mlp.down_proj.weight": {
+      "model1": 174.41221618652344,
+      "model2": 173.99075317382812,
+      "abs_diff": 0.4214630126953125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.16.mlp.gate_proj.weight": {
+      "model1": 170.02566528320312,
+      "model2": 171.5767364501953,
+      "abs_diff": 1.5510711669921875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.16.mlp.up_proj.weight": {
+      "model1": 181.06988525390625,
+      "model2": 180.0364990234375,
+      "abs_diff": 1.03338623046875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.16.self_attn.k_proj.weight": {
+      "model1": 70.95106506347656,
+      "model2": 74.39054107666016,
+      "abs_diff": 3.4394760131835938,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.16.self_attn.o_proj.weight": {
+      "model1": 95.70214080810547,
+      "model2": 94.74307250976562,
+      "abs_diff": 0.9590682983398438,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.16.self_attn.q_proj.weight": {
+      "model1": 73.3736801147461,
+      "model2": 76.58007049560547,
+      "abs_diff": 3.206390380859375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.16.self_attn.v_proj.weight": {
+      "model1": 102.63484191894531,
+      "model2": 97.48393249511719,
+      "abs_diff": 5.150909423828125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.17.mlp.down_proj.weight": {
+      "model1": 175.64266967773438,
+      "model2": 175.57151794433594,
+      "abs_diff": 0.0711517333984375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.17.mlp.gate_proj.weight": {
+      "model1": 169.76573181152344,
+      "model2": 171.1033172607422,
+      "abs_diff": 1.33758544921875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.17.mlp.up_proj.weight": {
+      "model1": 182.441650390625,
+      "model2": 181.877197265625,
+      "abs_diff": 0.564453125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.17.self_attn.k_proj.weight": {
+      "model1": 70.21107482910156,
+      "model2": 72.26557922363281,
+      "abs_diff": 2.05450439453125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.17.self_attn.o_proj.weight": {
+      "model1": 97.54219055175781,
+      "model2": 99.46708679199219,
+      "abs_diff": 1.924896240234375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.17.self_attn.q_proj.weight": {
+      "model1": 71.92842864990234,
+      "model2": 73.90538024902344,
+      "abs_diff": 1.9769515991210938,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.17.self_attn.v_proj.weight": {
+      "model1": 106.7185287475586,
+      "model2": 105.29367065429688,
+      "abs_diff": 1.4248580932617188,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.18.mlp.down_proj.weight": {
+      "model1": 176.92185974121094,
+      "model2": 177.36636352539062,
+      "abs_diff": 0.4445037841796875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.18.mlp.gate_proj.weight": {
+      "model1": 169.47390747070312,
+      "model2": 170.30873107910156,
+      "abs_diff": 0.8348236083984375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.18.mlp.up_proj.weight": {
+      "model1": 183.92474365234375,
+      "model2": 184.0247802734375,
+      "abs_diff": 0.10003662109375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.18.self_attn.k_proj.weight": {
+      "model1": 68.10372924804688,
+      "model2": 70.71296691894531,
+      "abs_diff": 2.6092376708984375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.18.self_attn.o_proj.weight": {
+      "model1": 102.2598648071289,
+      "model2": 101.45594787597656,
+      "abs_diff": 0.8039169311523438,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.18.self_attn.q_proj.weight": {
+      "model1": 69.89579772949219,
+      "model2": 72.27156829833984,
+      "abs_diff": 2.3757705688476562,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.18.self_attn.v_proj.weight": {
+      "model1": 112.51852416992188,
+      "model2": 109.15913391113281,
+      "abs_diff": 3.3593902587890625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.19.mlp.down_proj.weight": {
+      "model1": 178.7046356201172,
+      "model2": 179.1690673828125,
+      "abs_diff": 0.4644317626953125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.19.mlp.gate_proj.weight": {
+      "model1": 168.8126678466797,
+      "model2": 169.52809143066406,
+      "abs_diff": 0.715423583984375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.19.mlp.up_proj.weight": {
+      "model1": 185.80517578125,
+      "model2": 186.4110107421875,
+      "abs_diff": 0.6058349609375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.19.self_attn.k_proj.weight": {
+      "model1": 67.2325439453125,
+      "model2": 68.19367980957031,
+      "abs_diff": 0.9611358642578125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.19.self_attn.o_proj.weight": {
+      "model1": 98.7916030883789,
+      "model2": 100.25477600097656,
+      "abs_diff": 1.4631729125976562,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.19.self_attn.q_proj.weight": {
+      "model1": 69.36157989501953,
+      "model2": 70.13043975830078,
+      "abs_diff": 0.76885986328125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.19.self_attn.v_proj.weight": {
+      "model1": 108.6655044555664,
+      "model2": 113.241455078125,
+      "abs_diff": 4.575950622558594,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.2.mlp.down_proj.weight": {
+      "model1": 165.0864715576172,
+      "model2": 169.8180694580078,
+      "abs_diff": 4.731597900390625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.2.mlp.gate_proj.weight": {
+      "model1": 174.8961639404297,
+      "model2": 177.8264923095703,
+      "abs_diff": 2.930328369140625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.2.mlp.up_proj.weight": {
+      "model1": 168.77613830566406,
+      "model2": 172.52818298339844,
+      "abs_diff": 3.752044677734375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.2.self_attn.k_proj.weight": {
+      "model1": 100.46915435791016,
+      "model2": 100.2731704711914,
+      "abs_diff": 0.19598388671875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.2.self_attn.o_proj.weight": {
+      "model1": 60.817527770996094,
+      "model2": 62.38715362548828,
+      "abs_diff": 1.5696258544921875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.2.self_attn.q_proj.weight": {
+      "model1": 103.25633239746094,
+      "model2": 103.66448211669922,
+      "abs_diff": 0.40814971923828125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.2.self_attn.v_proj.weight": {
+      "model1": 62.77771759033203,
+      "model2": 63.73387145996094,
+      "abs_diff": 0.9561538696289062,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.20.mlp.down_proj.weight": {
+      "model1": 179.79811096191406,
+      "model2": 180.29888916015625,
+      "abs_diff": 0.5007781982421875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.20.mlp.gate_proj.weight": {
+      "model1": 168.23175048828125,
+      "model2": 169.23403930664062,
+      "abs_diff": 1.002288818359375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.20.mlp.up_proj.weight": {
+      "model1": 187.64312744140625,
+      "model2": 187.78465270996094,
+      "abs_diff": 0.1415252685546875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.20.self_attn.k_proj.weight": {
+      "model1": 67.82622528076172,
+      "model2": 69.67955017089844,
+      "abs_diff": 1.8533248901367188,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.20.self_attn.o_proj.weight": {
+      "model1": 97.84004974365234,
+      "model2": 97.04570770263672,
+      "abs_diff": 0.794342041015625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.20.self_attn.q_proj.weight": {
+      "model1": 69.62005615234375,
+      "model2": 71.31466674804688,
+      "abs_diff": 1.694610595703125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.20.self_attn.v_proj.weight": {
+      "model1": 111.97122955322266,
+      "model2": 112.15496826171875,
+      "abs_diff": 0.18373870849609375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.21.mlp.down_proj.weight": {
+      "model1": 179.95506286621094,
+      "model2": 180.7176971435547,
+      "abs_diff": 0.76263427734375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.21.mlp.gate_proj.weight": {
+      "model1": 167.58248901367188,
+      "model2": 168.99847412109375,
+      "abs_diff": 1.415985107421875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.21.mlp.up_proj.weight": {
+      "model1": 188.52345275878906,
+      "model2": 188.94192504882812,
+      "abs_diff": 0.4184722900390625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.21.self_attn.k_proj.weight": {
+      "model1": 68.5289535522461,
+      "model2": 70.22572326660156,
+      "abs_diff": 1.6967697143554688,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.21.self_attn.o_proj.weight": {
+      "model1": 98.73322296142578,
+      "model2": 97.88578796386719,
+      "abs_diff": 0.8474349975585938,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.21.self_attn.q_proj.weight": {
+      "model1": 70.6607894897461,
+      "model2": 71.85709381103516,
+      "abs_diff": 1.1963043212890625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.21.self_attn.v_proj.weight": {
+      "model1": 110.10497283935547,
+      "model2": 111.19095611572266,
+      "abs_diff": 1.0859832763671875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.22.mlp.down_proj.weight": {
+      "model1": 177.66766357421875,
+      "model2": 179.86776733398438,
+      "abs_diff": 2.200103759765625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.22.mlp.gate_proj.weight": {
+      "model1": 166.89517211914062,
+      "model2": 168.7226104736328,
+      "abs_diff": 1.8274383544921875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.22.mlp.up_proj.weight": {
+      "model1": 188.31153869628906,
+      "model2": 188.78662109375,
+      "abs_diff": 0.4750823974609375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.22.self_attn.k_proj.weight": {
+      "model1": 70.5074234008789,
+      "model2": 75.05951690673828,
+      "abs_diff": 4.552093505859375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.22.self_attn.o_proj.weight": {
+      "model1": 97.36918640136719,
+      "model2": 94.08259582519531,
+      "abs_diff": 3.286590576171875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.22.self_attn.q_proj.weight": {
+      "model1": 72.06551361083984,
+      "model2": 76.60906982421875,
+      "abs_diff": 4.543556213378906,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.22.self_attn.v_proj.weight": {
+      "model1": 105.68433380126953,
+      "model2": 98.51145935058594,
+      "abs_diff": 7.172874450683594,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.23.mlp.down_proj.weight": {
+      "model1": 168.8557891845703,
+      "model2": 172.47171020507812,
+      "abs_diff": 3.6159210205078125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.23.mlp.gate_proj.weight": {
+      "model1": 164.40524291992188,
+      "model2": 167.40103149414062,
+      "abs_diff": 2.99578857421875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.23.mlp.up_proj.weight": {
+      "model1": 183.77626037597656,
+      "model2": 186.21322631835938,
+      "abs_diff": 2.4369659423828125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.23.self_attn.k_proj.weight": {
+      "model1": 72.73018646240234,
+      "model2": 75.28170013427734,
+      "abs_diff": 2.551513671875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.23.self_attn.o_proj.weight": {
+      "model1": 92.06790161132812,
+      "model2": 94.09490966796875,
+      "abs_diff": 2.027008056640625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.23.self_attn.q_proj.weight": {
+      "model1": 74.63346862792969,
+      "model2": 76.14747619628906,
+      "abs_diff": 1.514007568359375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.23.self_attn.v_proj.weight": {
+      "model1": 95.21074676513672,
+      "model2": 96.58953094482422,
+      "abs_diff": 1.3787841796875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.3.mlp.down_proj.weight": {
+      "model1": 166.437744140625,
+      "model2": 169.88059997558594,
+      "abs_diff": 3.4428558349609375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.3.mlp.gate_proj.weight": {
+      "model1": 181.9257049560547,
+      "model2": 178.31756591796875,
+      "abs_diff": 3.6081390380859375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.3.mlp.up_proj.weight": {
+      "model1": 169.02919006347656,
+      "model2": 173.3461456298828,
+      "abs_diff": 4.31695556640625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.3.self_attn.k_proj.weight": {
+      "model1": 103.14044189453125,
+      "model2": 104.17953491210938,
+      "abs_diff": 1.039093017578125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.3.self_attn.o_proj.weight": {
+      "model1": 64.24320220947266,
+      "model2": 66.63066864013672,
+      "abs_diff": 2.3874664306640625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.3.self_attn.q_proj.weight": {
+      "model1": 104.82518768310547,
+      "model2": 106.23338317871094,
+      "abs_diff": 1.4081954956054688,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.3.self_attn.v_proj.weight": {
+      "model1": 66.73622131347656,
+      "model2": 68.0109634399414,
+      "abs_diff": 1.2747421264648438,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.4.mlp.down_proj.weight": {
+      "model1": 166.81886291503906,
+      "model2": 169.6687774658203,
+      "abs_diff": 2.84991455078125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.4.mlp.gate_proj.weight": {
+      "model1": 180.28134155273438,
+      "model2": 178.3025665283203,
+      "abs_diff": 1.9787750244140625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.4.mlp.up_proj.weight": {
+      "model1": 171.07286071777344,
+      "model2": 173.32000732421875,
+      "abs_diff": 2.2471466064453125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.4.self_attn.k_proj.weight": {
+      "model1": 103.86333465576172,
+      "model2": 100.73426055908203,
+      "abs_diff": 3.1290740966796875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.4.self_attn.o_proj.weight": {
+      "model1": 64.83567810058594,
+      "model2": 65.956298828125,
+      "abs_diff": 1.1206207275390625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.4.self_attn.q_proj.weight": {
+      "model1": 104.22879791259766,
+      "model2": 102.23797607421875,
+      "abs_diff": 1.9908218383789062,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.4.self_attn.v_proj.weight": {
+      "model1": 67.24917602539062,
+      "model2": 68.45452117919922,
+      "abs_diff": 1.2053451538085938,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.5.mlp.down_proj.weight": {
+      "model1": 166.23020935058594,
+      "model2": 168.99781799316406,
+      "abs_diff": 2.767608642578125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.5.mlp.gate_proj.weight": {
+      "model1": 178.85552978515625,
+      "model2": 179.41250610351562,
+      "abs_diff": 0.556976318359375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.5.mlp.up_proj.weight": {
+      "model1": 171.3922576904297,
+      "model2": 173.148193359375,
+      "abs_diff": 1.7559356689453125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.5.self_attn.k_proj.weight": {
+      "model1": 97.96238708496094,
+      "model2": 98.78116607666016,
+      "abs_diff": 0.8187789916992188,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.5.self_attn.o_proj.weight": {
+      "model1": 65.34904479980469,
+      "model2": 69.00811767578125,
+      "abs_diff": 3.6590728759765625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.5.self_attn.q_proj.weight": {
+      "model1": 100.27268981933594,
+      "model2": 101.24227905273438,
+      "abs_diff": 0.9695892333984375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.5.self_attn.v_proj.weight": {
+      "model1": 67.45010375976562,
+      "model2": 70.33638763427734,
+      "abs_diff": 2.8862838745117188,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.6.mlp.down_proj.weight": {
+      "model1": 165.9012451171875,
+      "model2": 168.34072875976562,
+      "abs_diff": 2.439483642578125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.6.mlp.gate_proj.weight": {
+      "model1": 174.87452697753906,
+      "model2": 179.98048400878906,
+      "abs_diff": 5.10595703125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.6.mlp.up_proj.weight": {
+      "model1": 170.8372802734375,
+      "model2": 172.5718994140625,
+      "abs_diff": 1.734619140625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.6.self_attn.k_proj.weight": {
+      "model1": 96.54225158691406,
+      "model2": 98.97846221923828,
+      "abs_diff": 2.4362106323242188,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.6.self_attn.o_proj.weight": {
+      "model1": 65.25498962402344,
+      "model2": 70.03679656982422,
+      "abs_diff": 4.781806945800781,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.6.self_attn.q_proj.weight": {
+      "model1": 98.11039733886719,
+      "model2": 100.48766326904297,
+      "abs_diff": 2.3772659301757812,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.6.self_attn.v_proj.weight": {
+      "model1": 68.1893081665039,
+      "model2": 72.22789764404297,
+      "abs_diff": 4.0385894775390625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.7.mlp.down_proj.weight": {
+      "model1": 165.66543579101562,
+      "model2": 168.00918579101562,
+      "abs_diff": 2.34375,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.7.mlp.gate_proj.weight": {
+      "model1": 174.39950561523438,
+      "model2": 179.35897827148438,
+      "abs_diff": 4.95947265625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.7.mlp.up_proj.weight": {
+      "model1": 172.48153686523438,
+      "model2": 173.08811950683594,
+      "abs_diff": 0.6065826416015625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.7.self_attn.k_proj.weight": {
+      "model1": 92.81637573242188,
+      "model2": 96.94566345214844,
+      "abs_diff": 4.1292877197265625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.7.self_attn.o_proj.weight": {
+      "model1": 69.89574432373047,
+      "model2": 71.08124542236328,
+      "abs_diff": 1.1855010986328125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.7.self_attn.q_proj.weight": {
+      "model1": 95.66270446777344,
+      "model2": 98.58473205566406,
+      "abs_diff": 2.922027587890625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.7.self_attn.v_proj.weight": {
+      "model1": 70.64725494384766,
+      "model2": 72.59274291992188,
+      "abs_diff": 1.9454879760742188,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.8.mlp.down_proj.weight": {
+      "model1": 167.048828125,
+      "model2": 168.43360900878906,
+      "abs_diff": 1.3847808837890625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.8.mlp.gate_proj.weight": {
+      "model1": 171.8068084716797,
+      "model2": 176.970458984375,
+      "abs_diff": 5.1636505126953125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.8.mlp.up_proj.weight": {
+      "model1": 173.88890075683594,
+      "model2": 173.75778198242188,
+      "abs_diff": 0.1311187744140625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.8.self_attn.k_proj.weight": {
+      "model1": 93.35664367675781,
+      "model2": 96.95252990722656,
+      "abs_diff": 3.59588623046875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.8.self_attn.o_proj.weight": {
+      "model1": 73.19371032714844,
+      "model2": 71.00106048583984,
+      "abs_diff": 2.1926498413085938,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.8.self_attn.q_proj.weight": {
+      "model1": 93.86074829101562,
+      "model2": 97.94149017333984,
+      "abs_diff": 4.080741882324219,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.8.self_attn.v_proj.weight": {
+      "model1": 75.53829956054688,
+      "model2": 73.22168731689453,
+      "abs_diff": 2.3166122436523438,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.9.mlp.down_proj.weight": {
+      "model1": 166.93516540527344,
+      "model2": 168.8841552734375,
+      "abs_diff": 1.9489898681640625,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.9.mlp.gate_proj.weight": {
+      "model1": 170.29327392578125,
+      "model2": 174.95632934570312,
+      "abs_diff": 4.663055419921875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.9.mlp.up_proj.weight": {
+      "model1": 174.75442504882812,
+      "model2": 174.98184204101562,
+      "abs_diff": 0.2274169921875,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.9.self_attn.k_proj.weight": {
+      "model1": 87.08293151855469,
+      "model2": 89.18756866455078,
+      "abs_diff": 2.1046371459960938,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.9.self_attn.o_proj.weight": {
+      "model1": 75.54756927490234,
+      "model2": 75.28297424316406,
+      "abs_diff": 0.26459503173828125,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.9.self_attn.q_proj.weight": {
+      "model1": 88.32184600830078,
+      "model2": 90.57418823242188,
+      "abs_diff": 2.2523422241210938,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    },
+    "layers.9.self_attn.v_proj.weight": {
+      "model1": 79.3991470336914,
+      "model2": 78.497802734375,
+      "abs_diff": 0.9013442993164062,
+      "rank_model1": 0,
+      "rank_model2": 0,
+      "rank_abs_diff": 0
+    }
+  }
+}

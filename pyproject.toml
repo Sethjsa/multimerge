@@ -1,0 +1,21 @@
+[project]
+name = "multimerge"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets==3.6.0",
+    "emoji>=2.15.0",
+    "evaluate>=0.4.6",
+    "matplotlib>=3.10.7",
+    "mergekit>=0.1.4",
+    "pip>=25.2",
+    "ray>=2.50.0",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.16.2",
+    "seaborn>=0.13.2",
+    "torch==2.7.1",
+    "transformers==4.55.2",
+    "vllm==0.10",
+]

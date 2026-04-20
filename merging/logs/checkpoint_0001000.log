@@ -1,0 +1,25 @@
+Warmup loader cache:   0%|          | 0/10 [00:00<?, ?it/s]
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s][AFetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 7971.80it/s]
+Warmup loader cache:  10%|█         | 1/10 [01:07<10:07, 67.52s/it]
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s][A
+Fetching 7 files:  14%|█▍        | 1/7 [00:00<00:01,  3.53it/s][A
+Fetching 7 files:  43%|████▎     | 3/7 [02:40<03:58, 59.55s/it][AFetching 7 files: 100%|██████████| 7/7 [02:40<00:00, 22.98s/it]
+Warmup loader cache:  20%|██        | 2/10 [03:49<16:25, 123.17s/it]
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s][AFetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 109552.72it/s]
+Warmup loader cache:  30%|███       | 3/10 [06:44<17:08, 146.89s/it]
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s][A
+Fetching 7 files:  14%|█▍        | 1/7 [00:00<00:01,  3.01it/s][A
+Fetching 7 files:  43%|████▎     | 3/7 [02:55<04:20, 65.04s/it][AFetching 7 files: 100%|██████████| 7/7 [02:55<00:00, 25.11s/it]
+Warmup loader cache:  40%|████      | 4/10 [09:41<15:52, 158.75s/it]
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s][AFetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 8582.32it/s]
+Warmup loader cache:  50%|█████     | 5/10 [12:27<13:26, 161.31s/it]
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s][A
+Fetching 7 files:  14%|█▍        | 1/7 [00:00<00:03,  1.55it/s][A  [2m2026-04-10T13:42:16.064145Z[0m [31mERROR[0m  [31mFatal Error: "s3::get_range" api call failed (request id , retry 2): HTTP status client error (403 Forbidden) for url (https://transfer.xethub.hf.co/xorbs/default/442f6d72bf2670bbe236c6ff3b4b5d95a1206bba44af373239a90dbc8ee12630?repo_id=683d43fc073e425ec70dcd2c&X-Xet-Session-Id=01KNVKTM5S2NXMEVJ3M6ZQDPHQ&user_id=635a6196307e8109011c9182&X-Xet-Signed-Range=bytes%3D0-57903913&Expires=1775825634&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmFuc2Zlci54ZXRodWIuaGYuY28veG9yYnMvZGVmYXVsdC80NDJmNmQ3MmJmMjY3MGJiZTIzNmM2ZmYzYjRiNWQ5NWExMjA2YmJhNDRhZjM3MzIzOWE5MGRiYzhlZTEyNjMwP3JlcG9faWQ9NjgzZDQzZmMwNzNlNDI1ZWM3MGRjZDJjJlgtWGV0LVNlc3Npb24tSWQ9MDFLTlZLVE01UzJOWE1FVkozTTZaUURQSFEmdXNlcl9pZD02MzVhNjE5NjMwN2U4MTA5MDExYzkxODImWC1YZXQtU2lnbmVkLVJhbmdlPWJ5dGVzJTNEMC01NzkwMzkxMyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3NTgyNTYzNH19fV19&Signature=MEUCIGsh%7E66hNZZKg0tvvQ39sDzym8Pdfdgi9F3LaKy6OCeeAiEAnJPZhfZkiRfKFmGTclJDPeSfqdvb3YSpk4vI-rglOaA_&Key-Pair-Id=K3TGA0E1JYVXF7)[0m
+    [2;3mat[0m /home/runner/work/xet-core/xet-core/cas_client/src/retry_wrapper.rs:113
+
+  [2m2026-04-10T13:45:20.026280Z[0m [31mERROR[0m  [31mFatal Error: "s3::get_range" api call failed (request id , retry 2): HTTP status client error (403 Forbidden) for url (https://transfer.xethub.hf.co/xorbs/default/42675be0b5e5a886fe5f9b598149e8b73740b24c533109beec4251c40c889013?X-Xet-Session-Id=01KNVKTM5S2NXMEVJ3M6ZQDPHQ&user_id=635a6196307e8109011c9182&repo_id=683d43fc073e425ec70dcd2c&X-Xet-Signed-Range=bytes%3D0-58164600&Expires=1775825633&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmFuc2Zlci54ZXRodWIuaGYuY28veG9yYnMvZGVmYXVsdC80MjY3NWJlMGI1ZTVhODg2ZmU1ZjliNTk4MTQ5ZThiNzM3NDBiMjRjNTMzMTA5YmVlYzQyNTFjNDBjODg5MDEzP1gtWGV0LVNlc3Npb24tSWQ9MDFLTlZLVE01UzJOWE1FVkozTTZaUURQSFEmdXNlcl9pZD02MzVhNjE5NjMwN2U4MTA5MDExYzkxODImcmVwb19pZD02ODNkNDNmYzA3M2U0MjVlYzcwZGNkMmMmWC1YZXQtU2lnbmVkLVJhbmdlPWJ5dGVzJTNEMC01ODE2NDYwMCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3NTgyNTYzM319fV19&Signature=MEUCIC5aymtqhmMKxA8VZe009x7BWNQUdz73UntA5rKPWJMaAiEA628FqZ6aec8Dr8RjxmYsXSOoth8zjdsgEqTnB4i6mxw_&Key-Pair-Id=K3TGA0E1JYVXF7)[0m
+    [2;3mat[0m /home/runner/work/xet-core/xet-core/cas_client/src/retry_wrapper.rs:113
+
+  [2m2026-04-10T13:51:58.169207Z[0m [31mERROR[0m  [31mFatal Error: "s3::get_range" api call failed (request id , retry 2): HTTP status client error (403 Forbidden) for url (https://transfer.xethub.hf.co/xorbs/default/2d5d8de5802c2393e19819f77c34f438253118898202bb84dae48c0f8f7c96d1?X-Xet-Session-Id=01KNVKTM5S2NXMEVJ3M6ZQDPHQ&user_id=635a6196307e8109011c9182&repo_id=683d43fc073e425ec70dcd2c&X-Xet-Signed-Range=bytes%3D0-57908398&Expires=1775825633&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmFuc2Zlci54ZXRodWIuaGYuY28veG9yYnMvZGVmYXVsdC8yZDVkOGRlNTgwMmMyMzkzZTE5ODE5Zjc3YzM0ZjQzODI1MzExODg5ODIwMmJiODRkYWU0OGMwZjhmN2M5NmQxP1gtWGV0LVNlc3Npb24tSWQ9MDFLTlZLVE01UzJOWE1FVkozTTZaUURQSFEmdXNlcl9pZD02MzVhNjE5NjMwN2U4MTA5MDExYzkxODImcmVwb19pZD02ODNkNDNmYzA3M2U0MjVlYzcwZGNkMmMmWC1YZXQtU2lnbmVkLVJhbmdlPWJ5dGVzJTNEMC01NzkwODM5OCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3NTgyNTYzM319fV19&Signature=MEUCIGqmlXeeqX7aAGIv81P4pYVgVQDPT0zVK6NE-5IwhfocAiEArDByBhCV11vT0ejPbYQfj43GKgDJJQi8BMESeyqmQ3w_&Key-Pair-Id=K3TGA0E1JYVXF7)[0m
+    [2;3mat[0m /home/runner/work/xet-core/xet-core/cas_client/src/retry_wrapper.rs:113
+

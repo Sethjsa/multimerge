@@ -1,0 +1,48 @@
+/var/spool/slurm/d/job314764/slurm_script: line 11: activate: No such file or directory
+--max_samples WAS SET. THESE NUMBERS ARE ONLY PARTIAL AND SHOULD NOT BE USED FOR COMPARISON UNLESS YOU KNOW WHAT YOU ARE DOING.
+Loading pt checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+Loading pt checkpoint shards: 100% Completed | 1/1 [03:06<00:00, 186.17s/it]
+Loading pt checkpoint shards: 100% Completed | 1/1 [03:06<00:00, 186.63s/it]
+
+Capturing CUDA graph shapes:   0%|          | 0/19 [00:00<?, ?it/s]Capturing CUDA graph shapes:   5%|▌         | 1/19 [00:00<00:09,  1.92it/s]Capturing CUDA graph shapes:  11%|█         | 2/19 [00:01<00:08,  1.98it/s]Capturing CUDA graph shapes:  16%|█▌        | 3/19 [00:01<00:07,  2.00it/s]Capturing CUDA graph shapes:  21%|██        | 4/19 [00:02<00:07,  2.00it/s]Capturing CUDA graph shapes:  26%|██▋       | 5/19 [00:02<00:06,  2.01it/s]Capturing CUDA graph shapes:  32%|███▏      | 6/19 [00:02<00:06,  2.02it/s]Capturing CUDA graph shapes:  37%|███▋      | 7/19 [00:03<00:05,  2.02it/s]Capturing CUDA graph shapes:  42%|████▏     | 8/19 [00:03<00:05,  2.03it/s]Capturing CUDA graph shapes:  47%|████▋     | 9/19 [00:04<00:04,  2.04it/s]Capturing CUDA graph shapes:  53%|█████▎    | 10/19 [00:04<00:04,  2.05it/s]Capturing CUDA graph shapes:  58%|█████▊    | 11/19 [00:05<00:03,  2.05it/s]Capturing CUDA graph shapes:  63%|██████▎   | 12/19 [00:05<00:03,  2.05it/s]Capturing CUDA graph shapes:  68%|██████▊   | 13/19 [00:06<00:02,  2.05it/s]Capturing CUDA graph shapes:  74%|███████▎  | 14/19 [00:06<00:02,  2.05it/s]Capturing CUDA graph shapes:  79%|███████▉  | 15/19 [00:07<00:01,  2.01it/s]Capturing CUDA graph shapes:  84%|████████▍ | 16/19 [00:07<00:01,  2.01it/s]Capturing CUDA graph shapes:  89%|████████▉ | 17/19 [00:08<00:00,  2.02it/s]Capturing CUDA graph shapes:  95%|█████████▍| 18/19 [00:08<00:00,  2.03it/s]Capturing CUDA graph shapes: 100%|██████████| 19/19 [00:09<00:00,  2.00it/s]Capturing CUDA graph shapes: 100%|██████████| 19/19 [00:09<00:00,  2.02it/s]
+No word tokenizer found for language Language.ASSAMESE, will split on spaces.
+No word tokenizer found for language Language.ORIYA, will split on spaces.
+No word tokenizer found for language Language.EASTERN_PANJABI, will split on spaces.
+No word tokenizer found for language Language.KHMER, will split on spaces.
+Careful, the task lighteval|belebele_arb_Arab_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|belebele_deu_Latn_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|belebele_eng_Latn_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|belebele_fra_Latn_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|belebele_hin_Deva_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|belebele_ita_Latn_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|belebele_nld_Latn_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|belebele_por_Latn_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|belebele_rus_Cyrl_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|belebele_spa_Latn_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|belebele_swe_Latn_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|belebele_tur_Latn_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|belebele_zho_Hans_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|community_hellaswag_tur_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|mlmm_hellaswag_ara_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|mlmm_hellaswag_deu_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|mlmm_hellaswag_fra_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|mlmm_hellaswag_hin_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|mlmm_hellaswag_ita_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|mlmm_hellaswag_nld_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|mlmm_hellaswag_por_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|mlmm_hellaswag_rus_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|mlmm_hellaswag_spa_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|mlmm_hellaswag_swe_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|mlmm_hellaswag_zho_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|xcsqa_ara_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|xcsqa_deu_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|xcsqa_eng_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|xcsqa_fra_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|xcsqa_hin_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|xcsqa_ita_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|xcsqa_nld_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|xcsqa_por_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|xcsqa_rus_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|xcsqa_spa_cf is using evaluation data to build the few shot examples.
+Careful, the task lighteval|xcsqa_zho_cf is using evaluation data to build the few shot examples.
+slurmstepd-ilps-cn120: error: *** JOB 314764 ON ilps-cn120 CANCELLED AT 2026-04-20T14:42:18 ***

@@ -1,0 +1,222 @@
+INFO 10-17 14:48:38 [__init__.py:235] Automatically detected platform cuda.
+1
+lighteval|belebele_arb_Arab_cf
+lighteval|belebele_deu_Latn_cf
+lighteval|belebele_eng_Latn_cf
+lighteval|belebele_fra_Latn_cf
+lighteval|belebele_hin_Deva_cf
+lighteval|belebele_ita_Latn_cf
+lighteval|belebele_nld_Latn_cf
+lighteval|belebele_rus_Cyrl_cf
+lighteval|belebele_spa_Latn_cf
+lighteval|belebele_tur_Latn_cf
+lighteval|belebele_zho_Hans_cf
+lighteval|mlmm_arc_ara_cf:challenge
+lighteval|mlmm_arc_deu_cf:challenge
+leaderboard|arc:challenge
+lighteval|mlmm_arc_fra_cf:challenge
+lighteval|community_arc_hin_cf:challenge
+lighteval|mlmm_arc_ita_cf:challenge
+lighteval|mlmm_arc_nld_cf:challenge
+lighteval|mlmm_arc_rus_cf:challenge
+lighteval|mlmm_arc_spa_cf:challenge
+lighteval|community_arc_tur_cf:challenge
+lighteval|mlmm_arc_zho_cf:challenge
+lighteval|xcsqa_ara_cf
+lighteval|xcsqa_deu_cf
+lighteval|xcsqa_eng_cf
+lighteval|xcsqa_fra_cf
+lighteval|xcsqa_hin_cf
+lighteval|xcsqa_ita_cf
+lighteval|xcsqa_nld_cf
+lighteval|xcsqa_rus_cf
+lighteval|xcsqa_spa_cf
+None
+lighteval|xcsqa_zho_cf
+lighteval|mlmm_hellaswag_ara_cf
+lighteval|mlmm_hellaswag_deu_cf
+leaderboard|hellaswag
+lighteval|mlmm_hellaswag_fra_cf
+lighteval|mlmm_hellaswag_hin_cf
+lighteval|mlmm_hellaswag_ita_cf
+lighteval|mlmm_hellaswag_nld_cf
+lighteval|mlmm_hellaswag_rus_cf
+lighteval|mlmm_hellaswag_spa_cf
+lighteval|community_hellaswag_tur_cf
+lighteval|mlmm_hellaswag_zho_cf
+lighteval|flores200:eng_Latn-arb_Arab
+lighteval|flores200:eng_Latn-deu_Latn
+lighteval|flores200:fra_Latn-eng_Latn
+lighteval|flores200:eng_Latn-fra_Latn
+lighteval|flores200:eng_Latn-hin_Deva
+lighteval|flores200:eng_Latn-ita_Latn
+lighteval|flores200:eng_Latn-nld_Latn
+lighteval|flores200:eng_Latn-rus_Cyrl
+lighteval|flores200:eng_Latn-spa_Latn
+lighteval|flores200:eng_Latn-tur_Latn
+lighteval|flores200:eng_Latn-zho_Hans
+|                   Task                   |Version|    Metric    | Value |   |Stderr|
+|------------------------------------------|------:|--------------|------:|---|-----:|
+|all                                       |       |acc           | 0.2395|±  |0.0134|
+|                                          |       |acc_norm      | 0.2572|±  |0.0139|
+|                                          |       |acc_norm_token| 0.2570|±  |0.0139|
+|                                          |       |acc_norm_pmi  | 0.2305|±  |0.0133|
+|                                          |       |chrf++        |13.8198|±  |0.1402|
+|                                          |       |bleu          | 3.7076|±  |0.1625|
+|                                          |       |bleu_1        | 0.0695|±  |0.0017|
+|                                          |       |bleu_4        | 0.0005|±  |0.0001|
+|leaderboard:arc:challenge:5               |      0|acc           | 0.1890|±  |0.0124|
+|                                          |       |acc_norm      | 0.2440|±  |0.0136|
+|leaderboard:hellaswag:5                   |      0|acc           | 0.2900|±  |0.0144|
+|                                          |       |acc_norm      | 0.3120|±  |0.0147|
+|lighteval:belebele_arb_Arab_cf:5          |      0|acc_norm_token| 0.2911|±  |0.0152|
+|                                          |       |acc_norm      | 0.2911|±  |0.0152|
+|lighteval:belebele_deu_Latn_cf:5          |      0|acc_norm_token| 0.2967|±  |0.0152|
+|                                          |       |acc_norm      | 0.2878|±  |0.0151|
+|lighteval:belebele_eng_Latn_cf:5          |      0|acc_norm_token| 0.3044|±  |0.0153|
+|                                          |       |acc_norm      | 0.2811|±  |0.0150|
+|lighteval:belebele_fra_Latn_cf:5          |      0|acc_norm_token| 0.2900|±  |0.0151|
+|                                          |       |acc_norm      | 0.3033|±  |0.0153|
+|lighteval:belebele_hin_Deva_cf:5          |      0|acc_norm_token| 0.2344|±  |0.0141|
+|                                          |       |acc_norm      | 0.2444|±  |0.0143|
+|lighteval:belebele_ita_Latn_cf:5          |      0|acc_norm_token| 0.2667|±  |0.0147|
+|                                          |       |acc_norm      | 0.2778|±  |0.0149|
+|lighteval:belebele_nld_Latn_cf:5          |      0|acc_norm_token| 0.2867|±  |0.0151|
+|                                          |       |acc_norm      | 0.2978|±  |0.0153|
+|lighteval:belebele_rus_Cyrl_cf:5          |      0|acc_norm_token| 0.2722|±  |0.0148|
+|                                          |       |acc_norm      | 0.2422|±  |0.0143|
+|lighteval:belebele_spa_Latn_cf:5          |      0|acc_norm_token| 0.2822|±  |0.0150|
+|                                          |       |acc_norm      | 0.2733|±  |0.0149|
+|lighteval:belebele_tur_Latn_cf:5          |      0|acc_norm_token| 0.3344|±  |0.0157|
+|                                          |       |acc_norm      | 0.3489|±  |0.0159|
+|lighteval:belebele_zho_Hans_cf:5          |      0|acc_norm_token| 0.2567|±  |0.0146|
+|                                          |       |acc_norm      | 0.2533|±  |0.0145|
+|lighteval:community_arc_hin_cf:challenge:5|      0|acc_norm_token| 0.2450|±  |0.0136|
+|                                          |       |acc_norm      | 0.2350|±  |0.0134|
+|                                          |       |acc_norm_pmi  | 0.2410|±  |0.0135|
+|lighteval:community_arc_tur_cf:challenge:5|      0|acc_norm_token| 0.2750|±  |0.0141|
+|                                          |       |acc_norm      | 0.2670|±  |0.0140|
+|                                          |       |acc_norm_pmi  | 0.2920|±  |0.0144|
+|lighteval:community_hellaswag_tur_cf:5    |      0|acc_norm_token| 0.4440|±  |0.0157|
+|                                          |       |acc_norm      | 0.4550|±  |0.0158|
+|lighteval:flores200:_average:5            |       |chrf++        |13.8198|±  |0.1402|
+|                                          |       |bleu          | 3.7076|±  |0.1625|
+|                                          |       |bleu_1        | 0.0695|±  |0.0017|
+|                                          |       |bleu_4        | 0.0005|±  |0.0001|
+|lighteval:flores200:eng_Latn-arb_Arab:5   |      0|chrf++        | 4.6042|±  |0.2315|
+|                                          |       |bleu          | 2.7197|±  |0.3357|
+|                                          |       |bleu_1        | 0.0405|±  |0.0013|
+|                                          |       |bleu_4        | 0.0000|±  |0.0000|
+|lighteval:flores200:eng_Latn-deu_Latn:5   |      0|chrf++        | 9.6833|±  |0.1433|
+|                                          |       |bleu          | 0.2122|±  |0.1511|
+|                                          |       |bleu_1        | 0.0737|±  |0.0019|
+|                                          |       |bleu_4        | 0.0000|±  |0.0000|
+|lighteval:flores200:eng_Latn-fra_Latn:5   |      0|chrf++        |15.0164|±  |0.1414|
+|                                          |       |bleu          | 3.7374|±  |0.2013|
+|                                          |       |bleu_1        | 0.1015|±  |0.0021|
+|                                          |       |bleu_4        | 0.0002|±  |0.0001|
+|lighteval:flores200:eng_Latn-hin_Deva:5   |      0|chrf++        | 8.2181|±  |0.1313|
+|                                          |       |bleu          | 3.0410|±  |0.2129|
+|                                          |       |bleu_1        | 0.0227|±  |0.0010|
+|                                          |       |bleu_4        | 0.0000|±  |0.0000|
+|lighteval:flores200:eng_Latn-ita_Latn:5   |      0|chrf++        |18.6173|±  |0.1188|
+|                                          |       |bleu          | 1.9508|±  |0.1440|
+|                                          |       |bleu_1        | 0.0884|±  |0.0017|
+|                                          |       |bleu_4        | 0.0001|±  |0.0001|
+|lighteval:flores200:eng_Latn-nld_Latn:5   |      0|chrf++        |18.1620|±  |0.1281|
+|                                          |       |bleu          | 1.8146|±  |0.0856|
+|                                          |       |bleu_1        | 0.0461|±  |0.0013|
+|                                          |       |bleu_4        | 0.0001|±  |0.0001|
+|lighteval:flores200:eng_Latn-rus_Cyrl:5   |      0|chrf++        | 6.4876|±  |0.0480|
+|                                          |       |bleu          | 2.0525|±  |0.0306|
+|                                          |       |bleu_1        | 0.0309|±  |0.0009|
+|                                          |       |bleu_4        | 0.0000|±  |0.0000|
+|lighteval:flores200:eng_Latn-spa_Latn:5   |      0|chrf++        |16.6608|±  |0.1340|
+|                                          |       |bleu          | 1.5784|±  |0.1738|
+|                                          |       |bleu_1        | 0.0946|±  |0.0023|
+|                                          |       |bleu_4        | 0.0000|±  |0.0000|
+|lighteval:flores200:eng_Latn-tur_Latn:5   |      0|chrf++        |35.0782|±  |0.2411|
+|                                          |       |bleu          | 9.2783|±  |0.1917|
+|                                          |       |bleu_1        | 0.2019|±  |0.0033|
+|                                          |       |bleu_4        | 0.0046|±  |0.0007|
+|lighteval:flores200:eng_Latn-zho_Hans:5   |      0|chrf++        | 5.0601|±  |0.0745|
+|                                          |       |bleu          |10.6822|±  |0.1264|
+|                                          |       |bleu_1        | 0.0021|±  |0.0005|
+|                                          |       |bleu_4        | 0.0000|±  |0.0000|
+|lighteval:flores200:fra_Latn-eng_Latn:5   |      0|chrf++        |14.4294|±  |0.1500|
+|                                          |       |bleu          | 3.7165|±  |0.1349|
+|                                          |       |bleu_1        | 0.0618|±  |0.0018|
+|                                          |       |bleu_4        | 0.0002|±  |0.0001|
+|lighteval:mlmm_arc_ara_cf:challenge:5     |      0|acc_norm_token| 0.2260|±  |0.0132|
+|                                          |       |acc_norm      | 0.2260|±  |0.0132|
+|                                          |       |acc_norm_pmi  | 0.2370|±  |0.0135|
+|lighteval:mlmm_arc_deu_cf:challenge:5     |      0|acc_norm_token| 0.2300|±  |0.0133|
+|                                          |       |acc_norm      | 0.2090|±  |0.0129|
+|                                          |       |acc_norm_pmi  | 0.2460|±  |0.0136|
+|lighteval:mlmm_arc_fra_cf:challenge:5     |      0|acc_norm_token| 0.2090|±  |0.0129|
+|                                          |       |acc_norm      | 0.2350|±  |0.0134|
+|                                          |       |acc_norm_pmi  | 0.2310|±  |0.0133|
+|lighteval:mlmm_arc_ita_cf:challenge:5     |      0|acc_norm_token| 0.2020|±  |0.0127|
+|                                          |       |acc_norm      | 0.2290|±  |0.0133|
+|                                          |       |acc_norm_pmi  | 0.2160|±  |0.0130|
+|lighteval:mlmm_arc_nld_cf:challenge:5     |      0|acc_norm_token| 0.2080|±  |0.0128|
+|                                          |       |acc_norm      | 0.2050|±  |0.0128|
+|                                          |       |acc_norm_pmi  | 0.2280|±  |0.0133|
+|lighteval:mlmm_arc_rus_cf:challenge:5     |      0|acc_norm_token| 0.2210|±  |0.0131|
+|                                          |       |acc_norm      | 0.2320|±  |0.0134|
+|                                          |       |acc_norm_pmi  | 0.2450|±  |0.0136|
+|lighteval:mlmm_arc_spa_cf:challenge:5     |      0|acc_norm_token| 0.2220|±  |0.0131|
+|                                          |       |acc_norm      | 0.2390|±  |0.0135|
+|                                          |       |acc_norm_pmi  | 0.2460|±  |0.0136|
+|lighteval:mlmm_arc_zho_cf:challenge:5     |      0|acc_norm_token| 0.2430|±  |0.0136|
+|                                          |       |acc_norm      | 0.2560|±  |0.0138|
+|                                          |       |acc_norm_pmi  | 0.2540|±  |0.0138|
+|lighteval:mlmm_hellaswag_ara_cf:5         |      0|acc_norm_token| 0.2890|±  |0.0143|
+|                                          |       |acc_norm      | 0.2840|±  |0.0143|
+|lighteval:mlmm_hellaswag_deu_cf:5         |      0|acc_norm_token| 0.2770|±  |0.0142|
+|                                          |       |acc_norm      | 0.2770|±  |0.0142|
+|lighteval:mlmm_hellaswag_fra_cf:5         |      0|acc_norm_token| 0.2730|±  |0.0141|
+|                                          |       |acc_norm      | 0.2630|±  |0.0139|
+|lighteval:mlmm_hellaswag_hin_cf:5         |      0|acc_norm_token| 0.2620|±  |0.0139|
+|                                          |       |acc_norm      | 0.2250|±  |0.0132|
+|lighteval:mlmm_hellaswag_ita_cf:5         |      0|acc_norm_token| 0.2540|±  |0.0138|
+|                                          |       |acc_norm      | 0.2780|±  |0.0142|
+|lighteval:mlmm_hellaswag_nld_cf:5         |      0|acc_norm_token| 0.3020|±  |0.0145|
+|                                          |       |acc_norm      | 0.2720|±  |0.0141|
+|lighteval:mlmm_hellaswag_rus_cf:5         |      0|acc_norm_token| 0.2870|±  |0.0143|
+|                                          |       |acc_norm      | 0.2570|±  |0.0138|
+|lighteval:mlmm_hellaswag_spa_cf:5         |      0|acc_norm_token| 0.2670|±  |0.0140|
+|                                          |       |acc_norm      | 0.2650|±  |0.0140|
+|lighteval:mlmm_hellaswag_zho_cf:5         |      0|acc_norm_token| 0.2650|±  |0.0140|
+|                                          |       |acc_norm      | 0.2460|±  |0.0136|
+|lighteval:xcsqa_ara_cf:5                  |      0|acc_norm_token| 0.2060|±  |0.0128|
+|                                          |       |acc_norm      | 0.1990|±  |0.0126|
+|                                          |       |acc_norm_pmi  | 0.2070|±  |0.0128|
+|lighteval:xcsqa_deu_cf:5                  |      0|acc_norm_token| 0.2163|±  |0.0131|
+|                                          |       |acc_norm      | 0.2294|±  |0.0133|
+|                                          |       |acc_norm_pmi  | 0.2103|±  |0.0129|
+|lighteval:xcsqa_eng_cf:5                  |      0|acc_norm_token| 0.3130|±  |0.0147|
+|                                          |       |acc_norm      | 0.3090|±  |0.0146|
+|                                          |       |acc_norm_pmi  | 0.3180|±  |0.0147|
+|lighteval:xcsqa_fra_cf:5                  |      0|acc_norm_token| 0.2230|±  |0.0132|
+|                                          |       |acc_norm      | 0.2210|±  |0.0131|
+|                                          |       |acc_norm_pmi  | 0.2120|±  |0.0129|
+|lighteval:xcsqa_hin_cf:5                  |      0|acc_norm_token| 0.2110|±  |0.0129|
+|                                          |       |acc_norm      | 0.1800|±  |0.0122|
+|                                          |       |acc_norm_pmi  | 0.2060|±  |0.0128|
+|lighteval:xcsqa_ita_cf:5                  |      0|acc_norm_token| 0.1819|±  |0.0122|
+|                                          |       |acc_norm      | 0.2201|±  |0.0131|
+|                                          |       |acc_norm_pmi  | 0.1759|±  |0.0121|
+|lighteval:xcsqa_nld_cf:5                  |      0|acc_norm_token| 0.2330|±  |0.0134|
+|                                          |       |acc_norm      | 0.2370|±  |0.0135|
+|                                          |       |acc_norm_pmi  | 0.2050|±  |0.0128|
+|lighteval:xcsqa_rus_cf:5                  |      0|acc_norm_token| 0.2140|±  |0.0131|
+|                                          |       |acc_norm      | 0.2343|±  |0.0135|
+|                                          |       |acc_norm_pmi  | 0.1957|±  |0.0126|
+|lighteval:xcsqa_spa_cf:5                  |      0|acc_norm_token| 0.2040|±  |0.0127|
+|                                          |       |acc_norm      | 0.2100|±  |0.0129|
+|                                          |       |acc_norm_pmi  | 0.2280|±  |0.0133|
+|lighteval:xcsqa_zho_cf:5                  |      0|acc_norm_token| 0.2200|±  |0.0131|
+|                                          |       |acc_norm      | 0.2090|±  |0.0129|
+|                                          |       |acc_norm_pmi  | 0.2170|±  |0.0130|
+

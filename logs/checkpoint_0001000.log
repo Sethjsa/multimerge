@@ -1,0 +1,47 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/mergekit/scripts/run_yaml.py", line 8, in <module>
+    from mergekit.config import MergeConfiguration
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/mergekit/config.py", line 10, in <module>
+    from mergekit.common import ModelReference
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/mergekit/common.py", line 24, in <module>
+    import peft
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/peft/__init__.py", line 17, in <module>
+    from .auto import (
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/peft/auto.py", line 21, in <module>
+    from transformers import (
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/transformers/__init__.py", line 27, in <module>
+    from . import dependency_versions_check
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/transformers/dependency_versions_check.py", line 16, in <module>
+    from .utils.versions import require_version, require_version_core
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/transformers/utils/__init__.py", line 24, in <module>
+    from .auto_docstring import (
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/transformers/utils/auto_docstring.py", line 30, in <module>
+    from .generic import ModelOutput
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/transformers/utils/generic.py", line 53, in <module>
+    import torch  # noqa: F401
+    ^^^^^^^^^^^^
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/torch/__init__.py", line 408, in <module>
+    _load_global_deps()
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/torch/__init__.py", line 328, in _load_global_deps
+    _preload_cuda_deps("nvjitlink", "libnvJitLink.so.*[0-9]")
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/torch/__init__.py", line 291, in _preload_cuda_deps
+    candidate_lib_paths = _get_cuda_dep_paths(path, lib_folder, lib_name)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/.venv/lib/python3.12/site-packages/torch/__init__.py", line 276, in _get_cuda_dep_paths
+    nvidia_lib_paths = glob.glob(
+                       ^^^^^^^^^^
+  File "/home/saycock/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/glob.py", line 28, in glob
+    return list(iglob(pathname, root_dir=root_dir, dir_fd=dir_fd, recursive=recursive,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saycock/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/glob.py", line 97, in _iglob
+    for name in glob_in_dir(_join(root_dir, dirname), basename, dir_fd, dironly,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saycock/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/glob.py", line 106, in _glob1
+    names = _listdir(dirname, dir_fd, dironly)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saycock/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/glob.py", line 178, in _listdir
+    return list(it)
+           ^^^^^^^^
+KeyboardInterrupt

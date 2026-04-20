@@ -1,0 +1,12 @@
+hplt2c_merged10_checkpoints/
+results/details/
+mergekit
+models
+lm-evaluation-harness
+.venv
+.old-venv
+.cursor
+flores/
+token
+lm-evaluation-harness/
+multiblimp/

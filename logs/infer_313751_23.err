@@ -1,0 +1,5 @@
+usage: evaluate.py [-h] [--task TASK] [--few_shot FEW_SHOT]
+                   [--truncate_few_shot TRUNCATE_FEW_SHOT] [--lang LANG]
+                   [--model MODEL] [--output_dir OUTPUT_DIR] [--config CONFIG]
+                   [--gpus GPUS] [--revision REVISION]
+evaluate.py: error: unrecognized arguments: --output_dir_suffix checkpoint_0023000

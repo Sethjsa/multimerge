@@ -1,0 +1,5 @@
+Array task 3 / Model: hf:meta-llama/Llama-3.2-1B|main|checkpoint_1000000
+Task: all | Lang: all
+INFO 04-20 14:42:54 [__init__.py:235] Automatically detected platform cuda.
+Using GPUs: 1
+Output directory: ./results/Llama-3.2-1B|main|checkpoint_1000000

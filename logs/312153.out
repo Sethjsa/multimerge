@@ -1,0 +1,97 @@
+Fetching revision list from sethjsa/mixed-10-checkpoints...
+Found 48 checkpoints
+
+[SKIP] checkpoint_0001000 — already exists
+[SKIP] checkpoint_0002000 — already exists
+[SKIP] checkpoint_0003000 — already exists
+[SKIP] checkpoint_0004000 — already exists
+[SKIP] checkpoint_0005000 — already exists
+[SKIP] checkpoint_0006000 — already exists
+[SKIP] checkpoint_0007000 — already exists
+[SKIP] checkpoint_0008000 — already exists
+[SKIP] checkpoint_0009000 — already exists
+[SKIP] checkpoint_0010000 — already exists
+[SKIP] checkpoint_0011000 — already exists
+[SKIP] checkpoint_0012000 — already exists
+[SKIP] checkpoint_0013000 — already exists
+[SKIP] checkpoint_0014000 — already exists
+[SKIP] checkpoint_0015000 — already exists
+[SKIP] checkpoint_0016000 — already exists
+[SKIP] checkpoint_0017000 — already exists
+[SKIP] checkpoint_0018000 — already exists
+[SKIP] checkpoint_0019000 — already exists
+[SKIP] checkpoint_0020000 — already exists
+[SKIP] checkpoint_0021000 — already exists
+[SKIP] checkpoint_0022000 — already exists
+[SKIP] checkpoint_0023000 — already exists
+[SKIP] checkpoint_0024000 — already exists
+[DL]  checkpoint_0025000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0025000
+[OK]  checkpoint_0025000
+[DL]  checkpoint_0026000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0026000
+[OK]  checkpoint_0026000
+[DL]  checkpoint_0027000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0027000
+[OK]  checkpoint_0027000
+[DL]  checkpoint_0028000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0028000
+[OK]  checkpoint_0028000
+[DL]  checkpoint_0029000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0029000
+[OK]  checkpoint_0029000
+[DL]  checkpoint_0030000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0030000
+[OK]  checkpoint_0030000
+[DL]  checkpoint_0031000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0031000
+[OK]  checkpoint_0031000
+[DL]  checkpoint_0032000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0032000
+[OK]  checkpoint_0032000
+[DL]  checkpoint_0033000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0033000
+[OK]  checkpoint_0033000
+[DL]  checkpoint_0034000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0034000
+[OK]  checkpoint_0034000
+[DL]  checkpoint_0035000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0035000
+[OK]  checkpoint_0035000
+[DL]  checkpoint_0036000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0036000
+[OK]  checkpoint_0036000
+[DL]  checkpoint_0037000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0037000
+  [2m2026-04-10T12:07:03.317405Z[0m [33m WARN[0m  [33mReqwest(reqwest::Error { kind: Request, url: "https://transfer.xethub.hf.co/xorbs/default/9644c4ece7b1a84f1dc48b47bfe470db961d3faba32d94fed1e1b1b8fe38f44a?X-Xet-Session-Id=01KNVMJ1WEZRYG47F9CHBZD903&user_id=635a6196307e8109011c9182&repo_id=69d7ab72a7f99addae30e794&X-Xet-Signed-Range=bytes%3D0-57518025&Expires=1775826370&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmFuc2Zlci54ZXRodWIuaGYuY28veG9yYnMvZGVmYXVsdC85NjQ0YzRlY2U3YjFhODRmMWRjNDhiNDdiZmU0NzBkYjk2MWQzZmFiYTMyZDk0ZmVkMWUxYjFiOGZlMzhmNDRhP1gtWGV0LVNlc3Npb24tSWQ9MDFLTlZNSjFXRVpSWUc0N0Y5Q0hCWkQ5MDMmdXNlcl9pZD02MzVhNjE5NjMwN2U4MTA5MDExYzkxODImcmVwb19pZD02OWQ3YWI3MmE3Zjk5YWRkYWUzMGU3OTQmWC1YZXQtU2lnbmVkLVJhbmdlPWJ5dGVzJTNEMC01NzUxODAyNSIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3NTgyNjM3MH19fV19&Signature=MEUCIAx68-gbSNXuLKHsbaadA4w1CUXbWwVMoFvICKxmyIc1AiEAyUiy08wufm-etW-DtHll1Ph1jJFRu1QKVuyVXMteQQg_&Key-Pair-Id=K3TGA0E1JYVXF7", source: hyper_util::client::legacy::Error(SendRequest, hyper::Error(BodyWrite, Os { code: 110, kind: TimedOut, message: "Connection timed out" })) }). Retrying...[0m
+    [2;3mat[0m /home/runner/work/xet-core/xet-core/cas_client/src/http_client.rs:233
+
+  [2m2026-04-10T12:07:10.945354Z[0m [33m WARN[0m  [33mRetry attempt #0. Sleeping 2.261646632s before the next attempt[0m
+    [2;3mat[0m /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reqwest-retry-0.7.0/src/middleware.rs:171
+
+  [2m2026-04-10T12:07:10.945518Z[0m [33m WARN[0m  [33mReqwest(reqwest::Error { kind: Request, url: "https://cas-server.xethub.hf.co/reconstructions/e8fbfe61f7fbf29954a64208aa9ef0c81088b93aecfdac380266b8dce7239f73", source: hyper_util::client::legacy::Error(SendRequest, hyper::Error(BodyWrite, Os { code: 110, kind: TimedOut, message: "Connection timed out" })) }). Retrying...[0m
+    [2;3mat[0m /home/runner/work/xet-core/xet-core/cas_client/src/http_client.rs:233
+
+  [2m2026-04-10T12:07:10.945534Z[0m [33m WARN[0m  [33mRetry attempt #0. Sleeping 459.35016ms before the next attempt[0m
+    [2;3mat[0m /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reqwest-retry-0.7.0/src/middleware.rs:171
+
+  [2m2026-04-10T12:07:21.416131Z[0m [33m WARN[0m  [33mReqwest(reqwest::Error { kind: Request, url: "https://cas-server.xethub.hf.co/reconstructions/e8fbfe61f7fbf29954a64208aa9ef0c81088b93aecfdac380266b8dce7239f73", source: hyper_util::client::legacy::Error(Connect, ConnectError("dns error", Custom { kind: Uncategorized, error: "failed to lookup address information: Name or service not known" })) }). Retrying...[0m
+    [2;3mat[0m /home/runner/work/xet-core/xet-core/cas_client/src/http_client.rs:233
+
+  [2m2026-04-10T12:07:21.416174Z[0m [33m WARN[0m  [33mRetry attempt #1. Sleeping 4.728835469s before the next attempt[0m
+    [2;3mat[0m /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reqwest-retry-0.7.0/src/middleware.rs:171
+
+[OK]  checkpoint_0037000
+[DL]  checkpoint_0038000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0038000
+[OK]  checkpoint_0038000
+[DL]  checkpoint_0039000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0039000
+[OK]  checkpoint_0039000
+[DL]  checkpoint_0040000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0040000
+[OK]  checkpoint_0040000
+[DL]  checkpoint_0041000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0041000
+[OK]  checkpoint_0041000
+[DL]  checkpoint_0042000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0042000
+[OK]  checkpoint_0042000
+[DL]  checkpoint_0043000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0043000
+[OK]  checkpoint_0043000
+[DL]  checkpoint_0044000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0044000
+[OK]  checkpoint_0044000
+[DL]  checkpoint_0045000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0045000
+[OK]  checkpoint_0045000
+[DL]  checkpoint_0046000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0046000
+[OK]  checkpoint_0046000
+[DL]  checkpoint_0047000 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0047000
+[OK]  checkpoint_0047000
+[DL]  checkpoint_0047684 → /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0047684
+[OK]  checkpoint_0047684
+
+════════════════════════════════════════
+  Done: 48/48
+════════════════════════════════════════

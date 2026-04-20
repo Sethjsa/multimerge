@@ -1,0 +1,701 @@
+{
+  "config_general": {
+    "lighteval_sha": "?",
+    "num_fewshot_seeds": 1,
+    "max_samples": 1000,
+    "job_id": 0,
+    "start_time": 9592183.108809996,
+    "end_time": 9592235.25042644,
+    "total_evaluation_time_secondes": "52.1416164431721",
+    "model_name": "HPLT/hplt2c_eng_checkpoints",
+    "model_sha": "",
+    "model_dtype": null,
+    "model_size": null,
+    "generation_parameters": {
+      "early_stopping": null,
+      "repetition_penalty": 1.0,
+      "frequency_penalty": 0.0,
+      "length_penalty": null,
+      "presence_penalty": 0.0,
+      "max_new_tokens": 1024,
+      "min_new_tokens": 0,
+      "seed": 42,
+      "stop_tokens": null,
+      "temperature": 1.0,
+      "top_k": 50,
+      "min_p": 0.0,
+      "top_p": 1.0,
+      "truncate_prompt": null,
+      "response_format": null
+    }
+  },
+  "results": {
+    "lighteval|global_mmlu_ca_eng_cf:college_biology|5": {
+      "acc_norm_token": 0.32653061224489793,
+      "acc_norm_token_stderr": 0.06768622021133469,
+      "acc_norm": 0.2857142857142857,
+      "acc_norm_stderr": 0.06520506636966263,
+      "acc_norm_pmi": 0.32653061224489793,
+      "acc_norm_pmi_stderr": 0.06768622021133469
+    },
+    "lighteval|global_mmlu_ca_eng_cf:college_computer_science|5": {
+      "acc_norm_token": 0.28,
+      "acc_norm_token_stderr": 0.06414269805898185,
+      "acc_norm": 0.28,
+      "acc_norm_stderr": 0.06414269805898185,
+      "acc_norm_pmi": 0.2,
+      "acc_norm_pmi_stderr": 0.05714285714285715
+    },
+    "lighteval|global_mmlu_ca_eng_cf:college_mathematics|5": {
+      "acc_norm_token": 0.2653061224489796,
+      "acc_norm_token_stderr": 0.06372446937141223,
+      "acc_norm": 0.2653061224489796,
+      "acc_norm_stderr": 0.06372446937141221,
+      "acc_norm_pmi": 0.32653061224489793,
+      "acc_norm_pmi_stderr": 0.06768622021133469
+    },
+    "lighteval|global_mmlu_ca_eng_cf:global_facts|5": {
+      "acc_norm_token": 0.625,
+      "acc_norm_token_stderr": 0.18298126367784995,
+      "acc_norm": 0.5,
+      "acc_norm_stderr": 0.1889822365046136,
+      "acc_norm_pmi": 0.5,
+      "acc_norm_pmi_stderr": 0.1889822365046136
+    },
+    "lighteval|global_mmlu_ca_eng_cf:high_school_biology|5": {
+      "acc_norm_token": 0.36,
+      "acc_norm_token_stderr": 0.06857142857142856,
+      "acc_norm": 0.38,
+      "acc_norm_stderr": 0.06934092056863767,
+      "acc_norm_pmi": 0.34,
+      "acc_norm_pmi_stderr": 0.0676726816132972
+    },
+    "lighteval|global_mmlu_ca_eng_cf:high_school_computer_science|5": {
+      "acc_norm_token": 0.16326530612244897,
+      "acc_norm_token_stderr": 0.05334825558285076,
+      "acc_norm": 0.22448979591836735,
+      "acc_norm_stderr": 0.06022425581505364,
+      "acc_norm_pmi": 0.2653061224489796,
+      "acc_norm_pmi_stderr": 0.06372446937141221
+    },
+    "lighteval|global_mmlu_ca_eng_cf:high_school_mathematics|5": {
+      "acc_norm_token": 0.1836734693877551,
+      "acc_norm_token_stderr": 0.05589005688828227,
+      "acc_norm": 0.16326530612244897,
+      "acc_norm_stderr": 0.053348255582850765,
+      "acc_norm_pmi": 0.12244897959183673,
+      "acc_norm_pmi_stderr": 0.0473143800790597
+    },
+    "lighteval|global_mmlu_ca_eng_cf:miscellaneous|5": {
+      "acc_norm_token": 0.42857142857142855,
+      "acc_norm_token_stderr": 0.09523809523809525,
+      "acc_norm": 0.5357142857142857,
+      "acc_norm_stderr": 0.09597925890831603,
+      "acc_norm_pmi": 0.5714285714285714,
+      "acc_norm_pmi_stderr": 0.09523809523809525
+    },
+    "lighteval|global_mmlu_ca_eng_cf:_average|5": {
+      "acc_norm_token": 0.3290433673469388,
+      "acc_norm_token_stderr": 0.08144781095002944,
+      "acc_norm": 0.32931122448979594,
+      "acc_norm_stderr": 0.08261839514744104,
+      "acc_norm_pmi": 0.331530612244898,
+      "acc_norm_pmi_stderr": 0.08193089504650056
+    },
+    "all": {
+      "acc_norm_token": 0.3290433673469388,
+      "acc_norm_token_stderr": 0.08144781095002944,
+      "acc_norm": 0.32931122448979594,
+      "acc_norm_stderr": 0.08261839514744104,
+      "acc_norm_pmi": 0.331530612244898,
+      "acc_norm_pmi_stderr": 0.08193089504650057
+    }
+  },
+  "versions": {
+    "lighteval|global_mmlu_ca_eng_cf:college_biology|5": 0,
+    "lighteval|global_mmlu_ca_eng_cf:college_computer_science|5": 0,
+    "lighteval|global_mmlu_ca_eng_cf:college_mathematics|5": 0,
+    "lighteval|global_mmlu_ca_eng_cf:global_facts|5": 0,
+    "lighteval|global_mmlu_ca_eng_cf:high_school_biology|5": 0,
+    "lighteval|global_mmlu_ca_eng_cf:high_school_computer_science|5": 0,
+    "lighteval|global_mmlu_ca_eng_cf:high_school_mathematics|5": 0,
+    "lighteval|global_mmlu_ca_eng_cf:miscellaneous|5": 0
+  },
+  "config_tasks": {
+    "lighteval|global_mmlu_ca_eng_cf:college_biology": {
+      "name": "global_mmlu_ca_eng_cf:college_biology",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "CohereLabs/Global-MMLU",
+      "hf_subset": "en",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "train",
+        "validation",
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 49,
+      "effective_num_docs": 49,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|global_mmlu_ca_eng_cf:college_computer_science": {
+      "name": "global_mmlu_ca_eng_cf:college_computer_science",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "CohereLabs/Global-MMLU",
+      "hf_subset": "en",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "train",
+        "validation",
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 50,
+      "effective_num_docs": 50,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|global_mmlu_ca_eng_cf:college_mathematics": {
+      "name": "global_mmlu_ca_eng_cf:college_mathematics",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "CohereLabs/Global-MMLU",
+      "hf_subset": "en",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "train",
+        "validation",
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 49,
+      "effective_num_docs": 49,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|global_mmlu_ca_eng_cf:global_facts": {
+      "name": "global_mmlu_ca_eng_cf:global_facts",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "CohereLabs/Global-MMLU",
+      "hf_subset": "en",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "train",
+        "validation",
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 8,
+      "effective_num_docs": 8,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|global_mmlu_ca_eng_cf:high_school_biology": {
+      "name": "global_mmlu_ca_eng_cf:high_school_biology",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "CohereLabs/Global-MMLU",
+      "hf_subset": "en",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "train",
+        "validation",
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 50,
+      "effective_num_docs": 50,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|global_mmlu_ca_eng_cf:high_school_computer_science": {
+      "name": "global_mmlu_ca_eng_cf:high_school_computer_science",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "CohereLabs/Global-MMLU",
+      "hf_subset": "en",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "train",
+        "validation",
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 49,
+      "effective_num_docs": 49,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|global_mmlu_ca_eng_cf:high_school_mathematics": {
+      "name": "global_mmlu_ca_eng_cf:high_school_mathematics",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "CohereLabs/Global-MMLU",
+      "hf_subset": "en",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "train",
+        "validation",
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 49,
+      "effective_num_docs": 49,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|global_mmlu_ca_eng_cf:miscellaneous": {
+      "name": "global_mmlu_ca_eng_cf:miscellaneous",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "CohereLabs/Global-MMLU",
+      "hf_subset": "en",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "train",
+        "validation",
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 28,
+      "effective_num_docs": 28,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    }
+  },
+  "summary_tasks": {
+    "lighteval|global_mmlu_ca_eng_cf:college_biology|5": {
+      "hashes": {
+        "hash_examples": "6e81c96913a89ecf",
+        "hash_full_prompts": "6e81c96913a89ecf",
+        "hash_input_tokens": "53e6547949015346",
+        "hash_cont_tokens": "bb1229058e4453a9"
+      },
+      "truncated": 0,
+      "non_truncated": 98,
+      "padded": 0,
+      "non_padded": 588,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|global_mmlu_ca_eng_cf:college_computer_science|5": {
+      "hashes": {
+        "hash_examples": "e2668a3c243406e8",
+        "hash_full_prompts": "e2668a3c243406e8",
+        "hash_input_tokens": "4128b1e933ad06a3",
+        "hash_cont_tokens": "e220abb3037fc5c8"
+      },
+      "truncated": 0,
+      "non_truncated": 100,
+      "padded": 0,
+      "non_padded": 600,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|global_mmlu_ca_eng_cf:college_mathematics|5": {
+      "hashes": {
+        "hash_examples": "4557ce992e9b25e3",
+        "hash_full_prompts": "4557ce992e9b25e3",
+        "hash_input_tokens": "923b8cb8ef0191ab",
+        "hash_cont_tokens": "8892bb34d7068fc8"
+      },
+      "truncated": 0,
+      "non_truncated": 98,
+      "padded": 0,
+      "non_padded": 588,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|global_mmlu_ca_eng_cf:global_facts|5": {
+      "hashes": {
+        "hash_examples": "f26943e7ea49d05f",
+        "hash_full_prompts": "f26943e7ea49d05f",
+        "hash_input_tokens": "c283df13644fe1f3",
+        "hash_cont_tokens": "333968cbb93b97f4"
+      },
+      "truncated": 0,
+      "non_truncated": 16,
+      "padded": 0,
+      "non_padded": 96,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|global_mmlu_ca_eng_cf:high_school_biology|5": {
+      "hashes": {
+        "hash_examples": "97b7a464ac9dcf09",
+        "hash_full_prompts": "97b7a464ac9dcf09",
+        "hash_input_tokens": "6c86f174e0520bc3",
+        "hash_cont_tokens": "74542c49ea169890"
+      },
+      "truncated": 0,
+      "non_truncated": 100,
+      "padded": 0,
+      "non_padded": 600,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|global_mmlu_ca_eng_cf:high_school_computer_science|5": {
+      "hashes": {
+        "hash_examples": "ab124ca0d1579c05",
+        "hash_full_prompts": "ab124ca0d1579c05",
+        "hash_input_tokens": "cacfed0b3eb756d4",
+        "hash_cont_tokens": "fc307dfefc69f089"
+      },
+      "truncated": 0,
+      "non_truncated": 98,
+      "padded": 0,
+      "non_padded": 588,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|global_mmlu_ca_eng_cf:high_school_mathematics|5": {
+      "hashes": {
+        "hash_examples": "3ccdef233b5e093d",
+        "hash_full_prompts": "3ccdef233b5e093d",
+        "hash_input_tokens": "c871bc997c40ef87",
+        "hash_cont_tokens": "5ac9bf0c76f25452"
+      },
+      "truncated": 0,
+      "non_truncated": 98,
+      "padded": 0,
+      "non_padded": 588,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|global_mmlu_ca_eng_cf:miscellaneous|5": {
+      "hashes": {
+        "hash_examples": "6b27b5387c0c1b07",
+        "hash_full_prompts": "6b27b5387c0c1b07",
+        "hash_input_tokens": "08cfbc1225b01a5f",
+        "hash_cont_tokens": "e7df8bb3b0bb29e6"
+      },
+      "truncated": 0,
+      "non_truncated": 56,
+      "padded": 0,
+      "non_padded": 336,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    }
+  },
+  "summary_general": {
+    "hashes": {
+      "hash_examples": "68c893e3be975d32",
+      "hash_full_prompts": "68c893e3be975d32",
+      "hash_input_tokens": "b910ca553c64c87e",
+      "hash_cont_tokens": "ad1e80589a3e2f86"
+    },
+    "truncated": 0,
+    "non_truncated": 664,
+    "padded": 0,
+    "non_padded": 3984,
+    "num_truncated_few_shots": 0
+  }
+}
