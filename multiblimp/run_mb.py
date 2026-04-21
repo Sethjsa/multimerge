@@ -14,6 +14,9 @@ os.environ['MKL_THREADING_LAYER'] = 'GNU'
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--local', action='store_true', help='Use local models instead of HuggingFace models')
+parser.add_argument('--test_langs', nargs="+", help='List of languages to evaluate', default=[])
+parser.add_argument('--model_langs', nargs="+", help='List of languages to evaluate', default=[])
+parser.add_argument('--mixed_models', action='store_true', help='Use mixed models instead of merged models')
 args = parser.parse_args()
 
 checkpoints = ["checkpoint_0001000", "checkpoint_0002000", "checkpoint_0003000", "checkpoint_0004000",
@@ -47,13 +50,19 @@ language_map = {
     'spa': 'spa',
     'fra': 'fra',
     'rus': 'rus',
-    'hin': 'hin',
     'ita': 'ita',
     'por': 'por',
     'tur': 'tur',
     'ara': 'arb',
+    'deu': 'deu',
     # 'zhos': 'zho',
 }
+
+if args.test_langs:
+    language_map = {lang: lang for lang in args.test_langs}
+else:
+    language_map = language_map
+
 
 hf_models = ["HPLT/hplt2c_eng_checkpoints",
              "HPLT/hplt2c_nld_checkpoints",
@@ -61,17 +70,28 @@ hf_models = ["HPLT/hplt2c_eng_checkpoints",
              "HPLT/hplt2c_fra_checkpoints",
              "HPLT/hplt2c_rus_checkpoints",
              "HPLT/hplt2c_tur_checkpoints",
-             "HPLT/hplt2c_hin_checkpoints",
              "HPLT/hplt2c_ita_checkpoints",
              "HPLT/hplt2c_por_checkpoints",
-             "HPLT/hplt2c_ara_checkpoints"]
+             "HPLT/hplt2c_ara_checkpoints",
+             "HPLT/hplt2c_deu_checkpoints"]
 
-local_models = ["/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-2-checkpoints",
-                "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-4-checkpoints",
-                "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-6-checkpoints",
-                "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-8-checkpoints",
-                "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-10-checkpoints",
-                "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints"]
+if args.mixed_models:
+    local_models = ["/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints"]
+else:
+    local_models = ["/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-10-checkpoints"]
+
+# local_models = ["/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-10-checkpoints",
+#                 "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints",
+#                 "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-2-checkpoints",
+#                 "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-4-checkpoints",
+#                 "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-6-checkpoints",
+#                 "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-8-checkpoints"]
+
+if args.model_langs:
+    print("Model languages: ", args.model_langs)
+    hf_models = [f"HPLT/hplt2c_{lang}_checkpoints" for lang in args.model_langs]
+else:
+    hf_models = hf_models
 
 # Select model list and results CSV based on flag
 if args.local:
@@ -80,6 +100,12 @@ if args.local:
 else:
     models = hf_models
     results_csv = 'multiblimp/results/all_multiblimp_results.csv'
+
+print("Models: ", models)
+print("Test languages: ", language_map.keys())
+
+os.makedirs(f"multiblimp/results", exist_ok=True)
+
 
 # create results dataframe
 results = pd.DataFrame(columns=['model', 'checkpoint'] + list(language_map.keys()))
@@ -104,11 +130,12 @@ for model in models:
         for model_lang, test_lang in language_map.items():
             l1_iso_str = model_lang
             try:
+                os.makedirs(f"multiblimp/results/{results_str}", exist_ok=True)
                 subprocess.run([
                     "python", "multiblimp/scripts/lm_eval/eval_model.py",
                     "--model_name", m_str,
                     "--revision", c_str,
-                    "--data_dir", f"multiblimp/hf_cache/{l1_iso_str}/",
+                    "--data_dir", f"multiblimp/hf_cache/{test_lang}/",
                     "--src_dir", "multiblimp",
                     "--results_dir", f"multiblimp/results/{results_str}/",
                     "--hf_token", "./token"
@@ -130,6 +157,15 @@ for model in models:
             correct_predictions = len(df[df['delta'] > 0])
             test_lang_accuracy = correct_predictions / total_samples
             lang_accuracy[model_lang] = test_lang_accuracy
+
+        per_ckpt_results = pd.DataFrame([{
+            "model": m_str,
+            "checkpoint": c_str,
+            **lang_accuracy
+        }])
+        os.makedirs(f"multiblimp/results/{results_str}", exist_ok=True)
+        per_ckpt_results_path = f"multiblimp/results/{results_str}/all.csv"  # E.g., .../eng_checkpoint_0001000.csv
+        per_ckpt_results.to_csv(per_ckpt_results_path, index=False)
 
         row_data = {'model': m_str, 'checkpoint': c_str}
         for model_lang in language_map.keys():

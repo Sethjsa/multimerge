@@ -1,0 +1,3844 @@
+{
+  "config_general": {
+    "lighteval_sha": "?",
+    "num_fewshot_seeds": 1,
+    "max_samples": 1000,
+    "job_id": 0,
+    "start_time": 1457175.146288547,
+    "end_time": 1462597.797268628,
+    "total_evaluation_time_secondes": "5422.650980080944",
+    "model_name": "HPLT/hplt2c_spa_checkpoints",
+    "model_sha": "",
+    "model_dtype": null,
+    "model_size": null,
+    "generation_parameters": {
+      "early_stopping": null,
+      "repetition_penalty": 1.0,
+      "frequency_penalty": 0.0,
+      "length_penalty": null,
+      "presence_penalty": 0.0,
+      "max_new_tokens": 256,
+      "min_new_tokens": 0,
+      "seed": 42,
+      "stop_tokens": null,
+      "temperature": 1.0,
+      "top_k": 50,
+      "min_p": 0.0,
+      "top_p": 1.0,
+      "truncate_prompt": null,
+      "response_format": null
+    }
+  },
+  "results": {
+    "leaderboard|hellaswag|5": {
+      "acc": 0.338,
+      "acc_stderr": 0.014965960710224489,
+      "acc_norm": 0.395,
+      "acc_norm_stderr": 0.015466551464829344
+    },
+    "lighteval|belebele_arb_Arab_cf|5": {
+      "acc_norm_token": 0.27444444444444444,
+      "acc_norm_token_stderr": 0.01488273373639155,
+      "acc_norm": 0.26666666666666666,
+      "acc_norm_stderr": 0.014748750651470873
+    },
+    "lighteval|belebele_deu_Latn_cf|5": {
+      "acc_norm_token": 0.3088888888888889,
+      "acc_norm_token_stderr": 0.015409737297257873,
+      "acc_norm": 0.29777777777777775,
+      "acc_norm_stderr": 0.015251184707151122
+    },
+    "lighteval|belebele_eng_Latn_cf|5": {
+      "acc_norm_token": 0.34,
+      "acc_norm_token_stderr": 0.0157990720781855,
+      "acc_norm": 0.3433333333333333,
+      "acc_norm_stderr": 0.015836187124508298
+    },
+    "lighteval|belebele_fra_Latn_cf|5": {
+      "acc_norm_token": 0.3244444444444444,
+      "acc_norm_token_stderr": 0.015614240345671307,
+      "acc_norm": 0.32666666666666666,
+      "acc_norm_stderr": 0.015641832177046875
+    },
+    "lighteval|belebele_hin_Deva_cf|5": {
+      "acc_norm_token": 0.25,
+      "acc_norm_token_stderr": 0.014441782171967503,
+      "acc_norm": 0.24555555555555555,
+      "acc_norm_stderr": 0.014355180865342957
+    },
+    "lighteval|belebele_ita_Latn_cf|5": {
+      "acc_norm_token": 0.32222222222222224,
+      "acc_norm_token_stderr": 0.015586247243841552,
+      "acc_norm": 0.31444444444444447,
+      "acc_norm_stderr": 0.015485079682471432
+    },
+    "lighteval|belebele_nld_Latn_cf|5": {
+      "acc_norm_token": 0.3011111111111111,
+      "acc_norm_token_stderr": 0.015299865495440934,
+      "acc_norm": 0.3111111111111111,
+      "acc_norm_stderr": 0.015440185195103361
+    },
+    "lighteval|belebele_por_Latn_cf|5": {
+      "acc_norm_token": 0.3277777777777778,
+      "acc_norm_token_stderr": 0.01565547828053351,
+      "acc_norm": 0.3388888888888889,
+      "acc_norm_stderr": 0.01578650702624218
+    },
+    "lighteval|belebele_rus_Cyrl_cf|5": {
+      "acc_norm_token": 0.24444444444444444,
+      "acc_norm_token_stderr": 0.014333209259632414,
+      "acc_norm": 0.22666666666666666,
+      "acc_norm_stderr": 0.013963598349030484
+    },
+    "lighteval|belebele_spa_Latn_cf|5": {
+      "acc_norm_token": 0.4088888888888889,
+      "acc_norm_token_stderr": 0.016396734713600234,
+      "acc_norm": 0.4077777777777778,
+      "acc_norm_stderr": 0.016389823673665004
+    },
+    "lighteval|belebele_swe_Latn_cf|5": {
+      "acc_norm_token": 0.2777777777777778,
+      "acc_norm_token_stderr": 0.01493840836364279,
+      "acc_norm": 0.30333333333333334,
+      "acc_norm_stderr": 0.01533178564193397
+    },
+    "lighteval|belebele_tur_Latn_cf|5": {
+      "acc_norm_token": 0.2688888888888889,
+      "acc_norm_token_stderr": 0.014787619747567614,
+      "acc_norm": 0.27555555555555555,
+      "acc_norm_stderr": 0.014901407215241901
+    },
+    "lighteval|belebele_zho_Hans_cf|5": {
+      "acc_norm_token": 0.2633333333333333,
+      "acc_norm_token_stderr": 0.014689553047342518,
+      "acc_norm": 0.24888888888888888,
+      "acc_norm_stderr": 0.014420323451642519
+    },
+    "lighteval|community_hellaswag_tur_cf|5": {
+      "acc_norm_token": 0.308,
+      "acc_norm_token_stderr": 0.014606483127342763,
+      "acc_norm": 0.309,
+      "acc_norm_stderr": 0.014619600977206493
+    },
+    "lighteval|mlmm_hellaswag_ara_cf|5": {
+      "acc_norm_token": 0.261,
+      "acc_norm_token_stderr": 0.013895037677965119,
+      "acc_norm": 0.282,
+      "acc_norm_stderr": 0.014236526215291341
+    },
+    "lighteval|mlmm_hellaswag_deu_cf|5": {
+      "acc_norm_token": 0.285,
+      "acc_norm_token_stderr": 0.014282120955200477,
+      "acc_norm": 0.267,
+      "acc_norm_stderr": 0.013996674851796271
+    },
+    "lighteval|mlmm_hellaswag_fra_cf|5": {
+      "acc_norm_token": 0.333,
+      "acc_norm_token_stderr": 0.014910846164229868,
+      "acc_norm": 0.34,
+      "acc_norm_stderr": 0.014987482264363935
+    },
+    "lighteval|mlmm_hellaswag_hin_cf|5": {
+      "acc_norm_token": 0.261,
+      "acc_norm_token_stderr": 0.013895037677965133,
+      "acc_norm": 0.23,
+      "acc_norm_stderr": 0.013314551335935945
+    },
+    "lighteval|mlmm_hellaswag_ita_cf|5": {
+      "acc_norm_token": 0.329,
+      "acc_norm_token_stderr": 0.014865395385928366,
+      "acc_norm": 0.326,
+      "acc_norm_stderr": 0.01483050720454104
+    },
+    "lighteval|mlmm_hellaswag_nld_cf|5": {
+      "acc_norm_token": 0.302,
+      "acc_norm_token_stderr": 0.014526080235459544,
+      "acc_norm": 0.285,
+      "acc_norm_stderr": 0.01428212095520048
+    },
+    "lighteval|mlmm_hellaswag_por_cf|5": {
+      "acc_norm_token": 0.382,
+      "acc_norm_token_stderr": 0.01537245303496853,
+      "acc_norm": 0.373,
+      "acc_norm_stderr": 0.01530049362292281
+    },
+    "lighteval|mlmm_hellaswag_rus_cf|5": {
+      "acc_norm_token": 0.281,
+      "acc_norm_token_stderr": 0.014221154708434934,
+      "acc_norm": 0.259,
+      "acc_norm_stderr": 0.013860415257527911
+    },
+    "lighteval|mlmm_hellaswag_spa_cf|5": {
+      "acc_norm_token": 0.505,
+      "acc_norm_token_stderr": 0.01581850894443666,
+      "acc_norm": 0.51,
+      "acc_norm_stderr": 0.015816135752773207
+    },
+    "lighteval|mlmm_hellaswag_swe_cf|5": {
+      "acc_norm_token": 0.254,
+      "acc_norm_token_stderr": 0.013772206565168537,
+      "acc_norm": 0.274,
+      "acc_norm_stderr": 0.014111099288259587
+    },
+    "lighteval|mlmm_hellaswag_zho_cf|5": {
+      "acc_norm_token": 0.265,
+      "acc_norm_token_stderr": 0.013963164754809944,
+      "acc_norm": 0.274,
+      "acc_norm_stderr": 0.014111099288259587
+    },
+    "lighteval|xcsqa_ara_cf|5": {
+      "acc_norm_token": 0.22,
+      "acc_norm_token_stderr": 0.013106173040661785,
+      "acc_norm": 0.195,
+      "acc_norm_stderr": 0.012535235623319327,
+      "acc_norm_pmi": 0.227,
+      "acc_norm_pmi_stderr": 0.013253174964763918
+    },
+    "lighteval|xcsqa_deu_cf|5": {
+      "acc_norm_token": 0.22334004024144868,
+      "acc_norm_token_stderr": 0.013216733369220529,
+      "acc_norm": 0.22736418511066397,
+      "acc_norm_stderr": 0.013300679265439127,
+      "acc_norm_pmi": 0.24245472837022133,
+      "acc_norm_pmi_stderr": 0.013600190784943084
+    },
+    "lighteval|xcsqa_eng_cf|5": {
+      "acc_norm_token": 0.334,
+      "acc_norm_token_stderr": 0.014922019523732961,
+      "acc_norm": 0.317,
+      "acc_norm_stderr": 0.014721675438880226,
+      "acc_norm_pmi": 0.355,
+      "acc_norm_pmi_stderr": 0.01513949154378053
+    },
+    "lighteval|xcsqa_fra_cf|5": {
+      "acc_norm_token": 0.252,
+      "acc_norm_token_stderr": 0.013736254390651131,
+      "acc_norm": 0.266,
+      "acc_norm_stderr": 0.013979965645145151,
+      "acc_norm_pmi": 0.3,
+      "acc_norm_pmi_stderr": 0.014498627873361428
+    },
+    "lighteval|xcsqa_hin_cf|5": {
+      "acc_norm_token": 0.204,
+      "acc_norm_token_stderr": 0.012749374359024379,
+      "acc_norm": 0.181,
+      "acc_norm_stderr": 0.012181436179177907,
+      "acc_norm_pmi": 0.219,
+      "acc_norm_pmi_stderr": 0.013084731950262031
+    },
+    "lighteval|xcsqa_ita_cf|5": {
+      "acc_norm_token": 0.23919597989949748,
+      "acc_norm_token_stderr": 0.01353069626991558,
+      "acc_norm": 0.29447236180904524,
+      "acc_norm_stderr": 0.014457263390006194,
+      "acc_norm_pmi": 0.28442211055276384,
+      "acc_norm_pmi_stderr": 0.014309252314227767
+    },
+    "lighteval|xcsqa_nld_cf|5": {
+      "acc_norm_token": 0.202,
+      "acc_norm_token_stderr": 0.012702651587655113,
+      "acc_norm": 0.224,
+      "acc_norm_stderr": 0.013190830072364466,
+      "acc_norm_pmi": 0.2,
+      "acc_norm_pmi_stderr": 0.01265543994336665
+    },
+    "lighteval|xcsqa_por_cf|5": {
+      "acc_norm_token": 0.291,
+      "acc_norm_token_stderr": 0.01437099598237793,
+      "acc_norm": 0.288,
+      "acc_norm_stderr": 0.014326941797231561,
+      "acc_norm_pmi": 0.283,
+      "acc_norm_pmi_stderr": 0.014251810906481747
+    },
+    "lighteval|xcsqa_rus_cf|5": {
+      "acc_norm_token": 0.19675456389452334,
+      "acc_norm_token_stderr": 0.01266684410478085,
+      "acc_norm": 0.2332657200811359,
+      "acc_norm_stderr": 0.013475031390719547,
+      "acc_norm_pmi": 0.2332657200811359,
+      "acc_norm_pmi_stderr": 0.013475031390719549
+    },
+    "lighteval|xcsqa_spa_cf|5": {
+      "acc_norm_token": 0.352,
+      "acc_norm_token_stderr": 0.015110404505648668,
+      "acc_norm": 0.381,
+      "acc_norm_stderr": 0.015364734787007436,
+      "acc_norm_pmi": 0.39,
+      "acc_norm_pmi_stderr": 0.015431725053866606
+    },
+    "lighteval|xcsqa_zho_cf|5": {
+      "acc_norm_token": 0.238,
+      "acc_norm_token_stderr": 0.013473586661967228,
+      "acc_norm": 0.226,
+      "acc_norm_stderr": 0.01323250161908534,
+      "acc_norm_pmi": 0.227,
+      "acc_norm_pmi_stderr": 0.01325317496476391
+    },
+    "lighteval|flores200:eng_Latn-arb_Arab|5": {
+      "chrf++": 16.78874746956041,
+      "chrf++_stderr": 0.16275747284784048,
+      "bleu": 2.928229116637684,
+      "bleu_stderr": 0.13180827700944678,
+      "bleu_1": 0.07789105661758024,
+      "bleu_1_stderr": 0.0015308803690669383,
+      "bleu_4": 1.839075197174639e-308,
+      "bleu_4_stderr": 0.0
+    },
+    "lighteval|flores200:eng_Latn-deu_Latn|5": {
+      "chrf++": 29.681083661621294,
+      "chrf++_stderr": 0.14712156380406005,
+      "bleu": 13.400825781778892,
+      "bleu_stderr": 0.19092513672351455,
+      "bleu_1": 0.1411821884921725,
+      "bleu_1_stderr": 0.0026143080346419803,
+      "bleu_4": 0.001528638647948632,
+      "bleu_4_stderr": 0.0005065169415566845
+    },
+    "lighteval|flores200:eng_Latn-fra_Latn|5": {
+      "chrf++": 28.852815890443523,
+      "chrf++_stderr": 0.27019006113989225,
+      "bleu": 11.568095892453476,
+      "bleu_stderr": 0.23154959175204679,
+      "bleu_1": 0.2460972739389274,
+      "bleu_1_stderr": 0.0039060411545848344,
+      "bleu_4": 0.010775234724256455,
+      "bleu_4_stderr": 0.0010992885771504506
+    },
+    "lighteval|flores200:eng_Latn-hin_Deva|5": {
+      "chrf++": 7.507430315704777,
+      "chrf++_stderr": 0.07564799859760904,
+      "bleu": 16.44975929846582,
+      "bleu_stderr": 0.13065551379112866,
+      "bleu_1": 0.026629421322203826,
+      "bleu_1_stderr": 0.001042708371129982,
+      "bleu_4": 1.3539048411119123e-308,
+      "bleu_4_stderr": 0.0
+    },
+    "lighteval|flores200:eng_Latn-ita_Latn|5": {
+      "chrf++": 17.166284577167122,
+      "chrf++_stderr": 0.1675361206157694,
+      "bleu": 5.7259987315337755,
+      "bleu_stderr": 0.1639743471837584,
+      "bleu_1": 0.13303419072638462,
+      "bleu_1_stderr": 0.0027929458754495655,
+      "bleu_4": 0.001395998223309044,
+      "bleu_4_stderr": 0.0004085613650315087
+    },
+    "lighteval|flores200:eng_Latn-nld_Latn|5": {
+      "chrf++": 16.973579624954752,
+      "chrf++_stderr": 0.1362387535788762,
+      "bleu": 2.862999365766888,
+      "bleu_stderr": 0.11839352370437899,
+      "bleu_1": 0.09787423769702323,
+      "bleu_1_stderr": 0.0023301766962011417,
+      "bleu_4": 0.0014660779300861386,
+      "bleu_4_stderr": 0.00047682685363362176
+    },
+    "lighteval|flores200:eng_Latn-por_Latn|5": {
+      "chrf++": 40.56338442148031,
+      "chrf++_stderr": 0.3386694601403516,
+      "bleu": 11.22650134950374,
+      "bleu_stderr": 0.2895313458236714,
+      "bleu_1": 0.33239344614787886,
+      "bleu_1_stderr": 0.004536144390828017,
+      "bleu_4": 0.023389222911361814,
+      "bleu_4_stderr": 0.00182302533490654
+    },
+    "lighteval|flores200:eng_Latn-rus_Cyrl|5": {
+      "chrf++": 6.304441175836917,
+      "chrf++_stderr": 0.04122468602042588,
+      "bleu": 3.0272532566104675,
+      "bleu_stderr": 0.05650052076607057,
+      "bleu_1": 0.06112889946532877,
+      "bleu_1_stderr": 0.0011498829790688525,
+      "bleu_4": 2.004781969832738e-308,
+      "bleu_4_stderr": 0.0
+    },
+    "lighteval|flores200:eng_Latn-spa_Latn|5": {
+      "chrf++": 43.70922900005502,
+      "chrf++_stderr": 0.3211076859361672,
+      "bleu": 13.187194011997516,
+      "bleu_stderr": 0.3724917426139537,
+      "bleu_1": 0.4441571918803628,
+      "bleu_1_stderr": 0.004066973677858162,
+      "bleu_4": 0.0516424963135959,
+      "bleu_4_stderr": 0.002315915022471991
+    },
+    "lighteval|flores200:eng_Latn-swe_Latn|5": {
+      "chrf++": 16.610372805628938,
+      "chrf++_stderr": 0.12512324229041674,
+      "bleu": 2.357313684245234,
+      "bleu_stderr": 0.1398538197128256,
+      "bleu_1": 0.08241354993886083,
+      "bleu_1_stderr": 0.001989726055216035,
+      "bleu_4": 0.0008601775330845589,
+      "bleu_4_stderr": 0.000286831229930249
+    },
+    "lighteval|flores200:eng_Latn-tur_Latn|5": {
+      "chrf++": 17.13306267324747,
+      "chrf++_stderr": 0.09293821088674505,
+      "bleu": 2.0752738657056446,
+      "bleu_stderr": 0.09664986598623942,
+      "bleu_1": 0.08591754649506153,
+      "bleu_1_stderr": 0.0016046834378808034,
+      "bleu_4": 1.6114545067796163e-308,
+      "bleu_4_stderr": 0.0
+    },
+    "lighteval|flores200:eng_Latn-zho_Hans|5": {
+      "chrf++": 8.69611735879241,
+      "chrf++_stderr": 0.08795199483424677,
+      "bleu": 1.8884748972625875,
+      "bleu_stderr": 0.1748075126447038,
+      "bleu_1": 0.005113995473232368,
+      "bleu_1_stderr": 0.000886500060691525,
+      "bleu_4": 1.16683620417785e-309,
+      "bleu_4_stderr": 0.0
+    },
+    "lighteval|flores200:fra_Latn-eng_Latn|5": {
+      "chrf++": 19.432335408170154,
+      "chrf++_stderr": 0.37681313904253133,
+      "bleu": 10.47054212604957,
+      "bleu_stderr": 0.34275555860973655,
+      "bleu_1": 0.3421498549693764,
+      "bleu_1_stderr": 0.004915205316331035,
+      "bleu_4": 0.030399164350208476,
+      "bleu_4_stderr": 0.002142047578895743
+    },
+    "lighteval|flores200:_average|5": {
+      "chrf++": 20.724529567897164,
+      "chrf++_stderr": 0.1802554145949948,
+      "bleu": 7.47449702907779,
+      "bleu_stderr": 0.18768436587088272,
+      "bleu_1": 0.15969098870495332,
+      "bleu_1_stderr": 0.0025666289553037593,
+      "bleu_4": 0.009342846971834694,
+      "bleu_4_stderr": 0.0006968471464289837
+    },
+    "all": {
+      "acc": 0.338,
+      "acc_stderr": 0.014965960710224489,
+      "acc_norm": 0.29361537658560855,
+      "acc_norm_stderr": 0.01452030809319284,
+      "acc_norm_token": 0.28973646684049137,
+      "acc_norm_token_stderr": 0.01448746957801726,
+      "acc_norm_pmi": 0.2691947780912837,
+      "acc_norm_pmi_stderr": 0.013904786517321565,
+      "chrf++": 20.724529567897164,
+      "chrf++_stderr": 0.1802554145949948,
+      "bleu": 7.47449702907779,
+      "bleu_stderr": 0.18768436587088272,
+      "bleu_1": 0.15969098870495332,
+      "bleu_1_stderr": 0.0025666289553037593,
+      "bleu_4": 0.009342846971834694,
+      "bleu_4_stderr": 0.0006968471464289837
+    }
+  },
+  "versions": {
+    "leaderboard|hellaswag|5": 0,
+    "lighteval|belebele_arb_Arab_cf|5": 0,
+    "lighteval|belebele_deu_Latn_cf|5": 0,
+    "lighteval|belebele_eng_Latn_cf|5": 0,
+    "lighteval|belebele_fra_Latn_cf|5": 0,
+    "lighteval|belebele_hin_Deva_cf|5": 0,
+    "lighteval|belebele_ita_Latn_cf|5": 0,
+    "lighteval|belebele_nld_Latn_cf|5": 0,
+    "lighteval|belebele_por_Latn_cf|5": 0,
+    "lighteval|belebele_rus_Cyrl_cf|5": 0,
+    "lighteval|belebele_spa_Latn_cf|5": 0,
+    "lighteval|belebele_swe_Latn_cf|5": 0,
+    "lighteval|belebele_tur_Latn_cf|5": 0,
+    "lighteval|belebele_zho_Hans_cf|5": 0,
+    "lighteval|community_hellaswag_tur_cf|5": 0,
+    "lighteval|flores200:eng_Latn-arb_Arab|5": 0,
+    "lighteval|flores200:eng_Latn-deu_Latn|5": 0,
+    "lighteval|flores200:eng_Latn-fra_Latn|5": 0,
+    "lighteval|flores200:eng_Latn-hin_Deva|5": 0,
+    "lighteval|flores200:eng_Latn-ita_Latn|5": 0,
+    "lighteval|flores200:eng_Latn-nld_Latn|5": 0,
+    "lighteval|flores200:eng_Latn-por_Latn|5": 0,
+    "lighteval|flores200:eng_Latn-rus_Cyrl|5": 0,
+    "lighteval|flores200:eng_Latn-spa_Latn|5": 0,
+    "lighteval|flores200:eng_Latn-swe_Latn|5": 0,
+    "lighteval|flores200:eng_Latn-tur_Latn|5": 0,
+    "lighteval|flores200:eng_Latn-zho_Hans|5": 0,
+    "lighteval|flores200:fra_Latn-eng_Latn|5": 0,
+    "lighteval|mlmm_hellaswag_ara_cf|5": 0,
+    "lighteval|mlmm_hellaswag_deu_cf|5": 0,
+    "lighteval|mlmm_hellaswag_fra_cf|5": 0,
+    "lighteval|mlmm_hellaswag_hin_cf|5": 0,
+    "lighteval|mlmm_hellaswag_ita_cf|5": 0,
+    "lighteval|mlmm_hellaswag_nld_cf|5": 0,
+    "lighteval|mlmm_hellaswag_por_cf|5": 0,
+    "lighteval|mlmm_hellaswag_rus_cf|5": 0,
+    "lighteval|mlmm_hellaswag_spa_cf|5": 0,
+    "lighteval|mlmm_hellaswag_swe_cf|5": 0,
+    "lighteval|mlmm_hellaswag_zho_cf|5": 0,
+    "lighteval|xcsqa_ara_cf|5": 0,
+    "lighteval|xcsqa_deu_cf|5": 0,
+    "lighteval|xcsqa_eng_cf|5": 0,
+    "lighteval|xcsqa_fra_cf|5": 0,
+    "lighteval|xcsqa_hin_cf|5": 0,
+    "lighteval|xcsqa_ita_cf|5": 0,
+    "lighteval|xcsqa_nld_cf|5": 0,
+    "lighteval|xcsqa_por_cf|5": 0,
+    "lighteval|xcsqa_rus_cf|5": 0,
+    "lighteval|xcsqa_spa_cf|5": 0,
+    "lighteval|xcsqa_zho_cf|5": 0
+  },
+  "config_tasks": {
+    "leaderboard|hellaswag": {
+      "name": "hellaswag",
+      "prompt_function": "hellaswag_harness",
+      "hf_repo": "hellaswag",
+      "hf_subset": "default",
+      "metric": [
+        {
+          "metric_name": "acc",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "train",
+        "test",
+        "validation"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": "random_sampling_from_train",
+      "generation_size": -1,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "leaderboard"
+      ],
+      "original_num_docs": 10042,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|belebele_arb_Arab_cf": {
+      "name": "belebele_arb_Arab_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "facebook/belebele",
+      "hf_subset": "arb_Arab",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 900,
+      "effective_num_docs": 900,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|belebele_deu_Latn_cf": {
+      "name": "belebele_deu_Latn_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "facebook/belebele",
+      "hf_subset": "deu_Latn",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 900,
+      "effective_num_docs": 900,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|belebele_eng_Latn_cf": {
+      "name": "belebele_eng_Latn_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "facebook/belebele",
+      "hf_subset": "eng_Latn",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 900,
+      "effective_num_docs": 900,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|belebele_fra_Latn_cf": {
+      "name": "belebele_fra_Latn_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "facebook/belebele",
+      "hf_subset": "fra_Latn",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 900,
+      "effective_num_docs": 900,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|belebele_hin_Deva_cf": {
+      "name": "belebele_hin_Deva_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "facebook/belebele",
+      "hf_subset": "hin_Deva",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 900,
+      "effective_num_docs": 900,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|belebele_ita_Latn_cf": {
+      "name": "belebele_ita_Latn_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "facebook/belebele",
+      "hf_subset": "ita_Latn",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 900,
+      "effective_num_docs": 900,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|belebele_nld_Latn_cf": {
+      "name": "belebele_nld_Latn_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "facebook/belebele",
+      "hf_subset": "nld_Latn",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 900,
+      "effective_num_docs": 900,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|belebele_por_Latn_cf": {
+      "name": "belebele_por_Latn_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "facebook/belebele",
+      "hf_subset": "por_Latn",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 900,
+      "effective_num_docs": 900,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|belebele_rus_Cyrl_cf": {
+      "name": "belebele_rus_Cyrl_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "facebook/belebele",
+      "hf_subset": "rus_Cyrl",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 900,
+      "effective_num_docs": 900,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|belebele_spa_Latn_cf": {
+      "name": "belebele_spa_Latn_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "facebook/belebele",
+      "hf_subset": "spa_Latn",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 900,
+      "effective_num_docs": 900,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|belebele_swe_Latn_cf": {
+      "name": "belebele_swe_Latn_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "facebook/belebele",
+      "hf_subset": "swe_Latn",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 900,
+      "effective_num_docs": 900,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|belebele_tur_Latn_cf": {
+      "name": "belebele_tur_Latn_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "facebook/belebele",
+      "hf_subset": "tur_Latn",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 900,
+      "effective_num_docs": 900,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|belebele_zho_Hans_cf": {
+      "name": "belebele_zho_Hans_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "facebook/belebele",
+      "hf_subset": "zho_Hans",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "test"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "test"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 900,
+      "effective_num_docs": 900,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|community_hellaswag_tur_cf": {
+      "name": "community_hellaswag_tur_cf",
+      "prompt_function": "hellaswag_prompt",
+      "hf_repo": "malhajar/hellaswag_tr-v0.2",
+      "hf_subset": "default",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 8855,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|flores200:eng_Latn-arb_Arab": {
+      "name": "flores200:eng_Latn-arb_Arab",
+      "prompt_function": "translation_prompt",
+      "hf_repo": "facebook/flores",
+      "hf_subset": "eng_Latn-arb_Arab",
+      "metric": [
+        {
+          "metric_name": "chrf++",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu_1",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "bleu_4",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "dev",
+        "devtest"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "devtest"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": 300,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1012,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|flores200:eng_Latn-deu_Latn": {
+      "name": "flores200:eng_Latn-deu_Latn",
+      "prompt_function": "translation_prompt",
+      "hf_repo": "facebook/flores",
+      "hf_subset": "eng_Latn-deu_Latn",
+      "metric": [
+        {
+          "metric_name": "chrf++",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu_1",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "bleu_4",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "dev",
+        "devtest"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "devtest"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": 300,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1012,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|flores200:eng_Latn-fra_Latn": {
+      "name": "flores200:eng_Latn-fra_Latn",
+      "prompt_function": "translation_prompt",
+      "hf_repo": "facebook/flores",
+      "hf_subset": "eng_Latn-fra_Latn",
+      "metric": [
+        {
+          "metric_name": "chrf++",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu_1",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "bleu_4",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "dev",
+        "devtest"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "devtest"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": 300,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1012,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|flores200:eng_Latn-hin_Deva": {
+      "name": "flores200:eng_Latn-hin_Deva",
+      "prompt_function": "translation_prompt",
+      "hf_repo": "facebook/flores",
+      "hf_subset": "eng_Latn-hin_Deva",
+      "metric": [
+        {
+          "metric_name": "chrf++",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu_1",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "bleu_4",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "dev",
+        "devtest"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "devtest"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": 300,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1012,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|flores200:eng_Latn-ita_Latn": {
+      "name": "flores200:eng_Latn-ita_Latn",
+      "prompt_function": "translation_prompt",
+      "hf_repo": "facebook/flores",
+      "hf_subset": "eng_Latn-ita_Latn",
+      "metric": [
+        {
+          "metric_name": "chrf++",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu_1",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "bleu_4",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "dev",
+        "devtest"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "devtest"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": 300,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1012,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|flores200:eng_Latn-nld_Latn": {
+      "name": "flores200:eng_Latn-nld_Latn",
+      "prompt_function": "translation_prompt",
+      "hf_repo": "facebook/flores",
+      "hf_subset": "eng_Latn-nld_Latn",
+      "metric": [
+        {
+          "metric_name": "chrf++",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu_1",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "bleu_4",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "dev",
+        "devtest"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "devtest"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": 300,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1012,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|flores200:eng_Latn-por_Latn": {
+      "name": "flores200:eng_Latn-por_Latn",
+      "prompt_function": "translation_prompt",
+      "hf_repo": "facebook/flores",
+      "hf_subset": "eng_Latn-por_Latn",
+      "metric": [
+        {
+          "metric_name": "chrf++",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu_1",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "bleu_4",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "dev",
+        "devtest"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "devtest"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": 300,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1012,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|flores200:eng_Latn-rus_Cyrl": {
+      "name": "flores200:eng_Latn-rus_Cyrl",
+      "prompt_function": "translation_prompt",
+      "hf_repo": "facebook/flores",
+      "hf_subset": "eng_Latn-rus_Cyrl",
+      "metric": [
+        {
+          "metric_name": "chrf++",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu_1",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "bleu_4",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "dev",
+        "devtest"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "devtest"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": 300,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1012,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|flores200:eng_Latn-spa_Latn": {
+      "name": "flores200:eng_Latn-spa_Latn",
+      "prompt_function": "translation_prompt",
+      "hf_repo": "facebook/flores",
+      "hf_subset": "eng_Latn-spa_Latn",
+      "metric": [
+        {
+          "metric_name": "chrf++",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu_1",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "bleu_4",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "dev",
+        "devtest"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "devtest"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": 300,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1012,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|flores200:eng_Latn-swe_Latn": {
+      "name": "flores200:eng_Latn-swe_Latn",
+      "prompt_function": "translation_prompt",
+      "hf_repo": "facebook/flores",
+      "hf_subset": "eng_Latn-swe_Latn",
+      "metric": [
+        {
+          "metric_name": "chrf++",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu_1",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "bleu_4",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "dev",
+        "devtest"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "devtest"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": 300,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1012,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|flores200:eng_Latn-tur_Latn": {
+      "name": "flores200:eng_Latn-tur_Latn",
+      "prompt_function": "translation_prompt",
+      "hf_repo": "facebook/flores",
+      "hf_subset": "eng_Latn-tur_Latn",
+      "metric": [
+        {
+          "metric_name": "chrf++",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu_1",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "bleu_4",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "dev",
+        "devtest"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "devtest"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": 300,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1012,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|flores200:eng_Latn-zho_Hans": {
+      "name": "flores200:eng_Latn-zho_Hans",
+      "prompt_function": "translation_prompt",
+      "hf_repo": "facebook/flores",
+      "hf_subset": "eng_Latn-zho_Hans",
+      "metric": [
+        {
+          "metric_name": "chrf++",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu_1",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "bleu_4",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "dev",
+        "devtest"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "devtest"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": 300,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1012,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|flores200:fra_Latn-eng_Latn": {
+      "name": "flores200:fra_Latn-eng_Latn",
+      "prompt_function": "translation_prompt",
+      "hf_repo": "facebook/flores",
+      "hf_subset": "fra_Latn-eng_Latn",
+      "metric": [
+        {
+          "metric_name": "chrf++",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "prepare",
+          "corpus_level_fn": "compute"
+        },
+        {
+          "metric_name": "bleu_1",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "bleu_4",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "9",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "dev",
+        "devtest"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "devtest"
+      ],
+      "few_shots_split": "dev",
+      "few_shots_select": null,
+      "generation_size": 300,
+      "generation_grammar": null,
+      "stop_sequence": [
+        "\n"
+      ],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1012,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mlmm_hellaswag_ara_cf": {
+      "name": "mlmm_hellaswag_ara_cf",
+      "prompt_function": "hellaswag_prompt",
+      "hf_repo": "jon-tow/okapi_hellaswag",
+      "hf_subset": "ar",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "fb6b5f2b48a6348ae2a9467a6714c3a054fa8d85",
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 9176,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mlmm_hellaswag_deu_cf": {
+      "name": "mlmm_hellaswag_deu_cf",
+      "prompt_function": "hellaswag_prompt",
+      "hf_repo": "jon-tow/okapi_hellaswag",
+      "hf_subset": "de",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "fb6b5f2b48a6348ae2a9467a6714c3a054fa8d85",
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 9368,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mlmm_hellaswag_fra_cf": {
+      "name": "mlmm_hellaswag_fra_cf",
+      "prompt_function": "hellaswag_prompt",
+      "hf_repo": "jon-tow/okapi_hellaswag",
+      "hf_subset": "fr",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "fb6b5f2b48a6348ae2a9467a6714c3a054fa8d85",
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 9338,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mlmm_hellaswag_hin_cf": {
+      "name": "mlmm_hellaswag_hin_cf",
+      "prompt_function": "hellaswag_prompt",
+      "hf_repo": "jon-tow/okapi_hellaswag",
+      "hf_subset": "hi",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "fb6b5f2b48a6348ae2a9467a6714c3a054fa8d85",
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 9416,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mlmm_hellaswag_ita_cf": {
+      "name": "mlmm_hellaswag_ita_cf",
+      "prompt_function": "hellaswag_prompt",
+      "hf_repo": "jon-tow/okapi_hellaswag",
+      "hf_subset": "it",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "fb6b5f2b48a6348ae2a9467a6714c3a054fa8d85",
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 9193,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mlmm_hellaswag_nld_cf": {
+      "name": "mlmm_hellaswag_nld_cf",
+      "prompt_function": "hellaswag_prompt",
+      "hf_repo": "jon-tow/okapi_hellaswag",
+      "hf_subset": "nl",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "fb6b5f2b48a6348ae2a9467a6714c3a054fa8d85",
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 9264,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mlmm_hellaswag_por_cf": {
+      "name": "mlmm_hellaswag_por_cf",
+      "prompt_function": "hellaswag_prompt",
+      "hf_repo": "jon-tow/okapi_hellaswag",
+      "hf_subset": "pt",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "fb6b5f2b48a6348ae2a9467a6714c3a054fa8d85",
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 9229,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mlmm_hellaswag_rus_cf": {
+      "name": "mlmm_hellaswag_rus_cf",
+      "prompt_function": "hellaswag_prompt",
+      "hf_repo": "jon-tow/okapi_hellaswag",
+      "hf_subset": "ru",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "fb6b5f2b48a6348ae2a9467a6714c3a054fa8d85",
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 9272,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mlmm_hellaswag_spa_cf": {
+      "name": "mlmm_hellaswag_spa_cf",
+      "prompt_function": "hellaswag_prompt",
+      "hf_repo": "jon-tow/okapi_hellaswag",
+      "hf_subset": "es",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "fb6b5f2b48a6348ae2a9467a6714c3a054fa8d85",
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 9374,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mlmm_hellaswag_swe_cf": {
+      "name": "mlmm_hellaswag_swe_cf",
+      "prompt_function": "hellaswag_prompt",
+      "hf_repo": "jon-tow/okapi_hellaswag",
+      "hf_subset": "sv",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "fb6b5f2b48a6348ae2a9467a6714c3a054fa8d85",
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 9122,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|mlmm_hellaswag_zho_cf": {
+      "name": "mlmm_hellaswag_zho_cf",
+      "prompt_function": "hellaswag_prompt",
+      "hf_repo": "jon-tow/okapi_hellaswag",
+      "hf_subset": "zh",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": "fb6b5f2b48a6348ae2a9467a6714c3a054fa8d85",
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": true,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 9266,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|xcsqa_ara_cf": {
+      "name": "xcsqa_ara_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "INK-USC/xcsr",
+      "hf_subset": "X-CSQA-ar",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1000,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|xcsqa_deu_cf": {
+      "name": "xcsqa_deu_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "INK-USC/xcsr",
+      "hf_subset": "X-CSQA-de",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 994,
+      "effective_num_docs": 994,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|xcsqa_eng_cf": {
+      "name": "xcsqa_eng_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "INK-USC/xcsr",
+      "hf_subset": "X-CSQA-en",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1000,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|xcsqa_fra_cf": {
+      "name": "xcsqa_fra_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "INK-USC/xcsr",
+      "hf_subset": "X-CSQA-fr",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1000,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|xcsqa_hin_cf": {
+      "name": "xcsqa_hin_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "INK-USC/xcsr",
+      "hf_subset": "X-CSQA-hi",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1000,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|xcsqa_ita_cf": {
+      "name": "xcsqa_ita_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "INK-USC/xcsr",
+      "hf_subset": "X-CSQA-it",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 995,
+      "effective_num_docs": 995,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|xcsqa_nld_cf": {
+      "name": "xcsqa_nld_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "INK-USC/xcsr",
+      "hf_subset": "X-CSQA-nl",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1000,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|xcsqa_por_cf": {
+      "name": "xcsqa_por_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "INK-USC/xcsr",
+      "hf_subset": "X-CSQA-pt",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1000,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|xcsqa_rus_cf": {
+      "name": "xcsqa_rus_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "INK-USC/xcsr",
+      "hf_subset": "X-CSQA-ru",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 986,
+      "effective_num_docs": 986,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|xcsqa_spa_cf": {
+      "name": "xcsqa_spa_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "INK-USC/xcsr",
+      "hf_subset": "X-CSQA-es",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1000,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    },
+    "lighteval|xcsqa_zho_cf": {
+      "name": "xcsqa_zho_cf",
+      "prompt_function": "prompt_fn",
+      "hf_repo": "INK-USC/xcsr",
+      "hf_subset": "X-CSQA-zh",
+      "metric": [
+        {
+          "metric_name": "acc_norm_token",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm",
+          "higher_is_better": true,
+          "category": "8",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        },
+        {
+          "metric_name": "acc_norm_pmi",
+          "higher_is_better": true,
+          "category": "9",
+          "use_case": "1",
+          "sample_level_fn": "compute",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": "<lambda>",
+      "hf_avail_splits": [
+        "validation"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "validation"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": null,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "lighteval"
+      ],
+      "original_num_docs": 1000,
+      "effective_num_docs": 1000,
+      "must_remove_duplicate_docs": false,
+      "version": 0
+    }
+  },
+  "summary_tasks": {
+    "leaderboard|hellaswag|5": {
+      "hashes": {
+        "hash_examples": "2790438d79fd8c4d",
+        "hash_full_prompts": "7ea77c1d85349654",
+        "hash_input_tokens": "a38a9e52de8f6c89",
+        "hash_cont_tokens": "32d3df82460d06fd"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 4000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|belebele_arb_Arab_cf|5": {
+      "hashes": {
+        "hash_examples": "618bb8a55c709e2f",
+        "hash_full_prompts": "71cdb8ffc0c49cb7",
+        "hash_input_tokens": "37d9065adf79e59d",
+        "hash_cont_tokens": "21068c72649fe1ab"
+      },
+      "truncated": 0,
+      "non_truncated": 900,
+      "padded": 0,
+      "non_padded": 3600,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|belebele_deu_Latn_cf|5": {
+      "hashes": {
+        "hash_examples": "f95dafe1dc71f98a",
+        "hash_full_prompts": "8551f58760722b47",
+        "hash_input_tokens": "30d83056018b1b7b",
+        "hash_cont_tokens": "060ec580ac6433d5"
+      },
+      "truncated": 0,
+      "non_truncated": 900,
+      "padded": 0,
+      "non_padded": 3600,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|belebele_eng_Latn_cf|5": {
+      "hashes": {
+        "hash_examples": "8525b2714463c42d",
+        "hash_full_prompts": "c3603fccc9a529ba",
+        "hash_input_tokens": "4c82472d406fa6fb",
+        "hash_cont_tokens": "0c74c82c6689126d"
+      },
+      "truncated": 0,
+      "non_truncated": 900,
+      "padded": 0,
+      "non_padded": 3600,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|belebele_fra_Latn_cf|5": {
+      "hashes": {
+        "hash_examples": "4ea1472592a14290",
+        "hash_full_prompts": "4105a8d2e0c20e91",
+        "hash_input_tokens": "ea659ee553a6afb7",
+        "hash_cont_tokens": "39d080a6a74941cc"
+      },
+      "truncated": 0,
+      "non_truncated": 900,
+      "padded": 0,
+      "non_padded": 3600,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|belebele_hin_Deva_cf|5": {
+      "hashes": {
+        "hash_examples": "5fc825c8658600cc",
+        "hash_full_prompts": "5711542f28953f34",
+        "hash_input_tokens": "e404dfe2d2b15aaa",
+        "hash_cont_tokens": "0a706095f15edc7d"
+      },
+      "truncated": 0,
+      "non_truncated": 900,
+      "padded": 0,
+      "non_padded": 3600,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|belebele_ita_Latn_cf|5": {
+      "hashes": {
+        "hash_examples": "4b53c5f21b87243a",
+        "hash_full_prompts": "de751358b69d9041",
+        "hash_input_tokens": "b12e520df43acdbe",
+        "hash_cont_tokens": "f6c17363dfc18980"
+      },
+      "truncated": 0,
+      "non_truncated": 900,
+      "padded": 0,
+      "non_padded": 3600,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|belebele_nld_Latn_cf|5": {
+      "hashes": {
+        "hash_examples": "944e3ae1bccc1d34",
+        "hash_full_prompts": "25d3f648d4184ff7",
+        "hash_input_tokens": "8aa6ec887fd1ddf2",
+        "hash_cont_tokens": "2a40440ed7af83e6"
+      },
+      "truncated": 0,
+      "non_truncated": 900,
+      "padded": 0,
+      "non_padded": 3600,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|belebele_por_Latn_cf|5": {
+      "hashes": {
+        "hash_examples": "e01aa783d32a0798",
+        "hash_full_prompts": "26da68b1c0fd82df",
+        "hash_input_tokens": "9a4183a564a91d56",
+        "hash_cont_tokens": "3ced1b026e051cd9"
+      },
+      "truncated": 0,
+      "non_truncated": 900,
+      "padded": 0,
+      "non_padded": 3600,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|belebele_rus_Cyrl_cf|5": {
+      "hashes": {
+        "hash_examples": "5f9d6cd1a5a309f8",
+        "hash_full_prompts": "c40acb697c71334b",
+        "hash_input_tokens": "f25942caa09c8ac7",
+        "hash_cont_tokens": "d7400858f0f0fd95"
+      },
+      "truncated": 0,
+      "non_truncated": 900,
+      "padded": 0,
+      "non_padded": 3600,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|belebele_spa_Latn_cf|5": {
+      "hashes": {
+        "hash_examples": "002e41e420890ba8",
+        "hash_full_prompts": "efbc158c25a80e27",
+        "hash_input_tokens": "94bd35cb51fa1fbe",
+        "hash_cont_tokens": "89d9b911647bf321"
+      },
+      "truncated": 0,
+      "non_truncated": 900,
+      "padded": 0,
+      "non_padded": 3600,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|belebele_swe_Latn_cf|5": {
+      "hashes": {
+        "hash_examples": "9f2e0c64eba8e32e",
+        "hash_full_prompts": "a75f08f86a9ddead",
+        "hash_input_tokens": "539b38f956b58e8b",
+        "hash_cont_tokens": "354817107a56dae4"
+      },
+      "truncated": 0,
+      "non_truncated": 900,
+      "padded": 0,
+      "non_padded": 3600,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|belebele_tur_Latn_cf|5": {
+      "hashes": {
+        "hash_examples": "39dee2fc57dc3f40",
+        "hash_full_prompts": "1f26313101fd70dc",
+        "hash_input_tokens": "6405717a75afbcf6",
+        "hash_cont_tokens": "3b055fd08f09a2fa"
+      },
+      "truncated": 0,
+      "non_truncated": 900,
+      "padded": 0,
+      "non_padded": 3600,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|belebele_zho_Hans_cf|5": {
+      "hashes": {
+        "hash_examples": "c4fa2f5d6ac2901d",
+        "hash_full_prompts": "c266e9ec689369c0",
+        "hash_input_tokens": "ffd77c5e025c77b3",
+        "hash_cont_tokens": "9bc7bf466afa046d"
+      },
+      "truncated": 0,
+      "non_truncated": 900,
+      "padded": 0,
+      "non_padded": 3600,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|community_hellaswag_tur_cf|5": {
+      "hashes": {
+        "hash_examples": "0bca74e959ac07d8",
+        "hash_full_prompts": "5273c2d67dd47862",
+        "hash_input_tokens": "8bb7c79cea77d61c",
+        "hash_cont_tokens": "7455edf43b7d3fb6"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 3999,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|mlmm_hellaswag_ara_cf|5": {
+      "hashes": {
+        "hash_examples": "e18bea377ca9a6f0",
+        "hash_full_prompts": "2552820327007753",
+        "hash_input_tokens": "b256da2cb267f52a",
+        "hash_cont_tokens": "706556f61f71102e"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 4000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|mlmm_hellaswag_deu_cf|5": {
+      "hashes": {
+        "hash_examples": "61eb5a03ed5ebafb",
+        "hash_full_prompts": "3cfcc664a625df51",
+        "hash_input_tokens": "cda7d28360f424df",
+        "hash_cont_tokens": "7336181929c33f57"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 4000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|mlmm_hellaswag_fra_cf|5": {
+      "hashes": {
+        "hash_examples": "bef62640aadc696d",
+        "hash_full_prompts": "ef69836542f90c2a",
+        "hash_input_tokens": "f4c0fbe2c4bdde4b",
+        "hash_cont_tokens": "32e97b873d368fea"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 4000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|mlmm_hellaswag_hin_cf|5": {
+      "hashes": {
+        "hash_examples": "fdfb3faa6d045324",
+        "hash_full_prompts": "e170631d074bb68b",
+        "hash_input_tokens": "b6814da8a5495b0f",
+        "hash_cont_tokens": "fbf0c39350950220"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 4000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|mlmm_hellaswag_ita_cf|5": {
+      "hashes": {
+        "hash_examples": "361afd440b4ae5d4",
+        "hash_full_prompts": "b39f830f00821c6a",
+        "hash_input_tokens": "055f540753effda6",
+        "hash_cont_tokens": "d33b214951be3eb2"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 4000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|mlmm_hellaswag_nld_cf|5": {
+      "hashes": {
+        "hash_examples": "1201baf5d66df991",
+        "hash_full_prompts": "c232a9df2a023640",
+        "hash_input_tokens": "332cef7332513ed3",
+        "hash_cont_tokens": "b5cc43a0f19a564f"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 4000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|mlmm_hellaswag_por_cf|5": {
+      "hashes": {
+        "hash_examples": "14f1f8ea53f3ece9",
+        "hash_full_prompts": "3c879d3dbbbdf916",
+        "hash_input_tokens": "66b500a993dd58d7",
+        "hash_cont_tokens": "da6b6c08c0b542a3"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 4000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|mlmm_hellaswag_rus_cf|5": {
+      "hashes": {
+        "hash_examples": "19f83589fe893490",
+        "hash_full_prompts": "38a1aa1bf8d25247",
+        "hash_input_tokens": "fae9a915b91d020a",
+        "hash_cont_tokens": "99dbefd604c908c5"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 4000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|mlmm_hellaswag_spa_cf|5": {
+      "hashes": {
+        "hash_examples": "e7a614bc13b5b08f",
+        "hash_full_prompts": "3b91e2f962f1e7ed",
+        "hash_input_tokens": "61a450d41e0298b8",
+        "hash_cont_tokens": "ccae17bb5222f8f8"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 4000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|mlmm_hellaswag_swe_cf|5": {
+      "hashes": {
+        "hash_examples": "3b41bd9f8bbdbbb3",
+        "hash_full_prompts": "c723ae424438552f",
+        "hash_input_tokens": "005c39822197ec69",
+        "hash_cont_tokens": "7fd08d5357c39608"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 4000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|mlmm_hellaswag_zho_cf|5": {
+      "hashes": {
+        "hash_examples": "06f8bec2b76552c4",
+        "hash_full_prompts": "9aafcfe364123222",
+        "hash_input_tokens": "9425bf48515a4947",
+        "hash_cont_tokens": "31355ab3fc3a3ff3"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 4000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|xcsqa_ara_cf|5": {
+      "hashes": {
+        "hash_examples": "b932ef0d1c72cccf",
+        "hash_full_prompts": "b9c731dd358b7e78",
+        "hash_input_tokens": "9e629a2ecadb033e",
+        "hash_cont_tokens": "9af0714673a9f4bb"
+      },
+      "truncated": 0,
+      "non_truncated": 2000,
+      "padded": 0,
+      "non_padded": 15000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|xcsqa_deu_cf|5": {
+      "hashes": {
+        "hash_examples": "de110af23503c77e",
+        "hash_full_prompts": "a8ff28e59924f67c",
+        "hash_input_tokens": "bf331f8de3778598",
+        "hash_cont_tokens": "0c9b17a03692a856"
+      },
+      "truncated": 0,
+      "non_truncated": 1988,
+      "padded": 0,
+      "non_padded": 14910,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|xcsqa_eng_cf|5": {
+      "hashes": {
+        "hash_examples": "234e38d89d00503e",
+        "hash_full_prompts": "050b890bfa47305a",
+        "hash_input_tokens": "006fb11146697477",
+        "hash_cont_tokens": "ff4172d39e45b8fc"
+      },
+      "truncated": 0,
+      "non_truncated": 2000,
+      "padded": 0,
+      "non_padded": 15000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|xcsqa_fra_cf|5": {
+      "hashes": {
+        "hash_examples": "41cd98880c6ea5cc",
+        "hash_full_prompts": "4fe97fb9801299ad",
+        "hash_input_tokens": "74e6d18a5688fec0",
+        "hash_cont_tokens": "36ba91e132889e32"
+      },
+      "truncated": 0,
+      "non_truncated": 2000,
+      "padded": 0,
+      "non_padded": 15000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|xcsqa_hin_cf|5": {
+      "hashes": {
+        "hash_examples": "e3e54944a69a3a92",
+        "hash_full_prompts": "a20f0b825b6aee84",
+        "hash_input_tokens": "0cbd365a25559324",
+        "hash_cont_tokens": "73418d80bb5b6101"
+      },
+      "truncated": 0,
+      "non_truncated": 2000,
+      "padded": 0,
+      "non_padded": 15000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|xcsqa_ita_cf|5": {
+      "hashes": {
+        "hash_examples": "7e7cec3e262df1c1",
+        "hash_full_prompts": "9d7afc4862f45549",
+        "hash_input_tokens": "b077052ef96449e0",
+        "hash_cont_tokens": "217e18c33b3fb13d"
+      },
+      "truncated": 0,
+      "non_truncated": 1990,
+      "padded": 0,
+      "non_padded": 14925,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|xcsqa_nld_cf|5": {
+      "hashes": {
+        "hash_examples": "16b091751bf2153d",
+        "hash_full_prompts": "2fbbbf85dbe7b71c",
+        "hash_input_tokens": "e6bc54aeb8c8bf5f",
+        "hash_cont_tokens": "b6a2fb696eb00843"
+      },
+      "truncated": 0,
+      "non_truncated": 2000,
+      "padded": 0,
+      "non_padded": 15000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|xcsqa_por_cf|5": {
+      "hashes": {
+        "hash_examples": "edd7662542651c86",
+        "hash_full_prompts": "8509d16cc61bffad",
+        "hash_input_tokens": "ddd7f92b8bdbbb08",
+        "hash_cont_tokens": "3eea757aedbdd7bf"
+      },
+      "truncated": 0,
+      "non_truncated": 2000,
+      "padded": 0,
+      "non_padded": 15000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|xcsqa_rus_cf|5": {
+      "hashes": {
+        "hash_examples": "e24436a632c248d4",
+        "hash_full_prompts": "d32768a30176f1cc",
+        "hash_input_tokens": "39ce92aa0b183f46",
+        "hash_cont_tokens": "fe23eb049b256808"
+      },
+      "truncated": 0,
+      "non_truncated": 1972,
+      "padded": 0,
+      "non_padded": 14790,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|xcsqa_spa_cf|5": {
+      "hashes": {
+        "hash_examples": "4f213b687fd5dfe4",
+        "hash_full_prompts": "3f67d6c26caf4697",
+        "hash_input_tokens": "f2ce25ab6f9f88a0",
+        "hash_cont_tokens": "4bbcb12e8616b8a1"
+      },
+      "truncated": 0,
+      "non_truncated": 2000,
+      "padded": 0,
+      "non_padded": 15000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|xcsqa_zho_cf|5": {
+      "hashes": {
+        "hash_examples": "7776d459d55a75e6",
+        "hash_full_prompts": "c108849a2d4ac395",
+        "hash_input_tokens": "6e752eb03cde8303",
+        "hash_cont_tokens": "450df231d2745595"
+      },
+      "truncated": 0,
+      "non_truncated": 2000,
+      "padded": 0,
+      "non_padded": 15000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|flores200:eng_Latn-arb_Arab|5": {
+      "hashes": {
+        "hash_examples": "f532d4940864797c",
+        "hash_full_prompts": "02902d45ebabc92f",
+        "hash_input_tokens": "073e9153b2f9fd65",
+        "hash_cont_tokens": "1b885e1956ac6c98"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 1000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|flores200:eng_Latn-deu_Latn|5": {
+      "hashes": {
+        "hash_examples": "5ee457dd2df38cd5",
+        "hash_full_prompts": "1a695c28beb3aa92",
+        "hash_input_tokens": "2745a2e96729634f",
+        "hash_cont_tokens": "e179bc3a6a7ad9c7"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 1000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|flores200:eng_Latn-fra_Latn|5": {
+      "hashes": {
+        "hash_examples": "6302aa8bc3219128",
+        "hash_full_prompts": "fa115c2c7b8a9a4d",
+        "hash_input_tokens": "1d7efc4839f0efe5",
+        "hash_cont_tokens": "79d4dcf57fc025fa"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 1000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|flores200:eng_Latn-hin_Deva|5": {
+      "hashes": {
+        "hash_examples": "d57cce365a26c72f",
+        "hash_full_prompts": "4b927fa3499ee6fb",
+        "hash_input_tokens": "379ed63e280a5efb",
+        "hash_cont_tokens": "90a96259a1ff83c5"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 1000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|flores200:eng_Latn-ita_Latn|5": {
+      "hashes": {
+        "hash_examples": "1b9d3da078183cdd",
+        "hash_full_prompts": "b7d09560c46e4057",
+        "hash_input_tokens": "cf9e67ca2e62fbd8",
+        "hash_cont_tokens": "f2834f77e86feaed"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 1000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|flores200:eng_Latn-nld_Latn|5": {
+      "hashes": {
+        "hash_examples": "acff464fc85a1e89",
+        "hash_full_prompts": "e79ac83621b23565",
+        "hash_input_tokens": "3857766dac2e3621",
+        "hash_cont_tokens": "1332d1542d39d53e"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 1000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|flores200:eng_Latn-por_Latn|5": {
+      "hashes": {
+        "hash_examples": "5fa10df7ded39d9a",
+        "hash_full_prompts": "170d50402b0faa3d",
+        "hash_input_tokens": "947b6c7ad0c1022e",
+        "hash_cont_tokens": "3265fa343b0c7c5f"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 1000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|flores200:eng_Latn-rus_Cyrl|5": {
+      "hashes": {
+        "hash_examples": "368c45f05c0873c6",
+        "hash_full_prompts": "4bb3ca5ec5d7f598",
+        "hash_input_tokens": "38d72c2e2d94684e",
+        "hash_cont_tokens": "c46b5bb8d724bc61"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 1000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|flores200:eng_Latn-spa_Latn|5": {
+      "hashes": {
+        "hash_examples": "588dc42588327d21",
+        "hash_full_prompts": "89b9d080da2bb7ea",
+        "hash_input_tokens": "3182e6cb7e1c8328",
+        "hash_cont_tokens": "e75e2a15efb66a55"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 1000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|flores200:eng_Latn-swe_Latn|5": {
+      "hashes": {
+        "hash_examples": "8e16e53d8f858688",
+        "hash_full_prompts": "102fa38398f1c86b",
+        "hash_input_tokens": "12c88d39788f5c2c",
+        "hash_cont_tokens": "0002f29165ce3668"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 1000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|flores200:eng_Latn-tur_Latn|5": {
+      "hashes": {
+        "hash_examples": "26cfeaefbfcb32e9",
+        "hash_full_prompts": "0fc0e7775ac1adb7",
+        "hash_input_tokens": "6a2425ebce6ee12b",
+        "hash_cont_tokens": "5a620a5233061606"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 1000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|flores200:eng_Latn-zho_Hans|5": {
+      "hashes": {
+        "hash_examples": "92c2a23747f50d2f",
+        "hash_full_prompts": "87872775f71fe8a0",
+        "hash_input_tokens": "d3cd1d927ac7bc45",
+        "hash_cont_tokens": "3a5c4350113da085"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 1000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    },
+    "lighteval|flores200:fra_Latn-eng_Latn|5": {
+      "hashes": {
+        "hash_examples": "7ec6e07aefad6896",
+        "hash_full_prompts": "8aff691174685e19",
+        "hash_input_tokens": "7e0bcf847e06a435",
+        "hash_cont_tokens": "7cb921413dc6f747"
+      },
+      "truncated": 0,
+      "non_truncated": 1000,
+      "padded": 0,
+      "non_padded": 1000,
+      "effective_few_shots": 5.0,
+      "num_truncated_few_shots": 0
+    }
+  },
+  "summary_general": {
+    "hashes": {
+      "hash_examples": "09297a6e0bbd0ad5",
+      "hash_full_prompts": "d8a9fcb120baf0f5",
+      "hash_input_tokens": "4e1d09fc0e4f45a7",
+      "hash_cont_tokens": "5a280e2b621772f5"
+    },
+    "truncated": 0,
+    "non_truncated": 59650,
+    "padded": 0,
+    "non_padded": 276424,
+    "num_truncated_few_shots": 0
+  }
+}

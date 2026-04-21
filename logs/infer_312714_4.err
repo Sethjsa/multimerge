@@ -1,51 +1,0 @@
-/var/spool/slurm/d/job312719/slurm_script: line 11: activate: No such file or directory
---max_samples WAS SET. THESE NUMBERS ARE ONLY PARTIAL AND SHOULD NOT BE USED FOR COMPARISON UNLESS YOU KNOW WHAT YOU ARE DOING.
-Casting torch.float16 to torch.bfloat16.
-FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
-Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
-Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:07<00:07,  7.28s/it]
-Loading safetensors checkpoint shards: 100% Completed | 2/2 [01:17<00:00, 44.36s/it]
-Loading safetensors checkpoint shards: 100% Completed | 2/2 [01:17<00:00, 38.80s/it]
-
-Capturing CUDA graph shapes:   0%|          | 0/35 [00:00<?, ?it/s]Capturing CUDA graph shapes:  14%|█▍        | 5/35 [00:00<00:00, 41.80it/s]Capturing CUDA graph shapes:  29%|██▊       | 10/35 [00:00<00:00, 40.64it/s]Capturing CUDA graph shapes:  43%|████▎     | 15/35 [00:00<00:00, 42.53it/s]Capturing CUDA graph shapes:  57%|█████▋    | 20/35 [00:00<00:00, 44.03it/s]Capturing CUDA graph shapes:  71%|███████▏  | 25/35 [00:00<00:00, 44.69it/s]Capturing CUDA graph shapes:  86%|████████▌ | 30/35 [00:00<00:00, 45.34it/s]Capturing CUDA graph shapes: 100%|██████████| 35/35 [00:00<00:00, 43.39it/s]Capturing CUDA graph shapes: 100%|██████████| 35/35 [00:00<00:00, 43.47it/s]
-No word tokenizer found for language Language.ASSAMESE, will split on spaces.
-No word tokenizer found for language Language.ORIYA, will split on spaces.
-No word tokenizer found for language Language.EASTERN_PANJABI, will split on spaces.
-No word tokenizer found for language Language.KHMER, will split on spaces.
-Careful, the task lighteval|belebele_arb_Arab_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|belebele_deu_Latn_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|belebele_eng_Latn_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|belebele_fra_Latn_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|belebele_hin_Deva_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|belebele_ita_Latn_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|belebele_nld_Latn_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|belebele_por_Latn_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|belebele_rus_Cyrl_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|belebele_spa_Latn_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|belebele_swe_Latn_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|belebele_tur_Latn_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|belebele_zho_Hans_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|community_hellaswag_tur_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|mlmm_hellaswag_ara_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|mlmm_hellaswag_deu_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|mlmm_hellaswag_fra_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|mlmm_hellaswag_hin_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|mlmm_hellaswag_ita_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|mlmm_hellaswag_nld_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|mlmm_hellaswag_por_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|mlmm_hellaswag_rus_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|mlmm_hellaswag_spa_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|mlmm_hellaswag_swe_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|mlmm_hellaswag_zho_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|xcsqa_ara_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|xcsqa_deu_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|xcsqa_eng_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|xcsqa_fra_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|xcsqa_hin_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|xcsqa_ita_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|xcsqa_nld_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|xcsqa_por_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|xcsqa_rus_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|xcsqa_spa_cf is using evaluation data to build the few shot examples.
-Careful, the task lighteval|xcsqa_zho_cf is using evaluation data to build the few shot examples.
-slurmstepd-ilps-cn117: error: *** JOB 312719 ON ilps-cn117 CANCELLED AT 2026-04-13T17:50:58 ***

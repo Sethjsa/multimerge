@@ -9,5 +9,6 @@ lm-evaluation-harness
 flores/
 token
 lm-evaluation-harness/
-multiblimp/
+
 logs/
+multiblimp/results*

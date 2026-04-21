@@ -66,6 +66,7 @@ for fn in sorted(pair_files):
     condition_name = os.path.splitext(condition)[0]
 
     df = score_tse(lm, fn=fn)
+    
     if df is None or df.empty:
         print(f"No data returned for: {fn}")
         continue
