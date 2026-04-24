@@ -1,0 +1,3622 @@
+{
+    "eng": {
+        "eng": {
+            "metadata": {
+                "wiki_size": 0.0,
+                "nlp_state": 0.0,
+                "speakers": 0.0,
+                "AES": 0.0,
+                "loc": 0.0,
+                "average": 0.0
+            },
+            "typology": {
+                "lang2vec": 0.0,
+                "lang2vec_knn": 0.0,
+                "phoible": -1.0,
+                "grambank": 0.0,
+                "gb_clause": 0.0,
+                "gb_nominal_domain": 0.0,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.0,
+                "gb_verbal_domain": 0.0,
+                "glot_tree": 0.0,
+                "scripts": 0.0,
+                "average": 0.0
+            },
+            "wordlists": {
+                "asjp": 0.0,
+                "concepts": 0.0,
+                "average": 0.0
+            },
+            "textbased": {
+                "whitespace": 0.0,
+                "punctuation": 0.0,
+                "char_JSD": 0.0,
+                "textcat": 0.0,
+                "average": 0.0
+            }
+        },
+        "nld": {
+            "metadata": {
+                "wiki_size": 0.6886781223838789,
+                "nlp_state": 0.2,
+                "speakers": 0.9809970507241572,
+                "AES": 0.0,
+                "loc": 0.021047527234391093,
+                "average": 0.30051114448963706
+            },
+            "typology": {
+                "lang2vec": 0.22872326300365742,
+                "lang2vec_knn": 0.1922703518713582,
+                "phoible": 0.5671641791044777,
+                "grambank": 0.4135026674140678,
+                "gb_clause": 0.36689969285267143,
+                "gb_nominal_domain": 0.39641248358604597,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5,
+                "gb_verbal_domain": 0.4670993664969138,
+                "glot_tree": 0.5416666666666666,
+                "scripts": 0.6666666666666667,
+                "average": 0.5074445043950707
+            },
+            "wordlists": {
+                "asjp": 0.32994687432700204,
+                "concepts": 0.030000000000000027,
+                "average": 0.17997343716350103
+            },
+            "textbased": {
+                "whitespace": 0.15879233086117994,
+                "punctuation": 0.2169022764234546,
+                "char_JSD": 0.16963212846472345,
+                "textcat": 0.6132375,
+                "average": 0.6132375
+            }
+        },
+        "spa": {
+            "metadata": {
+                "wiki_size": 0.7079346154652749,
+                "nlp_state": 0.0,
+                "speakers": 0.630469278941685,
+                "AES": 0.0,
+                "loc": 0.06982405042456032,
+                "average": 0.17507333234156133
+            },
+            "typology": {
+                "lang2vec": 0.24680967650369778,
+                "lang2vec_knn": 0.26686955877731444,
+                "phoible": 0.7254901960784313,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.8452380952380953,
+                "scripts": 0.6666666666666667,
+                "average": 0.7853641456582634
+            },
+            "wordlists": {
+                "asjp": 0.46823823709402745,
+                "concepts": 0.030000000000000027,
+                "average": 0.24911911854701374
+            },
+            "textbased": {
+                "whitespace": 0.0979210188752333,
+                "punctuation": 0.19455970202777684,
+                "char_JSD": 0.18616881862900223,
+                "textcat": 0.6241875,
+                "average": 0.6241875
+            }
+        },
+        "fra": {
+            "metadata": {
+                "wiki_size": 0.6160597029645168,
+                "nlp_state": 0.0,
+                "speakers": 0.839681499928258,
+                "AES": 0.0,
+                "loc": 0.02974767987143179,
+                "average": 0.21735729494992245
+            },
+            "typology": {
+                "lang2vec": 0.2396005825622104,
+                "lang2vec_knn": 0.23201183261542468,
+                "phoible": 0.6296296296296297,
+                "grambank": 0.47316022340738384,
+                "gb_clause": 0.5,
+                "gb_nominal_domain": 0.40269363312841455,
+                "gb_numeral": 0.5,
+                "gb_pronoun": 0.4082482904638631,
+                "gb_verbal_domain": 0.5367826312580717,
+                "glot_tree": 0.857843137254902,
+                "scripts": 0.6666666666666667,
+                "average": 0.6535443300973052
+            },
+            "wordlists": {
+                "asjp": 0.4697521663913403,
+                "concepts": 0.010000000000000009,
+                "average": 0.23987608319567016
+            },
+            "textbased": {
+                "whitespace": 0.09607564448725292,
+                "punctuation": 0.07697339990240926,
+                "char_JSD": 0.1971482076656045,
+                "textcat": 0.5966,
+                "average": 0.5966
+            }
+        },
+        "rus": {
+            "metadata": {
+                "wiki_size": 0.7076153672190857,
+                "nlp_state": 0.2,
+                "speakers": 0.8657141328804228,
+                "AES": 0.0,
+                "loc": 0.15791130093786912,
+                "average": 0.305906358454573
+            },
+            "typology": {
+                "lang2vec": 0.27414562556056454,
+                "lang2vec_knn": 0.26686955877731444,
+                "phoible": 0.7619047619047619,
+                "grambank": 0.5351935732088158,
+                "gb_clause": 0.5188745216627708,
+                "gb_nominal_domain": 0.5489716413565446,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5773502691896258,
+                "gb_verbal_domain": 0.5413902920037098,
+                "glot_tree": 0.75,
+                "scripts": 1.0,
+                "average": 0.682366111704526
+            },
+            "wordlists": {
+                "asjp": 0.45944180788097116,
+                "concepts": 0.07999999999999996,
+                "average": 0.26972090394048553
+            },
+            "textbased": {
+                "whitespace": 0.1661203262309422,
+                "punctuation": 0.22012030977636987,
+                "char_JSD": 0.7185735709784221,
+                "textcat": 0.98606875,
+                "average": 0.98606875
+            }
+        },
+        "ita": {
+            "metadata": {
+                "wiki_size": 0.725785311009856,
+                "nlp_state": 0.2,
+                "speakers": 0.9485178440425179,
+                "AES": 0.0,
+                "loc": 0.0748407176023409,
+                "average": 0.3058396404112147
+            },
+            "typology": {
+                "lang2vec": 0.2366471169595642,
+                "lang2vec_knn": 0.22273024058209978,
+                "phoible": 0.6,
+                "grambank": 0.47553196871118103,
+                "gb_clause": 0.3922322702763681,
+                "gb_nominal_domain": 0.4219978575547771,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.2886751345948129,
+                "gb_verbal_domain": 0.6297235299224025,
+                "glot_tree": 0.8257575757575757,
+                "scripts": 0.6666666666666667,
+                "average": 0.6337631814895855
+            },
+            "wordlists": {
+                "asjp": 0.4671238705018723,
+                "concepts": 0.020000000000000018,
+                "average": 0.24356193525093617
+            },
+            "textbased": {
+                "whitespace": 0.18696800472179054,
+                "punctuation": 0.03635680976019129,
+                "char_JSD": 0.17780295336797705,
+                "textcat": 0.6143125,
+                "average": 0.6143125
+            }
+        },
+        "tur": {
+            "metadata": {
+                "wiki_size": 0.9083740529535493,
+                "nlp_state": 0.2,
+                "speakers": 0.9398080563892329,
+                "AES": 0.0,
+                "loc": 0.14694774141362726,
+                "average": 0.3216889494507151
+            },
+            "typology": {
+                "lang2vec": 0.3782070806728153,
+                "lang2vec_knn": 0.380256555113331,
+                "phoible": 0.5892857142857143,
+                "grambank": 0.5598507263734642,
+                "gb_clause": 0.7205766921228921,
+                "gb_nominal_domain": 0.4793012932694108,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5,
+                "gb_verbal_domain": 0.5207556439232955,
+                "glot_tree": 1.0,
+                "scripts": 0.6666666666666667,
+                "average": 0.7163788135530594
+            },
+            "wordlists": {
+                "asjp": 0.4992803945936924,
+                "concepts": 0.10999999999999999,
+                "average": 0.3046401972968462
+            },
+            "textbased": {
+                "whitespace": 0.3349668726515277,
+                "punctuation": 0.2345982365097774,
+                "char_JSD": 0.3614323206290767,
+                "textcat": 0.708875,
+                "average": 0.708875
+            }
+        },
+        "arb": {
+            "metadata": {
+                "wiki_size": 0.8186096079977283,
+                "nlp_state": 0.0,
+                "speakers": 0.7267913795031382,
+                "AES": 0.0,
+                "loc": 0.22959623832934817,
+                "average": 0.2390969044581216
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.3046357501436938,
+                "phoible": 0.7936507936507937,
+                "grambank": 0.5482499746302602,
+                "gb_clause": 0.5834599659915782,
+                "gb_nominal_domain": 0.4803844614152614,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5477225575051661,
+                "gb_verbal_domain": 0.6188527477552761,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.7806335894270179
+            },
+            "wordlists": {
+                "asjp": 0.4968457211653901,
+                "concepts": 0.050000000000000044,
+                "average": 0.27342286058269505
+            },
+            "textbased": {
+                "whitespace": 0.21644949272609093,
+                "punctuation": 0.14606400188666913,
+                "char_JSD": 0.5601529327917039,
+                "textcat": 0.83491875,
+                "average": 0.83491875
+            }
+        },
+        "deu": {
+            "metadata": {
+                "wiki_size": 0.5676297581875202,
+                "nlp_state": 0.0,
+                "speakers": 0.9276189708361757,
+                "AES": 0.0,
+                "loc": 0.0530120358679715,
+                "average": 0.24515775167603682
+            },
+            "typology": {
+                "lang2vec": 0.18793745558663033,
+                "lang2vec_knn": 0.18080376044325575,
+                "phoible": 0.42000000000000004,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.5833333333333333,
+                "scripts": 0.6666666666666667,
+                "average": 0.5016666666666667
+            },
+            "wordlists": {
+                "asjp": 0.38289408292323607,
+                "concepts": 0.040000000000000036,
+                "average": 0.21144704146161805
+            },
+            "textbased": {
+                "whitespace": 0.15934085574456813,
+                "punctuation": 0.08181404336841225,
+                "char_JSD": 0.17499130180127007,
+                "textcat": 0.643275,
+                "average": 0.643275
+            }
+        },
+        "zho": {
+            "metadata": {
+                "wiki_size": 0.7874077325807785,
+                "nlp_state": 0.0,
+                "speakers": 0.016493081399860277,
+                "AES": 0.0,
+                "loc": 0.4024118249768449,
+                "average": 0.1047262265941763
+            },
+            "typology": {
+                "lang2vec": 0.30452802513949817,
+                "lang2vec_knn": 0.33155395458409753,
+                "phoible": 0.7777777777777778,
+                "grambank": 0.5325242619376499,
+                "gb_clause": 0.5370861555295746,
+                "gb_nominal_domain": 0.46499055497527714,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.7071067811865475,
+                "gb_verbal_domain": 0.582222509739582,
+                "glot_tree": 1.0,
+                "scripts": 0.8,
+                "average": 0.7701006799051425
+            },
+            "wordlists": {
+                "asjp": 0.4949171504461408,
+                "concepts": 0.07999999999999996,
+                "average": 0.2874585752230704
+            },
+            "textbased": {
+                "whitespace": 0.2677786329581603,
+                "punctuation": 0.4329976519043456,
+                "char_JSD": 0.4983416563945307,
+                "textcat": 0.872525,
+                "average": 0.872525
+            }
+        }
+    },
+    "nld": {
+        "eng": {
+            "metadata": {
+                "wiki_size": 0.6886781223838789,
+                "nlp_state": 0.2,
+                "speakers": 0.9809970507241572,
+                "AES": 0.0,
+                "loc": 0.021047527234391093,
+                "average": 0.30051114448963706
+            },
+            "typology": {
+                "lang2vec": 0.22872326300365742,
+                "lang2vec_knn": 0.1922703518713582,
+                "phoible": 0.5671641791044777,
+                "grambank": 0.4135026674140678,
+                "gb_clause": 0.36689969285267143,
+                "gb_nominal_domain": 0.39641248358604597,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5,
+                "gb_verbal_domain": 0.4670993664969138,
+                "glot_tree": 0.5416666666666666,
+                "scripts": 0.6666666666666667,
+                "average": 0.5074445043950707
+            },
+            "wordlists": {
+                "asjp": 0.3299468743270022,
+                "concepts": 0.030000000000000027,
+                "average": 0.17997343716350112
+            },
+            "textbased": {
+                "whitespace": 0.15879233086117994,
+                "punctuation": 0.2169022764234546,
+                "char_JSD": 0.16963212846472345,
+                "textcat": 0.6132375,
+                "average": 0.6132375
+            }
+        },
+        "nld": {
+            "metadata": {
+                "wiki_size": 0.0,
+                "nlp_state": 0.0,
+                "speakers": 0.0,
+                "AES": 0.0,
+                "loc": 0.0,
+                "average": 0.0
+            },
+            "typology": {
+                "lang2vec": 0.0,
+                "lang2vec_knn": 0.0,
+                "phoible": -1.0,
+                "grambank": 0.0,
+                "gb_clause": 0.0,
+                "gb_nominal_domain": 0.0,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.0,
+                "gb_verbal_domain": 0.0,
+                "glot_tree": 0.0,
+                "scripts": 0.0,
+                "average": 0.0
+            },
+            "wordlists": {
+                "asjp": 0.0,
+                "concepts": 0.0,
+                "average": 0.0
+            },
+            "textbased": {
+                "whitespace": 0.0,
+                "punctuation": 0.0,
+                "char_JSD": 0.0,
+                "textcat": 0.0,
+                "average": 0.0
+            }
+        },
+        "spa": {
+            "metadata": {
+                "wiki_size": 0.06185396679747768,
+                "nlp_state": 0.2,
+                "speakers": 0.9485754547783756,
+                "AES": 0.0,
+                "loc": 0.06837571261422598,
+                "average": 0.30423779184815036
+            },
+            "typology": {
+                "lang2vec": 0.29288375003446243,
+                "lang2vec_knn": 0.2633619213516527,
+                "phoible": 0.6666666666666667,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.8285714285714286,
+                "scripts": 0.0,
+                "average": 0.7476190476190476
+            },
+            "wordlists": {
+                "asjp": 0.4699059947185758,
+                "concepts": 0.030000000000000027,
+                "average": 0.24995299735928792
+            },
+            "textbased": {
+                "whitespace": 0.06747891621424162,
+                "punctuation": 0.027739578528573117,
+                "char_JSD": 0.2149752064948411,
+                "textcat": 0.68903125,
+                "average": 0.68903125
+            }
+        },
+        "fra": {
+            "metadata": {
+                "wiki_size": 0.189139874037892,
+                "nlp_state": 0.2,
+                "speakers": 0.8814675207955474,
+                "AES": 0.0,
+                "loc": 0.02468310528682498,
+                "average": 0.2765376565205931
+            },
+            "typology": {
+                "lang2vec": 0.15490370599265213,
+                "lang2vec_knn": 0.17362695093211722,
+                "phoible": 0.5892857142857143,
+                "grambank": 0.45525145360598546,
+                "gb_clause": 0.3922322702763681,
+                "gb_nominal_domain": 0.4140393356054125,
+                "gb_numeral": 0.5,
+                "gb_pronoun": 0.5,
+                "gb_verbal_domain": 0.5393598899705937,
+                "glot_tree": 0.8411764705882353,
+                "scripts": 0.0,
+                "average": 0.6285712128266451
+            },
+            "wordlists": {
+                "asjp": 0.45963423495242856,
+                "concepts": 0.030000000000000027,
+                "average": 0.2448171174762143
+            },
+            "textbased": {
+                "whitespace": 0.06938267122844721,
+                "punctuation": 0.2771799706629784,
+                "char_JSD": 0.2231566963023702,
+                "textcat": 0.70145,
+                "average": 0.70145
+            }
+        },
+        "rus": {
+            "metadata": {
+                "wiki_size": 0.06082850643268145,
+                "nlp_state": 0.0,
+                "speakers": 0.8584888366627497,
+                "AES": 0.0,
+                "loc": 0.1439134488911733,
+                "average": 0.25060057138848074
+            },
+            "typology": {
+                "lang2vec": 0.2902145046805821,
+                "lang2vec_knn": 0.24231511910455705,
+                "phoible": 0.7068965517241379,
+                "grambank": 0.5116445100966509,
+                "gb_clause": 0.5370861555295746,
+                "gb_nominal_domain": 0.5383819020581655,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.2886751345948129,
+                "gb_verbal_domain": 0.5091750772173156,
+                "glot_tree": 0.7333333333333334,
+                "scripts": 1.0,
+                "average": 0.6506247983847074
+            },
+            "wordlists": {
+                "asjp": 0.46871059135868465,
+                "concepts": 0.06999999999999995,
+                "average": 0.2693552956793423
+            },
+            "textbased": {
+                "whitespace": 0.008711279792853355,
+                "punctuation": 0.3892779899222939,
+                "char_JSD": 0.7277595251792653,
+                "textcat": 0.98425625,
+                "average": 0.98425625
+            }
+        },
+        "ita": {
+            "metadata": {
+                "wiki_size": 0.11919235779418147,
+                "nlp_state": 0.0,
+                "speakers": 0.6308827996337824,
+                "AES": 0.0,
+                "loc": 0.05739643743027921,
+                "average": 0.1720698092660154
+            },
+            "typology": {
+                "lang2vec": 0.2019918131055749,
+                "lang2vec_knn": 0.17815275115572704,
+                "phoible": 0.5625,
+                "grambank": 0.47447959919511395,
+                "gb_clause": 0.41602514716892186,
+                "gb_nominal_domain": 0.45044261646145084,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.4082482904638631,
+                "gb_verbal_domain": 0.5773502691896258,
+                "glot_tree": 0.8090909090909091,
+                "scripts": 0.0,
+                "average": 0.6153568360953411
+            },
+            "wordlists": {
+                "asjp": 0.4521618802015586,
+                "concepts": 0.030000000000000027,
+                "average": 0.24108094010077932
+            },
+            "textbased": {
+                "whitespace": 0.033494314060944386,
+                "punctuation": 0.18735717586333323,
+                "char_JSD": 0.19590405338442027,
+                "textcat": 0.6858625,
+                "average": 0.6858625
+            }
+        },
+        "tur": {
+            "metadata": {
+                "wiki_size": 0.7056874134639806,
+                "nlp_state": 0.0,
+                "speakers": 0.684294140778608,
+                "AES": 0.0,
+                "loc": 0.1259370334210443,
+                "average": 0.20255779354991305
+            },
+            "typology": {
+                "lang2vec": 0.33139188444392464,
+                "lang2vec_knn": 0.31457576341939997,
+                "phoible": 0.6176470588235294,
+                "grambank": 0.5713360398804903,
+                "gb_clause": 0.6504436355879909,
+                "gb_nominal_domain": 0.5606119105813882,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5773502691896258,
+                "gb_verbal_domain": 0.5222329678670935,
+                "glot_tree": 1.0,
+                "scripts": 0.0,
+                "average": 0.7296610329013399
+            },
+            "wordlists": {
+                "asjp": 0.49560538238646673,
+                "concepts": 0.09999999999999998,
+                "average": 0.2978026911932333
+            },
+            "textbased": {
+                "whitespace": 0.20943049885732157,
+                "punctuation": 0.4006156213893334,
+                "char_JSD": 0.3622106626837979,
+                "textcat": 0.72246875,
+                "average": 0.72246875
+            }
+        },
+        "arb": {
+            "metadata": {
+                "wiki_size": 0.4173541757128383,
+                "nlp_state": 0.2,
+                "speakers": 0.9304452793572775,
+                "AES": 0.0,
+                "loc": 0.20868903187304186,
+                "average": 0.33478357780757984
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.3490276349746464,
+                "phoible": 0.7457627118644068,
+                "grambank": 0.5393598899705936,
+                "gb_clause": 0.5259237061407777,
+                "gb_nominal_domain": 0.5580998206737443,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.632455532033676,
+                "gb_verbal_domain": 0.5282705437953743,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.7617075339450001
+            },
+            "wordlists": {
+                "asjp": 0.49417932897638306,
+                "concepts": 0.040000000000000036,
+                "average": 0.26708966448819155
+            },
+            "textbased": {
+                "whitespace": 0.06854093701254182,
+                "punctuation": 0.08295501617602974,
+                "char_JSD": 0.575514197558483,
+                "textcat": 0.85036875,
+                "average": 0.85036875
+            }
+        },
+        "deu": {
+            "metadata": {
+                "wiki_size": 0.2799646055402162,
+                "nlp_state": 0.2,
+                "speakers": 0.7374595319329837,
+                "AES": 0.0,
+                "loc": 0.032373514315107293,
+                "average": 0.24245826156202274
+            },
+            "typology": {
+                "lang2vec": 0.09452458332000135,
+                "lang2vec_knn": 0.08486493612377821,
+                "phoible": 0.44067796610169496,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.5416666666666666,
+                "scripts": 0.0,
+                "average": 0.4911723163841808
+            },
+            "wordlists": {
+                "asjp": 0.2841085516720572,
+                "concepts": 0.050000000000000044,
+                "average": 0.1670542758360286
+            },
+            "textbased": {
+                "whitespace": 0.0006520683340296429,
+                "punctuation": 0.14712513525105586,
+                "char_JSD": 0.16271944839618596,
+                "textcat": 0.58913125,
+                "average": 0.58913125
+            }
+        },
+        "zho": {
+            "metadata": {
+                "wiki_size": 0.3171303313242867,
+                "nlp_state": 0.2,
+                "speakers": 0.9813104679134012,
+                "AES": 0.0,
+                "loc": 0.39121043192100247,
+                "average": 0.39313022495860095
+            },
+            "typology": {
+                "lang2vec": 0.3165422989941301,
+                "lang2vec_knn": 0.33795071460896176,
+                "phoible": 0.7971014492753623,
+                "grambank": 0.584781080334426,
+                "gb_clause": 0.5547001962252291,
+                "gb_nominal_domain": 0.5976143046671968,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.6454972243679029,
+                "gb_verbal_domain": 0.6030226891555274,
+                "glot_tree": 1.0,
+                "scripts": 0.6666666666666667,
+                "average": 0.7939608432032627
+            },
+            "wordlists": {
+                "asjp": 0.4967430133840846,
+                "concepts": 0.07999999999999996,
+                "average": 0.28837150669204226
+            },
+            "textbased": {
+                "whitespace": 0.1295593301099529,
+                "punctuation": 0.5559817519437371,
+                "char_JSD": 0.5040652333033742,
+                "textcat": 0.8608,
+                "average": 0.8608
+            }
+        }
+    },
+    "spa": {
+        "eng": {
+            "metadata": {
+                "wiki_size": 0.7079346154652749,
+                "nlp_state": 0.0,
+                "speakers": 0.630469278941685,
+                "AES": 0.0,
+                "loc": 0.06982405042456032,
+                "average": 0.17507333234156133
+            },
+            "typology": {
+                "lang2vec": 0.24680967650369778,
+                "lang2vec_knn": 0.26686955877731444,
+                "phoible": 0.7254901960784313,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.8452380952380953,
+                "scripts": 0.6666666666666667,
+                "average": 0.7853641456582634
+            },
+            "wordlists": {
+                "asjp": 0.4682382370940234,
+                "concepts": 0.030000000000000027,
+                "average": 0.24911911854701171
+            },
+            "textbased": {
+                "whitespace": 0.0979210188752333,
+                "punctuation": 0.19455970202777684,
+                "char_JSD": 0.18616881862900223,
+                "textcat": 0.6241875,
+                "average": 0.6241875
+            }
+        },
+        "nld": {
+            "metadata": {
+                "wiki_size": 0.06185396679747768,
+                "nlp_state": 0.2,
+                "speakers": 0.9485754547783756,
+                "AES": 0.0,
+                "loc": 0.06837571261422598,
+                "average": 0.30423779184815036
+            },
+            "typology": {
+                "lang2vec": 0.29288375003446243,
+                "lang2vec_knn": 0.2633619213516527,
+                "phoible": 0.6666666666666667,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.8285714285714286,
+                "scripts": 0.0,
+                "average": 0.7476190476190476
+            },
+            "wordlists": {
+                "asjp": 0.46990599471857114,
+                "concepts": 0.030000000000000027,
+                "average": 0.24995299735928558
+            },
+            "textbased": {
+                "whitespace": 0.06747891621424162,
+                "punctuation": 0.027739578528573117,
+                "char_JSD": 0.2149752064948411,
+                "textcat": 0.68903125,
+                "average": 0.68903125
+            }
+        },
+        "spa": {
+            "metadata": {
+                "wiki_size": 0.0,
+                "nlp_state": 0.0,
+                "speakers": 0.0,
+                "AES": 0.0,
+                "loc": -1.0,
+                "average": 0.0
+            },
+            "typology": {
+                "lang2vec": 0.0,
+                "lang2vec_knn": 0.0,
+                "phoible": -1.0,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.0,
+                "scripts": 0.0,
+                "average": 0.0
+            },
+            "wordlists": {
+                "asjp": 0.0,
+                "concepts": 0.0,
+                "average": 0.0
+            },
+            "textbased": {
+                "whitespace": 0.0,
+                "punctuation": 0.0,
+                "char_JSD": 0.0,
+                "textcat": 0.0,
+                "average": 0.0
+            }
+        },
+        "fra": {
+            "metadata": {
+                "wiki_size": 0.2392947893465508,
+                "nlp_state": 0.0,
+                "speakers": 0.5661565035442822,
+                "AES": 0.0,
+                "loc": 0.04381164146763054,
+                "average": 0.15249203625297816
+            },
+            "typology": {
+                "lang2vec": 0.2843081499128809,
+                "lang2vec_knn": 0.27366505924119466,
+                "phoible": 0.6888888888888889,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.3487394957983193,
+                "scripts": 0.0,
+                "average": 0.518814192343604
+            },
+            "wordlists": {
+                "asjp": 0.38178466023429125,
+                "concepts": 0.020000000000000018,
+                "average": 0.20089233011714563
+            },
+            "textbased": {
+                "whitespace": 0.00204151417840015,
+                "punctuation": 0.2565571801811084,
+                "char_JSD": 0.16381104291448392,
+                "textcat": 0.54633125,
+                "average": 0.54633125
+            }
+        },
+        "rus": {
+            "metadata": {
+                "wiki_size": 0.0010918776515470574,
+                "nlp_state": 0.2,
+                "speakers": 0.6366043214621231,
+                "AES": 0.0,
+                "loc": 0.20388445356038457,
+                "average": 0.2601221937556269
+            },
+            "typology": {
+                "lang2vec": 0.22530121120657232,
+                "lang2vec_knn": 0.22093023255813948,
+                "phoible": 0.7391304347826086,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.761904761904762,
+                "scripts": 1.0,
+                "average": 0.7505175983436854
+            },
+            "wordlists": {
+                "asjp": 0.46707189398354204,
+                "concepts": 0.07999999999999996,
+                "average": 0.273535946991771
+            },
+            "textbased": {
+                "whitespace": 0.07560236828783429,
+                "punctuation": 0.3718534699237942,
+                "char_JSD": 0.7256906344470555,
+                "textcat": 0.986725,
+                "average": 0.986725
+            }
+        },
+        "ita": {
+            "metadata": {
+                "wiki_size": 0.0611188332811784,
+                "nlp_state": 0.2,
+                "speakers": 0.8606823383721923,
+                "AES": 0.0,
+                "loc": 0.058841035775871305,
+                "average": 0.2798808435370159
+            },
+            "typology": {
+                "lang2vec": 0.17411833235819762,
+                "lang2vec_knn": 0.14936909373734975,
+                "phoible": 0.5897435897435898,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.35064935064935066,
+                "scripts": 0.0,
+                "average": 0.4701964701964702
+            },
+            "wordlists": {
+                "asjp": 0.24146836418539308,
+                "concepts": 0.040000000000000036,
+                "average": 0.14073418209269656
+            },
+            "textbased": {
+                "whitespace": 0.09871307026301401,
+                "punctuation": 0.16417164970388642,
+                "char_JSD": 0.15370311907399062,
+                "textcat": 0.4804125,
+                "average": 0.4804125
+            }
+        },
+        "tur": {
+            "metadata": {
+                "wiki_size": 0.6862827575667159,
+                "nlp_state": 0.2,
+                "speakers": 0.8371124775813477,
+                "AES": 0.0,
+                "loc": 0.14355036860730555,
+                "average": 0.2951657115471633
+            },
+            "typology": {
+                "lang2vec": 0.38812948321787966,
+                "lang2vec_knn": 0.3895869103254743,
+                "phoible": 0.7111111111111111,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 1.0,
+                "scripts": 0.0,
+                "average": 0.8555555555555556
+            },
+            "wordlists": {
+                "asjp": 0.4811562110170329,
+                "concepts": 0.07999999999999996,
+                "average": 0.2805781055085164
+            },
+            "textbased": {
+                "whitespace": 0.26277727198646317,
+                "punctuation": 0.38351457554597,
+                "char_JSD": 0.3695347111561652,
+                "textcat": 0.7362875,
+                "average": 0.7362875
+            }
+        },
+        "arb": {
+            "metadata": {
+                "wiki_size": 0.37893909512338897,
+                "nlp_state": 0.0,
+                "speakers": 0.26066060295499194,
+                "AES": 0.0,
+                "loc": 0.21551720852540548,
+                "average": 0.11904445287009935
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.2911280393189043,
+                "phoible": 0.7843137254901961,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.892156862745098
+            },
+            "wordlists": {
+                "asjp": 0.4903482822977349,
+                "concepts": 0.050000000000000044,
+                "average": 0.2701741411488675
+            },
+            "textbased": {
+                "whitespace": 0.13139478508086855,
+                "punctuation": 0.05679079023281963,
+                "char_JSD": 0.571350721513653,
+                "textcat": 0.8447875,
+                "average": 0.8447875
+            }
+        },
+        "deu": {
+            "metadata": {
+                "wiki_size": 0.32450165092214034,
+                "nlp_state": 0.0,
+                "speakers": 0.8041271671363908,
+                "AES": 0.0,
+                "loc": 0.07038493085192012,
+                "average": 0.21862802449707772
+            },
+            "typology": {
+                "lang2vec": 0.336016542365822,
+                "lang2vec_knn": 0.32240180229012905,
+                "phoible": 0.8055555555555556,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.8452380952380953,
+                "scripts": 0.0,
+                "average": 0.8253968253968255
+            },
+            "wordlists": {
+                "asjp": 0.4896013484230397,
+                "concepts": 0.050000000000000044,
+                "average": 0.2698006742115199
+            },
+            "textbased": {
+                "whitespace": 0.06808698368379329,
+                "punctuation": 0.12279174806046678,
+                "char_JSD": 0.23273114347529672,
+                "textcat": 0.710175,
+                "average": 0.710175
+            }
+        },
+        "zho": {
+            "metadata": {
+                "wiki_size": 0.27210727913582855,
+                "nlp_state": 0.0,
+                "speakers": 0.6365639792038489,
+                "AES": 0.0,
+                "loc": 0.4526047949541753,
+                "average": 0.27229219353950607
+            },
+            "typology": {
+                "lang2vec": 0.33121713685130194,
+                "lang2vec_knn": 0.3484756873521473,
+                "phoible": 0.7457627118644068,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 1.0,
+                "scripts": 0.6666666666666667,
+                "average": 0.8728813559322034
+            },
+            "wordlists": {
+                "asjp": 0.4922121916373689,
+                "concepts": 0.07999999999999996,
+                "average": 0.2861060958186844
+            },
+            "textbased": {
+                "whitespace": 0.18829572314293175,
+                "punctuation": 0.5433134597988859,
+                "char_JSD": 0.511247225229854,
+                "textcat": 0.8610125,
+                "average": 0.8610125
+            }
+        }
+    },
+    "fra": {
+        "eng": {
+            "metadata": {
+                "wiki_size": 0.6160597029645168,
+                "nlp_state": 0.0,
+                "speakers": 0.839681499928258,
+                "AES": 0.0,
+                "loc": 0.02974767987143179,
+                "average": 0.21735729494992245
+            },
+            "typology": {
+                "lang2vec": 0.2396005825622104,
+                "lang2vec_knn": 0.23201183261542468,
+                "phoible": 0.6296296296296297,
+                "grambank": 0.47316022340738384,
+                "gb_clause": 0.5,
+                "gb_nominal_domain": 0.40269363312841455,
+                "gb_numeral": 0.5,
+                "gb_pronoun": 0.4082482904638631,
+                "gb_verbal_domain": 0.5367826312580717,
+                "glot_tree": 0.857843137254902,
+                "scripts": 0.6666666666666667,
+                "average": 0.6535443300973052
+            },
+            "wordlists": {
+                "asjp": 0.46975216639134393,
+                "concepts": 0.010000000000000009,
+                "average": 0.23987608319567197
+            },
+            "textbased": {
+                "whitespace": 0.09607564448725292,
+                "punctuation": 0.07697339990240926,
+                "char_JSD": 0.1971482076656045,
+                "textcat": 0.5966,
+                "average": 0.5966
+            }
+        },
+        "nld": {
+            "metadata": {
+                "wiki_size": 0.189139874037892,
+                "nlp_state": 0.2,
+                "speakers": 0.8814675207955474,
+                "AES": 0.0,
+                "loc": 0.02468310528682498,
+                "average": 0.2765376565205931
+            },
+            "typology": {
+                "lang2vec": 0.15490370599265213,
+                "lang2vec_knn": 0.17362695093211722,
+                "phoible": 0.5892857142857143,
+                "grambank": 0.45525145360598546,
+                "gb_clause": 0.3922322702763681,
+                "gb_nominal_domain": 0.4140393356054125,
+                "gb_numeral": 0.5,
+                "gb_pronoun": 0.5,
+                "gb_verbal_domain": 0.5393598899705937,
+                "glot_tree": 0.8411764705882353,
+                "scripts": 0.0,
+                "average": 0.6285712128266451
+            },
+            "wordlists": {
+                "asjp": 0.45963423495242856,
+                "concepts": 0.030000000000000027,
+                "average": 0.2448171174762143
+            },
+            "textbased": {
+                "whitespace": 0.06938267122844721,
+                "punctuation": 0.2771799706629784,
+                "char_JSD": 0.2231566963023702,
+                "textcat": 0.70145,
+                "average": 0.70145
+            }
+        },
+        "spa": {
+            "metadata": {
+                "wiki_size": 0.2392947893465508,
+                "nlp_state": 0.0,
+                "speakers": 0.5661565035442822,
+                "AES": 0.0,
+                "loc": 0.04381164146763054,
+                "average": 0.15249203625297816
+            },
+            "typology": {
+                "lang2vec": 0.2843081499128809,
+                "lang2vec_knn": 0.27366505924119466,
+                "phoible": 0.6888888888888889,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.3487394957983193,
+                "scripts": 0.0,
+                "average": 0.518814192343604
+            },
+            "wordlists": {
+                "asjp": 0.38178466023429536,
+                "concepts": 0.020000000000000018,
+                "average": 0.2008923301171477
+            },
+            "textbased": {
+                "whitespace": 0.00204151417840015,
+                "punctuation": 0.2565571801811084,
+                "char_JSD": 0.16381104291448392,
+                "textcat": 0.54633125,
+                "average": 0.54633125
+            }
+        },
+        "fra": {
+            "metadata": {
+                "wiki_size": 0.0,
+                "nlp_state": 0.0,
+                "speakers": 0.0,
+                "AES": 0.0,
+                "loc": 0.0,
+                "average": 0.0
+            },
+            "typology": {
+                "lang2vec": 0.0,
+                "lang2vec_knn": 0.0,
+                "phoible": -1.0,
+                "grambank": 0.0,
+                "gb_clause": 0.0,
+                "gb_nominal_domain": 0.0,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.0,
+                "gb_verbal_domain": 0.0,
+                "glot_tree": 0.0,
+                "scripts": 0.0,
+                "average": 0.0
+            },
+            "wordlists": {
+                "asjp": 0.0,
+                "concepts": 0.0,
+                "average": 0.0
+            },
+            "textbased": {
+                "whitespace": 0.0,
+                "punctuation": 0.0,
+                "char_JSD": 0.0,
+                "textcat": 0.0,
+                "average": 0.0
+            }
+        },
+        "rus": {
+            "metadata": {
+                "wiki_size": 0.23846328442598297,
+                "nlp_state": 0.2,
+                "speakers": 0.16238071676391153,
+                "AES": 0.0,
+                "loc": 0.1657861979549371,
+                "average": 0.13204172867971214
+            },
+            "typology": {
+                "lang2vec": 0.2677137663154575,
+                "lang2vec_knn": 0.24253641892296018,
+                "phoible": 0.7017543859649122,
+                "grambank": 0.5209191721559094,
+                "gb_clause": 0.5370861555295746,
+                "gb_nominal_domain": 0.5489716413565446,
+                "gb_numeral": 0.5,
+                "gb_pronoun": 0.5773502691896258,
+                "gb_verbal_domain": 0.454858826147342,
+                "glot_tree": 0.7745098039215687,
+                "scripts": 1.0,
+                "average": 0.6657277873474635
+            },
+            "wordlists": {
+                "asjp": 0.47191031641344927,
+                "concepts": 0.06999999999999995,
+                "average": 0.2709551582067246
+            },
+            "textbased": {
+                "whitespace": 0.07748953915945411,
+                "punctuation": 0.155084273691382,
+                "char_JSD": 0.7238517239271945,
+                "textcat": 0.984275,
+                "average": 0.984275
+            }
+        },
+        "ita": {
+            "metadata": {
+                "wiki_size": 0.28578820429260265,
+                "nlp_state": 0.2,
+                "speakers": 0.6788757633433194,
+                "AES": 0.0,
+                "loc": 0.04972103821689211,
+                "average": 0.2321492003900529
+            },
+            "typology": {
+                "lang2vec": 0.20873242814590076,
+                "lang2vec_knn": 0.1999053086343373,
+                "phoible": 0.4390243902439024,
+                "grambank": 0.4133452205563576,
+                "gb_clause": 0.41602514716892186,
+                "gb_nominal_domain": 0.3511234415883917,
+                "gb_numeral": 0.5,
+                "gb_pronoun": 0.5,
+                "gb_verbal_domain": 0.454858826147342,
+                "glot_tree": 0.40106951871657753,
+                "scripts": 0.0,
+                "average": 0.41781304317227913
+            },
+            "wordlists": {
+                "asjp": 0.3646237231205925,
+                "concepts": 0.010000000000000009,
+                "average": 0.18731186156029625
+            },
+            "textbased": {
+                "whitespace": 0.10055306030887878,
+                "punctuation": 0.1105317024057536,
+                "char_JSD": 0.15382124811078926,
+                "textcat": 0.560725,
+                "average": 0.560725
+            }
+        },
+        "tur": {
+            "metadata": {
+                "wiki_size": 0.7613536590091694,
+                "nlp_state": 0.2,
+                "speakers": 0.6245477372615676,
+                "AES": 0.0,
+                "loc": 0.13054272748348753,
+                "average": 0.2387726161862638
+            },
+            "typology": {
+                "lang2vec": 0.34908856020185164,
+                "lang2vec_knn": 0.36451109069775744,
+                "phoible": 0.5882352941176471,
+                "grambank": 0.546358364708153,
+                "gb_clause": 0.588348405414552,
+                "gb_nominal_domain": 0.5812381937190965,
+                "gb_numeral": 0.5,
+                "gb_pronoun": 0.6454972243679029,
+                "gb_verbal_domain": 0.4317877695883728,
+                "glot_tree": 1.0,
+                "scripts": 0.0,
+                "average": 0.7115312196086
+            },
+            "wordlists": {
+                "asjp": 0.4845519925129984,
+                "concepts": 0.08999999999999997,
+                "average": 0.2872759962564992
+            },
+            "textbased": {
+                "whitespace": 0.2642823226383415,
+                "punctuation": 0.17076954942653078,
+                "char_JSD": 0.37618093768091165,
+                "textcat": 0.75665625,
+                "average": 0.75665625
+            }
+        },
+        "arb": {
+            "metadata": {
+                "wiki_size": 0.5275557335272159,
+                "nlp_state": 0.0,
+                "speakers": 0.41320116554088204,
+                "AES": 0.0,
+                "loc": 0.21092358425427432,
+                "average": 0.15603118744878908
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.2930156085644664,
+                "phoible": 0.7966101694915254,
+                "grambank": 0.4868205209861014,
+                "gb_clause": 0.5834599659915782,
+                "gb_nominal_domain": 0.39223227027636803,
+                "gb_numeral": 0.5,
+                "gb_pronoun": 0.447213595499958,
+                "gb_verbal_domain": 0.5052911526399114,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.7611435634925422
+            },
+            "wordlists": {
+                "asjp": 0.4777275478472481,
+                "concepts": 0.040000000000000036,
+                "average": 0.25886377392362403
+            },
+            "textbased": {
+                "whitespace": 0.13316805494255823,
+                "punctuation": 0.21179435896050958,
+                "char_JSD": 0.577472557413402,
+                "textcat": 0.8621375,
+                "average": 0.8621375
+            }
+        },
+        "deu": {
+            "metadata": {
+                "wiki_size": 0.11201035615675159,
+                "nlp_state": 0.0,
+                "speakers": 0.5485173006768771,
+                "AES": 0.0,
+                "loc": 0.03883291008091797,
+                "average": 0.14683755268944876
+            },
+            "typology": {
+                "lang2vec": 0.16942607767109474,
+                "lang2vec_knn": 0.17208406792417785,
+                "phoible": 0.6037735849056604,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.857843137254902,
+                "scripts": 0.0,
+                "average": 0.7308083610802811
+            },
+            "wordlists": {
+                "asjp": 0.47874698983469505,
+                "concepts": 0.040000000000000036,
+                "average": 0.2593734949173475
+            },
+            "textbased": {
+                "whitespace": 0.06998949731963844,
+                "punctuation": 0.15248993819299161,
+                "char_JSD": 0.23013920272199057,
+                "textcat": 0.70914375,
+                "average": 0.70914375
+            }
+        },
+        "zho": {
+            "metadata": {
+                "wiki_size": 0.44628821444190814,
+                "nlp_state": 0.0,
+                "speakers": 0.8423256459998448,
+                "AES": 0.0,
+                "loc": 0.41407892259525636,
+                "average": 0.31410114214877527
+            },
+            "typology": {
+                "lang2vec": 0.35263018642691335,
+                "lang2vec_knn": 0.34721060121375513,
+                "phoible": 0.7580645161290323,
+                "grambank": 0.6229443807375883,
+                "gb_clause": 0.6201736729460423,
+                "gb_nominal_domain": 0.5694947974514993,
+                "gb_numeral": 0.5,
+                "gb_pronoun": 0.7071067811865475,
+                "gb_verbal_domain": 0.6764814252025461,
+                "glot_tree": 1.0,
+                "scripts": 0.6666666666666667,
+                "average": 0.7936696322888735
+            },
+            "wordlists": {
+                "asjp": 0.4836147090668821,
+                "concepts": 0.07999999999999996,
+                "average": 0.281807354533441
+            },
+            "textbased": {
+                "whitespace": 0.1899528289328034,
+                "punctuation": 0.38571396746777853,
+                "char_JSD": 0.5116813678900333,
+                "textcat": 0.8654875,
+                "average": 0.8654875
+            }
+        }
+    },
+    "rus": {
+        "eng": {
+            "metadata": {
+                "wiki_size": 0.7076153672190857,
+                "nlp_state": 0.2,
+                "speakers": 0.8657141328804228,
+                "AES": 0.0,
+                "loc": 0.15791130093786912,
+                "average": 0.305906358454573
+            },
+            "typology": {
+                "lang2vec": 0.27414562556056454,
+                "lang2vec_knn": 0.26686955877731444,
+                "phoible": 0.7619047619047619,
+                "grambank": 0.5351935732088158,
+                "gb_clause": 0.5188745216627708,
+                "gb_nominal_domain": 0.5489716413565446,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5773502691896258,
+                "gb_verbal_domain": 0.5413902920037098,
+                "glot_tree": 0.75,
+                "scripts": 1.0,
+                "average": 0.682366111704526
+            },
+            "wordlists": {
+                "asjp": 0.45944180788097155,
+                "concepts": 0.07999999999999996,
+                "average": 0.26972090394048576
+            },
+            "textbased": {
+                "whitespace": 0.1661203262309422,
+                "punctuation": 0.22012030977636987,
+                "char_JSD": 0.7185735709784221,
+                "textcat": 0.98606875,
+                "average": 0.98606875
+            }
+        },
+        "nld": {
+            "metadata": {
+                "wiki_size": 0.06082850643268145,
+                "nlp_state": 0.0,
+                "speakers": 0.8584888366627497,
+                "AES": 0.0,
+                "loc": 0.1439134488911733,
+                "average": 0.25060057138848074
+            },
+            "typology": {
+                "lang2vec": 0.2902145046805821,
+                "lang2vec_knn": 0.24231511910455705,
+                "phoible": 0.7068965517241379,
+                "grambank": 0.5116445100966509,
+                "gb_clause": 0.5370861555295746,
+                "gb_nominal_domain": 0.5383819020581655,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.2886751345948129,
+                "gb_verbal_domain": 0.5091750772173156,
+                "glot_tree": 0.7333333333333334,
+                "scripts": 1.0,
+                "average": 0.6506247983847074
+            },
+            "wordlists": {
+                "asjp": 0.4687105913586818,
+                "concepts": 0.06999999999999995,
+                "average": 0.2693552956793409
+            },
+            "textbased": {
+                "whitespace": 0.008711279792853355,
+                "punctuation": 0.3892779899222939,
+                "char_JSD": 0.7277595251792653,
+                "textcat": 0.98425625,
+                "average": 0.98425625
+            }
+        },
+        "spa": {
+            "metadata": {
+                "wiki_size": 0.0010918776515470574,
+                "nlp_state": 0.2,
+                "speakers": 0.6366043214621231,
+                "AES": 0.0,
+                "loc": 0.20388445356038457,
+                "average": 0.2601221937556269
+            },
+            "typology": {
+                "lang2vec": 0.22530121120657232,
+                "lang2vec_knn": 0.22093023255813948,
+                "phoible": 0.7391304347826086,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.761904761904762,
+                "scripts": 1.0,
+                "average": 0.7505175983436854
+            },
+            "wordlists": {
+                "asjp": 0.46707189398354465,
+                "concepts": 0.07999999999999996,
+                "average": 0.2735359469917723
+            },
+            "textbased": {
+                "whitespace": 0.07560236828783429,
+                "punctuation": 0.3718534699237942,
+                "char_JSD": 0.7256906344470555,
+                "textcat": 0.986725,
+                "average": 0.986725
+            }
+        },
+        "fra": {
+            "metadata": {
+                "wiki_size": 0.23846328442598297,
+                "nlp_state": 0.2,
+                "speakers": 0.16238071676391153,
+                "AES": 0.0,
+                "loc": 0.1657861979549371,
+                "average": 0.13204172867971214
+            },
+            "typology": {
+                "lang2vec": 0.2677137663154575,
+                "lang2vec_knn": 0.24253641892296018,
+                "phoible": 0.7017543859649122,
+                "grambank": 0.5209191721559094,
+                "gb_clause": 0.5370861555295746,
+                "gb_nominal_domain": 0.5489716413565446,
+                "gb_numeral": 0.5,
+                "gb_pronoun": 0.5773502691896258,
+                "gb_verbal_domain": 0.454858826147342,
+                "glot_tree": 0.7745098039215687,
+                "scripts": 1.0,
+                "average": 0.6657277873474635
+            },
+            "wordlists": {
+                "asjp": 0.4719103164134451,
+                "concepts": 0.06999999999999995,
+                "average": 0.27095515820672256
+            },
+            "textbased": {
+                "whitespace": 0.07748953915945411,
+                "punctuation": 0.155084273691382,
+                "char_JSD": 0.7238517239271945,
+                "textcat": 0.984275,
+                "average": 0.984275
+            }
+        },
+        "rus": {
+            "metadata": {
+                "wiki_size": 0.0,
+                "nlp_state": 0.0,
+                "speakers": 0.0,
+                "AES": 0.0,
+                "loc": 0.0,
+                "average": 0.0
+            },
+            "typology": {
+                "lang2vec": 0.0,
+                "lang2vec_knn": 0.0,
+                "phoible": -1.0,
+                "grambank": 0.0,
+                "gb_clause": 0.0,
+                "gb_nominal_domain": 0.0,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.0,
+                "gb_verbal_domain": 0.0,
+                "glot_tree": 0.0,
+                "scripts": 0.0,
+                "average": 0.0
+            },
+            "wordlists": {
+                "asjp": 0.0,
+                "concepts": 0.0,
+                "average": 0.0
+            },
+            "textbased": {
+                "whitespace": 0.0,
+                "punctuation": 0.0,
+                "char_JSD": 0.0,
+                "textcat": 0.0,
+                "average": 0.0
+            }
+        },
+        "ita": {
+            "metadata": {
+                "wiki_size": 0.06214397664457716,
+                "nlp_state": 0.0,
+                "speakers": 0.61662267920094,
+                "AES": 0.0,
+                "loc": 0.15475327085912433,
+                "average": 0.19284398751501608
+            },
+            "typology": {
+                "lang2vec": 0.23784292055071699,
+                "lang2vec_knn": 0.18385413047772747,
+                "phoible": 0.64,
+                "grambank": 0.5222329678670935,
+                "gb_clause": 0.5547001962252291,
+                "gb_nominal_domain": 0.5852057359806527,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5,
+                "gb_verbal_domain": 0.4188539082916955,
+                "glot_tree": 0.7424242424242424,
+                "scripts": 1.0,
+                "average": 0.6348857367637787
+            },
+            "wordlists": {
+                "asjp": 0.4603198164729792,
+                "concepts": 0.08999999999999997,
+                "average": 0.2751599082364896
+            },
+            "textbased": {
+                "whitespace": 0.025000823436094444,
+                "punctuation": 0.24847424730966738,
+                "char_JSD": 0.7287110499383304,
+                "textcat": 0.99076875,
+                "average": 0.99076875
+            }
+        },
+        "tur": {
+            "metadata": {
+                "wiki_size": 0.6866252984126338,
+                "nlp_state": 0.0,
+                "speakers": 0.5517626321974147,
+                "AES": 0.0,
+                "loc": 0.12228755903302592,
+                "average": 0.16851254780761016
+            },
+            "typology": {
+                "lang2vec": 0.32685383847549676,
+                "lang2vec_knn": 0.3443711259051391,
+                "phoible": 0.6785714285714286,
+                "grambank": 0.5888409533496362,
+                "gb_clause": 0.6933752452815365,
+                "gb_nominal_domain": 0.5852057359806527,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5,
+                "gb_verbal_domain": 0.5252257314388903,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.7558041273070216
+            },
+            "wordlists": {
+                "asjp": 0.49028995723714297,
+                "concepts": 0.08999999999999997,
+                "average": 0.29014497861857147
+            },
+            "textbased": {
+                "whitespace": 0.20248310605463604,
+                "punctuation": 0.018564307950186487,
+                "char_JSD": 0.5804897200222918,
+                "textcat": 0.8776375,
+                "average": 0.8776375
+            }
+        },
+        "arb": {
+            "metadata": {
+                "wiki_size": 0.37961721764567335,
+                "nlp_state": 0.2,
+                "speakers": 0.5084859808765815,
+                "AES": 0.0,
+                "loc": 0.17417008025781403,
+                "average": 0.22066401528359889
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.2911280393189043,
+                "phoible": 0.803030303030303,
+                "grambank": 0.5534965054116333,
+                "gb_clause": 0.6014167670256414,
+                "gb_nominal_domain": 0.5114083119567588,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.7071067811865475,
+                "gb_verbal_domain": 0.5457768229098153,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.7855089361473121
+            },
+            "wordlists": {
+                "asjp": 0.49451344115250206,
+                "concepts": 0.06000000000000005,
+                "average": 0.27725672057625106
+            },
+            "textbased": {
+                "whitespace": 0.060355430259698806,
+                "punctuation": 0.33403265832056916,
+                "char_JSD": 0.7378290867812131,
+                "textcat": 0.98248125,
+                "average": 0.98248125
+            }
+        },
+        "deu": {
+            "metadata": {
+                "wiki_size": 0.3237632831638715,
+                "nlp_state": 0.2,
+                "speakers": 0.4609929494712104,
+                "AES": 0.0,
+                "loc": 0.13363180891439794,
+                "average": 0.19865618959640208
+            },
+            "typology": {
+                "lang2vec": 0.23451700745310755,
+                "lang2vec_knn": 0.22858051337645469,
+                "phoible": 0.746031746031746,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.75,
+                "scripts": 1.0,
+                "average": 0.748015873015873
+            },
+            "wordlists": {
+                "asjp": 0.4748907943458522,
+                "concepts": 0.07999999999999996,
+                "average": 0.27744539717292604
+            },
+            "textbased": {
+                "whitespace": 0.008064470044370498,
+                "punctuation": 0.2839254205744698,
+                "char_JSD": 0.7273318954472836,
+                "textcat": 0.98425625,
+                "average": 0.98425625
+            }
+        },
+        "zho": {
+            "metadata": {
+                "wiki_size": 0.2729020489304639,
+                "nlp_state": 0.2,
+                "speakers": 0.8679289206176768,
+                "AES": 0.0,
+                "loc": 0.24878910193222104,
+                "average": 0.32917950563747445
+            },
+            "typology": {
+                "lang2vec": 0.3102647511986374,
+                "lang2vec_knn": 0.33704543625306216,
+                "phoible": 0.8333333333333334,
+                "grambank": 0.6458215133732217,
+                "gb_clause": 0.6650621717611762,
+                "gb_nominal_domain": 0.6620847108818944,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5773502691896258,
+                "gb_verbal_domain": 0.6432675209026769,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.826384948902185
+            },
+            "wordlists": {
+                "asjp": 0.49037752199369117,
+                "concepts": 0.08999999999999997,
+                "average": 0.29018876099684554
+            },
+            "textbased": {
+                "whitespace": 0.1219100428095724,
+                "punctuation": 0.2729617719201448,
+                "char_JSD": 0.7343664726728942,
+                "textcat": 0.981925,
+                "average": 0.981925
+            }
+        }
+    },
+    "ita": {
+        "eng": {
+            "metadata": {
+                "wiki_size": 0.725785311009856,
+                "nlp_state": 0.2,
+                "speakers": 0.9485178440425179,
+                "AES": 0.0,
+                "loc": 0.0748407176023409,
+                "average": 0.3058396404112147
+            },
+            "typology": {
+                "lang2vec": 0.2366471169595642,
+                "lang2vec_knn": 0.22273024058209978,
+                "phoible": 0.6,
+                "grambank": 0.47553196871118103,
+                "gb_clause": 0.3922322702763681,
+                "gb_nominal_domain": 0.4219978575547771,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.2886751345948129,
+                "gb_verbal_domain": 0.6297235299224025,
+                "glot_tree": 0.8257575757575757,
+                "scripts": 0.6666666666666667,
+                "average": 0.6337631814895855
+            },
+            "wordlists": {
+                "asjp": 0.46712387050187404,
+                "concepts": 0.020000000000000018,
+                "average": 0.24356193525093703
+            },
+            "textbased": {
+                "whitespace": 0.18696800472179054,
+                "punctuation": 0.03635680976019129,
+                "char_JSD": 0.17780295336797705,
+                "textcat": 0.6143125,
+                "average": 0.6143125
+            }
+        },
+        "nld": {
+            "metadata": {
+                "wiki_size": 0.11919235779418147,
+                "nlp_state": 0.0,
+                "speakers": 0.6308827996337824,
+                "AES": 0.0,
+                "loc": 0.05739643743027921,
+                "average": 0.1720698092660154
+            },
+            "typology": {
+                "lang2vec": 0.2019918131055749,
+                "lang2vec_knn": 0.17815275115572704,
+                "phoible": 0.5625,
+                "grambank": 0.47447959919511395,
+                "gb_clause": 0.41602514716892186,
+                "gb_nominal_domain": 0.45044261646145084,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.4082482904638631,
+                "gb_verbal_domain": 0.5773502691896258,
+                "glot_tree": 0.8090909090909091,
+                "scripts": 0.0,
+                "average": 0.6153568360953411
+            },
+            "wordlists": {
+                "asjp": 0.45216188020156084,
+                "concepts": 0.030000000000000027,
+                "average": 0.24108094010078043
+            },
+            "textbased": {
+                "whitespace": 0.033494314060944386,
+                "punctuation": 0.18735717586333323,
+                "char_JSD": 0.19590405338442027,
+                "textcat": 0.6858625,
+                "average": 0.6858625
+            }
+        },
+        "spa": {
+            "metadata": {
+                "wiki_size": 0.0611188332811784,
+                "nlp_state": 0.2,
+                "speakers": 0.8606823383721923,
+                "AES": 0.0,
+                "loc": 0.058841035775871305,
+                "average": 0.2798808435370159
+            },
+            "typology": {
+                "lang2vec": 0.17411833235819762,
+                "lang2vec_knn": 0.14936909373734975,
+                "phoible": 0.5897435897435898,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.35064935064935066,
+                "scripts": 0.0,
+                "average": 0.4701964701964702
+            },
+            "wordlists": {
+                "asjp": 0.24146836418539272,
+                "concepts": 0.040000000000000036,
+                "average": 0.1407341820926964
+            },
+            "textbased": {
+                "whitespace": 0.09871307026301401,
+                "punctuation": 0.16417164970388642,
+                "char_JSD": 0.15370311907399062,
+                "textcat": 0.4804125,
+                "average": 0.4804125
+            }
+        },
+        "fra": {
+            "metadata": {
+                "wiki_size": 0.28578820429260265,
+                "nlp_state": 0.2,
+                "speakers": 0.6788757633433194,
+                "AES": 0.0,
+                "loc": 0.04972103821689211,
+                "average": 0.2321492003900529
+            },
+            "typology": {
+                "lang2vec": 0.20873242814590076,
+                "lang2vec_knn": 0.1999053086343373,
+                "phoible": 0.4390243902439024,
+                "grambank": 0.4133452205563576,
+                "gb_clause": 0.41602514716892186,
+                "gb_nominal_domain": 0.3511234415883917,
+                "gb_numeral": 0.5,
+                "gb_pronoun": 0.5,
+                "gb_verbal_domain": 0.454858826147342,
+                "glot_tree": 0.40106951871657753,
+                "scripts": 0.0,
+                "average": 0.41781304317227913
+            },
+            "wordlists": {
+                "asjp": 0.3646237231205922,
+                "concepts": 0.010000000000000009,
+                "average": 0.1873118615602961
+            },
+            "textbased": {
+                "whitespace": 0.10055306030887878,
+                "punctuation": 0.1105317024057536,
+                "char_JSD": 0.15382124811078926,
+                "textcat": 0.560725,
+                "average": 0.560725
+            }
+        },
+        "rus": {
+            "metadata": {
+                "wiki_size": 0.06214397664457716,
+                "nlp_state": 0.0,
+                "speakers": 0.61662267920094,
+                "AES": 0.0,
+                "loc": 0.15475327085912433,
+                "average": 0.19284398751501608
+            },
+            "typology": {
+                "lang2vec": 0.23784292055071699,
+                "lang2vec_knn": 0.18385413047772747,
+                "phoible": 0.64,
+                "grambank": 0.5222329678670935,
+                "gb_clause": 0.5547001962252291,
+                "gb_nominal_domain": 0.5852057359806527,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5,
+                "gb_verbal_domain": 0.4188539082916955,
+                "glot_tree": 0.7424242424242424,
+                "scripts": 1.0,
+                "average": 0.6348857367637787
+            },
+            "wordlists": {
+                "asjp": 0.4603198164729792,
+                "concepts": 0.08999999999999997,
+                "average": 0.2751599082364896
+            },
+            "textbased": {
+                "whitespace": 0.025000823436094444,
+                "punctuation": 0.24847424730966738,
+                "char_JSD": 0.7287110499383304,
+                "textcat": 0.99076875,
+                "average": 0.99076875
+            }
+        },
+        "ita": {
+            "metadata": {
+                "wiki_size": 0.0,
+                "nlp_state": 0.0,
+                "speakers": 0.0,
+                "AES": 0.0,
+                "loc": 0.0,
+                "average": 0.0
+            },
+            "typology": {
+                "lang2vec": 0.0,
+                "lang2vec_knn": 0.0,
+                "phoible": -1.0,
+                "grambank": 0.0,
+                "gb_clause": 0.0,
+                "gb_nominal_domain": 0.0,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.0,
+                "gb_verbal_domain": 0.0,
+                "glot_tree": 0.0,
+                "scripts": 0.0,
+                "average": 0.0
+            },
+            "wordlists": {
+                "asjp": 0.0,
+                "concepts": 0.0,
+                "average": 0.0
+            },
+            "textbased": {
+                "whitespace": 0.0,
+                "punctuation": 0.0,
+                "char_JSD": 0.0,
+                "textcat": 0.0,
+                "average": 0.0
+            }
+        },
+        "tur": {
+            "metadata": {
+                "wiki_size": 0.6658605438538561,
+                "nlp_state": 0.0,
+                "speakers": 0.14470022283392314,
+                "AES": 0.0,
+                "loc": 0.08585425144054758,
+                "average": 0.05763861856861768
+            },
+            "typology": {
+                "lang2vec": 0.3760961491422351,
+                "lang2vec_knn": 0.35186427341187243,
+                "phoible": 0.5957446808510638,
+                "grambank": 0.5758978133812338,
+                "gb_clause": 0.6044705248269889,
+                "gb_nominal_domain": 0.5733821790809959,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5773502691896258,
+                "gb_verbal_domain": 0.5723514714723391,
+                "glot_tree": 1.0,
+                "scripts": 0.0,
+                "average": 0.7238808314107659
+            },
+            "wordlists": {
+                "asjp": 0.4834320809290329,
+                "concepts": 0.09999999999999998,
+                "average": 0.29171604046451644
+            },
+            "textbased": {
+                "whitespace": 0.18203326411415555,
+                "punctuation": 0.2624258028151064,
+                "char_JSD": 0.36349581714708956,
+                "textcat": 0.73885,
+                "average": 0.73885
+            }
+        },
+        "arb": {
+            "metadata": {
+                "wiki_size": 0.338509571933284,
+                "nlp_state": 0.2,
+                "speakers": 0.8115646722132859,
+                "AES": 0.0,
+                "loc": 0.16283837927897823,
+                "average": 0.293600762873066
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.26831336242966664,
+                "phoible": 0.7592592592592593,
+                "grambank": 0.5337449961641163,
+                "gb_clause": 0.5457768229098153,
+                "gb_nominal_domain": 0.5262348115842176,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.632455532033676,
+                "gb_verbal_domain": 0.531609533071195,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.7643347518077919
+            },
+            "wordlists": {
+                "asjp": 0.49100989701781467,
+                "concepts": 0.050000000000000044,
+                "average": 0.2705049485089074
+            },
+            "textbased": {
+                "whitespace": 0.036261165828058495,
+                "punctuation": 0.11384627965790584,
+                "char_JSD": 0.5763440392827524,
+                "textcat": 0.8616625,
+                "average": 0.8616625
+            }
+        },
+        "deu": {
+            "metadata": {
+                "wiki_size": 0.36578732190114127,
+                "nlp_state": 0.2,
+                "speakers": 0.2887341261622647,
+                "AES": 0.0,
+                "loc": 0.031156920714717234,
+                "average": 0.1299727617192455
+            },
+            "typology": {
+                "lang2vec": 0.2429531406706994,
+                "lang2vec_knn": 0.21678613443175576,
+                "phoible": 0.6346153846153846,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.8257575757575757,
+                "scripts": 0.0,
+                "average": 0.7301864801864801
+            },
+            "wordlists": {
+                "asjp": 0.4657605348749483,
+                "concepts": 0.050000000000000044,
+                "average": 0.25788026743747416
+            },
+            "textbased": {
+                "whitespace": 0.032863675088779964,
+                "punctuation": 0.04717226673589481,
+                "char_JSD": 0.2197980851259567,
+                "textcat": 0.69228125,
+                "average": 0.69228125
+            }
+        },
+        "zho": {
+            "metadata": {
+                "wiki_size": 0.22472326992350622,
+                "nlp_state": 0.2,
+                "speakers": 0.949366943431365,
+                "AES": 0.0,
+                "loc": 0.40079250664973914,
+                "average": 0.387539862520276
+            },
+            "typology": {
+                "lang2vec": 0.3486062830288754,
+                "lang2vec_knn": 0.37852115477984305,
+                "phoible": 0.7833333333333333,
+                "grambank": 0.5930925677917818,
+                "gb_clause": 0.5,
+                "gb_nominal_domain": 0.5613096232478871,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.6454972243679029,
+                "gb_verbal_domain": 0.7071067811865476,
+                "glot_tree": 1.0,
+                "scripts": 0.6666666666666667,
+                "average": 0.792141967041705
+            },
+            "wordlists": {
+                "asjp": 0.4876530153869519,
+                "concepts": 0.08999999999999997,
+                "average": 0.28882650769347595
+            },
+            "textbased": {
+                "whitespace": 0.0993941550956029,
+                "punctuation": 0.45361204840764113,
+                "char_JSD": 0.5191609567813891,
+                "textcat": 0.8821,
+                "average": 0.8821
+            }
+        }
+    },
+    "tur": {
+        "eng": {
+            "metadata": {
+                "wiki_size": 0.9083740529535493,
+                "nlp_state": 0.2,
+                "speakers": 0.9398080563892329,
+                "AES": 0.0,
+                "loc": 0.14694774141362726,
+                "average": 0.3216889494507151
+            },
+            "typology": {
+                "lang2vec": 0.3782070806728153,
+                "lang2vec_knn": 0.380256555113331,
+                "phoible": 0.5892857142857143,
+                "grambank": 0.5598507263734642,
+                "gb_clause": 0.7205766921228921,
+                "gb_nominal_domain": 0.4793012932694108,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5,
+                "gb_verbal_domain": 0.5207556439232955,
+                "glot_tree": 1.0,
+                "scripts": 0.6666666666666667,
+                "average": 0.7163788135530594
+            },
+            "wordlists": {
+                "asjp": 0.49928039459369783,
+                "concepts": 0.10999999999999999,
+                "average": 0.3046401972968489
+            },
+            "textbased": {
+                "whitespace": 0.3349668726515277,
+                "punctuation": 0.2345982365097774,
+                "char_JSD": 0.3614323206290767,
+                "textcat": 0.708875,
+                "average": 0.708875
+            }
+        },
+        "nld": {
+            "metadata": {
+                "wiki_size": 0.7056874134639806,
+                "nlp_state": 0.0,
+                "speakers": 0.684294140778608,
+                "AES": 0.0,
+                "loc": 0.1259370334210443,
+                "average": 0.20255779354991305
+            },
+            "typology": {
+                "lang2vec": 0.33139188444392464,
+                "lang2vec_knn": 0.31457576341939997,
+                "phoible": 0.6176470588235294,
+                "grambank": 0.5713360398804903,
+                "gb_clause": 0.6504436355879909,
+                "gb_nominal_domain": 0.5606119105813882,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5773502691896258,
+                "gb_verbal_domain": 0.5222329678670935,
+                "glot_tree": 1.0,
+                "scripts": 0.0,
+                "average": 0.7296610329013399
+            },
+            "wordlists": {
+                "asjp": 0.49560538238646673,
+                "concepts": 0.09999999999999998,
+                "average": 0.2978026911932333
+            },
+            "textbased": {
+                "whitespace": 0.20943049885732157,
+                "punctuation": 0.4006156213893334,
+                "char_JSD": 0.3622106626837979,
+                "textcat": 0.72246875,
+                "average": 0.72246875
+            }
+        },
+        "spa": {
+            "metadata": {
+                "wiki_size": 0.6862827575667159,
+                "nlp_state": 0.2,
+                "speakers": 0.8371124775813477,
+                "AES": 0.0,
+                "loc": 0.14355036860730555,
+                "average": 0.2951657115471633
+            },
+            "typology": {
+                "lang2vec": 0.38812948321787966,
+                "lang2vec_knn": 0.3895869103254743,
+                "phoible": 0.7111111111111111,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 1.0,
+                "scripts": 0.0,
+                "average": 0.8555555555555556
+            },
+            "wordlists": {
+                "asjp": 0.48115621101704187,
+                "concepts": 0.07999999999999996,
+                "average": 0.2805781055085209
+            },
+            "textbased": {
+                "whitespace": 0.26277727198646317,
+                "punctuation": 0.38351457554597,
+                "char_JSD": 0.3695347111561652,
+                "textcat": 0.7362875,
+                "average": 0.7362875
+            }
+        },
+        "fra": {
+            "metadata": {
+                "wiki_size": 0.7613536590091694,
+                "nlp_state": 0.2,
+                "speakers": 0.6245477372615676,
+                "AES": 0.0,
+                "loc": 0.13054272748348753,
+                "average": 0.2387726161862638
+            },
+            "typology": {
+                "lang2vec": 0.34908856020185164,
+                "lang2vec_knn": 0.36451109069775744,
+                "phoible": 0.5882352941176471,
+                "grambank": 0.546358364708153,
+                "gb_clause": 0.588348405414552,
+                "gb_nominal_domain": 0.5812381937190965,
+                "gb_numeral": 0.5,
+                "gb_pronoun": 0.6454972243679029,
+                "gb_verbal_domain": 0.4317877695883728,
+                "glot_tree": 1.0,
+                "scripts": 0.0,
+                "average": 0.7115312196086
+            },
+            "wordlists": {
+                "asjp": 0.48455199251300146,
+                "concepts": 0.08999999999999997,
+                "average": 0.2872759962565007
+            },
+            "textbased": {
+                "whitespace": 0.2642823226383415,
+                "punctuation": 0.17076954942653078,
+                "char_JSD": 0.37618093768091165,
+                "textcat": 0.75665625,
+                "average": 0.75665625
+            }
+        },
+        "rus": {
+            "metadata": {
+                "wiki_size": 0.6866252984126338,
+                "nlp_state": 0.0,
+                "speakers": 0.5517626321974147,
+                "AES": 0.0,
+                "loc": 0.12228755903302592,
+                "average": 0.16851254780761016
+            },
+            "typology": {
+                "lang2vec": 0.32685383847549676,
+                "lang2vec_knn": 0.3443711259051391,
+                "phoible": 0.6785714285714286,
+                "grambank": 0.5888409533496362,
+                "gb_clause": 0.6933752452815365,
+                "gb_nominal_domain": 0.5852057359806527,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5,
+                "gb_verbal_domain": 0.5252257314388903,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.7558041273070216
+            },
+            "wordlists": {
+                "asjp": 0.490289957237145,
+                "concepts": 0.08999999999999997,
+                "average": 0.29014497861857247
+            },
+            "textbased": {
+                "whitespace": 0.20248310605463604,
+                "punctuation": 0.018564307950186487,
+                "char_JSD": 0.5804897200222918,
+                "textcat": 0.8776375,
+                "average": 0.8776375
+            }
+        },
+        "ita": {
+            "metadata": {
+                "wiki_size": 0.6658605438538561,
+                "nlp_state": 0.0,
+                "speakers": 0.14470022283392314,
+                "AES": 0.0,
+                "loc": 0.08585425144054758,
+                "average": 0.05763861856861768
+            },
+            "typology": {
+                "lang2vec": 0.3760961491422351,
+                "lang2vec_knn": 0.35186427341187243,
+                "phoible": 0.5957446808510638,
+                "grambank": 0.5758978133812338,
+                "gb_clause": 0.6044705248269889,
+                "gb_nominal_domain": 0.5733821790809959,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5773502691896258,
+                "gb_verbal_domain": 0.5723514714723391,
+                "glot_tree": 1.0,
+                "scripts": 0.0,
+                "average": 0.7238808314107659
+            },
+            "wordlists": {
+                "asjp": 0.4834320809290346,
+                "concepts": 0.09999999999999998,
+                "average": 0.29171604046451727
+            },
+            "textbased": {
+                "whitespace": 0.18203326411415555,
+                "punctuation": 0.2624258028151064,
+                "char_JSD": 0.36349581714708956,
+                "textcat": 0.73885,
+                "average": 0.73885
+            }
+        },
+        "tur": {
+            "metadata": {
+                "wiki_size": 0.0,
+                "nlp_state": 0.0,
+                "speakers": 0.0,
+                "AES": 0.0,
+                "loc": 4.746764898300171e-09,
+                "average": 1.1866912245750427e-09
+            },
+            "typology": {
+                "lang2vec": 0.0,
+                "lang2vec_knn": 0.0,
+                "phoible": -1.0,
+                "grambank": 0.0,
+                "gb_clause": 0.0,
+                "gb_nominal_domain": 0.0,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.0,
+                "gb_verbal_domain": 0.0,
+                "glot_tree": 0.0,
+                "scripts": 0.0,
+                "average": 0.0
+            },
+            "wordlists": {
+                "asjp": 0.0,
+                "concepts": 0.0,
+                "average": 0.0
+            },
+            "textbased": {
+                "whitespace": 0.0,
+                "punctuation": 0.0,
+                "char_JSD": 0.0,
+                "textcat": 0.0,
+                "average": 0.0
+            }
+        },
+        "arb": {
+            "metadata": {
+                "wiki_size": 0.49486879632906255,
+                "nlp_state": 0.2,
+                "speakers": 0.7796850498300494,
+                "AES": 0.0,
+                "loc": 0.083218074317984,
+                "average": 0.26572578103700834
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.3716825744051405,
+                "phoible": 0.75,
+                "grambank": 0.5938022870193109,
+                "gb_clause": 0.6523280730534423,
+                "gb_nominal_domain": 0.5817744738827396,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.7071067811865475,
+                "gb_verbal_domain": 0.5457768229098153,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.7812674290064369
+            },
+            "wordlists": {
+                "asjp": 0.46688854403644015,
+                "concepts": 0.06999999999999995,
+                "average": 0.2684442720182201
+            },
+            "textbased": {
+                "whitespace": 0.15125684793157324,
+                "punctuation": 0.3463958811362732,
+                "char_JSD": 0.5898281502044195,
+                "textcat": 0.8348625,
+                "average": 0.8348625
+            }
+        },
+        "deu": {
+            "metadata": {
+                "wiki_size": 0.788084520659058,
+                "nlp_state": 0.2,
+                "speakers": 0.16840166123458944,
+                "AES": 0.0,
+                "loc": 0.09433030833143505,
+                "average": 0.11568299239150612
+            },
+            "typology": {
+                "lang2vec": 0.28701215179828876,
+                "lang2vec_knn": 0.3007435102250757,
+                "phoible": 0.5185185185185186,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 1.0,
+                "scripts": 0.0,
+                "average": 0.7592592592592593
+            },
+            "wordlists": {
+                "asjp": 0.5042866913422152,
+                "concepts": 0.10999999999999999,
+                "average": 0.30714334567110757
+            },
+            "textbased": {
+                "whitespace": 0.20891465715573787,
+                "punctuation": 0.29721884958222566,
+                "char_JSD": 0.36173384499527905,
+                "textcat": 0.71131875,
+                "average": 0.71131875
+            }
+        },
+        "zho": {
+            "metadata": {
+                "wiki_size": 0.5690062100623405,
+                "nlp_state": 0.2,
+                "speakers": 0.9408008070148212,
+                "AES": 0.0,
+                "loc": 0.34083501863900245,
+                "average": 0.37040895641345595
+            },
+            "typology": {
+                "lang2vec": 0.35420910227373426,
+                "lang2vec_knn": 0.41107475657893533,
+                "phoible": 0.8142857142857143,
+                "grambank": 0.5642764926868786,
+                "gb_clause": 0.6201736729460423,
+                "gb_nominal_domain": 0.5067117097095318,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.6454972243679029,
+                "gb_verbal_domain": 0.582222509739582,
+                "glot_tree": 1.0,
+                "scripts": 0.6666666666666667,
+                "average": 0.7928540689908643
+            },
+            "wordlists": {
+                "asjp": 0.48117247333817575,
+                "concepts": 0.07999999999999996,
+                "average": 0.2805862366690879
+            },
+            "textbased": {
+                "whitespace": 0.09175946335027962,
+                "punctuation": 0.25920950912089524,
+                "char_JSD": 0.5574609977082684,
+                "textcat": 0.87039375,
+                "average": 0.87039375
+            }
+        }
+    },
+    "arb": {
+        "eng": {
+            "metadata": {
+                "wiki_size": 0.8186096079977283,
+                "nlp_state": 0.0,
+                "speakers": 0.7267913795031382,
+                "AES": 0.0,
+                "loc": 0.22959623832934817,
+                "average": 0.2390969044581216
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.3046357501436938,
+                "phoible": 0.7936507936507937,
+                "grambank": 0.5482499746302602,
+                "gb_clause": 0.5834599659915782,
+                "gb_nominal_domain": 0.4803844614152614,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5477225575051661,
+                "gb_verbal_domain": 0.6188527477552761,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.7806335894270179
+            },
+            "wordlists": {
+                "asjp": 0.4968457211653928,
+                "concepts": 0.050000000000000044,
+                "average": 0.2734228605826964
+            },
+            "textbased": {
+                "whitespace": 0.21644949272609093,
+                "punctuation": 0.14606400188666913,
+                "char_JSD": 0.5601529327917039,
+                "textcat": 0.83491875,
+                "average": 0.83491875
+            }
+        },
+        "nld": {
+            "metadata": {
+                "wiki_size": 0.4173541757128383,
+                "nlp_state": 0.2,
+                "speakers": 0.9304452793572775,
+                "AES": 0.0,
+                "loc": 0.20868903187304186,
+                "average": 0.33478357780757984
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.3490276349746464,
+                "phoible": 0.7457627118644068,
+                "grambank": 0.5393598899705936,
+                "gb_clause": 0.5259237061407777,
+                "gb_nominal_domain": 0.5580998206737443,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.632455532033676,
+                "gb_verbal_domain": 0.5282705437953743,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.7617075339450001
+            },
+            "wordlists": {
+                "asjp": 0.4941793289763882,
+                "concepts": 0.040000000000000036,
+                "average": 0.26708966448819416
+            },
+            "textbased": {
+                "whitespace": 0.06854093701254182,
+                "punctuation": 0.08295501617602974,
+                "char_JSD": 0.575514197558483,
+                "textcat": 0.85036875,
+                "average": 0.85036875
+            }
+        },
+        "spa": {
+            "metadata": {
+                "wiki_size": 0.37893909512338897,
+                "nlp_state": 0.0,
+                "speakers": 0.26066060295499194,
+                "AES": 0.0,
+                "loc": 0.21551720852540548,
+                "average": 0.11904445287009935
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.2911280393189043,
+                "phoible": 0.7843137254901961,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.892156862745098
+            },
+            "wordlists": {
+                "asjp": 0.490348282297743,
+                "concepts": 0.050000000000000044,
+                "average": 0.2701741411488715
+            },
+            "textbased": {
+                "whitespace": 0.13139478508086855,
+                "punctuation": 0.05679079023281963,
+                "char_JSD": 0.571350721513653,
+                "textcat": 0.8447875,
+                "average": 0.8447875
+            }
+        },
+        "fra": {
+            "metadata": {
+                "wiki_size": 0.5275557335272159,
+                "nlp_state": 0.0,
+                "speakers": 0.41320116554088204,
+                "AES": 0.0,
+                "loc": 0.21092358425427432,
+                "average": 0.15603118744878908
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.2930156085644664,
+                "phoible": 0.7966101694915254,
+                "grambank": 0.4868205209861014,
+                "gb_clause": 0.5834599659915782,
+                "gb_nominal_domain": 0.39223227027636803,
+                "gb_numeral": 0.5,
+                "gb_pronoun": 0.447213595499958,
+                "gb_verbal_domain": 0.5052911526399114,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.7611435634925422
+            },
+            "wordlists": {
+                "asjp": 0.4777275478472533,
+                "concepts": 0.040000000000000036,
+                "average": 0.2588637739236267
+            },
+            "textbased": {
+                "whitespace": 0.13316805494255823,
+                "punctuation": 0.21179435896050958,
+                "char_JSD": 0.577472557413402,
+                "textcat": 0.8621375,
+                "average": 0.8621375
+            }
+        },
+        "rus": {
+            "metadata": {
+                "wiki_size": 0.37961721764567335,
+                "nlp_state": 0.2,
+                "speakers": 0.5084859808765815,
+                "AES": 0.0,
+                "loc": 0.17417008025781403,
+                "average": 0.22066401528359889
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.2911280393189043,
+                "phoible": 0.803030303030303,
+                "grambank": 0.5534965054116333,
+                "gb_clause": 0.6014167670256414,
+                "gb_nominal_domain": 0.5114083119567588,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.7071067811865475,
+                "gb_verbal_domain": 0.5457768229098153,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.7855089361473121
+            },
+            "wordlists": {
+                "asjp": 0.49451344115250867,
+                "concepts": 0.06000000000000005,
+                "average": 0.2772567205762544
+            },
+            "textbased": {
+                "whitespace": 0.060355430259698806,
+                "punctuation": 0.33403265832056916,
+                "char_JSD": 0.7378290867812131,
+                "textcat": 0.98248125,
+                "average": 0.98248125
+            }
+        },
+        "ita": {
+            "metadata": {
+                "wiki_size": 0.338509571933284,
+                "nlp_state": 0.2,
+                "speakers": 0.8115646722132859,
+                "AES": 0.0,
+                "loc": 0.16283837927897823,
+                "average": 0.293600762873066
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.26831336242966664,
+                "phoible": 0.7592592592592593,
+                "grambank": 0.5337449961641163,
+                "gb_clause": 0.5457768229098153,
+                "gb_nominal_domain": 0.5262348115842176,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.632455532033676,
+                "gb_verbal_domain": 0.531609533071195,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.7643347518077919
+            },
+            "wordlists": {
+                "asjp": 0.4910098970178177,
+                "concepts": 0.050000000000000044,
+                "average": 0.2705049485089089
+            },
+            "textbased": {
+                "whitespace": 0.036261165828058495,
+                "punctuation": 0.11384627965790584,
+                "char_JSD": 0.5763440392827524,
+                "textcat": 0.8616625,
+                "average": 0.8616625
+            }
+        },
+        "tur": {
+            "metadata": {
+                "wiki_size": 0.49486879632906255,
+                "nlp_state": 0.2,
+                "speakers": 0.7796850498300494,
+                "AES": 0.0,
+                "loc": 0.083218074317984,
+                "average": 0.26572578103700834
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.3716825744051405,
+                "phoible": 0.75,
+                "grambank": 0.5938022870193109,
+                "gb_clause": 0.6523280730534423,
+                "gb_nominal_domain": 0.5817744738827396,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.7071067811865475,
+                "gb_verbal_domain": 0.5457768229098153,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.7812674290064369
+            },
+            "wordlists": {
+                "asjp": 0.4668885440364435,
+                "concepts": 0.06999999999999995,
+                "average": 0.26844427201822174
+            },
+            "textbased": {
+                "whitespace": 0.15125684793157324,
+                "punctuation": 0.3463958811362732,
+                "char_JSD": 0.5898281502044195,
+                "textcat": 0.8348625,
+                "average": 0.8348625
+            }
+        },
+        "arb": {
+            "metadata": {
+                "wiki_size": 0.0,
+                "nlp_state": 0.0,
+                "speakers": 0.0,
+                "AES": 0.0,
+                "loc": 4.746764898300171e-09,
+                "average": 1.1866912245750427e-09
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.0,
+                "phoible": -1.0,
+                "grambank": 0.0,
+                "gb_clause": 0.0,
+                "gb_nominal_domain": 0.0,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.0,
+                "gb_verbal_domain": 0.0,
+                "glot_tree": 0.0,
+                "scripts": 0.0,
+                "average": 0.0
+            },
+            "wordlists": {
+                "asjp": 0.0,
+                "concepts": 0.0,
+                "average": 0.0
+            },
+            "textbased": {
+                "whitespace": 0.0,
+                "punctuation": 0.0,
+                "char_JSD": 0.0,
+                "textcat": 0.0,
+                "average": 0.0
+            }
+        },
+        "deu": {
+            "metadata": {
+                "wiki_size": 0.5804743840790476,
+                "nlp_state": 0.0,
+                "speakers": 0.7350704782587351,
+                "AES": 0.0,
+                "loc": 0.17664527411032446,
+                "average": 0.2279289380922649
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.33644859813084116,
+                "phoible": 0.796875,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.8984375
+            },
+            "wordlists": {
+                "asjp": 0.4965585632562401,
+                "concepts": 0.06000000000000005,
+                "average": 0.2782792816281201
+            },
+            "textbased": {
+                "whitespace": 0.06793316574472485,
+                "punctuation": 0.06997488695423004,
+                "char_JSD": 0.5779855502202812,
+                "textcat": 0.86131875,
+                "average": 0.86131875
+            }
+        },
+        "zho": {
+            "metadata": {
+                "wiki_size": 0.14676862802079838,
+                "nlp_state": 0.0,
+                "speakers": 0.7312974315201366,
+                "AES": 0.0,
+                "loc": 0.331251379343036,
+                "average": 0.26563720271579316
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.4158989815194788,
+                "phoible": 0.8309859154929577,
+                "grambank": 0.6714663446689799,
+                "gb_clause": 0.6684373647831918,
+                "gb_nominal_domain": 0.6563301233138936,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.894427190999916,
+                "gb_verbal_domain": 0.6684373647831918,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.8341507533873126
+            },
+            "wordlists": {
+                "asjp": 0.49313377027315103,
+                "concepts": 0.07999999999999996,
+                "average": 0.28656688513657547
+            },
+            "textbased": {
+                "whitespace": 0.06550840023146842,
+                "punctuation": 0.5158162839463352,
+                "char_JSD": 0.6406274536597591,
+                "textcat": 0.91364375,
+                "average": 0.91364375
+            }
+        }
+    },
+    "deu": {
+        "eng": {
+            "metadata": {
+                "wiki_size": 0.5676297581875202,
+                "nlp_state": 0.0,
+                "speakers": 0.9276189708361757,
+                "AES": 0.0,
+                "loc": 0.0530120358679715,
+                "average": 0.24515775167603682
+            },
+            "typology": {
+                "lang2vec": 0.18793745558663033,
+                "lang2vec_knn": 0.18080376044325575,
+                "phoible": 0.42000000000000004,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.5833333333333333,
+                "scripts": 0.6666666666666667,
+                "average": 0.5016666666666667
+            },
+            "wordlists": {
+                "asjp": 0.3828940829232359,
+                "concepts": 0.040000000000000036,
+                "average": 0.21144704146161797
+            },
+            "textbased": {
+                "whitespace": 0.15934085574456813,
+                "punctuation": 0.08181404336841225,
+                "char_JSD": 0.17499130180127007,
+                "textcat": 0.643275,
+                "average": 0.643275
+            }
+        },
+        "nld": {
+            "metadata": {
+                "wiki_size": 0.2799646055402162,
+                "nlp_state": 0.2,
+                "speakers": 0.7374595319329837,
+                "AES": 0.0,
+                "loc": 0.032373514315107293,
+                "average": 0.24245826156202274
+            },
+            "typology": {
+                "lang2vec": 0.09452458332000135,
+                "lang2vec_knn": 0.08486493612377821,
+                "phoible": 0.44067796610169496,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.5416666666666666,
+                "scripts": 0.0,
+                "average": 0.4911723163841808
+            },
+            "wordlists": {
+                "asjp": 0.28410855167205507,
+                "concepts": 0.050000000000000044,
+                "average": 0.16705427583602755
+            },
+            "textbased": {
+                "whitespace": 0.0006520683340296429,
+                "punctuation": 0.14712513525105586,
+                "char_JSD": 0.16271944839618596,
+                "textcat": 0.58913125,
+                "average": 0.58913125
+            }
+        },
+        "spa": {
+            "metadata": {
+                "wiki_size": 0.32450165092214034,
+                "nlp_state": 0.0,
+                "speakers": 0.8041271671363908,
+                "AES": 0.0,
+                "loc": 0.07038493085192012,
+                "average": 0.21862802449707772
+            },
+            "typology": {
+                "lang2vec": 0.336016542365822,
+                "lang2vec_knn": 0.32240180229012905,
+                "phoible": 0.8055555555555556,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.8452380952380953,
+                "scripts": 0.0,
+                "average": 0.8253968253968255
+            },
+            "wordlists": {
+                "asjp": 0.4896013484230419,
+                "concepts": 0.050000000000000044,
+                "average": 0.269800674211521
+            },
+            "textbased": {
+                "whitespace": 0.06808698368379329,
+                "punctuation": 0.12279174806046678,
+                "char_JSD": 0.23273114347529672,
+                "textcat": 0.710175,
+                "average": 0.710175
+            }
+        },
+        "fra": {
+            "metadata": {
+                "wiki_size": 0.11201035615675159,
+                "nlp_state": 0.0,
+                "speakers": 0.5485173006768771,
+                "AES": 0.0,
+                "loc": 0.03883291008091797,
+                "average": 0.14683755268944876
+            },
+            "typology": {
+                "lang2vec": 0.16942607767109474,
+                "lang2vec_knn": 0.17208406792417785,
+                "phoible": 0.6037735849056604,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.857843137254902,
+                "scripts": 0.0,
+                "average": 0.7308083610802811
+            },
+            "wordlists": {
+                "asjp": 0.478746989834694,
+                "concepts": 0.040000000000000036,
+                "average": 0.259373494917347
+            },
+            "textbased": {
+                "whitespace": 0.06998949731963844,
+                "punctuation": 0.15248993819299161,
+                "char_JSD": 0.23013920272199057,
+                "textcat": 0.70914375,
+                "average": 0.70914375
+            }
+        },
+        "rus": {
+            "metadata": {
+                "wiki_size": 0.3237632831638715,
+                "nlp_state": 0.2,
+                "speakers": 0.4609929494712104,
+                "AES": 0.0,
+                "loc": 0.13363180891439794,
+                "average": 0.19865618959640208
+            },
+            "typology": {
+                "lang2vec": 0.23451700745310755,
+                "lang2vec_knn": 0.22858051337645469,
+                "phoible": 0.746031746031746,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.75,
+                "scripts": 1.0,
+                "average": 0.748015873015873
+            },
+            "wordlists": {
+                "asjp": 0.4748907943458523,
+                "concepts": 0.07999999999999996,
+                "average": 0.27744539717292616
+            },
+            "textbased": {
+                "whitespace": 0.008064470044370498,
+                "punctuation": 0.2839254205744698,
+                "char_JSD": 0.7273318954472836,
+                "textcat": 0.98425625,
+                "average": 0.98425625
+            }
+        },
+        "ita": {
+            "metadata": {
+                "wiki_size": 0.36578732190114127,
+                "nlp_state": 0.2,
+                "speakers": 0.2887341261622647,
+                "AES": 0.0,
+                "loc": 0.031156920714717234,
+                "average": 0.1299727617192455
+            },
+            "typology": {
+                "lang2vec": 0.2429531406706994,
+                "lang2vec_knn": 0.21678613443175576,
+                "phoible": 0.6346153846153846,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.8257575757575757,
+                "scripts": 0.0,
+                "average": 0.7301864801864801
+            },
+            "wordlists": {
+                "asjp": 0.4657605348749453,
+                "concepts": 0.050000000000000044,
+                "average": 0.25788026743747267
+            },
+            "textbased": {
+                "whitespace": 0.032863675088779964,
+                "punctuation": 0.04717226673589481,
+                "char_JSD": 0.2197980851259567,
+                "textcat": 0.69228125,
+                "average": 0.69228125
+            }
+        },
+        "tur": {
+            "metadata": {
+                "wiki_size": 0.788084520659058,
+                "nlp_state": 0.2,
+                "speakers": 0.16840166123458944,
+                "AES": 0.0,
+                "loc": 0.09433030833143505,
+                "average": 0.11568299239150612
+            },
+            "typology": {
+                "lang2vec": 0.28701215179828876,
+                "lang2vec_knn": 0.3007435102250757,
+                "phoible": 0.5185185185185186,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 1.0,
+                "scripts": 0.0,
+                "average": 0.7592592592592593
+            },
+            "wordlists": {
+                "asjp": 0.5042866913422133,
+                "concepts": 0.10999999999999999,
+                "average": 0.3071433456711066
+            },
+            "textbased": {
+                "whitespace": 0.20891465715573787,
+                "punctuation": 0.29721884958222566,
+                "char_JSD": 0.36173384499527905,
+                "textcat": 0.71131875,
+                "average": 0.71131875
+            }
+        },
+        "arb": {
+            "metadata": {
+                "wiki_size": 0.5804743840790476,
+                "nlp_state": 0.0,
+                "speakers": 0.7350704782587351,
+                "AES": 0.0,
+                "loc": 0.17664527411032446,
+                "average": 0.2279289380922649
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.33644859813084116,
+                "phoible": 0.796875,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.8984375
+            },
+            "wordlists": {
+                "asjp": 0.4965585632562322,
+                "concepts": 0.06000000000000005,
+                "average": 0.2782792816281161
+            },
+            "textbased": {
+                "whitespace": 0.06793316574472485,
+                "punctuation": 0.06997488695423004,
+                "char_JSD": 0.5779855502202812,
+                "textcat": 0.86131875,
+                "average": 0.86131875
+            }
+        },
+        "deu": {
+            "metadata": {
+                "wiki_size": 0.0,
+                "nlp_state": 0.0,
+                "speakers": 0.0,
+                "AES": 0.0,
+                "loc": 0.0,
+                "average": 0.0
+            },
+            "typology": {
+                "lang2vec": 0.0,
+                "lang2vec_knn": 0.0,
+                "phoible": -1.0,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 0.0,
+                "scripts": 0.0,
+                "average": 0.0
+            },
+            "wordlists": {
+                "asjp": 0.0,
+                "concepts": 0.0,
+                "average": 0.0
+            },
+            "textbased": {
+                "whitespace": 0.0,
+                "punctuation": 0.0,
+                "char_JSD": 0.0,
+                "textcat": 0.0,
+                "average": 0.0
+            }
+        },
+        "zho": {
+            "metadata": {
+                "wiki_size": 0.5083096687504609,
+                "nlp_state": 0.0,
+                "speakers": 0.9288127570419803,
+                "AES": 0.0,
+                "loc": 0.38224920076211705,
+                "average": 0.32776548945102435
+            },
+            "typology": {
+                "lang2vec": 0.31949782864004617,
+                "lang2vec_knn": 0.3441672774955552,
+                "phoible": 0.7916666666666666,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 1.0,
+                "scripts": 0.6666666666666667,
+                "average": 0.8958333333333333
+            },
+            "wordlists": {
+                "asjp": 0.4977345540554333,
+                "concepts": 0.06999999999999995,
+                "average": 0.28386727702771664
+            },
+            "textbased": {
+                "whitespace": 0.12899137296559715,
+                "punctuation": 0.47938640660143506,
+                "char_JSD": 0.5017076297999159,
+                "textcat": 0.8667125,
+                "average": 0.8667125
+            }
+        }
+    },
+    "zho": {
+        "eng": {
+            "metadata": {
+                "wiki_size": 0.7874077325807785,
+                "nlp_state": 0.0,
+                "speakers": 0.016493081399860277,
+                "AES": 0.0,
+                "loc": 0.4024118249768449,
+                "average": 0.1047262265941763
+            },
+            "typology": {
+                "lang2vec": 0.30452802513949817,
+                "lang2vec_knn": 0.33155395458409753,
+                "phoible": 0.7777777777777778,
+                "grambank": 0.5325242619376499,
+                "gb_clause": 0.5370861555295746,
+                "gb_nominal_domain": 0.46499055497527714,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.7071067811865475,
+                "gb_verbal_domain": 0.582222509739582,
+                "glot_tree": 1.0,
+                "scripts": 0.8,
+                "average": 0.7701006799051425
+            },
+            "wordlists": {
+                "asjp": 0.4949171504461406,
+                "concepts": 0.07999999999999996,
+                "average": 0.2874585752230703
+            },
+            "textbased": {
+                "whitespace": 0.2677786329581603,
+                "punctuation": 0.4329976519043456,
+                "char_JSD": 0.4983416563945307,
+                "textcat": 0.872525,
+                "average": 0.872525
+            }
+        },
+        "nld": {
+            "metadata": {
+                "wiki_size": 0.3171303313242867,
+                "nlp_state": 0.2,
+                "speakers": 0.9813104679134012,
+                "AES": 0.0,
+                "loc": 0.39121043192100247,
+                "average": 0.39313022495860095
+            },
+            "typology": {
+                "lang2vec": 0.3165422989941301,
+                "lang2vec_knn": 0.33795071460896176,
+                "phoible": 0.7971014492753623,
+                "grambank": 0.584781080334426,
+                "gb_clause": 0.5547001962252291,
+                "gb_nominal_domain": 0.5976143046671968,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.6454972243679029,
+                "gb_verbal_domain": 0.6030226891555274,
+                "glot_tree": 1.0,
+                "scripts": 0.6666666666666667,
+                "average": 0.7939608432032627
+            },
+            "wordlists": {
+                "asjp": 0.4967430133840824,
+                "concepts": 0.07999999999999996,
+                "average": 0.28837150669204115
+            },
+            "textbased": {
+                "whitespace": 0.1295593301099529,
+                "punctuation": 0.5559817519437371,
+                "char_JSD": 0.5040652333033742,
+                "textcat": 0.8608,
+                "average": 0.8608
+            }
+        },
+        "spa": {
+            "metadata": {
+                "wiki_size": 0.27210727913582855,
+                "nlp_state": 0.0,
+                "speakers": 0.6365639792038489,
+                "AES": 0.0,
+                "loc": 0.4526047949541753,
+                "average": 0.27229219353950607
+            },
+            "typology": {
+                "lang2vec": 0.33121713685130194,
+                "lang2vec_knn": 0.3484756873521473,
+                "phoible": 0.7457627118644068,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 1.0,
+                "scripts": 0.6666666666666667,
+                "average": 0.8728813559322034
+            },
+            "wordlists": {
+                "asjp": 0.49221219163737595,
+                "concepts": 0.07999999999999996,
+                "average": 0.28610609581868796
+            },
+            "textbased": {
+                "whitespace": 0.18829572314293175,
+                "punctuation": 0.5433134597988859,
+                "char_JSD": 0.511247225229854,
+                "textcat": 0.8610125,
+                "average": 0.8610125
+            }
+        },
+        "fra": {
+            "metadata": {
+                "wiki_size": 0.44628821444190814,
+                "nlp_state": 0.0,
+                "speakers": 0.8423256459998448,
+                "AES": 0.0,
+                "loc": 0.41407892259525636,
+                "average": 0.31410114214877527
+            },
+            "typology": {
+                "lang2vec": 0.35263018642691335,
+                "lang2vec_knn": 0.34721060121375513,
+                "phoible": 0.7580645161290323,
+                "grambank": 0.6229443807375883,
+                "gb_clause": 0.6201736729460423,
+                "gb_nominal_domain": 0.5694947974514993,
+                "gb_numeral": 0.5,
+                "gb_pronoun": 0.7071067811865475,
+                "gb_verbal_domain": 0.6764814252025461,
+                "glot_tree": 1.0,
+                "scripts": 0.6666666666666667,
+                "average": 0.7936696322888735
+            },
+            "wordlists": {
+                "asjp": 0.4836147090668756,
+                "concepts": 0.07999999999999996,
+                "average": 0.28180735453343775
+            },
+            "textbased": {
+                "whitespace": 0.1899528289328034,
+                "punctuation": 0.38571396746777853,
+                "char_JSD": 0.5116813678900333,
+                "textcat": 0.8654875,
+                "average": 0.8654875
+            }
+        },
+        "rus": {
+            "metadata": {
+                "wiki_size": 0.2729020489304639,
+                "nlp_state": 0.2,
+                "speakers": 0.8679289206176768,
+                "AES": 0.0,
+                "loc": 0.24878910193222104,
+                "average": 0.32917950563747445
+            },
+            "typology": {
+                "lang2vec": 0.3102647511986374,
+                "lang2vec_knn": 0.33704543625306216,
+                "phoible": 0.8333333333333334,
+                "grambank": 0.6458215133732217,
+                "gb_clause": 0.6650621717611762,
+                "gb_nominal_domain": 0.6620847108818944,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.5773502691896258,
+                "gb_verbal_domain": 0.6432675209026769,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.826384948902185
+            },
+            "wordlists": {
+                "asjp": 0.4903775219936933,
+                "concepts": 0.08999999999999997,
+                "average": 0.29018876099684665
+            },
+            "textbased": {
+                "whitespace": 0.1219100428095724,
+                "punctuation": 0.2729617719201448,
+                "char_JSD": 0.7343664726728942,
+                "textcat": 0.981925,
+                "average": 0.981925
+            }
+        },
+        "ita": {
+            "metadata": {
+                "wiki_size": 0.22472326992350622,
+                "nlp_state": 0.2,
+                "speakers": 0.949366943431365,
+                "AES": 0.0,
+                "loc": 0.40079250664973914,
+                "average": 0.387539862520276
+            },
+            "typology": {
+                "lang2vec": 0.3486062830288754,
+                "lang2vec_knn": 0.37852115477984305,
+                "phoible": 0.7833333333333333,
+                "grambank": 0.5930925677917818,
+                "gb_clause": 0.5,
+                "gb_nominal_domain": 0.5613096232478871,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.6454972243679029,
+                "gb_verbal_domain": 0.7071067811865476,
+                "glot_tree": 1.0,
+                "scripts": 0.6666666666666667,
+                "average": 0.792141967041705
+            },
+            "wordlists": {
+                "asjp": 0.48765301538695377,
+                "concepts": 0.08999999999999997,
+                "average": 0.28882650769347684
+            },
+            "textbased": {
+                "whitespace": 0.0993941550956029,
+                "punctuation": 0.45361204840764113,
+                "char_JSD": 0.5191609567813891,
+                "textcat": 0.8821,
+                "average": 0.8821
+            }
+        },
+        "tur": {
+            "metadata": {
+                "wiki_size": 0.5690062100623405,
+                "nlp_state": 0.2,
+                "speakers": 0.9408008070148212,
+                "AES": 0.0,
+                "loc": 0.34083501863900245,
+                "average": 0.37040895641345595
+            },
+            "typology": {
+                "lang2vec": 0.35420910227373426,
+                "lang2vec_knn": 0.41107475657893533,
+                "phoible": 0.8142857142857143,
+                "grambank": 0.5642764926868786,
+                "gb_clause": 0.6201736729460423,
+                "gb_nominal_domain": 0.5067117097095318,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.6454972243679029,
+                "gb_verbal_domain": 0.582222509739582,
+                "glot_tree": 1.0,
+                "scripts": 0.6666666666666667,
+                "average": 0.7928540689908643
+            },
+            "wordlists": {
+                "asjp": 0.4811724733381704,
+                "concepts": 0.07999999999999996,
+                "average": 0.2805862366690852
+            },
+            "textbased": {
+                "whitespace": 0.09175946335027962,
+                "punctuation": 0.25920950912089524,
+                "char_JSD": 0.5574609977082684,
+                "textcat": 0.87039375,
+                "average": 0.87039375
+            }
+        },
+        "arb": {
+            "metadata": {
+                "wiki_size": 0.14676862802079838,
+                "nlp_state": 0.0,
+                "speakers": 0.7312974315201366,
+                "AES": 0.0,
+                "loc": 0.331251379343036,
+                "average": 0.26563720271579316
+            },
+            "typology": {
+                "lang2vec": -1.0,
+                "lang2vec_knn": 0.4158989815194788,
+                "phoible": 0.8309859154929577,
+                "grambank": 0.6714663446689799,
+                "gb_clause": 0.6684373647831918,
+                "gb_nominal_domain": 0.6563301233138936,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.894427190999916,
+                "gb_verbal_domain": 0.6684373647831918,
+                "glot_tree": 1.0,
+                "scripts": 1.0,
+                "average": 0.8341507533873126
+            },
+            "wordlists": {
+                "asjp": 0.4931337702731445,
+                "concepts": 0.07999999999999996,
+                "average": 0.28656688513657225
+            },
+            "textbased": {
+                "whitespace": 0.06550840023146842,
+                "punctuation": 0.5158162839463352,
+                "char_JSD": 0.6406274536597591,
+                "textcat": 0.91364375,
+                "average": 0.91364375
+            }
+        },
+        "deu": {
+            "metadata": {
+                "wiki_size": 0.5083096687504609,
+                "nlp_state": 0.0,
+                "speakers": 0.9288127570419803,
+                "AES": 0.0,
+                "loc": 0.38224920076211705,
+                "average": 0.32776548945102435
+            },
+            "typology": {
+                "lang2vec": 0.31949782864004617,
+                "lang2vec_knn": 0.3441672774955552,
+                "phoible": 0.7916666666666666,
+                "grambank": -1.0,
+                "gb_clause": -1.0,
+                "gb_nominal_domain": -1.0,
+                "gb_numeral": -1.0,
+                "gb_pronoun": -1.0,
+                "gb_verbal_domain": -1.0,
+                "glot_tree": 1.0,
+                "scripts": 0.6666666666666667,
+                "average": 0.8958333333333333
+            },
+            "wordlists": {
+                "asjp": 0.49773455405543404,
+                "concepts": 0.06999999999999995,
+                "average": 0.28386727702771697
+            },
+            "textbased": {
+                "whitespace": 0.12899137296559715,
+                "punctuation": 0.47938640660143506,
+                "char_JSD": 0.5017076297999159,
+                "textcat": 0.8667125,
+                "average": 0.8667125
+            }
+        },
+        "zho": {
+            "metadata": {
+                "wiki_size": 0.0,
+                "nlp_state": 0.0,
+                "speakers": 0.0,
+                "AES": 0.0,
+                "loc": 0.0,
+                "average": 0.0
+            },
+            "typology": {
+                "lang2vec": 0.0,
+                "lang2vec_knn": 0.0,
+                "phoible": -1.0,
+                "grambank": 0.0,
+                "gb_clause": 0.0,
+                "gb_nominal_domain": 0.0,
+                "gb_numeral": 0.0,
+                "gb_pronoun": 0.0,
+                "gb_verbal_domain": 0.0,
+                "glot_tree": 0.0,
+                "scripts": 0.0,
+                "average": 0.0
+            },
+            "wordlists": {
+                "asjp": 0.0,
+                "concepts": 0.0,
+                "average": 0.0
+            },
+            "textbased": {
+                "whitespace": 0.0,
+                "punctuation": 0.0,
+                "char_JSD": 0.0,
+                "textcat": 0.0,
+                "average": 0.0
+            }
+        }
+    }
+}

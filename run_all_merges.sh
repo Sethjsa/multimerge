@@ -13,7 +13,7 @@
 export HUGGING_FACE_HUB_TOKEN=$(cat token)
 export HF_HOME=/fnwi_fs/ivi/irlab/personal/saycock/hf
 CONFIG_DIR="merging"
-OUTPUT_BASE="models/merged-10-checkpoints"
+OUTPUT_BASE="/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-10-checkpoints"
 LOG_DIR="merging/logs"
 mkdir -p "$LOG_DIR"
 
@@ -108,9 +108,24 @@ FAILED_LIST=()
 # done
 
 # /home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-2-checkpoint_0047684.yaml models/merged-2-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes --cuda 
-/home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-8-checkpoint_0047684.yaml models/merged-8-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes
-/home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-en1fr9-checkpoint_0047684.yaml models/merged-en1fr9-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes
-/home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-en9fr1-checkpoint_0047684.yaml models/merged-en9fr1-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes
-/home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-en5fr5-checkpoint_0047684.yaml models/merged-en5fr5-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes
-/home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-en7fr3-checkpoint_0047684.yaml models/merged-en7fr3-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes
-/home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-en3fr7-checkpoint_0047684.yaml models/merged-en3fr7-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes
+#/home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-8-checkpoint_0047684.yaml models/merged-8-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes
+#/home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-en1fr9-checkpoint_0047684.yaml models/merged-en1fr9-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes
+#/home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-en9fr1-checkpoint_0047684.yaml models/merged-en9fr1-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes
+#/home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-en5fr5-checkpoint_0047684.yaml models/merged-en5fr5-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes
+#/home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-en7fr3-checkpoint_0047684.yaml models/merged-en7fr3-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes
+#/home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-en3fr7-checkpoint_0047684.yaml models/merged-en3fr7-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes
+# /home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-3-checkpoint_0047684.yaml models/merged-3-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes
+# /home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-5-checkpoint_0047684.yaml models/merged-5-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes
+# /home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-7-checkpoint_0047684.yaml models/merged-7-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes
+# /home/saycock/miniconda3/envs/gvllm/bin/python -m mergekit.scripts.run_yaml merging/linear-9-checkpoint_0047684.yaml models/merged-9-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes
+
+langs=("eng" "nld" "spa" "fra" "rus" "ita" "tur" "ara" "deu" "zhos")
+num_langs=${#langs[@]}
+for ((i=0; i<$num_langs-1; i++)); do
+  for ((j=i+1; j<$num_langs; j++)); do
+    lang1=${langs[$i]}
+    lang2=${langs[$j]}
+    echo "Running: merging/linear-${lang1}${lang2}-checkpoint_0047684.yaml"
+    $MERGEKIT_CMD merging/linear-${lang1}${lang2}-checkpoint_0047684.yaml /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-${lang1}${lang2}-checkpoints/checkpoint_0047684 --lazy-unpickle --allow-crimes --cuda
+  done
+done

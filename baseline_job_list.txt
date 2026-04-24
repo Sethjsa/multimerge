@@ -1,6 +1,1 @@
-hf:google/gemma-4-E2B|main|checkpoint_0047684
-hf:google/gemma-2-2b|main|checkpoint_0047684
 hf:meta-llama/Llama-3.2-1B|main|checkpoint_0047684
-hf:Qwen/Qwen3.5-2B-Base|main|checkpoint_0047684
-hf:HuggingFaceTB/SmolLM-1.7B|main|checkpoint_0047684
-hf:CohereLabs/tiny-aya-base|main|checkpoint_0047684

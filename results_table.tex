@@ -1,0 +1,39 @@
+% Required: \usepackage{booktabs, multirow, siunitx, xcolor}
+% \newcommand{\best}[1]{\textbf{#1}}
+% \newcommand{\na}{--}
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\label{tab:main-results}
+\begin{tabular}{l S[table-format=3.1,table-number-alignment=right] S[table-format=2.2,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=2.2,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=2.2,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=2.2,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=2.2,table-number-alignment=right]}
+\toprule
+\textbf{Model} & \multicolumn{2}{c}{MultiBlimp} & \multicolumn{2}{c}{Belebele} & \multicolumn{2}{c}{Hellaswag} & \multicolumn{2}{c}{XCSQA} & \multicolumn{2}{c}{FLORES} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9} \cmidrule(lr){10-11}
+\textbf{} & {$\mu$} & {CV\%} & {$\mu$} & {CV\%} & {$\mu$} & {CV\%} & {$\mu$} & {CV\%} & {$\mu$} & {CV\%} \\
+\midrule
+\multicolumn{11}{l}{\textit{Multilingual baselines}} \\[2pt]
+Tiny-Aya-Base & 97.2 & 2.14 & {\best{54.3}} & 8.96 & {\best{56.8}} & 13.15 & {\best{47.8}} & 14.48 & 39.2 & 35.65 \\
+Llama-3.2-1B & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} \\
+Gemma-2-2B & 94.8 & 3.46 & 48.6 & 11.16 & 52.2 & 17.45 & 43.8 & 21.86 & {\best{42.2}} & 27.72 \\
+\midrule
+\multicolumn{11}{l}{\textit{Monolingual experts (oracle upper bound)}} \\[2pt]
+HPLT Mono (avg) & {\best{98.7}} & 0.78 & 39.3 & 7.74 & 48.6 & 14.30 & 39.0 & 18.45 & 37.3 & 25.99 \\
+\midrule
+\multicolumn{11}{l}{\textit{Mixed pre-training}} \\[2pt]
+Mixed (10 langs) & 97.6 & 1.39 & 34.9 & 13.50 & 37.5 & 17.97 & 32.3 & 21.70 & 30.0 & 33.28 \\
+\midrule
+\multicolumn{11}{l}{\textit{Merged (10 monolingual models)}} \\[2pt]
+Merged -- Linear & 59.9 & 14.23 & 23.9 & 6.43 & 25.1 & 6.18 & 20.3 & 7.93 & 2.1 & 17.24 \\
+Merged -- TIES & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} \\
+Merged -- DARE-TIES & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} \\
+\bottomrule
+\end{tabular}
+\caption{%
+    Results across tasks and model conditions at final checkpoint.
+    $\mu$ = mean performance across languages;
+    CV = coefficient of variation (\%) measuring cross-lingual consistency.
+    MultiBlimp (acc\_norm); Belebele (acc\_norm); Hellaswag (acc\_norm); XCSQA (acc\_norm); FLORES (ChrF).
+    \best{Bold} = best result per column.
+}
+\end{table*}

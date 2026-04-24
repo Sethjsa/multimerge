@@ -59,7 +59,7 @@ echo "Done. $(ls $OUTPUT_DIR/linear-10-checkpoint_*.yaml | wc -l) config files g
 # Create final checkpoint config for the following merges:
 
 FINAL_CKPT="checkpoint_0047684"
-
+FINAL_CKPT_REVISION="main"
 # 8-language merge (remove zhos, tur)
 MODELS_8=(
   HPLT/hplt2c_ara_checkpoints
@@ -75,7 +75,7 @@ YAML_FILE="$OUTPUT_DIR/linear-8-${FINAL_CKPT}.yaml"
 {
   echo "models:"
   for model in "${MODELS_8[@]}"; do
-    echo "  - model: ${model}@${FINAL_CKPT}"
+    echo "  - model: ${model}@${FINAL_CKPT_REVISION}"
     echo "    parameters:"
     echo "      weight: 0.125"
   done
@@ -97,7 +97,7 @@ YAML_FILE="$OUTPUT_DIR/linear-6-${FINAL_CKPT}.yaml"
 {
   echo "models:"
   for model in "${MODELS_6[@]}"; do
-    echo "  - model: ${model}@${FINAL_CKPT}"
+    echo "  - model: ${model}@${FINAL_CKPT_REVISION}"
     echo "    parameters:"
     echo "      weight: 0.16666666666666666"
   done
@@ -117,7 +117,7 @@ YAML_FILE="$OUTPUT_DIR/linear-4-${FINAL_CKPT}.yaml"
 {
   echo "models:"
   for model in "${MODELS_4[@]}"; do
-    echo "  - model: ${model}@${FINAL_CKPT}"
+    echo "  - model: ${model}@${FINAL_CKPT_REVISION}"
     echo "    parameters:"
     echo "      weight: 0.25"
   done
@@ -135,7 +135,7 @@ YAML_FILE="$OUTPUT_DIR/linear-2-${FINAL_CKPT}.yaml"
 {
   echo "models:"
   for model in "${MODELS_2[@]}"; do
-    echo "  - model: ${model}@${FINAL_CKPT}"
+    echo "  - model: ${model}@${FINAL_CKPT_REVISION}"
     echo "    parameters:"
     echo "      weight: 0.5"
   done
@@ -144,3 +144,141 @@ YAML_FILE="$OUTPUT_DIR/linear-2-${FINAL_CKPT}.yaml"
 } > "$YAML_FILE"
 echo "Written: $YAML_FILE"
 
+
+
+# also do 3, 5, 7, 9 language merges
+MODELS_3=(
+  HPLT/hplt2c_eng_checkpoints
+  HPLT/hplt2c_fra_checkpoints
+  HPLT/hplt2c_deu_checkpoints
+)
+YAML_FILE="$OUTPUT_DIR/linear-3-${FINAL_CKPT}.yaml"
+{
+  echo "models:"
+  for model in "${MODELS_3[@]}"; do
+    echo "  - model: ${model}@${FINAL_CKPT_REVISION}"
+    echo "    parameters:"
+    echo "      weight: 0.3333333333333333"
+  done
+  echo "merge_method: linear"
+  echo "dtype: float16"
+} > "$YAML_FILE"
+echo "Written: $YAML_FILE"
+
+MODELS_5=(HPLT/hplt2c_ara_checkpoints
+  HPLT/hplt2c_fra_checkpoints
+  HPLT/hplt2c_deu_checkpoints
+  HPLT/hplt2c_eng_checkpoints
+  HPLT/hplt2c_fra_checkpoints
+  HPLT/hplt2c_ita_checkpoints)
+
+YAML_FILE="$OUTPUT_DIR/linear-5-${FINAL_CKPT}.yaml"
+{
+  echo "models:"
+  for model in "${MODELS_5[@]}"; do
+    echo "  - model: ${model}@${FINAL_CKPT_REVISION}"
+    echo "    parameters:"
+    echo "      weight: 0.2"
+  done
+  echo "merge_method: linear"
+  echo "dtype: float16"
+} > "$YAML_FILE"
+echo "Written: $YAML_FILE"
+
+MODELS_7=(
+  HPLT/hplt2c_ara_checkpoints
+  HPLT/hplt2c_deu_checkpoints
+  HPLT/hplt2c_eng_checkpoints
+  HPLT/hplt2c_fra_checkpoints
+  HPLT/hplt2c_ita_checkpoints
+  HPLT/hplt2c_nld_checkpoints
+  HPLT/hplt2c_rus_checkpoints
+)
+YAML_FILE="$OUTPUT_DIR/linear-7-${FINAL_CKPT}.yaml"
+{
+  echo "models:"
+  for model in "${MODELS_7[@]}"; do
+    echo "  - model: ${model}@${FINAL_CKPT_REVISION}"
+    echo "    parameters:"
+    echo "      weight: 0.14285714285714285"
+  done
+  echo "merge_method: linear"
+  echo "dtype: float16"
+} > "$YAML_FILE"
+echo "Written: $YAML_FILE"
+
+MODELS_9=(  HPLT/hplt2c_ara_checkpoints
+  HPLT/hplt2c_deu_checkpoints
+  HPLT/hplt2c_eng_checkpoints
+  HPLT/hplt2c_fra_checkpoints
+  HPLT/hplt2c_ita_checkpoints
+  HPLT/hplt2c_nld_checkpoints
+  HPLT/hplt2c_rus_checkpoints
+  HPLT/hplt2c_spa_checkpoints
+  HPLT/hplt2c_tur_checkpoints)
+YAML_FILE="$OUTPUT_DIR/linear-9-${FINAL_CKPT}.yaml"
+{
+  echo "models:"
+  for model in "${MODELS_9[@]}"; do
+    echo "  - model: ${model}@${FINAL_CKPT_REVISION}"
+    echo "    parameters:"
+    echo "      weight: 0.1111111111111111"
+  done
+  echo "merge_method: linear"
+  echo "dtype: float16"
+} > "$YAML_FILE"
+echo "Written: $YAML_FILE"
+
+
+# Generate all possible bilingual merges from the set of relevant models
+BILINGUAL_MODELS=(
+  eng
+  nld
+  spa
+  fra
+  rus
+  ita
+  tur
+  ara
+  deu
+  zhos
+)
+
+BILINGUAL_MODEL_PATHS=(
+  HPLT/hplt2c_eng_checkpoints
+  HPLT/hplt2c_nld_checkpoints
+  HPLT/hplt2c_spa_checkpoints
+  HPLT/hplt2c_fra_checkpoints
+  HPLT/hplt2c_rus_checkpoints
+  HPLT/hplt2c_ita_checkpoints
+  HPLT/hplt2c_tur_checkpoints
+  HPLT/hplt2c_ara_checkpoints
+  HPLT/hplt2c_deu_checkpoints
+  HPLT/hplt2c_zhos_checkpoints
+)
+
+NUM_BILINGUAL=${#BILINGUAL_MODELS[@]}
+# FINAL_CKPT_REVISION="checkpoint_0047684"
+
+for ((i=0; i<$NUM_BILINGUAL-1; i++)); do
+  for ((j=i+1; j<$NUM_BILINGUAL; j++)); do
+    LANG1=${BILINGUAL_MODELS[$i]}
+    LANG2=${BILINGUAL_MODELS[$j]}
+    MODEL1=${BILINGUAL_MODEL_PATHS[$i]}
+    MODEL2=${BILINGUAL_MODEL_PATHS[$j]}
+    PAIR="${LANG1}${LANG2}"
+    YAML_FILE="$OUTPUT_DIR/linear-${PAIR}-${FINAL_CKPT}.yaml"
+    {
+      echo "models:"
+      echo "  - model: ${MODEL1}@${FINAL_CKPT_REVISION}"
+      echo "    parameters:"
+      echo "      weight: 0.5"
+      echo "  - model: ${MODEL2}@${FINAL_CKPT_REVISION}"
+      echo "    parameters:"
+      echo "      weight: 0.5"
+      echo "merge_method: linear"
+      echo "dtype: float16"
+    } > "$YAML_FILE"
+    echo "Written: $YAML_FILE"
+  done
+done

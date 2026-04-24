@@ -1,0 +1,9 @@
+models:
+  - model: HPLT/hplt2c_spa_checkpoints@main
+    parameters:
+      weight: 0.5
+  - model: HPLT/hplt2c_tur_checkpoints@main
+    parameters:
+      weight: 0.5
+merge_method: linear
+dtype: float16

@@ -16,6 +16,12 @@ sys.path.append(src_path)
 from load_model import load_hf_model
 from score import score_tse
 
+os.environ['MKL_THREADING_LAYER'] = 'GNU'
+os.environ["HF_TOKEN"] = open("./token", "r").read().strip()
+os.environ["HF_HOME"] = "/fnwi_fs/ivi/irlab/personal/saycock/hf"
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+
 # Check if CUDA is available and print status
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
@@ -43,7 +49,6 @@ if args.hf_token:
 print(f"Loading model: {args.model_name} @ step {args.revision}")
 lm = load_hf_model(
     args.model_name,
-    no_cache=False,
     token=hf_token,  # Will pass None if not provided
     # cache_dir=args.cache_dir,
     revision_step=str(args.revision)

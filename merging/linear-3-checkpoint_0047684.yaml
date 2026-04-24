@@ -1,0 +1,12 @@
+models:
+  - model: HPLT/hplt2c_eng_checkpoints@main
+    parameters:
+      weight: 0.3333333333333333
+  - model: HPLT/hplt2c_fra_checkpoints@main
+    parameters:
+      weight: 0.3333333333333333
+  - model: HPLT/hplt2c_deu_checkpoints@main
+    parameters:
+      weight: 0.3333333333333333
+merge_method: linear
+dtype: float16

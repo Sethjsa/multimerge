@@ -63,18 +63,23 @@ def main(args):
     pipeline_params = PipelineParameters(
         launcher_type=ParallelismManager.VLLM,
         custom_tasks_directory="lighteval.tasks.multilingual.tasks",
-        max_samples=1000
+        max_samples=950
     )
+
+    if "HPLT" in args.model or "checkpoints" in args.model:
+        max_model_length = 2047
+    else:
+        max_model_length = 2049
 
     model_config = VLLMModelConfig(
         model_name=args.model,
-        revision=args.revision,
+        **({"revision": args.revision} if args.revision is not None else {}),
         dtype="bfloat16",
         tensor_parallel_size=1,
         data_parallel_size=args.gpus,
         pipeline_parallel_size=1,
         gpu_memory_utilization=0.85,
-        max_model_length=2047,
+        max_model_length=max_model_length,
         swap_space=2,
         seed=1,
         trust_remote_code=True,

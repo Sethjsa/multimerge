@@ -7,11 +7,12 @@
 #SBATCH --partition=gpu
 #SBATCH --output=logs/mb_%A_%a.log
 #SBATCH --error=logs/mb_%A_%a.err
-#SBATCH --array=0-9%5
+#SBATCH --array=0-5%5
 
 source activate gvllm
 
-MODEL_LANGS=("eng" "nld" "spa" "fra" "rus" "ita" "por" "tur" "ara" "deu")
+# MODEL_LANGS=("eng" "nld" "spa" "fra" "rus" "ita" "zhos" "tur" "ara" "deu")
+MODEL_LANGS=("tur" "ara" "deu" "ita" "zhos")
 
 LANG=${MODEL_LANGS[$SLURM_ARRAY_TASK_ID]}
 

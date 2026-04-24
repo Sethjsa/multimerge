@@ -92,6 +92,7 @@ def load_experiment(exp_name: str):
         checkpoints.append(cp_num)
         raw = load_raw_results(json_path)
 
+
         for task in TASK_LIST:
             metric_key, stderr_key = metric_for_task(task)
             for lang in TASK_PER_LANG.get(task, {}):
@@ -121,8 +122,14 @@ def _avg_line(lang_data: dict, checkpoints: list) -> tuple[list, list, list]:
             cp_errs[cp].append(v["stderr"])
     xs = [x for x in checkpoints if x in cp_vals]
     ys = [np.mean(cp_vals[x]) for x in xs]
-    errs = [np.sqrt(np.mean([s**2 for s in cp_errs[x]])) for x in xs]
-    return xs, ys, errs
+    # TODO: do Confidence interval for each language
+    conf_intervals = []
+    for cp in xs:
+        conf_interval = [y - e for y, e in zip(ys, cp_errs[cp])]
+        conf_intervals.append(conf_interval)
+    return xs, ys, conf_intervals
+    # errs = [np.sqrt(np.mean([s**2 for s in cp_errs[x]])) for x in xs]
+    # return xs, ys, errs
 
 
 def _setup_ax(ax, title, xlabel, ylabel, checkpoints, task: str | None = None):

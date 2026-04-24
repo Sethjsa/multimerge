@@ -12,26 +12,46 @@ source activate gvllm
 
 MODEL_LANGS=("eng" "nld" "spa" "fra" "rus" "ita" "por" "tur" "ara" "deu")
 
-if [ "$1" == "--local" ]; then
-    if [ "$2" == "--mixed" ]; then
-        echo "Running multiblimp locally with mixed models"
-        /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --local --mixed_models
-    else
-        echo "Running multiblimp locally with merged models"
-        /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --local
-    fi
+echo "$1"
+echo "$2"
+
+if [ "$1" == "--baselines" ]; then
+    echo "Running multiblimp with baselines"
+    /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --baselines_only --stderr_only
 fi
+
+if [ "$1" == "--spectrum" ]; then
+    echo "Running multiblimp locally with spectrum of checkpoints"
+    /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --local --spectrum --stderr_only
+fi
+
+if [ "$1" == "--matrix" ]; then
+    echo "Running multiblimp locally with matrix of models"
+    /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --local --matrix --stderr_only
+fi
+
+if [ "$1" == "--mixed" ]; then
+    echo "Running multiblimp locally with mixed models"
+    /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --local --mixed_models --stderr_only
+fi
+
+if [ "$1" == "--merged" ]; then
+    echo "Running multiblimp locally with merged models"
+    /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --local --stderr_only
+fi
+
 
 
 # if [ "$1" == "--local" ]; then
 #     echo "Running multiblimp locally"
 #     /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --local
 # else
-# for lang in "${MODEL_LANGS[@]}"; do
-#     echo "Running multiblimp on cluster"
-#     /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --model_langs "${MODEL_LANGS[@]}"
-# done
-# fi
+if [ "$1" == "--hplt" ]; then
+    for lang in "${MODEL_LANGS[@]}"; do
+        echo "Running multiblimp on cluster"
+        /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --model_langs "${lang}" --stderr_only
+    done
+fi
 
 # /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --local
 # /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py

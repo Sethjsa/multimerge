@@ -66,9 +66,9 @@ models = ["HPLT/hplt2c_eng_checkpoints",
           "HPLT/hplt2c_fra_checkpoints",
           "HPLT/hplt2c_rus_checkpoints",
           "HPLT/hplt2c_tur_checkpoints",
-          "HPLT/hplt2c_hin_checkpoints",
+          "HPLT/hplt2c_zhos_checkpoints",
           "HPLT/hplt2c_ita_checkpoints",
-          "HPLT/hplt2c_por_checkpoints",
+          "HPLT/hplt2c_deu_checkpoints",
           "HPLT/hplt2c_ara_checkpoints"]
 
 local_models = ["/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-2-checkpoints",
