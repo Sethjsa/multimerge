@@ -26,6 +26,10 @@ parser.add_argument('--baselines_only', action='store_true', help='Only use the 
 parser.add_argument('--spectrum', action='store_true', help='Use spectrum of checkpoints instead of just the final checkpoint')
 parser.add_argument('--matrix', action='store_true', help='Use matrix of models instead of just the final checkpoint')
 parser.add_argument('--stderr_only', action='store_true', help='Only calculate the stderr of the model')
+parser.add_argument('--aya', action='store_true', help='Use aya models instead of merged models')
+parser.add_argument('--aya_merges', action='store_true', help='Use linear aya models instead of merged models')
+parser.add_argument('--new_merges', action='store_true', help='Use new merges instead of old merges')
+parser.add_argument('--init', action='store_true', help='Use individual models instead of merged models')
 args = parser.parse_args()
 
 checkpoints = ["checkpoint_0001000", "checkpoint_0002000", "checkpoint_0003000", "checkpoint_0004000",
@@ -40,6 +44,7 @@ checkpoints = ["checkpoint_0001000", "checkpoint_0002000", "checkpoint_0003000",
                 "checkpoint_0037000", "checkpoint_0038000", "checkpoint_0039000", "checkpoint_0040000",
                 "checkpoint_0041000", "checkpoint_0042000", "checkpoint_0043000", "checkpoint_0044000",
                 "checkpoint_0045000", "checkpoint_0046000", "checkpoint_0047000", "checkpoint_0047684", "main"]
+
 
 if args.spectrum:
     checkpoints = ["checkpoint_0047684"]
@@ -96,6 +101,20 @@ hf_models = ["HPLT/hplt2c_eng_checkpoints",
              "HPLT/hplt2c_deu_checkpoints",
              "HPLT/hplt2c_zhos_checkpoints"]
 
+if args.aya:
+    hf_models = ["CohereLabs/tiny-aya-global",
+                "CohereLabs/tiny-aya-fire",
+                "CohereLabs/tiny-aya-water",
+                "CohereLabs/tiny-aya-earth",
+                "utter-project/EuroLLM-1.7B",
+                "HuggingFaceTB/SmolLM2-1.7B"]
+    checkpoints = ["main"]
+
+if args.aya_merges:
+    local_models = ["/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/task-aya-checkpoints",
+                "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/linear-aya-checkpoints"]
+    checkpoints = ["checkpoint_0047684"]
+
 if args.mixed_models:
     local_models = ["/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints"]
 else:
@@ -112,6 +131,15 @@ if args.spectrum:
                 "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-6-checkpoints",
                 "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/merged-8-checkpoints"]
 
+if args.new_merges:
+    local_models = ["/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/task-10-checkpoints",
+                    "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/dareties-10-checkpoints",
+                    "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/ties-10-checkpoints",
+                    "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/widen-10-checkpoints",
+                    "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/task-aya-checkpoints",
+                    "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/linear-aya-checkpoints"]
+    checkpoints = ["checkpoint_0047684"]
+
 if args.matrix:
     with open("multiblimp/pairs.txt", "r") as f:
         pairs = [line.strip().replace(" ", "") for line in f if line.strip()]
@@ -123,6 +151,11 @@ if args.baselines_only:
                 "CohereLabs/tiny-aya-base",
                  "google/gemma-2-2b"]
     checkpoints = ["main"]
+
+if args.init:
+    checkpoints = ["checkpoint_0000000"]
+    local_models = ["/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints"]
+
 
 if args.model_langs:
     print("Model languages: ", args.model_langs)
@@ -183,7 +216,7 @@ for model in models:
             
             results_path = f"multiblimp/results/{results_str}/{test_lang}.tsv"
             
-            # if os.path.exists(results_path):
+            # if os.path.exists(results_path) and not args.stderr_only:
             #     print(f"Results path {results_path} already exists, skipping")
             #     continue
             try:

@@ -1,0 +1,44 @@
+base_model: /fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/mixed-10-checkpoints/checkpoint_0000000
+models:
+  - model: HPLT/hplt2c_ara_checkpoints@main
+    parameters:
+      weight: 0.1
+      density: 0.75
+  - model: HPLT/hplt2c_deu_checkpoints@main
+    parameters:
+      weight: 0.1
+      density: 0.75
+  - model: HPLT/hplt2c_eng_checkpoints@main
+    parameters:
+      weight: 0.1
+      density: 0.75
+  - model: HPLT/hplt2c_fra_checkpoints@main
+    parameters:
+      weight: 0.1
+      density: 0.75
+  - model: HPLT/hplt2c_ita_checkpoints@main
+    parameters:
+      weight: 0.1
+      density: 0.75
+  - model: HPLT/hplt2c_nld_checkpoints@main
+    parameters:
+      weight: 0.1
+      density: 0.75
+  - model: HPLT/hplt2c_rus_checkpoints@main
+    parameters:
+      weight: 0.1
+      density: 0.75
+  - model: HPLT/hplt2c_spa_checkpoints@main
+    parameters:
+      weight: 0.1
+      density: 0.75
+  - model: HPLT/hplt2c_tur_checkpoints@main
+    parameters:
+      weight: 0.1
+      density: 0.75
+  - model: HPLT/hplt2c_zhos_checkpoints@main
+    parameters:
+      weight: 0.1
+      density: 0.75
+merge_method: ties
+dtype: float16

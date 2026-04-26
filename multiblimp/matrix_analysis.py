@@ -56,7 +56,7 @@ for lang1, lang2 in pairs:
     entry = {
         "hplt_avg":   hplt_avg,
         "merged_avg": merged_avg,
-        "diff": hplt_avg - merged_avg,
+        "diff": merged_avg - hplt_avg,
         "hplt":   {lang1: h1,  lang2: h2},
         "merged": {lang1: m1,  lang2: m2},
     }
@@ -167,7 +167,7 @@ diff_abs = np.nanmax(np.abs(diff_mat))
 plot_triangle(axes[0], diff_mat * 100, LANGS,
               cmap="RdYlGn",
               vmin=-diff_abs * 100, vmax=diff_abs * 100,
-              title="Δ MultiBLiMP accuracy\n(Monolingual - Merged Blingual, %)",
+              title="Δ MultiBLiMP accuracy\n(%)",
               fmt=".1f", center=0)
 
 # Panel B: typology average distance — sequential
@@ -198,6 +198,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+import matplotlib.lines as mlines
 from scipy import stats
 from matplotlib import rcParams
 
@@ -292,9 +293,13 @@ for l1 in LANGS:
             except KeyError:
                 pass
         for col, path in [
-            ("model_sim__cosine_sim", ["weight_space", "cosine_sim"]),
-            ("model_sim__l2_norm",    ["weight_space", "l2_norm"]),
-            ("model_sim__mean_cka",   ["cka",          "mean_cka"]),
+            # ("model_sim__cosine_sim", ["weight_space", "cosine_sim"]),
+            # ("model_sim__l2_norm",    ["weight_space", "l2_norm"]),
+            # ("model_sim__mean_cka",   ["cka",          "mean_cka"]),
+            ("model_sim__mean_cka_num",   ["cka_num",          "mean_cka"]),
+            ("model_sim__mean_cka_inlang",   ["cka_inlang",          "mean_cka"]),
+            ("model_sim__mean_cka_eng",   ["cka_eng",          "mean_cka"]),
+            # ("model_sim__mean_rank_diff",   ["weight_space",          "mean_rank_diff"]),
         ]:
             try:
                 val = sim_entry
@@ -354,7 +359,7 @@ def summary_plot(res, val_col, p_col, xlabel, filename):
             ax.text(row[val_col] + xoff, idx, marker, va="center",
                     ha="left" if row[val_col] > 0 else "right",
                     fontsize=9, color="black")
-    ax.axvline(0, color="black", lw=0.8)
+    # ax.axvline(0, color="black", lw=0.8)
     ax.set_yticks(y)
     ax.set_yticklabels([f"{row['group']} · {row['field']}"
                         for _, row in ordered.iterrows()], fontsize=8)
@@ -373,31 +378,58 @@ summary_plot(res, "rho", "p_spearman",
 summary_plot(res, "r",   "p_pearson",
              "Pearson r  (diff vs predictor)",  "summary_pearson.pdf")
 
+name_mapping = {
+    "mean_cka_num": "Mean CKA numerical",
+    "mean_cka_inlang": "Mean CKA in language",
+    "mean_cka_eng": "Mean CKA",
+}
+
+
+
 # ── Scatter plots for p < 0.05 on either measure ─────────────────────────────
 sig_res = res[(res["p_spearman"] < 0.05) | (res["p_pearson"] < 0.05)]
 for _, row in sig_res.iterrows():
     col = row["measure"]
+
     sub = df[["lang1", "lang2", "diff", col]].dropna().copy()
     sub["diff_pct"] = sub["diff"] * 100
 
-    fig, ax = plt.subplots(figsize=(5, 4))
+    # Map column names for X-axis, fallback to default
+    x_label_base = name_mapping.get(row['field'], f"{row['group']} · {row['field']}")
+
+    fig, ax = plt.subplots(figsize=(4.5, 3.2))
+    # ax.margins(x=0.1)
     ax.scatter(sub[col], sub["diff_pct"],
-               color=CAT_COLORS[row["group"]],
+               color="#20B2AA",
                s=50, alpha=0.8, edgecolors="white", linewidths=0.5, zorder=3)
     m, b, *_ = stats.linregress(sub[col], sub["diff_pct"])
-    x_line = np.linspace(sub[col].min(), sub[col].max(), 100)
-    ax.plot(x_line, m * x_line + b, color="black", lw=1.5, ls="--", zorder=2)
+    ax.set_xlim(sub[col].min() - 0.03, sub[col].max() + 0.03)
+    x_line = np.linspace(sub[col].min() - 0.03, sub[col].max() + 0.03, 100)
+    # add 95% confidence interval
+    ci = 1.96 * np.std(sub["diff_pct"]) / np.sqrt(len(sub))
+    ax.fill_between(x_line, (m * x_line + b) - ci, (m * x_line + b) + ci,
+                    color="black", alpha=0.1, zorder=2)
+    ax.plot(x_line, m * x_line + b, color="grey", lw=1.5, ls="--", zorder=2)
+    # add legend for the confidence interval and regression line
+    legend_patches = [mpatches.Patch(color="black", alpha=0.1, label="95% CI"),
+                      mlines.Line2D([], [], color="grey", lw=1.4, ls="--", label=f"y = {m:.1f}x {b:.1f}")]
+                 
+    ax.legend(handles=legend_patches, fontsize=8, frameon=False)
     for _, pt in sub.iterrows():
         ax.annotate(f"{pt.lang1}-{pt.lang2}", (pt[col], pt["diff_pct"]),
-                    fontsize=6, alpha=0.7,
-                    textcoords="offset points", xytext=(3, 2))
-    ax.axhline(0, color="grey", lw=0.7, ls=":")
-    ax.set_xlabel(f"{row['group']} · {row['field']}")
-    ax.set_ylabel("Δ MultiBLiMP (%)\n(Monolingual − Merged Bilingual)")
+                    fontsize=6, alpha=0.6,
+                    textcoords="offset points", xytext=(3, 2),
+                    ha="right", va="bottom")
+               
+               
+    # ax.axhline(0, color="grey", lw=0.7, ls=":")
+    ax.set_xlabel(x_label_base, fontsize=11)
+    ax.set_ylabel("Δ MultiBLiMP accuracy (%)", fontsize=11)
     ax.set_title(
         f"ρ={row['rho']:.3f} (p={row['p_spearman']:.3f})   "
         f"r={row['r']:.3f} (p={row['p_pearson']:.3f})   n={int(row['n'])}",
         fontsize=8)
+    # ax.margins(x=0.08)
     fig.tight_layout()
     safe = col.replace("/", "_").replace(" ", "_")
     fig.savefig(f"multiblimp/plots/correlations/{safe}.pdf", bbox_inches="tight")

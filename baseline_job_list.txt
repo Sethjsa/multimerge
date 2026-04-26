@@ -1,1 +1,6 @@
-hf:meta-llama/Llama-3.2-1B|main|checkpoint_0047684
+hf:CohereLabs/tiny-aya-global|main|checkpoint_0047684
+hf:CohereLabs/tiny-aya-fire|main|checkpoint_0047684
+hf:CohereLabs/tiny-aya-water|main|checkpoint_0047684
+hf:CohereLabs/tiny-aya-earth|main|checkpoint_0047684
+hf:utter-project/EuroLLM-1.7B|main|checkpoint_0047684
+hf:HuggingFaceTB/SmolLM2-1.7B|main|checkpoint_0047684

@@ -14,13 +14,19 @@ for csv_path in sorted(results_root.rglob("all.csv")):
     except Exception as e:
         print(f"[FAIL] {csv_path}: {e}")
 
-if not dfs:
-    print("No CSVs found.")
-else:
-    combined = pd.concat(dfs, ignore_index=True)
-    combined.to_csv(output_path, index=False)
-    print(f"\nWrote {len(combined)} rows from {len(dfs)} files → {output_path}")
-    print(combined.head())
+# get mixed-10-checkpoints checkpoint_0000000 from df
+mixed_row = df[df["model"] == "models/mixed-10-checkpoints/checkpoint_0000000"]
+# add it to df again with model name merged-10-checkpoints
+mixed_row["model"] = "merged-10-checkpoints"
+dfs.append(mixed_row)
+
+# if not dfs:
+#     print("No CSVs found.")
+# else:
+#     combined = pd.concat(dfs, ignore_index=True)
+#     combined.to_csv(output_path, index=False)
+#     print(f"\nWrote {len(combined)} rows from {len(dfs)} files → {output_path}")
+#     print(combined.head())
 
 ########################################################
 import pandas as pd
@@ -52,6 +58,17 @@ named_models = {
     "tiny-aya-base":        "CohereLabs/tiny-aya-base",
     "llama-3.2-1b":         "meta-llama/Llama-3.2-1B",
     "gemma-2-2b":           "google/gemma-2-2b",
+    "eurollm-1.7b":         "utter-project/EuroLLM-1.7B",
+    "smollm2-1.7b":         "HuggingFaceTB/SmolLM2-1.7B",
+    "tiny-aya-global":      "CohereLabs/tiny-aya-global",
+    "tiny-aya-fire":        "CohereLabs/tiny-aya-fire",
+    "tiny-aya-water":       "CohereLabs/tiny-aya-water",
+    "tiny-aya-earth":       "CohereLabs/tiny-aya-earth",
+    "task-aya-checkpoints": "models/task-aya-checkpoints/checkpoint_0047684",
+    "linear-aya-checkpoints": "models/linear-aya-checkpoints/checkpoint_0047684",
+    "widen-10-checkpoints": "models/widen-10-checkpoints/checkpoint_0047684",
+    "dareties-10-checkpoints": "models/dareties-10-checkpoints/checkpoint_0047684",
+    "ties-10-checkpoints": "models/ties-10-checkpoints/checkpoint_0047684",
     "mixed-10-checkpoints": "models/mixed-10-checkpoints/checkpoint_0047684",
     "merged-10-checkpoints":"models/merged-10-checkpoints/checkpoint_0047684",
     "merged-2-checkpoints": "models/merged-2-checkpoints/checkpoint_0047684",
@@ -123,6 +140,8 @@ if own_lang_scores:
     lang_acc_dict = {f"{l}_acc": own_lang_scores.get(l, np.nan) for l in LANGS}
     records.append({"model": "hplt-mono-avg", "mean_acc": mean, "cv": cv,
                     **lang_acc_dict})
+
+
 
 # ── Output ────────────────────────────────────────────────────────────────────
 results = pd.DataFrame(records).set_index("model")
@@ -311,12 +330,25 @@ rcParams.update({
 })
 
 # Okabe-Ito palette (colorblind-safe), 9 colours for 9 languages
-PALETTE = [
-    "#E69F00", "#56B4E9", "#009E73", "#F0E442",
-    "#0072B2", "#D55E00", "#CC79A7", "#999999", "#000080",
+# PALETTE = [
+#     "#E69F00", "#56B4E9", "#009E73", "#F0E442",
+#     "#0072B2", "#D55E00", "#CC79A7", "#999999", "#000080",
+# ]
+
+PALETTE = [  # Okabe-Ito boosted saturation
+    "#FFB000",  # amber        (#E69F00 → +sat)
+    "#00AAFF",  # sky blue     (#56B4E9 → +sat)
+    "#00C48C",  # green        (#009E73 → +sat)
+    "#F0E442",  # yellow       (#F0E442 → +sat)
+    "#0088D4",  # blue         (#0072B2 → +sat)
+    "#FF6D00",  # vermillion   (#D55E00 → +sat)
+    "#E0409A",  # pink-purple  (#CC79A7 → +sat)
+    "#999999",  # grey         (unchanged — no hue to boost)
+    "#0000CC",  # navy         (#000080 → +sat/lightness)
 ]
 
-LANGS = ["eng", "nld", "spa", "fra", "rus", "ita", "tur", "ara", "deu"]
+LANGS = ["eng", "deu", "fra", "ita", "nld", "rus", "spa", "tur", "ara"]
+
 LANG_LABELS = {l: l for l in LANGS}  # lowercase ISO-3 codes
 LANG_COLOR = {l: PALETTE[i] for i, l in enumerate(LANGS)}
 CI_SCALE   = 1.96
@@ -364,8 +396,8 @@ def clean_ax(ax, steps):
     ax.set_xlim(0, max_step)
     ax.set_xticks([0, 10000, 20000, 30000, 40000])
     ax.set_ylim(40, 101)
-    ax.set_xlabel("Training step")
-    ax.set_ylabel("Accuracy (%)")
+    ax.set_xlabel("Training Steps")
+    ax.set_ylabel("MultiBLiMP accuracy (%)")
 
 # ── Individual plots (merged & mixed) ────────────────────────────────────────
 for key, sub in data.items():
@@ -394,12 +426,12 @@ for key, sub in data.items():
     ci_handle  = mpatches.Patch(color="grey", alpha=0.4, label="95% CI")
     leg_style = ax.legend(handles=[avg_handle, ci_handle],
                           loc="lower center", bbox_to_anchor=(0.5, 1.08),
-                          ncol=2, fontsize=16, frameon=False,
+                          ncol=2, fontsize=20, frameon=False,
                           columnspacing=1.0, handlelength=1.2)
     ax.add_artist(leg_style)
     ax.legend(handles=lang_handles,
               loc="lower center", bbox_to_anchor=(0.5, 1.01),
-              ncol=9, fontsize=16, frameon=False,
+              ncol=9, fontsize=20, frameon=False,
               columnspacing=0.8, handlelength=1.2)
     fig.tight_layout()
     fig.subplots_adjust(top=0.88)
@@ -409,7 +441,7 @@ for key, sub in data.items():
     plt.close(fig)
 
 # ── Combined plot ─────────────────────────────────────────────────────────────
-fig, ax = plt.subplots(figsize=(8, 6))
+fig, ax = plt.subplots(figsize=(9, 6)) 
 
 for lang in LANGS:
     for key, sub in data.items():
@@ -418,7 +450,7 @@ for lang in LANGS:
         ci = CI_SCALE * se
         valid = ~np.isnan(acc)
         ax.plot(steps[valid], acc[valid], color=LANG_COLOR[lang],
-                lw=LANG_LW, ls=LINESTYLES[key], alpha=0.85)
+                lw=1.75, ls=LINESTYLES[key], alpha=0.85)
         ax.fill_between(steps[valid], acc[valid]-ci[valid], acc[valid]+ci[valid],
                         color=LANG_COLOR[lang], alpha=0.08)
 
@@ -433,7 +465,7 @@ for key, sub in data.items():
 clean_ax(ax, data["mixed"]["step"].values)
 
 import matplotlib.patches as mpatches
-lang_handles  = [mlines.Line2D([], [], color=LANG_COLOR[l], lw=LANG_LW,
+lang_handles  = [mlines.Line2D([], [], color=LANG_COLOR[l], lw=2.5,
                                 label=LANG_LABELS[l]) for l in LANGS]
 style_handles = [
     mlines.Line2D([], [], color="black", lw=AVG_LW, ls=LINESTYLES["mixed"],
@@ -442,20 +474,35 @@ style_handles = [
                   label=r"Merged$_{10}$"),
     mpatches.Patch(color="grey", alpha=0.4, label="95% CI"),
 ]
-leg_style = ax.legend(handles=style_handles,
-                      loc="lower center", bbox_to_anchor=(0.5, 1.02),
-                      ncol=3, fontsize=13, frameon=False,
-                      columnspacing=1.0, handlelength=1.2)
+
+leg_style = ax.legend(
+    handles=style_handles,
+    loc="center left", bbox_to_anchor=(0.1, 1.05),  # inside axes, empty middle area
+    ncol=3, fontsize=16, frameon=False,
+    handlelength=1.5, columnspacing=1.0
+)
 ax.add_artist(leg_style)
-ax.legend(handles=lang_handles,
-          loc="lower center", bbox_to_anchor=(0.5, 0.99),
-          ncol=9, fontsize=13, frameon=False,
-          columnspacing=0.8, handlelength=1.2)
+
+ax.legend(
+    handles=lang_handles,
+    loc="center left", bbox_to_anchor=(0.99, 0.5),
+    ncol=1, fontsize=16, frameon=False,
+    handlelength=1.2, labelspacing=0.6
+)
+
+ax.set_xticklabels(ax.get_xticks(), fontsize=17)
+ax.set_yticklabels([f"{int(y)}" if y == int(y) else f"{y}" for y in ax.get_yticks()], fontsize=17)
+
+ax.set_xlabel("Training Steps", fontsize=22)
+ax.set_ylabel("MultiBLiMP accuracy (%)", fontsize=22)
 
 fig.tight_layout()
-fig.subplots_adjust(top=0.95)
+fig.subplots_adjust(right=0.78)  # Make extra vertical space for the top legend
+fig.subplots_adjust(top=0.81)
+# fig.tight_layout()
+# fig.subplots_adjust(right=0.78)
 path = "multiblimp/plots/merged_vs_mixed_avg.pdf"
-fig.savefig(path, bbox_inches="tight")
+fig.savefig(path, bbox_inches="tight", pad_inches=0.5)
 print(f"Saved {path}")
 plt.close(fig)
 
@@ -481,11 +528,19 @@ rcParams.update({
     "pdf.fonttype": 42,
 })
 
-PALETTE = [
-    "#E69F00", "#56B4E9", "#009E73", "#F0E442",
-    "#0072B2", "#D55E00", "#CC79A7", "#999999", "#000080",
+PALETTE = [  # Okabe-Ito boosted saturation
+    "#FFB000",  # amber        (#E69F00 → +sat)
+    "#00AAFF",  # sky blue     (#56B4E9 → +sat)
+    "#00C48C",  # green        (#009E73 → +sat)
+    "#F0E442",  # yellow       (#F0E442 → +sat)
+    "#0088D4",  # blue         (#0072B2 → +sat)
+    "#FF6D00",  # vermillion   (#D55E00 → +sat)
+    "#E0409A",  # pink-purple  (#CC79A7 → +sat)
+    "#999999",  # grey         (unchanged — no hue to boost)
+    "#0000CC",  # navy         (#000080 → +sat/lightness)
 ]
-LANGS = ["eng", "nld", "spa", "fra", "rus", "ita", "tur", "ara", "deu"]
+
+LANGS = ["eng", "deu", "fra", "ita", "nld", "rus", "spa", "tur", "ara"]
 LANG_COLOR = {l: PALETTE[i] for i, l in enumerate(LANGS)}
 CI_SCALE = 1.96
 
@@ -517,7 +572,7 @@ for n in range(2, 11):
 ns = sorted(rows.keys())
 
 # ── Plot ──────────────────────────────────────────────────────────────────────
-fig, ax = plt.subplots(figsize=(8, 5))
+fig, ax = plt.subplots(figsize=(7.5, 5))
 
 for lang in LANGS:
     acc_col = f"{lang}_acc"
@@ -544,32 +599,35 @@ for lang in LANGS:
 ax.set_xticks(list(range(1, 11)))
 tick_labels = [f"{n}\n+{MERGE_ORDER[n]}" if n > 1 else f"{n}\n{MERGE_ORDER[n]}" 
                for n in range(1, 11)]
-ax.set_xticklabels(tick_labels, fontsize=8.5)
+ax.set_xticklabels(tick_labels, fontsize=13)
+ax.set_yticklabels(ax.get_yticks(), fontsize=13)
 ax.set_xlim(0.7, 10.3)
 ax.set_ylim(40, 101)
-ax.set_xlabel("Number of languages merged")
-ax.set_ylabel("Accuracy (%)")
+ax.set_xlabel("Number of languages merged", fontsize=18)
+ax.set_ylabel("MultiBLiMP accuracy (%)", fontsize=18)
 
 # ── Legend ────────────────────────────────────────────────────────────────────
 lang_handles = [mlines.Line2D([], [], color=LANG_COLOR[l], lw=1.4,
                                marker="o", ms=4, label=l) for l in LANGS]
 note_handles = [
-    mlines.Line2D([], [], color="black", lw=2.2, marker="o", ms=4, label="eng (highlighted)"),
     mpatches.Patch(color="grey", alpha=0.4, label="95% CI"),
 ]
-leg_top = ax.legend(handles=note_handles,
-                    loc="lower center", bbox_to_anchor=(0.5, 1.08),
-                    ncol=2, fontsize=8, frameon=False,
-                    columnspacing=1.0, handlelength=1.2)
+leg_top = ax.legend(
+    handles=note_handles,
+    loc="upper right",  # Move inside plot, top right
+    fontsize=12,
+    frameon=False,
+    handlelength=1.2,
+)
 ax.add_artist(leg_top)
 ax.legend(handles=lang_handles,
           loc="lower center", bbox_to_anchor=(0.5, 1.01),
-          ncol=9, fontsize=8, frameon=False,
-          columnspacing=0.8, handlelength=1.2)
+          ncol=9, fontsize=12, frameon=False,
+          columnspacing=0.9, handlelength=1.2)
 
 fig.tight_layout()
 fig.subplots_adjust(top=0.88)
 path = "multiblimp/plots/merge_n_languages.pdf"
-fig.savefig(path, bbox_inches="tight")
+fig.savefig(path, bbox_inches="tight", pad_inches=0.5)
 print(f"Saved {path}")
 plt.show()

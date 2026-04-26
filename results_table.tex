@@ -6,27 +6,27 @@
 \small
 \setlength{\tabcolsep}{5pt}
 \label{tab:main-results}
-\begin{tabular}{l S[table-format=3.1,table-number-alignment=right] S[table-format=2.2,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=2.2,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=2.2,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=2.2,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=2.2,table-number-alignment=right]}
+\begin{tabular}{l S[table-format=1.2,table-number-alignment=right] c S[table-format=3.1,table-number-alignment=right] S[table-format=2.2,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=2.2,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=2.2,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=2.2,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=2.2,table-number-alignment=right]}
 \toprule
-\textbf{Model} & \multicolumn{2}{c}{MultiBlimp} & \multicolumn{2}{c}{Belebele} & \multicolumn{2}{c}{Hellaswag} & \multicolumn{2}{c}{XCSQA} & \multicolumn{2}{c}{FLORES} \\
-\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9} \cmidrule(lr){10-11}
-\textbf{} & {$\mu$} & {CV\%} & {$\mu$} & {CV\%} & {$\mu$} & {CV\%} & {$\mu$} & {CV\%} & {$\mu$} & {CV\%} \\
+\textbf{Model} & {\textbf{Params (B)}} & {\textbf{Tokens}} & \multicolumn{2}{c}{MultiBlimp} & \multicolumn{2}{c}{Belebele} & \multicolumn{2}{c}{Hellaswag} & \multicolumn{2}{c}{XCSQA} & \multicolumn{2}{c}{FLORES} \\
+\cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9} \cmidrule(lr){10-11} \cmidrule(lr){12-13}
+ & &  & {$\mu$} & {CV\%} & {$\mu$} & {CV\%} & {$\mu$} & {CV\%} & {$\mu$} & {CV\%} & {$\mu$} & {CV\%} \\
 \midrule
-\multicolumn{11}{l}{\textit{Multilingual baselines}} \\[2pt]
-Tiny-Aya-Base & 97.2 & 2.14 & {\best{54.3}} & 8.96 & {\best{56.8}} & 13.15 & {\best{47.8}} & 14.48 & 39.2 & 35.65 \\
-Llama-3.2-1B & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} \\
-Gemma-2-2B & 94.8 & 3.46 & 48.6 & 11.16 & 52.2 & 17.45 & 43.8 & 21.86 & {\best{42.2}} & 27.72 \\
+\multicolumn{13}{l}{\textit{Multilingual baselines}} \\[2pt]
+Tiny-Aya-Base & 3.35 & 6T & 97.2 & 2.14 & \multicolumn{1}{r}{\textbf{54.3}} & 8.96 & \multicolumn{1}{r}{\textbf{56.8}} & 13.15 & \multicolumn{1}{r}{\textbf{47.8}} & 14.48 & 39.2 & 35.65 \\
+EuroLLM-1.7B & 1.7 & 4T & 95.9 & 3.62 & 36.5 & 7.34 & 45.9 & 13.44 & 31.6 & 15.65 & 37.0 & 33.89 \\
+Gemma-2-2B & 2.6 & 2T & 94.8 & 3.46 & 48.6 & 11.16 & 52.2 & 17.45 & 43.8 & 21.86 & \multicolumn{1}{r}{\textbf{42.2}} & 27.72 \\
 \midrule
-\multicolumn{11}{l}{\textit{Monolingual experts (oracle upper bound)}} \\[2pt]
-HPLT Mono (avg) & {\best{98.7}} & 0.78 & 39.3 & 7.74 & 48.6 & 14.30 & 39.0 & 18.45 & 37.3 & 25.99 \\
+\multicolumn{13}{l}{\textit{Monolingual experts (oracle upper bound)}} \\[2pt]
+HPLT Mono (avg) & 2.15 & 100B & \multicolumn{1}{r}{\textbf{98.7}} & 0.78 & 39.3 & 7.74 & 48.6 & 14.30 & 39.0 & 18.45 & 37.3 & 25.99 \\
 \midrule
-\multicolumn{11}{l}{\textit{Mixed pre-training}} \\[2pt]
-Mixed (10 langs) & 97.6 & 1.39 & 34.9 & 13.50 & 37.5 & 17.97 & 32.3 & 21.70 & 30.0 & 33.28 \\
+\multicolumn{13}{l}{\textit{Mixed pre-training (10 langs)}} \\[2pt]
+Mixed & 2.15 & 100B & 97.6 & 1.39 & 34.9 & 13.50 & 37.5 & 17.97 & 32.3 & 21.70 & 30.0 & 33.28 \\
 \midrule
-\multicolumn{11}{l}{\textit{Merged (10 monolingual models)}} \\[2pt]
-Merged -- Linear & 59.9 & 14.23 & 23.9 & 6.43 & 25.1 & 6.18 & 20.3 & 7.93 & 2.1 & 17.24 \\
-Merged -- TIES & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} \\
-Merged -- DARE-TIES & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} \\
+\multicolumn{13}{l}{\textit{Merged (10 monolingual models)}} \\[2pt]
+Linear & 2.15 & 1T & 59.9 & 14.23 & 23.9 & 6.43 & 25.1 & 6.18 & 20.3 & 7.93 & 2.1 & 17.24 \\
+TIES & 2.15 & 1T & 60.0 & 10.79 & 24.4 & 6.11 & 25.3 & 6.02 & 20.4 & 6.02 & 12.3 & 48.11 \\
+DARE-TIES & 2.15 & 1T & 60.8 & 10.63 & 24.4 & 4.40 & 25.6 & 4.53 & 20.4 & 6.83 & 1.7 & 24.67 \\
 \bottomrule
 \end{tabular}
 \caption{%
@@ -34,6 +34,6 @@ Merged -- DARE-TIES & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\na} & {\
     $\mu$ = mean performance across languages;
     CV = coefficient of variation (\%) measuring cross-lingual consistency.
     MultiBlimp (acc\_norm); Belebele (acc\_norm); Hellaswag (acc\_norm); XCSQA (acc\_norm); FLORES (ChrF).
-    \best{Bold} = best result per column.
+    \textbf{Bold} = best result per column.
 }
 \end{table*}

@@ -15,7 +15,6 @@ TARGET_CKPT  = 47684
 
 # ── Task config ───────────────────────────────────────────────────────────────
 
-# Display order in the table
 TASKS = ["multiblimp", "belebele", "hellaswag", "xcsqa", "flores200"]
 
 TASK_DISPLAY = {
@@ -37,33 +36,68 @@ TASK_COLS = {
 # Tasks whose mean is stored as 0–1 ratio → multiply by 100 for display
 SCALE_100 = {"multiblimp", "belebele", "hellaswag", "xcsqa"}
 
+# ── Model metadata ────────────────────────────────────────────────────────────
+
+parameters_model_map = {
+    "tiny-aya-base":          "3.35",
+    "EuroLLM-1.7B":           "1.7",
+    "gemma-2-2b":             "2.6",
+    "smollm2-1.7b":           "1.7",
+    "tiny-aya-fire":          "3.35",
+    "tiny-aya-water":         "3.35",
+    "tiny-aya-earth":         "3.35",
+    "task-aya-checkpoints":   "2.15",
+    "linear-aya-checkpoints": "3.35",
+    "widen-10-checkpoints":   "2.15",
+    "dareties-10-checkpoints":"2.15",
+    "ties-10-checkpoints":    "2.15",
+    "mixed-10-checkpoints":   "2.15",
+    "merged-10-checkpoints":  "2.15",
+    "merged-2-checkpoints":   "2.15",
+    "merged-3-checkpoints":   "2.15",
+    "merged-4-checkpoints":   "2.15",
+    "merged-5-checkpoints":   "2.15",
+    "merged-6-checkpoints":   "2.15",
+    "merged-7-checkpoints":   "2.15",
+    "merged-8-checkpoints":   "2.15",
+    "mono_experts":           "2.15",
+}
+
+tokens_seen = {
+    "mixed-10-checkpoints":   "100B",
+    "merged-10-checkpoints":  "1T",
+    "EuroLLM-1.7B":           "4T",
+    "gemma-2-2b":             "2T",
+    "tiny-aya-base":          "6T",
+    "mono_experts":           "100B",
+    "ties-10-checkpoints":    "1T",
+    "dareties-10-checkpoints":"1T",
+}
+
 # ── Table row structure ───────────────────────────────────────────────────────
-# Each section: (latex_section_label, [(csv_model_key | None, display_name)])
-# None as model key → missing row, all cells render as --
 
 TABLE_STRUCTURE = [
     (r"\textit{Multilingual baselines}", [
         ("tiny-aya-base",  "Tiny-Aya-Base"),
-        ("llama-3.2-1b",   "Llama-3.2-1B"),
+        ("EuroLLM-1.7B",   "EuroLLM-1.7B"),
         ("gemma-2-2b",     "Gemma-2-2B"),
     ]),
     (r"\textit{Monolingual experts (oracle upper bound)}", [
         ("mono_experts",   r"HPLT Mono (avg)"),
     ]),
-    (r"\textit{Mixed pre-training}", [
-        ("mixed-10-checkpoints", "Mixed (10 langs)"),
+    (r"\textit{Mixed pre-training (10 langs)}", [
+        ("mixed-10-checkpoints", "Mixed"),
     ]),
     (r"\textit{Merged (10 monolingual models)}", [
-        ("merged-10-checkpoints", r"Merged -- Linear"),
-        (None,                    r"Merged -- TIES"),
-        (None,                    r"Merged -- DARE-TIES"),
+        ("merged-10-checkpoints",  "Linear"),
+        ("ties-10-checkpoints",    "TIES"),
+        ("dareties-10-checkpoints","DARE-TIES"),
     ]),
 ]
 
 # ── Data loading ──────────────────────────────────────────────────────────────
 
 def load_data() -> dict[str, dict]:
-    """Return {model_name: csv_row_dict} for all rows at TARGET_CKPT."""
     data = {}
     with open(RESULTS_CSV, newline="") as f:
         for row in csv.DictReader(f):
@@ -103,39 +137,61 @@ def find_best(data: dict) -> dict[str, float]:
 
 # ── Cell helpers ──────────────────────────────────────────────────────────────
 
-NA = r"{\na}"
+NA_S    = r"{\na}"   # inside siunitx S columns (must be wrapped in braces)
+NA_TEXT = r"--"      # inside plain text/c columns
 
 def fmt_mean(v: float | None, is_best: bool) -> str:
+    """Format a mean value for an S column.
+    Bold cells use \\multicolumn{1}{r}{} to override the S column so that
+    \\textbf doesn't break siunitx number alignment."""
     if v is None:
-        return NA
+        return NA_S
     s = f"{v:.1f}"
-    return r"{\best{" + s + r"}}" if is_best else s
+    if is_best:
+        return rf"\multicolumn{{1}}{{r}}{{\textbf{{{s}}}}}"
+    return s
 
 def fmt_cv(v: float | None) -> str:
     if v is None:
-        return NA
+        return NA_S
     return f"{v:.2f}"
+
+def fmt_params(model_key: str | None) -> str:
+    if model_key is None:
+        return NA_S
+    val = parameters_model_map.get(model_key)
+    return val if val is not None else NA_S
+
+def fmt_tokens(model_key: str | None) -> str:
+    if model_key is None:
+        return NA_TEXT
+    val = tokens_seen.get(model_key)
+    return val if val is not None else NA_TEXT
 
 # ── Table builder ─────────────────────────────────────────────────────────────
 
 def build_table(data: dict) -> str:
     best   = find_best(data)
     n_task = len(TASKS)
-    n_cols = 1 + 2 * n_task  # model name + (μ, CV) × tasks
+    # model name | params | tokens | (μ, CV) × tasks
+    n_cols = 3 + 2 * n_task
 
-    # siunitx S columns: mean right-aligned (up to 3 digits + 1 dec),
-    # CV right-aligned (up to 2 digits + 2 dec)
-    col_spec = "l " + " ".join(
+    # siunitx S columns for params and each task pair; plain c for tokens
+    params_col_spec = r"S[table-format=1.2,table-number-alignment=right]"
+    tokens_col_spec = r"c"
+    task_col_spec   = (
         r"S[table-format=3.1,table-number-alignment=right]"
         r" S[table-format=2.2,table-number-alignment=right]"
-        for _ in TASKS
     )
+    col_spec = "l " + params_col_spec + " " + tokens_col_spec + " " + \
+               " ".join(task_col_spec for _ in TASKS)
 
+    # Task headers start at column 4
     task_headers = "".join(
         rf" & \multicolumn{{2}}{{c}}{{{TASK_DISPLAY[t]}}}" for t in TASKS
     )
     cmidrules = " ".join(
-        rf"\cmidrule(lr){{{2 + 2*i}-{3 + 2*i}}}" for i in range(n_task)
+        rf"\cmidrule(lr){{{4 + 2*i}-{5 + 2*i}}}" for i in range(n_task)
     )
     subheader = "".join(r" & {$\mu$} & {CV\%}" for _ in TASKS)
 
@@ -150,9 +206,9 @@ def build_table(data: dict) -> str:
         r"\label{tab:main-results}",
         rf"\begin{{tabular}}{{{col_spec}}}",
         r"\toprule",
-        rf"\textbf{{Model}}{task_headers} \\",
+        rf"\textbf{{Model}} & {{\textbf{{Params (B)}}}} & {{\textbf{{Tokens}}}}{task_headers} \\",
         cmidrules,
-        rf"\textbf{{}}{subheader} \\",
+        rf" & & {subheader} \\",
         r"\midrule",
     ]
 
@@ -162,7 +218,7 @@ def build_table(data: dict) -> str:
         )
         for model_key, display_name in section_rows:
             row = data.get(model_key) if model_key else None
-            cells = []
+            cells = [fmt_params(model_key), fmt_tokens(model_key)]
             for task in TASKS:
                 mean_col, cv_col = TASK_COLS[task]
                 mean_v = get_val(row, mean_col, task in SCALE_100) if row else None
@@ -171,7 +227,6 @@ def build_table(data: dict) -> str:
                 cells += [fmt_mean(mean_v, is_best), fmt_cv(cv_v)]
             lines.append(f"{display_name} & " + " & ".join(cells) + r" \\")
 
-        # \midrule between sections, \bottomrule after the last one
         lines.append(r"\bottomrule" if s_idx == len(TABLE_STRUCTURE) - 1 else r"\midrule")
 
     acc_label = "acc\\_norm"
@@ -186,7 +241,7 @@ def build_table(data: dict) -> str:
         r"    $\mu$ = mean performance across languages;",
         r"    CV = coefficient of variation (\%) measuring cross-lingual consistency.",
         rf"    {task_notes}.",
-        r"    \best{Bold} = best result per column.",
+        r"    \textbf{Bold} = best result per column.",
         r"}",
         r"\end{table*}",
     ]

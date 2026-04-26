@@ -47,6 +47,15 @@ MULTILINGUAL_EXPERIMENTS = [
     "merged-9-checkpoints",
     "gemma-2-2b",
     "tiny-aya-base",
+    "EuroLLM-1.7B",
+    "tiny-aya-fire",
+    "tiny-aya-water",
+    "tiny-aya-earth",
+    "task-aya-checkpoints",
+    "linear-aya-checkpoints",
+    "widen-10-checkpoints",
+    "dareties-10-checkpoints",
+    "ties-10-checkpoints",
 ]
 
 _HPLT_DIRS = [

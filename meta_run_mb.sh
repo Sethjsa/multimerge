@@ -40,7 +40,27 @@ if [ "$1" == "--merged" ]; then
     /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --local --stderr_only
 fi
 
+if [ "$1" == "--aya" ]; then
+    echo "Running multiblimp locally with aya models"
+    /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --aya --stderr_only
+fi
 
+if [ "$1" == "--aya_merges" ]; then
+    # TODO
+    echo "Running multiblimp locally with aya merges"
+    /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --local --aya_merges
+fi
+
+if [ "$1" == "--new_merges" ]; then
+    # TODO
+    echo "Running multiblimp locally with new merges"
+    /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --local --new_merges 
+fi
+
+if [ "$1" == "--init" ]; then
+    echo "Running multiblimp locally with initial models"
+    /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --local --init 
+fi
 
 # if [ "$1" == "--local" ]; then
 #     echo "Running multiblimp locally"

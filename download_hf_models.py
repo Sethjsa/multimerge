@@ -8,12 +8,20 @@ Usage:
 """
 
 import argparse
+import os
 from pathlib import Path
 from huggingface_hub import HfApi, snapshot_download
 
 # ── Config ────────────────────────────────────────────────────────────────────
 HF_USER    = "sethjsa"
+# HF_HOME    = "/ssdstore/saycock/hf"
+# HF_CACHE   = "/ssdstore/saycock/hf"
+
+# os.environ["HF_HOME"]      = HF_HOME          # base dir (~/.cache/huggingface replacement)
+# os.environ["HF_HUB_CACHE"] = HF_HOME + "/hub" # where models are actually stored
+
 LOCAL_BASE = Path("/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models")
+# LOCAL_BASE = Path(HF_HOME)
 TOKEN      = open("./token").read().strip()
 # ─────────────────────────────────────────────────────────────────────────────
 

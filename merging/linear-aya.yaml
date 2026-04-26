@@ -1,0 +1,12 @@
+models:
+  - model: CohereLabs/tiny-aya-fire
+    parameters:
+      weight: 0.333
+  - model: CohereLabs/tiny-aya-water
+    parameters:
+      weight: 0.333
+  - model: CohereLabs/tiny-aya-earth
+    parameters:
+      weight: 0.333
+merge_method: linear
+dtype: float16

@@ -63,7 +63,7 @@ def main(args):
     pipeline_params = PipelineParameters(
         launcher_type=ParallelismManager.VLLM,
         custom_tasks_directory="lighteval.tasks.multilingual.tasks",
-        max_samples=950
+        max_samples=1000
     )
 
     if "HPLT" in args.model or "checkpoints" in args.model:
