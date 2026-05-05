@@ -73,6 +73,11 @@ LANG_TO_MODEL = {
     "ara":  "HPLT/hplt2c_ara_checkpoints",
     "deu":  "HPLT/hplt2c_deu_checkpoints",
     "zhos": "HPLT/hplt2c_zhos_checkpoints",
+    "aya-earth": "CohereLabs/tiny-aya-earth",
+    "aya-fire": "CohereLabs/tiny-aya-fire",
+    "aya-water": "CohereLabs/tiny-aya-water",
+    "aya-global": "CohereLabs/tiny-aya-global",
+    "aya-base": "CohereLabs/tiny-aya-base",
 }
 
 FLORES_CODE = {
@@ -100,7 +105,7 @@ PALETTE = [
 
 def load_flores(lang: str, n: int, split: str = "devtest") -> list[str]:
     from datasets import load_dataset
-    code = FLORES_CODE[lang]
+    # code = FLORES_CODE[lang]
     code = "eng_Latn"
     ds = load_dataset("openlanguagedata/flores_plus", code, split=split,
                       trust_remote_code=True)

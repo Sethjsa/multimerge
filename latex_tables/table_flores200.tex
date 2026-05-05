@@ -1,0 +1,31 @@
+% Required: \usepackage{booktabs, siunitx, xcolor}
+% \newcommand{\best}[1]{\textbf{#1}}
+% \newcommand{\na}{--}
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\label{tab:flores200}
+\begin{tabular}{l S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right]}
+\toprule
+\textbf{Model} & \textbf{eng} & \textbf{deu} & \textbf{fra} & \textbf{ita} & \textbf{nld} & \textbf{rus} & \textbf{spa} & \textbf{tur} & \textbf{ara} & \textbf{zho} \\
+\midrule
+\multicolumn{11}{l}{\textit{Multilingual baselines}} \\[2pt]
+EuroLLM-1.7B & 46.3 & 41.2 & \multicolumn{1}{r}{\best{59.0}} & \multicolumn{1}{r}{\best{43.3}} & 35.4 & 34.0 & 33.9 & \multicolumn{1}{r}{\best{48.0}} & 27.6 & 8.0 \\
+Gemma-2-2B & 43.9 & \multicolumn{1}{r}{\best{52.0}} & 53.7 & 33.5 & \multicolumn{1}{r}{\best{42.7}} & 47.6 & \multicolumn{1}{r}{\best{47.5}} & 38.8 & 29.0 & \multicolumn{1}{r}{\best{13.5}} \\
+Tiny-Aya-Base & \multicolumn{1}{r}{\best{51.4}} & 44.2 & 56.1 & 26.4 & 37.0 & \multicolumn{1}{r}{\best{50.6}} & 33.3 & 41.2 & \multicolumn{1}{r}{\best{40.2}} & 7.1 \\
+\midrule
+\multicolumn{11}{l}{\textit{Monolingual experts}} \\[2pt]
+HPLT\textsubscript{1} (per-language) & 34.9 & 27.7 & 55.8 & 42.6 & 32.8 & 26.1 & 43.7 & 35.1 & 23.8 & 5.5 \\
+\midrule
+\multicolumn{11}{l}{\textit{Mixed pre-training }} \\[2pt]
+Mixed\textsubscript{10} & 42.2 & 38.5 & 40.1 & 34.5 & 26.7 & 29.7 & 35.6 & 35.0 & 30.3 & 3.5 \\
+\midrule
+\multicolumn{11}{l}{\textit{Merged\textsubscript{10} experts}} \\[2pt]
+Linear & 2.1 & 1.8 & 3.0 & 1.9 & 2.0 & 2.1 & 2.3 & 1.9 & 1.9 & 2.4 \\
+TIES & 15.8 & 15.9 & 16.4 & 17.7 & 16.7 & 4.8 & 16.7 & 14.1 & 3.9 & 4.9 \\
+DARE-TIES & 1.5 & 2.2 & 1.9 & 2.3 & 1.4 & 1.9 & 0.9 & 1.6 & 1.6 & 2.3 \\
+\bottomrule
+\end{tabular}
+\caption{Flores-200 ChrF++ (eng→X, \(\uparrow\)) per model and language.}
+\end{table*}

@@ -51,6 +51,11 @@ if [ "$1" == "--aya_merges" ]; then
     /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --local --aya_merges
 fi
 
+if [ "$1" == "--rebasin" ]; then
+    echo "Running multiblimp locally with rebasin models"
+    /home/saycock/miniconda3/envs/gvllm/bin/python multiblimp/run_mb.py --local --rebasin 
+fi
+
 if [ "$1" == "--new_merges" ]; then
     # TODO
     echo "Running multiblimp locally with new merges"

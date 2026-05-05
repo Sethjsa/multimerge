@@ -1,0 +1,31 @@
+% Required: \usepackage{booktabs, siunitx, xcolor}
+% \newcommand{\best}[1]{\textbf{#1}}
+% \newcommand{\na}{--}
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\label{tab:hellaswag}
+\begin{tabular}{l S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right]}
+\toprule
+\textbf{Model} & \textbf{eng} & \textbf{deu} & \textbf{fra} & \textbf{ita} & \textbf{nld} & \textbf{rus} & \textbf{spa} & \textbf{tur} & \textbf{ara} & \textbf{zho} \\
+\midrule
+\multicolumn{11}{l}{\textit{Multilingual baselines}} \\[2pt]
+EuroLLM-1.7B & 60.1 & 45.9 & 51.3 & 49.1 & 45.8 & 44.9 & 49.1 & 41.1 & 38.9 & 42.0 \\
+Gemma-2-2B & \multicolumn{1}{r}{\best{74.5}} & 50.7 & 58.6 & 53.1 & 50.6 & 51.9 & 58.8 & 45.9 & 40.7 & 50.1 \\
+Tiny-Aya-Base & 73.5 & \multicolumn{1}{r}{\best{56.0}} & \multicolumn{1}{r}{\best{61.6}} & \multicolumn{1}{r}{\best{61.8}} & \multicolumn{1}{r}{\best{52.3}} & \multicolumn{1}{r}{\best{55.0}} & \multicolumn{1}{r}{\best{61.2}} & \multicolumn{1}{r}{\best{51.7}} & \multicolumn{1}{r}{\best{50.0}} & \multicolumn{1}{r}{\best{52.5}} \\
+\midrule
+\multicolumn{11}{l}{\textit{Monolingual experts}} \\[2pt]
+HPLT\textsubscript{1} (per-language) & 65.0 & 44.1 & 47.8 & 45.2 & 45.6 & 45.0 & 51.0 & 45.5 & 36.0 & 34.7 \\
+\midrule
+\multicolumn{11}{l}{\textit{Mixed pre-training }} \\[2pt]
+Mixed\textsubscript{10} & 48.5 & 38.4 & 42.3 & 41.7 & 39.8 & 39.2 & 44.4 & 40.0 & 36.0 & 29.4 \\
+\midrule
+\multicolumn{11}{l}{\textit{Merged\textsubscript{10} experts}} \\[2pt]
+Linear & 25.7 & 24.8 & 23.7 & 27.6 & 24.4 & 24.9 & 25.4 & 25.2 & 24.4 & 22.8 \\
+TIES & 26.3 & 26.2 & 21.5 & 25.8 & 24.0 & 26.4 & 26.1 & 26.3 & 24.9 & 23.2 \\
+DARE-TIES & 27.1 & 26.6 & 25.0 & 26.2 & 24.4 & 25.0 & 26.5 & 25.7 & 24.6 & 23.2 \\
+\bottomrule
+\end{tabular}
+\caption{HellaSwag accuracy normalised (\(\uparrow\)) per model and language.}
+\end{table*}

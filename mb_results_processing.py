@@ -468,16 +468,17 @@ import matplotlib.patches as mpatches
 lang_handles  = [mlines.Line2D([], [], color=LANG_COLOR[l], lw=2.5,
                                 label=LANG_LABELS[l]) for l in LANGS]
 style_handles = [
-    mlines.Line2D([], [], color="black", lw=AVG_LW, ls=LINESTYLES["mixed"],
-                  label=r"Mixed$_{10}$"),
-    mlines.Line2D([], [], color="black", lw=AVG_LW, ls=LINESTYLES["merged"],
-                  label=r"Merged$_{10}$"),
+    mlines.Line2D([], [], color="black", lw=2.7, ls=LINESTYLES["mixed"],
+                  label=r"Mixed$_{10}\;(μ)$"),
+    mlines.Line2D([], [], color="black", lw=2.7, ls=LINESTYLES["merged"],
+                  label=r"Merged$_{10}\;(μ)$"),
+             
     mpatches.Patch(color="grey", alpha=0.4, label="95% CI"),
 ]
 
 leg_style = ax.legend(
     handles=style_handles,
-    loc="center left", bbox_to_anchor=(0.1, 1.05),  # inside axes, empty middle area
+    loc="center left", bbox_to_anchor=(0.01, 1.05),  # inside axes, empty middle area
     ncol=3, fontsize=16, frameon=False,
     handlelength=1.5, columnspacing=1.0
 )
@@ -492,6 +493,8 @@ ax.legend(
 
 ax.set_xticklabels(ax.get_xticks(), fontsize=17)
 ax.set_yticklabels([f"{int(y)}" if y == int(y) else f"{y}" for y in ax.get_yticks()], fontsize=17)
+# stop y axis at 100
+ax.set_ylim(40, 100)
 
 ax.set_xlabel("Training Steps", fontsize=22)
 ax.set_ylabel("MultiBLiMP accuracy (%)", fontsize=22)
@@ -572,7 +575,7 @@ for n in range(2, 11):
 ns = sorted(rows.keys())
 
 # ── Plot ──────────────────────────────────────────────────────────────────────
-fig, ax = plt.subplots(figsize=(7.5, 5))
+fig, ax = plt.subplots(figsize=(7.5, 4.75))
 
 for lang in LANGS:
     acc_col = f"{lang}_acc"
@@ -601,9 +604,9 @@ tick_labels = [f"{n}\n+{MERGE_ORDER[n]}" if n > 1 else f"{n}\n{MERGE_ORDER[n]}"
                for n in range(1, 11)]
 ax.set_xticklabels(tick_labels, fontsize=13)
 ax.set_yticklabels(ax.get_yticks(), fontsize=13)
-ax.set_xlim(0.7, 10.3)
-ax.set_ylim(40, 101)
-ax.set_xlabel("Number of languages merged", fontsize=18)
+ax.set_xlim(1, 10)
+ax.set_ylim(40, 100)
+ax.set_xlabel("# HPLT$_{1}$ models merged", fontsize=18)
 ax.set_ylabel("MultiBLiMP accuracy (%)", fontsize=18)
 
 # ── Legend ────────────────────────────────────────────────────────────────────

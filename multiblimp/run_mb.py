@@ -30,6 +30,7 @@ parser.add_argument('--aya', action='store_true', help='Use aya models instead o
 parser.add_argument('--aya_merges', action='store_true', help='Use linear aya models instead of merged models')
 parser.add_argument('--new_merges', action='store_true', help='Use new merges instead of old merges')
 parser.add_argument('--init', action='store_true', help='Use individual models instead of merged models')
+parser.add_argument('--rebasin', action='store_true', help='Use rebasin models instead of merged models')
 args = parser.parse_args()
 
 checkpoints = ["checkpoint_0001000", "checkpoint_0002000", "checkpoint_0003000", "checkpoint_0004000",
@@ -139,6 +140,10 @@ if args.new_merges:
                     "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/task-aya-checkpoints",
                     "/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/linear-aya-checkpoints"]
     checkpoints = ["checkpoint_0047684"]
+
+if args.rebasin:
+    local_models = ["/fnwi_fs/ivi/irlab/personal/saycock/multimerge/models/rebasin"]
+    checkpoints = ["eng_fra"]
 
 if args.matrix:
     with open("multiblimp/pairs.txt", "r") as f:

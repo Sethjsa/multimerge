@@ -216,8 +216,10 @@ with open("multiblimp/bilingual_pair_results.json") as f:
     pair_data = json.load(f)
 with open("multiblimp/distances.json") as f:
     dist_data = json.load(f)
-with open("02-analysis/sim_results.json") as f:
+with open("02-analysis/sim_results_en.json") as f:
     sim_data = json.load(f)
+
+# with open("")
 
 LANGUAGE_MAP = {
     "eng": "eng", "nld": "nld", "spa": "spa", "fra": "fra",
@@ -293,13 +295,13 @@ for l1 in LANGS:
             except KeyError:
                 pass
         for col, path in [
-            # ("model_sim__cosine_sim", ["weight_space", "cosine_sim"]),
-            # ("model_sim__l2_norm",    ["weight_space", "l2_norm"]),
-            # ("model_sim__mean_cka",   ["cka",          "mean_cka"]),
+            ("model_sim__cosine_sim", ["weight_space", "cosine_sim"]),
+            ("model_sim__l2_norm",    ["weight_space", "l2_norm"]),
+            ("model_sim__mean_cka",   ["cka",          "mean_cka"]),
             ("model_sim__mean_cka_num",   ["cka_num",          "mean_cka"]),
             ("model_sim__mean_cka_inlang",   ["cka_inlang",          "mean_cka"]),
             ("model_sim__mean_cka_eng",   ["cka_eng",          "mean_cka"]),
-            # ("model_sim__mean_rank_diff",   ["weight_space",          "mean_rank_diff"]),
+            ("model_sim__mean_rank_diff",   ["weight_space",          "mean_rank_diff"]),
         ]:
             try:
                 val = sim_entry
@@ -341,10 +343,91 @@ res = res[res["measure"] != "metadata__AES"]
 print("── All correlations (sorted by Spearman ρ) ──")
 print(res[["measure", "rho", "p_spearman", "r", "p_pearson", "n"]].to_string(index=False))
 
+# ── Co-correlations between measures ──────────────────────────────────────────
+print("\n── Co-correlations between measures (Spearman rho, lower triangle) ──")
+measures_matrix = df[full_cols].copy()
+# drop any rows with nans just for the pairwise matrix calculation
+measures_matrix_dropna = measures_matrix.dropna()
+rho_matrix = measures_matrix_dropna.corr(method="spearman")
+save_path = "multiblimp/plots/correlations/co_correlations.csv"
+rho_matrix.to_csv(save_path, index=True)
+print(f"Saved co-correlations to {save_path}")
+
+# print(rho_matrix.to_string(float_format=lambda x: f"{x:.2f}"))
+
+# 
+
+name_mapping = {
+    "mean_cka_eng": "Mean layer-wise CKA",
+    "mean_rank_diff": "Mean stable-rank difference",
+    "cosine_sim": "Layer-wise cosine similarity",
+    "l2_norm": "Layer-wise L2 norm difference",
+    "lang2vec_knn": "Lang2Vec (kNN) Distance",
+    "glot_tree": "Language Tree Distance",
+}
+
+name_mapping = {
+    "mean_cka_eng": "Mean CKA",
+    "mean_rank_diff": "Mean Rank Δ",
+    "cosine_sim": "Cosine Similarity",
+    "l2_norm": "Mean L2 Norm Δ",
+    "lang2vec_knn": "Lang2Vec (kNN) Distance",
+    "glot_tree": "Language Tree Distance",
+}
+
+def print_latex_table(res, name_mapping):
+    filtered = res[res["field"].isin(name_mapping.keys())].copy()
+    filtered["display_name"] = filtered["field"].map(name_mapping)
+    filtered = filtered.sort_values("rho", ascending=False)
+
+    def fmt_r(x):
+        return f"{x:.2f}"
+
+    def fmt_p(x):
+        if x < 0.001:
+            return "<0.001"
+        return f"{x:.3f}"
+
+    def sig(p):
+        if p < 0.01:   return "$^{**}$"
+        if p < 0.05:   return "$^{*}$"
+        return ""
+
+    lines = []
+    lines.append(r"\begin{table}[h]")
+    lines.append(r"\centering")
+    lines.append(r"\begin{tabular}{lrrrr}")
+    lines.append(r"\toprule")
+    lines.append(r"Measure & $\rho$ & $p_S$ & $r$ & $p_P$ \\")
+    lines.append(r"\midrule")
+
+    for _, row in filtered.iterrows():
+        name = row["display_name"]
+        rho  = fmt_r(row["rho"])  + sig(row["p_spearman"])
+        p_s  = fmt_p(row["p_spearman"])
+        r    = fmt_r(row["r"])    + sig(row["p_pearson"])
+        p_p  = fmt_p(row["p_pearson"])
+        lines.append(rf"{name} & {rho} & {p_s} & {r} & {p_p} \\")
+
+    lines.append(r"\bottomrule")
+    lines.append(r"\end{tabular}")
+    lines.append(r"\caption{Spearman and Pearson correlations with $\Delta$ MultiBLiMP accuracy. $^{*}p<0.05$, $^{**}p<0.01$.}")
+    lines.append(r"\label{tab:correlations}")
+    lines.append(r"\end{table}")
+
+    print("\n".join(lines))
+
+print_latex_table(res, name_mapping)
+
 # ── Summary plot function ─────────────────────────────────────────────────────
 def summary_plot(res, val_col, p_col, xlabel, filename):
-    ordered = res.sort_values(val_col).reset_index(drop=True)
-    fig, ax = plt.subplots(figsize=(10, max(5, len(ordered) * 0.3)))
+
+    # Only include rows whose measure's field is in name_mapping
+    filtered = res[res["field"].isin(name_mapping.keys())].copy()
+    # Update display name
+    filtered["display_name"] = filtered["field"].map(name_mapping)
+    ordered = filtered.sort_values(val_col).reset_index(drop=True)
+    fig, ax = plt.subplots(figsize=(6, 3))
     y = np.arange(len(ordered))
     ax.barh(y, ordered[val_col],
             color=[CAT_COLORS[g] for g in ordered["group"]],
@@ -358,30 +441,44 @@ def summary_plot(res, val_col, p_col, xlabel, filename):
             xoff = np.sign(row[val_col]) * 0.015
             ax.text(row[val_col] + xoff, idx, marker, va="center",
                     ha="left" if row[val_col] > 0 else "right",
-                    fontsize=9, color="black")
+                    fontsize=14, color="black")
     # ax.axvline(0, color="black", lw=0.8)
     ax.set_yticks(y)
-    ax.set_yticklabels([f"{row['group']} · {row['field']}"
-                        for _, row in ordered.iterrows()], fontsize=8)
+    ax.set_yticklabels([row['display_name'] for _, row in ordered.iterrows()], fontsize=10)
+    
     ax.set_xlabel(xlabel)
     legend_patches = [mpatches.Patch(color=c, label=grp)
-                      for grp, c in CAT_COLORS.items()]
+                      for grp, c in [("Model-based", "#CC79A7"), ("Language-based", "#E69F00")] ]
     legend_patches.append(mpatches.Patch(color="none", label="* p<0.05   ** p<0.01"))
-    ax.legend(handles=legend_patches, fontsize=8, frameon=False)
+    ax.legend(handles=legend_patches, fontsize=9, frameon=False)
     fig.tight_layout()
     fig.savefig(f"multiblimp/plots/correlations/{filename}", bbox_inches="tight")
     plt.close(fig)
     print(f"Saved {filename}")
 
+# Only plot the metrics in name_mapping
 summary_plot(res, "rho", "p_spearman",
-             "Spearman ρ  (diff vs predictor)", "summary_spearman.pdf")
+             "Spearman ρ  (Δ MultiBLiMP accuracy vs predictor)", "summary_spearman.pdf")
 summary_plot(res, "r",   "p_pearson",
-             "Pearson r  (diff vs predictor)",  "summary_pearson.pdf")
+             "Pearson r  (Δ MultiBLiMP accuracy vs predictor)",  "summary_pearson.pdf")
 
 name_mapping = {
-    "mean_cka_num": "Mean CKA numerical",
-    "mean_cka_inlang": "Mean CKA in language",
-    "mean_cka_eng": "Mean CKA",
+    # "mean_cka_num": "Mean CKA numerical",
+    # "mean_cka_inlang": "Mean CKA in language",
+    "mean_cka_eng": "Mean layer-wise CKA",
+    "mean_rank_diff": "Mean stable-rank difference",
+    "cosine_sim": "Layer-wise cosine similarity",
+    "l2_norm": "Layer-wise L2 norm difference",
+    # "lang2vec": "Lang2Vec",
+    "lang2vec_knn": "Lang2Vec (kNN) Distance",
+    "glot_tree": "Language Tree Distance",
+    # "phoible": "Phoible",
+    # "grambank": "Grambank",
+    # "gb_clause": "GB Clause",
+    # "gb_nominal_domain": "GB Nominal Domain",
+    # "gb_numeral": "GB Numeral",
+    # "gb_pronoun": "GB Pronoun",
+    # "gb_verbal_domain": "GB Verbal Domain",
 }
 
 

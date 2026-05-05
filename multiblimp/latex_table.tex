@@ -1,0 +1,32 @@
+% Required: \usepackage{booktabs, siunitx, xcolor}
+% \newcommand{\best}[1]{\textbf{#1}}
+% \newcommand{\na}{--}
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\label{tab:multiblimp}
+\begin{tabular}{l S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right]}
+\toprule
+\textbf{Model} & \textbf{eng} & \textbf{deu} & \textbf{fra} & \textbf{ita} & \textbf{nld} & \textbf{rus} & \textbf{spa} & \textbf{tur} & \textbf{ara} & \textbf{zho} \\
+\cmidrule(lr){2-2} \cmidrule(lr){3-3} \cmidrule(lr){4-4} \cmidrule(lr){5-5} \cmidrule(lr){6-6} \cmidrule(lr){7-7} \cmidrule(lr){8-8} \cmidrule(lr){9-9} \cmidrule(lr){10-10} \cmidrule(lr){11-11}
+\midrule
+\multicolumn{11}{l}{\textit{Multilingual baselines}} \\[2pt]
+Tiny-Aya-Base & \multicolumn{1}{r}{\textbf{99.0}} & 99.0 & 99.3 & 97.2 & 96.3 & 97.8 & 98.0 & 92.8 & 95.4 & {\na} \\
+EuroLLM-1.7B & 97.8 & 98.0 & 98.8 & 96.4 & 96.9 & 97.2 & 97.5 & 87.8 & 93.0 & {\na} \\
+Gemma-2-2B & 98.7 & 97.4 & 97.9 & 93.9 & 94.5 & 95.1 & 96.3 & 89.0 & 90.6 & {\na} \\
+\midrule
+\multicolumn{11}{l}{\textit{Monolingual experts}} \\[2pt]
+HPLT\textsubscript{1} (per-language) & \multicolumn{1}{r}{\textbf{99.0}} & \multicolumn{1}{r}{\textbf{99.1}} & \multicolumn{1}{r}{\textbf{99.4}} & \multicolumn{1}{r}{\textbf{98.3}} & \multicolumn{1}{r}{\textbf{99.1}} & \multicolumn{1}{r}{\textbf{99.2}} & \multicolumn{1}{r}{\textbf{98.4}} & \multicolumn{1}{r}{\textbf{98.7}} & \multicolumn{1}{r}{\textbf{96.9}} & {\na} \\
+\midrule
+\multicolumn{11}{l}{\textit{Mixed pre-training }} \\[2pt]
+Mixed	extsubscript{10} & 97.5 & 99.0 & 99.1 & 97.2 & 98.6 & 97.8 & 97.9 & 95.7 & 95.2 & {\na} \\
+\midrule
+\multicolumn{11}{l}{\textit{Merged\textsubscript{10} experts}} \\[2pt]
+Linear & 71.8 & 60.8 & 61.2 & 51.4 & 45.2 & 52.9 & 65.3 & 67.8 & 62.4 & {\na} \\
+TIES & 67.1 & 62.7 & 57.4 & 52.5 & 50.6 & 53.7 & 65.0 & 66.1 & 64.8 & {\na} \\
+DARE-TIES & 67.9 & 60.4 & 60.4 & 55.0 & 50.4 & 54.3 & 66.5 & 68.3 & 63.9 & {\na} \\
+\bottomrule
+\end{tabular}
+\caption{MultiBLIMP accuracy ($\uparrow$) for each model and language. Best per-language entry in bold. {\na} = not available.}
+\end{table*}

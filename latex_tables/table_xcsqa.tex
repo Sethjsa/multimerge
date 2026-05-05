@@ -1,0 +1,31 @@
+% Required: \usepackage{booktabs, siunitx, xcolor}
+% \newcommand{\best}[1]{\textbf{#1}}
+% \newcommand{\na}{--}
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\label{tab:xcsqa}
+\begin{tabular}{l S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right] S[table-format=3.1,table-number-alignment=right]}
+\toprule
+\textbf{Model} & \textbf{eng} & \textbf{deu} & \textbf{fra} & \textbf{ita} & \textbf{nld} & \textbf{rus} & \textbf{spa} & \textbf{tur} & \textbf{ara} & \textbf{zho} \\
+\midrule
+\multicolumn{11}{l}{\textit{Multilingual baselines}} \\[2pt]
+EuroLLM-1.7B & 42.6 & 34.4 & 29.1 & 32.9 & 33.7 & 25.4 & 29.0 & {\na} & 27.6 & 35.3 \\
+Gemma-2-2B & \multicolumn{1}{r}{\best{68.2}} & 48.6 & 43.9 & 42.9 & 38.0 & 33.2 & 45.2 & {\na} & 36.8 & 45.9 \\
+Tiny-Aya-Base & 65.1 & \multicolumn{1}{r}{\best{49.9}} & \multicolumn{1}{r}{\best{47.7}} & \multicolumn{1}{r}{\best{51.1}} & \multicolumn{1}{r}{\best{45.5}} & \multicolumn{1}{r}{\best{38.8}} & \multicolumn{1}{r}{\best{48.8}} & {\na} & \multicolumn{1}{r}{\best{43.3}} & \multicolumn{1}{r}{\best{47.6}} \\
+\midrule
+\multicolumn{11}{l}{\textit{Monolingual experts}} \\[2pt]
+HPLT\textsubscript{1} (per-language) & 54.4 & 39.1 & 35.5 & 36.4 & 37.9 & 31.7 & 38.1 & {\na} & 31.2 & 34.8 \\
+\midrule
+\multicolumn{11}{l}{\textit{Mixed pre-training }} \\[2pt]
+Mixed\textsubscript{10} & 45.7 & 35.8 & 33.7 & 37.0 & 34.7 & 30.6 & 35.2 & {\na} & 30.9 & 24.3 \\
+\midrule
+\multicolumn{11}{l}{\textit{Merged\textsubscript{10} experts}} \\[2pt]
+Linear & 21.5 & 20.1 & 18.3 & 22.5 & 20.4 & 22.1 & 21.3 & {\na} & 19.1 & 19.6 \\
+TIES & 21.9 & 20.1 & 19.8 & 22.8 & 21.1 & 20.2 & 20.4 & {\na} & 19.3 & 20.3 \\
+DARE-TIES & 21.3 & 20.4 & 19.2 & 21.7 & 20.7 & 21.8 & 22.0 & {\na} & 19.2 & 18.3 \\
+\bottomrule
+\end{tabular}
+\caption{XCSQA accuracy normalised (\(\uparrow\)) per model and language.}
+\end{table*}
